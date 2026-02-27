@@ -163,7 +163,7 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
           TextField(
             controller: _searchController,
             decoration: InputDecoration(
-              hintText:搜索单词或释义...',
+              hintText: '搜索单词或释义...',
               prefixIcon: const Icon(Icons.search),
               suffixIcon: _searchController.text.isNotEmpty
                   ? IconButton(
@@ -334,17 +334,17 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
   Color _getDifficultyColor(int difficulty) {
     switch (difficulty) {
       case 1:
-        return Colors.green[100];
+        return Colors.green;
       case 2:
-        return Colors.lightGreen[100];
+        return Colors.lightGreen;
       case 3:
-        return Colors.yellow[100];
+        return Colors.yellow;
       case 4:
-        return Colors.orange[100];
+        return Colors.orange;
       case 5:
-        return Colors.red[100];
+        return Colors.red;
       default:
-        return Colors.grey[100];
+        return Colors.grey;
     }
   }
 
@@ -447,7 +447,7 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
                               const Text('同义词：',
                                   style: TextStyle(fontWeight: FontWeight.bold)),
                               const SizedBox(height: 4),
-                              Text(word.synonyms!.join(', '),
+                              Text(word.synonyms!.join(', ')),
                               const SizedBox(height: 8),
                             ],
                           ),

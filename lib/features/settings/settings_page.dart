@@ -177,13 +177,13 @@ class _SettingsPageState extends State<SettingsPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Row(
+            Row(
               children: [
-                Icon(
+                const Icon(
                   Icons.storage,
                   size: 24,
                 ),
-                SizedBox(width: 16),
+                const SizedBox(width: 16),
                 Text(
                   '数据管理',
                   style: Theme.of(context).textTheme.titleMedium,
