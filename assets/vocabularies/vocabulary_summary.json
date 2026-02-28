@@ -1,27 +1,12 @@
 {
   "last_updated": "2026-02-28",
-  "total_vocabs": 16,
-  "total_words": 2098,
+  "total_vocabs": 25,
+  "total_words": 25395,
   "vocabularies": [
     {
-      "file": "travel.json",
-      "words": 18,
-      "size_kb": 6.5
-    },
-    {
-      "file": "cet6_complete.json",
+      "file": "academic_complete.json",
       "words": 500,
-      "size_kb": 161.51
-    },
-    {
-      "file": "nature.json",
-      "words": 21,
-      "size_kb": 7.5
-    },
-    {
-      "file": "daily_life.json",
-      "words": 20,
-      "size_kb": 7.66
+      "size_kb": 180.48
     },
     {
       "file": "business.json",
@@ -29,9 +14,74 @@
       "size_kb": 6.6
     },
     {
+      "file": "business_complete.json",
+      "words": 500,
+      "size_kb": 186.99
+    },
+    {
+      "file": "cet4.json",
+      "words": 100,
+      "size_kb": 42.31
+    },
+    {
+      "file": "cet4_complete.json",
+      "words": 500,
+      "size_kb": 161.51
+    },
+    {
+      "file": "cet4_extended.json",
+      "words": 100,
+      "size_kb": 23.32
+    },
+    {
+      "file": "cet4_sample.json",
+      "words": 100,
+      "size_kb": 37.63
+    },
+    {
+      "file": "cet4_ultra.json",
+      "words": 2896,
+      "size_kb": 1180.8
+    },
+    {
+      "file": "cet6.json",
+      "words": 50,
+      "size_kb": 11.74
+    },
+    {
+      "file": "cet6_complete.json",
+      "words": 500,
+      "size_kb": 161.51
+    },
+    {
+      "file": "cet6_ultra.json",
+      "words": 3551,
+      "size_kb": 1316.33
+    },
+    {
+      "file": "daily_complete.json",
+      "words": 887,
+      "size_kb": 362.35
+    },
+    {
+      "file": "daily_life.json",
+      "words": 20,
+      "size_kb": 7.66
+    },
+    {
       "file": "education.json",
       "words": 17,
       "size_kb": 6.23
+    },
+    {
+      "file": "food.json",
+      "words": 20,
+      "size_kb": 7.08
+    },
+    {
+      "file": "gre_ultra.json",
+      "words": 5874,
+      "size_kb": 2052.62
     },
     {
       "file": "health.json",
@@ -44,19 +94,14 @@
       "size_kb": 97.04
     },
     {
-      "file": "cet6.json",
-      "words": 50,
-      "size_kb": 11.74
+      "file": "ielts_ultra.json",
+      "words": 4216,
+      "size_kb": 1569.37
     },
     {
-      "file": "cet4_extended.json",
-      "words": 100,
-      "size_kb": 23.32
-    },
-    {
-      "file": "food.json",
-      "words": 20,
-      "size_kb": 7.08
+      "file": "nature.json",
+      "words": 21,
+      "size_kb": 7.5
     },
     {
       "file": "technology.json",
@@ -64,9 +109,9 @@
       "size_kb": 5.99
     },
     {
-      "file": "cet4_sample.json",
-      "words": 100,
-      "size_kb": 37.63
+      "file": "technology_complete.json",
+      "words": 500,
+      "size_kb": 184.92
     },
     {
       "file": "toefl_complete.json",
@@ -74,14 +119,14 @@
       "size_kb": 97.04
     },
     {
-      "file": "cet4.json",
-      "words": 100,
-      "size_kb": 42.31
+      "file": "toefl_ultra.json",
+      "words": 4373,
+      "size_kb": 1628.98
     },
     {
-      "file": "cet4_complete.json",
-      "words": 500,
-      "size_kb": 161.51
+      "file": "travel.json",
+      "words": 18,
+      "size_kb": 6.5
     }
   ]
 }

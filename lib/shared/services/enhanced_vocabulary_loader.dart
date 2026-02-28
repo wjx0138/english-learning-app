@@ -10,17 +10,24 @@ class EnhancedVocabularyLoader {
 
   // 词库文件配置
   static const Map<String, String> VOCABULARY_FILES = {
-    // === 考试词库 ===
+    // === 考试词库（小规模） ===
     'cet4': 'assets/vocabularies/cet4.json',
+    'cet4_sample': 'assets/vocabularies/cet4_sample.json',
     'cet4_complete': 'assets/vocabularies/cet4_complete.json',
     'cet4_extended': 'assets/vocabularies/cet4_extended.json',
-    'cet4_sample': 'assets/vocabularies/cet4_sample.json',
     'cet6': 'assets/vocabularies/cet6.json',
     'cet6_complete': 'assets/vocabularies/cet6_complete.json',
     'toefl_complete': 'assets/vocabularies/toefl_complete.json',
     'ielts_complete': 'assets/vocabularies/ielts_complete.json',
 
-    // === 分类主题词库 ===
+    // === 考试词库（超大规模）⭐ 推荐深入学习 ===
+    'cet4_ultra': 'assets/vocabularies/cet4_ultra.json',
+    'cet6_ultra': 'assets/vocabularies/cet6_ultra.json',
+    'toefl_ultra': 'assets/vocabularies/toefl_ultra.json',
+    'ielts_ultra': 'assets/vocabularies/ielts_ultra.json',
+    'gre_ultra': 'assets/vocabularies/gre_ultra.json',
+
+    // === 主题词库（小规模） ===
     'daily_life': 'assets/vocabularies/daily_life.json',
     'education': 'assets/vocabularies/education.json',
     'business': 'assets/vocabularies/business.json',
@@ -30,8 +37,11 @@ class EnhancedVocabularyLoader {
     'health': 'assets/vocabularies/health.json',
     'nature': 'assets/vocabularies/nature.json',
 
-    // === 待添加词库 ===
-    'gre': 'assets/vocabularies/gre.json',
+    // === 主题词库（完整规模）⭐ 推荐专业学习 ===
+    'business_complete': 'assets/vocabularies/business_complete.json',
+    'technology_complete': 'assets/vocabularies/technology_complete.json',
+    'academic_complete': 'assets/vocabularies/academic_complete.json',
+    'daily_complete': 'assets/vocabularies/daily_complete.json',
   };
 
   // 默认词库顺序（使用完整版本）

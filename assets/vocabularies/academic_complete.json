@@ -1,0 +1,8090 @@
+[
+  {
+    "id": "学术英语完整词库_0001",
+    "word": "ability",
+    "phonetic": "əˈbɪləti",
+    "definition": "n. 能力；本领",
+    "examples": [
+      "This is an example of using 'ability' in a sentence.",
+      "This is an example of using 'ability' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0002",
+    "word": "able",
+    "phonetic": "ˈeɪbl",
+    "definition": "adj. 能够的",
+    "examples": [
+      "Understanding 'able' is important for learning English.",
+      "Can you use 'able' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0003",
+    "word": "about",
+    "phonetic": "əˈbaʊt",
+    "definition": "prep./adv. 关于",
+    "examples": [
+      "The word 'about' is commonly used in English.",
+      "The word 'about' is commonly used in English.",
+      "Can you use 'about' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0004",
+    "word": "above",
+    "phonetic": "əˈbʌv",
+    "definition": "prep./adv. 在...之上",
+    "examples": [
+      "Understanding 'above' is important for learning English.",
+      "This is an example of using 'above' in a sentence.",
+      "Can you use 'above' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0005",
+    "word": "abroad",
+    "phonetic": "əˈbrɔːd",
+    "definition": "adv. 在国外",
+    "examples": [
+      "Can you use 'abroad' in your own sentence?",
+      "Understanding 'abroad' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0006",
+    "word": "absence",
+    "phonetic": "ˈæbsəns",
+    "definition": "n. 缺席；缺乏",
+    "examples": [
+      "Can you use 'absence' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0007",
+    "word": "absolute",
+    "phonetic": "ˈæbsəluːt",
+    "definition": "adj. 绝对的",
+    "examples": [
+      "The word 'absolute' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0008",
+    "word": "absorb",
+    "phonetic": "əbˈzɔːb",
+    "definition": "v. 吸收",
+    "examples": [
+      "The word 'absorb' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0009",
+    "word": "abstract",
+    "phonetic": "ˈæbstrækt",
+    "definition": "adj. 抽象的",
+    "examples": [
+      "This is an example of using 'abstract' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0010",
+    "word": "academic",
+    "phonetic": "ˌækəˈdemɪk",
+    "definition": "adj. 学术的",
+    "examples": [
+      "Understanding 'academic' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0011",
+    "word": "accept",
+    "phonetic": "əkˈsept",
+    "definition": "v. 接受",
+    "examples": [
+      "Can you use 'accept' in your own sentence?",
+      "The word 'accept' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0012",
+    "word": "access",
+    "phonetic": "ˈækses",
+    "definition": "n. 接近；通道",
+    "examples": [
+      "The word 'access' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0013",
+    "word": "accident",
+    "phonetic": "ˈæksɪdənt",
+    "definition": "n. 事故",
+    "examples": [
+      "Can you use 'accident' in your own sentence?",
+      "Understanding 'accident' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0014",
+    "word": "accompany",
+    "phonetic": "əˈkʌmpəni",
+    "definition": "v. 陪伴",
+    "examples": [
+      "The word 'accompany' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0015",
+    "word": "accomplish",
+    "phonetic": "əˈkʌmplɪʃ",
+    "definition": "v. 完成",
+    "examples": [
+      "Can you use 'accomplish' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0016",
+    "word": "according",
+    "phonetic": "əˈkɔːdɪŋ",
+    "definition": "adv. 按照",
+    "examples": [
+      "The word 'according' is commonly used in English.",
+      "This is an example of using 'according' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0017",
+    "word": "account",
+    "phonetic": "əˈkaʊnt",
+    "definition": "n. 账户；描述",
+    "examples": [
+      "This is an example of using 'account' in a sentence.",
+      "Can you use 'account' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0018",
+    "word": "accurate",
+    "phonetic": "ˈækjərət",
+    "definition": "adj. 准确的",
+    "examples": [
+      "Understanding 'accurate' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0019",
+    "word": "achieve",
+    "phonetic": "əˈtʃiːv",
+    "definition": "v. 实现；达到",
+    "examples": [
+      "Understanding 'achieve' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0020",
+    "word": "achievement",
+    "phonetic": "əˈtʃiːvmənt",
+    "definition": "n. 成就",
+    "examples": [
+      "Understanding 'achievement' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0021",
+    "word": "acknowledge",
+    "phonetic": "əkˈnɒlɪdʒ",
+    "definition": "v. 承认",
+    "examples": [
+      "Can you use 'acknowledge' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0022",
+    "word": "acquire",
+    "phonetic": "əˈkwaɪər",
+    "definition": "v. 获得",
+    "examples": [
+      "Understanding 'acquire' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0023",
+    "word": "across",
+    "phonetic": "əˈkrɒs",
+    "definition": "prep./adv. 横过",
+    "examples": [
+      "Understanding 'across' is important for learning English.",
+      "Understanding 'across' is important for learning English.",
+      "Understanding 'across' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0024",
+    "word": "act",
+    "phonetic": "ækt",
+    "definition": "v. 行动 n. 行为",
+    "examples": [
+      "The word 'act' is commonly used in English.",
+      "Can you use 'act' in your own sentence?",
+      "Understanding 'act' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0025",
+    "word": "action",
+    "phonetic": "ˈækʃn",
+    "definition": "n. 行动",
+    "examples": [
+      "The word 'action' is commonly used in English.",
+      "Understanding 'action' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0026",
+    "word": "active",
+    "phonetic": "ˈæktɪv",
+    "definition": "adj. 活跃的",
+    "examples": [
+      "This is an example of using 'active' in a sentence.",
+      "Can you use 'active' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0027",
+    "word": "activity",
+    "phonetic": "ækˈtɪvəti",
+    "definition": "n. 活动",
+    "examples": [
+      "This is an example of using 'activity' in a sentence.",
+      "The word 'activity' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0028",
+    "word": "actual",
+    "phonetic": "ˈæktʃuəl",
+    "definition": "adj. 实际的",
+    "examples": [
+      "Can you use 'actual' in your own sentence?",
+      "The word 'actual' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0029",
+    "word": "actually",
+    "phonetic": "ˈæktʃuəli",
+    "definition": "adv. 实际上",
+    "examples": [
+      "The word 'actually' is commonly used in English.",
+      "Understanding 'actually' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0030",
+    "word": "adapt",
+    "phonetic": "əˈdæpt",
+    "definition": "v. 适应",
+    "examples": [
+      "Can you use 'adapt' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0031",
+    "word": "add",
+    "phonetic": "æd",
+    "definition": "v. 增加",
+    "examples": [
+      "This is an example of using 'add' in a sentence.",
+      "The word 'add' is commonly used in English.",
+      "Understanding 'add' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0032",
+    "word": "addition",
+    "phonetic": "əˈdɪʃn",
+    "definition": "n. 加；增加",
+    "examples": [
+      "The word 'addition' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0033",
+    "word": "additional",
+    "phonetic": "əˈdɪʃənl",
+    "definition": "adj. 额外的",
+    "examples": [
+      "The word 'additional' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0034",
+    "word": "address",
+    "phonetic": "əˈdres",
+    "definition": "n. 地址 v. 致辞",
+    "examples": [
+      "The word 'address' is commonly used in English.",
+      "This is an example of using 'address' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0035",
+    "word": "adjust",
+    "phonetic": "əˈdʒʌst",
+    "definition": "v. 调整",
+    "examples": [
+      "Can you use 'adjust' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0036",
+    "word": "administration",
+    "phonetic": "ədˌmɪnɪˈstreɪʃn",
+    "definition": "n. 管理",
+    "examples": [
+      "This is an example of using 'administration' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0037",
+    "word": "admire",
+    "phonetic": "ədˈmaɪər",
+    "definition": "v. 钦佩",
+    "examples": [
+      "Understanding 'admire' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0038",
+    "word": "admit",
+    "phonetic": "ədˈmɪt",
+    "definition": "v. 承认",
+    "examples": [
+      "This is an example of using 'admit' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0039",
+    "word": "adopt",
+    "phonetic": "əˈdɒpt",
+    "definition": "v. 收养；采用",
+    "examples": [
+      "The word 'adopt' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0040",
+    "word": "adult",
+    "phonetic": "ˈædʌlt",
+    "definition": "n. 成年人",
+    "examples": [
+      "Can you use 'adult' in your own sentence?",
+      "Can you use 'adult' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0041",
+    "word": "advance",
+    "phonetic": "ədˈvɑːns",
+    "definition": "v. 前进 n. 进展",
+    "examples": [
+      "The word 'advance' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0042",
+    "word": "advanced",
+    "phonetic": "ədˈvɑːnst",
+    "definition": "adj. 先进的",
+    "examples": [
+      "This is an example of using 'advanced' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0043",
+    "word": "advantage",
+    "phonetic": "ədˈvɑːntɪdʒ",
+    "definition": "n. 优势",
+    "examples": [
+      "The word 'advantage' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0044",
+    "word": "adventure",
+    "phonetic": "ədˈventʃər",
+    "definition": "n. 冒险",
+    "examples": [
+      "The word 'adventure' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0045",
+    "word": "advertise",
+    "phonetic": "ˈædvətaɪz",
+    "definition": "v. 做广告",
+    "examples": [
+      "This is an example of using 'advertise' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0046",
+    "word": "advertisement",
+    "phonetic": "ədˈvɜːtɪsmənt",
+    "definition": "n. 广告",
+    "examples": [
+      "The word 'advertisement' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0047",
+    "word": "advice",
+    "phonetic": "ədˈvaɪs",
+    "definition": "n. 建议",
+    "examples": [
+      "Understanding 'advice' is important for learning English.",
+      "Can you use 'advice' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0048",
+    "word": "affair",
+    "phonetic": "əˈfeər",
+    "definition": "n. 事情",
+    "examples": [
+      "Understanding 'affair' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0049",
+    "word": "affect",
+    "phonetic": "əˈfekt",
+    "definition": "v. 影响",
+    "examples": [
+      "This is an example of using 'affect' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0050",
+    "word": "afford",
+    "phonetic": "əˈfɔːd",
+    "definition": "v. 买得起",
+    "examples": [
+      "This is an example of using 'afford' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0051",
+    "word": "afraid",
+    "phonetic": "əˈfreɪd",
+    "definition": "adj. 害怕的",
+    "examples": [
+      "Can you use 'afraid' in your own sentence?",
+      "The word 'afraid' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0052",
+    "word": "African",
+    "phonetic": "ˈæfrɪkən",
+    "definition": "adj. 非洲的",
+    "examples": [
+      "Understanding 'African' is important for learning English.",
+      "The word 'African' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0053",
+    "word": "after",
+    "phonetic": "ˈɑːftər",
+    "definition": "prep./conj./adv. 在...后",
+    "examples": [
+      "Can you use 'after' in your own sentence?",
+      "This is an example of using 'after' in a sentence.",
+      "Understanding 'after' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0054",
+    "word": "afternoon",
+    "phonetic": "ˌɑːftərˈnuːn",
+    "definition": "n. 下午",
+    "examples": [
+      "Can you use 'afternoon' in your own sentence?",
+      "Understanding 'afternoon' is important for learning English.",
+      "This is an example of using 'afternoon' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0055",
+    "word": "again",
+    "phonetic": "əˈɡen",
+    "definition": "adv. 又一次",
+    "examples": [
+      "This is an example of using 'again' in a sentence.",
+      "The word 'again' is commonly used in English.",
+      "Can you use 'again' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0056",
+    "word": "against",
+    "phonetic": "əˈɡeɪnst",
+    "definition": "prep. 反对；倚靠",
+    "examples": [
+      "Understanding 'against' is important for learning English.",
+      "The word 'against' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0057",
+    "word": "age",
+    "phonetic": "eɪdʒ",
+    "definition": "n. 年龄",
+    "examples": [
+      "Understanding 'age' is important for learning English.",
+      "This is an example of using 'age' in a sentence.",
+      "The word 'age' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0058",
+    "word": "agency",
+    "phonetic": "ˈeɪdʒənsi",
+    "definition": "n. 代理处",
+    "examples": [
+      "This is an example of using 'agency' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0059",
+    "word": "agenda",
+    "phonetic": "əˈdʒendə",
+    "definition": "n. 议程",
+    "examples": [
+      "This is an example of using 'agenda' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0060",
+    "word": "agent",
+    "phonetic": "ˈeɪdʒənt",
+    "definition": "n. 代理人",
+    "examples": [
+      "Understanding 'agent' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0061",
+    "word": "aggressive",
+    "phonetic": "əˈɡresɪv",
+    "definition": "adj. 侵略的",
+    "examples": [
+      "Understanding 'aggressive' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0062",
+    "word": "ago",
+    "phonetic": "əˈɡəʊ",
+    "definition": "adv. 以前",
+    "examples": [
+      "The word 'ago' is commonly used in English.",
+      "This is an example of using 'ago' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0063",
+    "word": "agree",
+    "phonetic": "əˈɡriː",
+    "definition": "v. 同意",
+    "examples": [
+      "This is an example of using 'agree' in a sentence.",
+      "The word 'agree' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0064",
+    "word": "agreement",
+    "phonetic": "əˈɡriːmənt",
+    "definition": "n. 协议",
+    "examples": [
+      "This is an example of using 'agreement' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0065",
+    "word": "agricultural",
+    "phonetic": "ˌæɡrɪˈkʌltʃərəl",
+    "definition": "adj. 农业的",
+    "examples": [
+      "The word 'agricultural' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0066",
+    "word": "ahead",
+    "phonetic": "əˈhed",
+    "definition": "adv. 在前",
+    "examples": [
+      "The word 'ahead' is commonly used in English.",
+      "Can you use 'ahead' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0067",
+    "word": "aid",
+    "phonetic": "eɪd",
+    "definition": "n./v. 援助",
+    "examples": [
+      "This is an example of using 'aid' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0068",
+    "word": "aim",
+    "phonetic": "eɪm",
+    "definition": "n. 目标 v. 瞄准",
+    "examples": [
+      "This is an example of using 'aim' in a sentence.",
+      "The word 'aim' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0069",
+    "word": "air",
+    "phonetic": "eər",
+    "definition": "n. 空气",
+    "examples": [
+      "The word 'air' is commonly used in English.",
+      "The word 'air' is commonly used in English.",
+      "The word 'air' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0070",
+    "word": "aircraft",
+    "phonetic": "ˈeəkrɑːft",
+    "definition": "n. 飞机",
+    "examples": [
+      "Understanding 'aircraft' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0071",
+    "word": "airline",
+    "phonetic": "ˈeəlaɪn",
+    "definition": "n. 航空公司",
+    "examples": [
+      "Understanding 'airline' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0072",
+    "word": "airport",
+    "phonetic": "ˈeərpɔːrt",
+    "definition": "n. 机场",
+    "examples": [
+      "The word 'airport' is commonly used in English.",
+      "The word 'airport' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0073",
+    "word": "alarm",
+    "phonetic": "əˈlɑːrm",
+    "definition": "n. 警报",
+    "examples": [
+      "Understanding 'alarm' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0074",
+    "word": "album",
+    "phonetic": "ˈælbəm",
+    "definition": "n. 相册；专辑",
+    "examples": [
+      "Can you use 'album' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0075",
+    "word": "alcohol",
+    "phonetic": "ˈælkəhɒl",
+    "definition": "n. 酒精",
+    "examples": [
+      "This is an example of using 'alcohol' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0076",
+    "word": "alert",
+    "phonetic": "əˈlɜːrt",
+    "definition": "adj. 警觉的",
+    "examples": [
+      "This is an example of using 'alert' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0077",
+    "word": "alien",
+    "phonetic": "ˈeɪliən",
+    "definition": "n. 外星人",
+    "examples": [
+      "Can you use 'alien' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0078",
+    "word": "alike",
+    "phonetic": "əˈlaɪk",
+    "definition": "adj. 相似的",
+    "examples": [
+      "Can you use 'alike' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0079",
+    "word": "alive",
+    "phonetic": "əˈlaɪv",
+    "definition": "adj. 活着的",
+    "examples": [
+      "Can you use 'alive' in your own sentence?",
+      "Understanding 'alive' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0080",
+    "word": "all",
+    "phonetic": "ɔːl",
+    "definition": "adj./pron./adv. 全部",
+    "examples": [
+      "Understanding 'all' is important for learning English.",
+      "The word 'all' is commonly used in English.",
+      "Can you use 'all' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0081",
+    "word": "allergy",
+    "phonetic": "ˈælərdʒi",
+    "definition": "n. 过敏",
+    "examples": [
+      "The word 'allergy' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0082",
+    "word": "allow",
+    "phonetic": "əˈlaʊ",
+    "definition": "v. 允许",
+    "examples": [
+      "The word 'allow' is commonly used in English.",
+      "The word 'allow' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0083",
+    "word": "ally",
+    "phonetic": "ˈælaɪ",
+    "definition": "n. 同盟国",
+    "examples": [
+      "The word 'ally' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0084",
+    "word": "almost",
+    "phonetic": "ˈɔːlmoʊst",
+    "definition": "adv. 几乎",
+    "examples": [
+      "The word 'almost' is commonly used in English.",
+      "Can you use 'almost' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0085",
+    "word": "alone",
+    "phonetic": "əˈloʊn",
+    "definition": "adj./adv. 单独的",
+    "examples": [
+      "Can you use 'alone' in your own sentence?",
+      "Can you use 'alone' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0086",
+    "word": "along",
+    "phonetic": "əˈlɒŋ",
+    "definition": "prep./adv. 沿着",
+    "examples": [
+      "The word 'along' is commonly used in English.",
+      "The word 'along' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0087",
+    "word": "aloud",
+    "phonetic": "əˈlaʊd",
+    "definition": "adv. 大声地",
+    "examples": [
+      "Understanding 'aloud' is important for learning English.",
+      "Can you use 'aloud' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0088",
+    "word": "alphabet",
+    "phonetic": "ˈælfəbet",
+    "definition": "n. 字母表",
+    "examples": [
+      "Can you use 'alphabet' in your own sentence?",
+      "Can you use 'alphabet' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0089",
+    "word": "already",
+    "phonetic": "ɔːlˈredi",
+    "definition": "adv. 已经",
+    "examples": [
+      "Understanding 'already' is important for learning English.",
+      "Understanding 'already' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0090",
+    "word": "also",
+    "phonetic": "ˈɔːlsoʊ",
+    "definition": "adv. 也",
+    "examples": [
+      "Understanding 'also' is important for learning English.",
+      "Understanding 'also' is important for learning English.",
+      "Can you use 'also' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0091",
+    "word": "alter",
+    "phonetic": "ˈɔːltər",
+    "definition": "v. 改变",
+    "examples": [
+      "Can you use 'alter' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0092",
+    "word": "alternative",
+    "phonetic": "ɔːlˈtɜːrnətɪv",
+    "definition": "n./adj. 供选择的",
+    "examples": [
+      "Can you use 'alternative' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0093",
+    "word": "although",
+    "phonetic": "ɔːlˈðoʊ",
+    "definition": "conj. 虽然",
+    "examples": [
+      "Understanding 'although' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0094",
+    "word": "altogether",
+    "phonetic": "ˌɔːltəˈɡeðər",
+    "definition": "adv. 总共",
+    "examples": [
+      "This is an example of using 'altogether' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0095",
+    "word": "always",
+    "phonetic": "ˈɔːlweɪz",
+    "definition": "adv. 总是",
+    "examples": [
+      "Can you use 'always' in your own sentence?",
+      "Understanding 'always' is important for learning English.",
+      "The word 'always' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0096",
+    "word": "amazing",
+    "phonetic": "əˈmeɪzɪŋ",
+    "definition": "adj. 令人惊异的",
+    "examples": [
+      "This is an example of using 'amazing' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0097",
+    "word": "ambition",
+    "phonetic": "æmˈbɪʃn",
+    "definition": "n. 野心",
+    "examples": [
+      "The word 'ambition' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0098",
+    "word": "ambulance",
+    "phonetic": "ˈæmbjələns",
+    "definition": "n. 救护车",
+    "examples": [
+      "Can you use 'ambulance' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0099",
+    "word": "among",
+    "phonetic": "əˈmʌŋ",
+    "definition": "prep. 在...之中",
+    "examples": [
+      "The word 'among' is commonly used in English.",
+      "The word 'among' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0100",
+    "word": "amount",
+    "phonetic": "əˈmaʊnt",
+    "definition": "n. 数量",
+    "examples": [
+      "This is an example of using 'amount' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0101",
+    "word": "amuse",
+    "phonetic": "əˈmjuːz",
+    "definition": "v. 逗乐",
+    "examples": [
+      "Understanding 'amuse' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0102",
+    "word": "amusing",
+    "phonetic": "əˈmjuːzɪŋ",
+    "definition": "adj. 有趣的",
+    "examples": [
+      "This is an example of using 'amusing' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0103",
+    "word": "analyze",
+    "phonetic": "ˈænəlaɪz",
+    "definition": "v. 分析",
+    "examples": [
+      "The word 'analyze' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0104",
+    "word": "analysis",
+    "phonetic": "əˈnæləsɪs",
+    "definition": "n. 分析",
+    "examples": [
+      "Understanding 'analysis' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0105",
+    "word": "ancestor",
+    "phonetic": "ˈænsestər",
+    "definition": "n. 祖先",
+    "examples": [
+      "Understanding 'ancestor' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0106",
+    "word": "ancient",
+    "phonetic": "ˈeɪnʃənt",
+    "definition": "adj. 古代的",
+    "examples": [
+      "Understanding 'ancient' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0107",
+    "word": "anger",
+    "phonetic": "ˈæŋɡər",
+    "definition": "n. 愤怒",
+    "examples": [
+      "This is an example of using 'anger' in a sentence.",
+      "Can you use 'anger' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0108",
+    "word": "angle",
+    "phonetic": "ˈæŋɡl",
+    "definition": "n. 角度",
+    "examples": [
+      "This is an example of using 'angle' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0109",
+    "word": "angry",
+    "phonetic": "ˈæŋɡri",
+    "definition": "adj. 生气的",
+    "examples": [
+      "Understanding 'angry' is important for learning English.",
+      "Understanding 'angry' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0110",
+    "word": "animal",
+    "phonetic": "ˈænɪml",
+    "definition": "n. 动物",
+    "examples": [
+      "This is an example of using 'animal' in a sentence.",
+      "The word 'animal' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0111",
+    "word": "anniversary",
+    "phonetic": "ˌænɪˈvɜːrsəri",
+    "definition": "n. 周年纪念",
+    "examples": [
+      "Can you use 'anniversary' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0112",
+    "word": "announce",
+    "phonetic": "əˈnaʊns",
+    "definition": "v. 宣布",
+    "examples": [
+      "This is an example of using 'announce' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0113",
+    "word": "annoy",
+    "phonetic": "əˈnɔɪ",
+    "definition": "v. 使恼怒",
+    "examples": [
+      "Can you use 'annoy' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0114",
+    "word": "annual",
+    "phonetic": "ˈænjuəl",
+    "definition": "adj. 每年的",
+    "examples": [
+      "The word 'annual' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0115",
+    "word": "another",
+    "phonetic": "əˈnʌðər",
+    "definition": "adj./pron. 另一个",
+    "examples": [
+      "Understanding 'another' is important for learning English.",
+      "This is an example of using 'another' in a sentence.",
+      "Understanding 'another' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0116",
+    "word": "answer",
+    "phonetic": "ˈænsər",
+    "definition": "n./v. 回答",
+    "examples": [
+      "The word 'answer' is commonly used in English.",
+      "This is an example of using 'answer' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0117",
+    "word": "anticipate",
+    "phonetic": "ænˈtɪsɪpeɪt",
+    "definition": "v. 预期",
+    "examples": [
+      "Understanding 'anticipate' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0118",
+    "word": "anxiety",
+    "phonetic": "æŋˈzaɪəti",
+    "definition": "n. 焦虑",
+    "examples": [
+      "This is an example of using 'anxiety' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0119",
+    "word": "anxious",
+    "phonetic": "ˈæŋkʃəs",
+    "definition": "adj. 焦虑的",
+    "examples": [
+      "Can you use 'anxious' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0120",
+    "word": "any",
+    "phonetic": "ˈeni",
+    "definition": "adj./pron. 任何",
+    "examples": [
+      "Understanding 'any' is important for learning English.",
+      "The word 'any' is commonly used in English.",
+      "Can you use 'any' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0121",
+    "word": "anybody",
+    "phonetic": "ˈenibɒdi",
+    "definition": "pron. 任何人",
+    "examples": [
+      "This is an example of using 'anybody' in a sentence.",
+      "Understanding 'anybody' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0122",
+    "word": "anymore",
+    "phonetic": "ˌeniˈmɔːr",
+    "definition": "adv. 再也不",
+    "examples": [
+      "The word 'anymore' is commonly used in English.",
+      "Understanding 'anymore' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0123",
+    "word": "anyone",
+    "phonetic": "ˈeniwʌn",
+    "definition": "pron. 任何人",
+    "examples": [
+      "Can you use 'anyone' in your own sentence?",
+      "The word 'anyone' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0124",
+    "word": "anything",
+    "phonetic": "ˈeniθɪŋ",
+    "definition": "pron. 任何事物",
+    "examples": [
+      "This is an example of using 'anything' in a sentence.",
+      "Can you use 'anything' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0125",
+    "word": "anyway",
+    "phonetic": "ˈeniweɪ",
+    "definition": "adv. 无论如何",
+    "examples": [
+      "The word 'anyway' is commonly used in English.",
+      "The word 'anyway' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0126",
+    "word": "anywhere",
+    "phonetic": "ˈeniweər",
+    "definition": "adv. 任何地方",
+    "examples": [
+      "This is an example of using 'anywhere' in a sentence.",
+      "Understanding 'anywhere' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0127",
+    "word": "apart",
+    "phonetic": "əˈpɑːrt",
+    "definition": "adv. 分开",
+    "examples": [
+      "This is an example of using 'apart' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0128",
+    "word": "apartment",
+    "phonetic": "əˈpɑːrtmənt",
+    "definition": "n. 公寓",
+    "examples": [
+      "Understanding 'apartment' is important for learning English.",
+      "Can you use 'apartment' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0129",
+    "word": "apologize",
+    "phonetic": "əˈpɒlədʒaɪz",
+    "definition": "v. 道歉",
+    "examples": [
+      "The word 'apologize' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0130",
+    "word": "apology",
+    "phonetic": "əˈpɒlədʒi",
+    "definition": "n. 道歉",
+    "examples": [
+      "Can you use 'apology' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0131",
+    "word": "apparent",
+    "phonetic": "əˈpærənt",
+    "definition": "adj. 明显的",
+    "examples": [
+      "The word 'apparent' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0132",
+    "word": "appeal",
+    "phonetic": "əˈpiːl",
+    "definition": "n./v. 呼吁；吸引",
+    "examples": [
+      "Understanding 'appeal' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0133",
+    "word": "appear",
+    "phonetic": "əˈpɪr",
+    "definition": "v. 出现",
+    "examples": [
+      "This is an example of using 'appear' in a sentence.",
+      "The word 'appear' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0134",
+    "word": "appearance",
+    "phonetic": "əˈpɪrəns",
+    "definition": "n. 外貌",
+    "examples": [
+      "Can you use 'appearance' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0135",
+    "word": "apple",
+    "phonetic": "ˈæpl",
+    "definition": "n. 苹果",
+    "examples": [
+      "The word 'apple' is commonly used in English.",
+      "Understanding 'apple' is important for learning English.",
+      "The word 'apple' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0136",
+    "word": "application",
+    "phonetic": "ˌæplɪˈkeɪʃn",
+    "definition": "n. 申请；应用",
+    "examples": [
+      "Understanding 'application' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0137",
+    "word": "apply",
+    "phonetic": "əˈplaɪ",
+    "definition": "v. 申请；应用",
+    "examples": [
+      "Can you use 'apply' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0138",
+    "word": "appoint",
+    "phonetic": "əˈpɔɪnt",
+    "definition": "v. 任命",
+    "examples": [
+      "Understanding 'appoint' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0139",
+    "word": "appointment",
+    "phonetic": "əˈpɔɪntmənt",
+    "definition": "n. 任命；预约",
+    "examples": [
+      "Understanding 'appointment' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0140",
+    "word": "appreciate",
+    "phonetic": "əˈpriːʃieɪt",
+    "definition": "v. 感激；欣赏",
+    "examples": [
+      "Can you use 'appreciate' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0141",
+    "word": "approach",
+    "phonetic": "əˈprəʊtʃ",
+    "definition": "n./v. 方法；接近",
+    "examples": [
+      "The word 'approach' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0142",
+    "word": "appropriate",
+    "phonetic": "əˈprəʊpriət",
+    "definition": "adj. 适当的",
+    "examples": [
+      "Can you use 'appropriate' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0143",
+    "word": "approval",
+    "phonetic": "əˈpruːvl",
+    "definition": "n. 批准",
+    "examples": [
+      "The word 'approval' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0144",
+    "word": "approve",
+    "phonetic": "əˈpruːv",
+    "definition": "v. 批准",
+    "examples": [
+      "Can you use 'approve' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0145",
+    "word": "approximately",
+    "phonetic": "əˈprɒksɪmətli",
+    "definition": "adv. 大约",
+    "examples": [
+      "Can you use 'approximately' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0146",
+    "word": "architect",
+    "phonetic": "ˈɑːrkɪtekt",
+    "definition": "n. 建筑师",
+    "examples": [
+      "The word 'architect' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0147",
+    "word": "architecture",
+    "phonetic": "ˈɑːrkɪtektʃər",
+    "definition": "n. 建筑学",
+    "examples": [
+      "The word 'architecture' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0148",
+    "word": "area",
+    "phonetic": "ˈeəriə",
+    "definition": "n. 区域",
+    "examples": [
+      "The word 'area' is commonly used in English.",
+      "Can you use 'area' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0149",
+    "word": "argue",
+    "phonetic": "ˈɑːrɡjuː",
+    "definition": "v. 争论",
+    "examples": [
+      "This is an example of using 'argue' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0150",
+    "word": "argument",
+    "phonetic": "ˈɑːrɡjumənt",
+    "definition": "n. 论点",
+    "examples": [
+      "Can you use 'argument' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0151",
+    "word": "arise",
+    "phonetic": "əˈraɪz",
+    "definition": "v. 出现",
+    "examples": [
+      "Understanding 'arise' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0152",
+    "word": "arithmetic",
+    "phonetic": "əˈrɪθmətɪk",
+    "definition": "n. 算术",
+    "examples": [
+      "This is an example of using 'arithmetic' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0153",
+    "word": "arm",
+    "phonetic": "ɑːrm",
+    "definition": "n. 手臂 v. 武装",
+    "examples": [
+      "This is an example of using 'arm' in a sentence.",
+      "Understanding 'arm' is important for learning English.",
+      "This is an example of using 'arm' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0154",
+    "word": "armed",
+    "phonetic": "ɑːrmd",
+    "definition": "adj. 武装的",
+    "examples": [
+      "The word 'armed' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0155",
+    "word": "army",
+    "phonetic": "ˈɑːrmi",
+    "definition": "n. 军队",
+    "examples": [
+      "Can you use 'army' in your own sentence?",
+      "Understanding 'army' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0156",
+    "word": "around",
+    "phonetic": "əˈraʊnd",
+    "definition": "prep./adv. 在周围",
+    "examples": [
+      "The word 'around' is commonly used in English.",
+      "The word 'around' is commonly used in English.",
+      "This is an example of using 'around' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0157",
+    "word": "arrange",
+    "phonetic": "əˈreɪndʒ",
+    "definition": "v. 安排",
+    "examples": [
+      "Can you use 'arrange' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0158",
+    "word": "arrangement",
+    "phonetic": "əˈreɪndʒmənt",
+    "definition": "n. 安排",
+    "examples": [
+      "This is an example of using 'arrangement' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0159",
+    "word": "arrest",
+    "phonetic": "əˈrest",
+    "definition": "v./n. 逮捕",
+    "examples": [
+      "Understanding 'arrest' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0160",
+    "word": "arrival",
+    "phonetic": "əˈraɪvl",
+    "definition": "n. 到达",
+    "examples": [
+      "Can you use 'arrival' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0161",
+    "word": "arrive",
+    "phonetic": "əˈraɪv",
+    "definition": "v. 到达",
+    "examples": [
+      "This is an example of using 'arrive' in a sentence.",
+      "The word 'arrive' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0162",
+    "word": "arrow",
+    "phonetic": "ˈæroʊ",
+    "definition": "n. 箭",
+    "examples": [
+      "The word 'arrow' is commonly used in English.",
+      "Can you use 'arrow' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0163",
+    "word": "art",
+    "phonetic": "ɑːrt",
+    "definition": "n. 艺术",
+    "examples": [
+      "Understanding 'art' is important for learning English.",
+      "Understanding 'art' is important for learning English.",
+      "Can you use 'art' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0164",
+    "word": "article",
+    "phonetic": "ˈɑːrtɪkl",
+    "definition": "n. 文章；物品",
+    "examples": [
+      "Can you use 'article' in your own sentence?",
+      "This is an example of using 'article' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0165",
+    "word": "artificial",
+    "phonetic": "ˌɑːrtɪˈfɪʃl",
+    "definition": "adj. 人造的",
+    "examples": [
+      "Understanding 'artificial' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0166",
+    "word": "artist",
+    "phonetic": "ˈɑːrtɪst",
+    "definition": "n. 艺术家",
+    "examples": [
+      "Understanding 'artist' is important for learning English.",
+      "The word 'artist' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0167",
+    "word": "artistic",
+    "phonetic": "ɑːˈtɪstɪk",
+    "definition": "adj. 艺术的",
+    "examples": [
+      "Can you use 'artistic' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0168",
+    "word": "back",
+    "phonetic": "/back/",
+    "definition": "adv. back",
+    "examples": [
+      "This is an example of using 'back' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0169",
+    "word": "bad",
+    "phonetic": "/bad/",
+    "definition": "n. bad",
+    "examples": [
+      "The word 'bad' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0170",
+    "word": "bag",
+    "phonetic": "/bag/",
+    "definition": "adj. bag",
+    "examples": [
+      "Can you use 'bag' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0171",
+    "word": "balance",
+    "phonetic": "/balance/",
+    "definition": "v. balance",
+    "examples": [
+      "The word 'balance' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0172",
+    "word": "ball",
+    "phonetic": "/ball/",
+    "definition": "adj. ball",
+    "examples": [
+      "The word 'ball' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0173",
+    "word": "bank",
+    "phonetic": "/bank/",
+    "definition": "adj. bank",
+    "examples": [
+      "This is an example of using 'bank' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0174",
+    "word": "bar",
+    "phonetic": "/bar/",
+    "definition": "v. bar",
+    "examples": [
+      "Understanding 'bar' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0175",
+    "word": "base",
+    "phonetic": "/base/",
+    "definition": "v. base",
+    "examples": [
+      "Can you use 'base' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0176",
+    "word": "basis",
+    "phonetic": "/basis/",
+    "definition": "n. basis",
+    "examples": [
+      "Can you use 'basis' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0177",
+    "word": "be",
+    "phonetic": "/be/",
+    "definition": "adj. be",
+    "examples": [
+      "The word 'be' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0178",
+    "word": "irbad",
+    "phonetic": "/irbad/",
+    "definition": "v. bad的形式",
+    "examples": [
+      "Understanding 'irbad' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0179",
+    "word": "bankness",
+    "phonetic": "/bankness/",
+    "definition": "n. bank的ness形式",
+    "examples": [
+      "Can you use 'bankness' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0180",
+    "word": "imbagible",
+    "phonetic": "/imbagibl/",
+    "definition": "v. bag的ible形式",
+    "examples": [
+      "Can you use 'imbagible' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0181",
+    "word": "unbaseous",
+    "phonetic": "/unbaseou/",
+    "definition": "v. base的ous形式",
+    "examples": [
+      "This is an example of using 'unbaseous' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0182",
+    "word": "imback",
+    "phonetic": "/imback/",
+    "definition": "n. back的形式",
+    "examples": [
+      "Understanding 'imback' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0183",
+    "word": "barive",
+    "phonetic": "/barive/",
+    "definition": "adj. bar的ive形式",
+    "examples": [
+      "This is an example of using 'barive' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0184",
+    "word": "call",
+    "phonetic": "/call/",
+    "definition": "adv. call",
+    "examples": [
+      "Can you use 'call' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0185",
+    "word": "can",
+    "phonetic": "/can/",
+    "definition": "n. can",
+    "examples": [
+      "Can you use 'can' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0186",
+    "word": "capital",
+    "phonetic": "/capital/",
+    "definition": "adj. capital",
+    "examples": [
+      "Can you use 'capital' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0187",
+    "word": "car",
+    "phonetic": "/car/",
+    "definition": "v. car",
+    "examples": [
+      "The word 'car' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0188",
+    "word": "card",
+    "phonetic": "/card/",
+    "definition": "n. card",
+    "examples": [
+      "Understanding 'card' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0189",
+    "word": "care",
+    "phonetic": "/care/",
+    "definition": "adv. care",
+    "examples": [
+      "The word 'care' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0190",
+    "word": "carry",
+    "phonetic": "/carry/",
+    "definition": "v. carry",
+    "examples": [
+      "Can you use 'carry' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0191",
+    "word": "case",
+    "phonetic": "/case/",
+    "definition": "adj. case",
+    "examples": [
+      "The word 'case' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0192",
+    "word": "catch",
+    "phonetic": "/catch/",
+    "definition": "adv. catch",
+    "examples": [
+      "Can you use 'catch' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0193",
+    "word": "cause",
+    "phonetic": "/cause/",
+    "definition": "n. cause",
+    "examples": [
+      "Can you use 'cause' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0194",
+    "word": "carryment",
+    "phonetic": "/carrymen/",
+    "definition": "v. carry的ment形式",
+    "examples": [
+      "This is an example of using 'carryment' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0195",
+    "word": "overcarment",
+    "phonetic": "/overcarm/",
+    "definition": "adv. car的ment形式",
+    "examples": [
+      "This is an example of using 'overcarment' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0196",
+    "word": "ircase",
+    "phonetic": "/ircase/",
+    "definition": "n. case的形式",
+    "examples": [
+      "Understanding 'ircase' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0197",
+    "word": "caseous",
+    "phonetic": "/caseous/",
+    "definition": "adv. case的ous形式",
+    "examples": [
+      "Understanding 'caseous' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0198",
+    "word": "incanful",
+    "phonetic": "/incanful/",
+    "definition": "adj. can的ful形式",
+    "examples": [
+      "This is an example of using 'incanful' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0199",
+    "word": "precause",
+    "phonetic": "/precause/",
+    "definition": "adv. cause的形式",
+    "examples": [
+      "Can you use 'precause' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0200",
+    "word": "damage",
+    "phonetic": "/damage/",
+    "definition": "adv. damage",
+    "examples": [
+      "This is an example of using 'damage' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0201",
+    "word": "dance",
+    "phonetic": "/dance/",
+    "definition": "n. dance",
+    "examples": [
+      "The word 'dance' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0202",
+    "word": "danger",
+    "phonetic": "/danger/",
+    "definition": "n. danger",
+    "examples": [
+      "Understanding 'danger' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0203",
+    "word": "dark",
+    "phonetic": "/dark/",
+    "definition": "v. dark",
+    "examples": [
+      "Can you use 'dark' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0204",
+    "word": "data",
+    "phonetic": "/data/",
+    "definition": "adj. data",
+    "examples": [
+      "This is an example of using 'data' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0205",
+    "word": "date",
+    "phonetic": "/date/",
+    "definition": "n. date",
+    "examples": [
+      "Understanding 'date' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0206",
+    "word": "day",
+    "phonetic": "/day/",
+    "definition": "v. day",
+    "examples": [
+      "This is an example of using 'day' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0207",
+    "word": "dead",
+    "phonetic": "/dead/",
+    "definition": "n. dead",
+    "examples": [
+      "Understanding 'dead' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0208",
+    "word": "deal",
+    "phonetic": "/deal/",
+    "definition": "adj. deal",
+    "examples": [
+      "Can you use 'deal' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0209",
+    "word": "death",
+    "phonetic": "/death/",
+    "definition": "v. death",
+    "examples": [
+      "Can you use 'death' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0210",
+    "word": "imdanceful",
+    "phonetic": "/imdancef/",
+    "definition": "n. dance的ful形式",
+    "examples": [
+      "This is an example of using 'imdanceful' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0211",
+    "word": "overdanger",
+    "phonetic": "/overdang/",
+    "definition": "n. danger的形式",
+    "examples": [
+      "This is an example of using 'overdanger' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0212",
+    "word": "datament",
+    "phonetic": "/datament/",
+    "definition": "n. data的ment形式",
+    "examples": [
+      "The word 'datament' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0213",
+    "word": "ildataful",
+    "phonetic": "/ildatafu/",
+    "definition": "n. data的ful形式",
+    "examples": [
+      "Can you use 'ildataful' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0214",
+    "word": "disdata",
+    "phonetic": "/disdata/",
+    "definition": "n. data的形式",
+    "examples": [
+      "Understanding 'disdata' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0215",
+    "word": "predangerable",
+    "phonetic": "/predange/",
+    "definition": "adv. danger的able形式",
+    "examples": [
+      "This is an example of using 'predangerable' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0216",
+    "word": "darkable",
+    "phonetic": "/darkable/",
+    "definition": "v. dark的able形式",
+    "examples": [
+      "This is an example of using 'darkable' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0217",
+    "word": "indeath",
+    "phonetic": "/indeath/",
+    "definition": "adv. death的形式",
+    "examples": [
+      "This is an example of using 'indeath' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0218",
+    "word": "each",
+    "phonetic": "/each/",
+    "definition": "n. each",
+    "examples": [
+      "The word 'each' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0219",
+    "word": "ear",
+    "phonetic": "/ear/",
+    "definition": "n. ear",
+    "examples": [
+      "Can you use 'ear' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0220",
+    "word": "early",
+    "phonetic": "/early/",
+    "definition": "adj. early",
+    "examples": [
+      "The word 'early' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0221",
+    "word": "earn",
+    "phonetic": "/earn/",
+    "definition": "v. earn",
+    "examples": [
+      "The word 'earn' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0222",
+    "word": "earth",
+    "phonetic": "/earth/",
+    "definition": "n. earth",
+    "examples": [
+      "The word 'earth' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0223",
+    "word": "east",
+    "phonetic": "/east/",
+    "definition": "adj. east",
+    "examples": [
+      "Can you use 'east' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0224",
+    "word": "easy",
+    "phonetic": "/easy/",
+    "definition": "v. easy",
+    "examples": [
+      "This is an example of using 'easy' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0225",
+    "word": "eat",
+    "phonetic": "/eat/",
+    "definition": "adj. eat",
+    "examples": [
+      "Can you use 'eat' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0226",
+    "word": "economic",
+    "phonetic": "/economic/",
+    "definition": "n. economic",
+    "examples": [
+      "Can you use 'economic' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0227",
+    "word": "edge",
+    "phonetic": "/edge/",
+    "definition": "n. edge",
+    "examples": [
+      "Understanding 'edge' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0228",
+    "word": "ineach",
+    "phonetic": "/ineach/",
+    "definition": "v. each的形式",
+    "examples": [
+      "Can you use 'ineach' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0229",
+    "word": "preearth",
+    "phonetic": "/preearth/",
+    "definition": "adv. earth的形式",
+    "examples": [
+      "The word 'preearth' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0230",
+    "word": "imearlyment",
+    "phonetic": "/imearlym/",
+    "definition": "n. early的ment形式",
+    "examples": [
+      "Can you use 'imearlyment' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0231",
+    "word": "ineat",
+    "phonetic": "/ineat/",
+    "definition": "adj. eat的形式",
+    "examples": [
+      "This is an example of using 'ineat' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0232",
+    "word": "ilearn",
+    "phonetic": "/ilearn/",
+    "definition": "adv. earn的形式",
+    "examples": [
+      "The word 'ilearn' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0233",
+    "word": "miseast",
+    "phonetic": "/miseast/",
+    "definition": "adj. east的形式",
+    "examples": [
+      "Can you use 'miseast' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0234",
+    "word": "face",
+    "phonetic": "/face/",
+    "definition": "v. face",
+    "examples": [
+      "This is an example of using 'face' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0235",
+    "word": "fact",
+    "phonetic": "/fact/",
+    "definition": "adj. fact",
+    "examples": [
+      "Understanding 'fact' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0236",
+    "word": "factor",
+    "phonetic": "/factor/",
+    "definition": "v. factor",
+    "examples": [
+      "Understanding 'factor' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0237",
+    "word": "fail",
+    "phonetic": "/fail/",
+    "definition": "n. fail",
+    "examples": [
+      "The word 'fail' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0238",
+    "word": "fall",
+    "phonetic": "/fall/",
+    "definition": "n. fall",
+    "examples": [
+      "Understanding 'fall' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0239",
+    "word": "family",
+    "phonetic": "/family/",
+    "definition": "adj. family",
+    "examples": [
+      "This is an example of using 'family' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0240",
+    "word": "far",
+    "phonetic": "/far/",
+    "definition": "v. far",
+    "examples": [
+      "This is an example of using 'far' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0241",
+    "word": "farm",
+    "phonetic": "/farm/",
+    "definition": "n. farm",
+    "examples": [
+      "This is an example of using 'farm' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0242",
+    "word": "farmer",
+    "phonetic": "/farmer/",
+    "definition": "adj. farmer",
+    "examples": [
+      "Can you use 'farmer' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0243",
+    "word": "father",
+    "phonetic": "/father/",
+    "definition": "v. father",
+    "examples": [
+      "Can you use 'father' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0244",
+    "word": "unfamily",
+    "phonetic": "/unfamily/",
+    "definition": "v. family的形式",
+    "examples": [
+      "This is an example of using 'unfamily' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0245",
+    "word": "imfail",
+    "phonetic": "/imfail/",
+    "definition": "n. fail的形式",
+    "examples": [
+      "This is an example of using 'imfail' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0246",
+    "word": "misfaceive",
+    "phonetic": "/misfacei/",
+    "definition": "adj. face的ive形式",
+    "examples": [
+      "Understanding 'misfaceive' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0247",
+    "word": "overfamilyive",
+    "phonetic": "/overfami/",
+    "definition": "v. family的ive形式",
+    "examples": [
+      "This is an example of using 'overfamilyive' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0248",
+    "word": "farmerless",
+    "phonetic": "/farmerle/",
+    "definition": "adv. farmer的less形式",
+    "examples": [
+      "The word 'farmerless' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0249",
+    "word": "prefarmerible",
+    "phonetic": "/prefarme/",
+    "definition": "v. farmer的ible形式",
+    "examples": [
+      "Can you use 'prefarmerible' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0250",
+    "word": "imfall",
+    "phonetic": "/imfall/",
+    "definition": "adj. fall的形式",
+    "examples": [
+      "The word 'imfall' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0251",
+    "word": "gain",
+    "phonetic": "/gain/",
+    "definition": "adv. gain",
+    "examples": [
+      "This is an example of using 'gain' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0252",
+    "word": "game",
+    "phonetic": "/game/",
+    "definition": "v. game",
+    "examples": [
+      "Can you use 'game' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0253",
+    "word": "gas",
+    "phonetic": "/gas/",
+    "definition": "n. gas",
+    "examples": [
+      "This is an example of using 'gas' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0254",
+    "word": "gate",
+    "phonetic": "/gate/",
+    "definition": "v. gate",
+    "examples": [
+      "This is an example of using 'gate' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0255",
+    "word": "general",
+    "phonetic": "/general/",
+    "definition": "v. general",
+    "examples": [
+      "Understanding 'general' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0256",
+    "word": "generation",
+    "phonetic": "/generation/",
+    "definition": "adv. generation",
+    "examples": [
+      "This is an example of using 'generation' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0257",
+    "word": "get",
+    "phonetic": "/get/",
+    "definition": "v. get",
+    "examples": [
+      "This is an example of using 'get' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0258",
+    "word": "girl",
+    "phonetic": "/girl/",
+    "definition": "adv. girl",
+    "examples": [
+      "Can you use 'girl' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0259",
+    "word": "give",
+    "phonetic": "/give/",
+    "definition": "adj. give",
+    "examples": [
+      "Can you use 'give' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0260",
+    "word": "glass",
+    "phonetic": "/glass/",
+    "definition": "adj. glass",
+    "examples": [
+      "This is an example of using 'glass' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0261",
+    "word": "disgateible",
+    "phonetic": "/disgatei/",
+    "definition": "adj. gate的ible形式",
+    "examples": [
+      "Can you use 'disgateible' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0262",
+    "word": "generalment",
+    "phonetic": "/generalm/",
+    "definition": "adj. general的ment形式",
+    "examples": [
+      "Understanding 'generalment' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0263",
+    "word": "preget",
+    "phonetic": "/preget/",
+    "definition": "n. get的形式",
+    "examples": [
+      "The word 'preget' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0264",
+    "word": "ilget",
+    "phonetic": "/ilget/",
+    "definition": "adv. get的形式",
+    "examples": [
+      "Understanding 'ilget' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0265",
+    "word": "disgasment",
+    "phonetic": "/disgasme/",
+    "definition": "adv. gas的ment形式",
+    "examples": [
+      "Can you use 'disgasment' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0266",
+    "word": "pregainive",
+    "phonetic": "/pregaini/",
+    "definition": "adj. gain的ive形式",
+    "examples": [
+      "Can you use 'pregainive' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0267",
+    "word": "hair",
+    "phonetic": "/hair/",
+    "definition": "adv. hair",
+    "examples": [
+      "This is an example of using 'hair' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0268",
+    "word": "half",
+    "phonetic": "/half/",
+    "definition": "adj. half",
+    "examples": [
+      "This is an example of using 'half' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0269",
+    "word": "hall",
+    "phonetic": "/hall/",
+    "definition": "adj. hall",
+    "examples": [
+      "Can you use 'hall' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0270",
+    "word": "hand",
+    "phonetic": "/hand/",
+    "definition": "adj. hand",
+    "examples": [
+      "This is an example of using 'hand' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0271",
+    "word": "hang",
+    "phonetic": "/hang/",
+    "definition": "adj. hang",
+    "examples": [
+      "The word 'hang' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0272",
+    "word": "happen",
+    "phonetic": "/happen/",
+    "definition": "n. happen",
+    "examples": [
+      "Can you use 'happen' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0273",
+    "word": "happy",
+    "phonetic": "/happy/",
+    "definition": "n. happy",
+    "examples": [
+      "Can you use 'happy' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0274",
+    "word": "hard",
+    "phonetic": "/hard/",
+    "definition": "adv. hard",
+    "examples": [
+      "Understanding 'hard' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0275",
+    "word": "have",
+    "phonetic": "/have/",
+    "definition": "n. have",
+    "examples": [
+      "Can you use 'have' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0276",
+    "word": "he",
+    "phonetic": "/he/",
+    "definition": "adv. he",
+    "examples": [
+      "The word 'he' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0277",
+    "word": "hairible",
+    "phonetic": "/hairible/",
+    "definition": "n. hair的ible形式",
+    "examples": [
+      "The word 'hairible' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0278",
+    "word": "dishair",
+    "phonetic": "/dishair/",
+    "definition": "v. hair的形式",
+    "examples": [
+      "Can you use 'dishair' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0279",
+    "word": "ilhairous",
+    "phonetic": "/ilhairou/",
+    "definition": "n. hair的ous形式",
+    "examples": [
+      "This is an example of using 'ilhairous' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0280",
+    "word": "overhave",
+    "phonetic": "/overhave/",
+    "definition": "adv. have的形式",
+    "examples": [
+      "The word 'overhave' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0281",
+    "word": "handous",
+    "phonetic": "/handous/",
+    "definition": "n. hand的ous形式",
+    "examples": [
+      "The word 'handous' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0282",
+    "word": "ice",
+    "phonetic": "/ice/",
+    "definition": "adv. ice",
+    "examples": [
+      "This is an example of using 'ice' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0283",
+    "word": "idea",
+    "phonetic": "/idea/",
+    "definition": "n. idea",
+    "examples": [
+      "This is an example of using 'idea' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0284",
+    "word": "if",
+    "phonetic": "/if/",
+    "definition": "adj. if",
+    "examples": [
+      "The word 'if' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0285",
+    "word": "image",
+    "phonetic": "/image/",
+    "definition": "v. image",
+    "examples": [
+      "Understanding 'image' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0286",
+    "word": "imagine",
+    "phonetic": "/imagine/",
+    "definition": "adv. imagine",
+    "examples": [
+      "Can you use 'imagine' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0287",
+    "word": "impact",
+    "phonetic": "/impact/",
+    "definition": "v. impact",
+    "examples": [
+      "The word 'impact' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0288",
+    "word": "important",
+    "phonetic": "/important/",
+    "definition": "n. important",
+    "examples": [
+      "Can you use 'important' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0289",
+    "word": "improve",
+    "phonetic": "/improve/",
+    "definition": "adj. improve",
+    "examples": [
+      "The word 'improve' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0290",
+    "word": "in",
+    "phonetic": "/in/",
+    "definition": "adv. in",
+    "examples": [
+      "This is an example of using 'in' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0291",
+    "word": "include",
+    "phonetic": "/include/",
+    "definition": "n. include",
+    "examples": [
+      "Can you use 'include' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0292",
+    "word": "inful",
+    "phonetic": "/inful/",
+    "definition": "n. in的ful形式",
+    "examples": [
+      "Can you use 'inful' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0293",
+    "word": "disiceal",
+    "phonetic": "/disiceal/",
+    "definition": "adj. ice的al形式",
+    "examples": [
+      "Can you use 'disiceal' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0294",
+    "word": "irincludeful",
+    "phonetic": "/irinclud/",
+    "definition": "n. include的ful形式",
+    "examples": [
+      "Can you use 'irincludeful' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0295",
+    "word": "includetion",
+    "phonetic": "/includet/",
+    "definition": "adv. include的tion形式",
+    "examples": [
+      "This is an example of using 'includetion' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0296",
+    "word": "preimagetion",
+    "phonetic": "/preimage/",
+    "definition": "v. image的tion形式",
+    "examples": [
+      "The word 'preimagetion' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0297",
+    "word": "inideaible",
+    "phonetic": "/inideaib/",
+    "definition": "n. idea的ible形式",
+    "examples": [
+      "This is an example of using 'inideaible' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0298",
+    "word": "impactible",
+    "phonetic": "/impactib/",
+    "definition": "v. impact的ible形式",
+    "examples": [
+      "Can you use 'impactible' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0299",
+    "word": "job",
+    "phonetic": "/job/",
+    "definition": "n. job",
+    "examples": [
+      "Can you use 'job' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0300",
+    "word": "join",
+    "phonetic": "/join/",
+    "definition": "adj. join",
+    "examples": [
+      "Understanding 'join' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0301",
+    "word": "just",
+    "phonetic": "/just/",
+    "definition": "adj. just",
+    "examples": [
+      "This is an example of using 'just' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0302",
+    "word": "prejob",
+    "phonetic": "/prejob/",
+    "definition": "n. job的形式",
+    "examples": [
+      "The word 'prejob' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0303",
+    "word": "misjoin",
+    "phonetic": "/misjoin/",
+    "definition": "adj. join的形式",
+    "examples": [
+      "Can you use 'misjoin' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0304",
+    "word": "joinment",
+    "phonetic": "/joinment/",
+    "definition": "n. join的ment形式",
+    "examples": [
+      "Understanding 'joinment' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0305",
+    "word": "unjoinness",
+    "phonetic": "/unjoinne/",
+    "definition": "adv. join的ness形式",
+    "examples": [
+      "Can you use 'unjoinness' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0306",
+    "word": "jobal",
+    "phonetic": "/jobal/",
+    "definition": "adv. job的al形式",
+    "examples": [
+      "This is an example of using 'jobal' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0307",
+    "word": "overjoinful",
+    "phonetic": "/overjoin/",
+    "definition": "v. join的ful形式",
+    "examples": [
+      "Understanding 'overjoinful' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0308",
+    "word": "iljoin",
+    "phonetic": "/iljoin/",
+    "definition": "adv. join的形式",
+    "examples": [
+      "The word 'iljoin' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0309",
+    "word": "justive",
+    "phonetic": "/justive/",
+    "definition": "adj. just的ive形式",
+    "examples": [
+      "This is an example of using 'justive' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0310",
+    "word": "imjoin",
+    "phonetic": "/imjoin/",
+    "definition": "adj. join的形式",
+    "examples": [
+      "This is an example of using 'imjoin' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0311",
+    "word": "iljoinive",
+    "phonetic": "/iljoiniv/",
+    "definition": "v. join的ive形式",
+    "examples": [
+      "Understanding 'iljoinive' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0312",
+    "word": "rejobless",
+    "phonetic": "/rejobles/",
+    "definition": "n. job的less形式",
+    "examples": [
+      "The word 'rejobless' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0313",
+    "word": "iljust",
+    "phonetic": "/iljust/",
+    "definition": "adv. just的形式",
+    "examples": [
+      "This is an example of using 'iljust' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0314",
+    "word": "keep",
+    "phonetic": "/keep/",
+    "definition": "adv. keep",
+    "examples": [
+      "Can you use 'keep' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0315",
+    "word": "kill",
+    "phonetic": "/kill/",
+    "definition": "v. kill",
+    "examples": [
+      "Understanding 'kill' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0316",
+    "word": "kind",
+    "phonetic": "/kind/",
+    "definition": "v. kind",
+    "examples": [
+      "Can you use 'kind' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0317",
+    "word": "know",
+    "phonetic": "/know/",
+    "definition": "v. know",
+    "examples": [
+      "Understanding 'know' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0318",
+    "word": "killment",
+    "phonetic": "/killment/",
+    "definition": "n. kill的ment形式",
+    "examples": [
+      "The word 'killment' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0319",
+    "word": "overkeep",
+    "phonetic": "/overkeep/",
+    "definition": "n. keep的形式",
+    "examples": [
+      "Can you use 'overkeep' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0320",
+    "word": "prekindless",
+    "phonetic": "/prekindl/",
+    "definition": "v. kind的less形式",
+    "examples": [
+      "Understanding 'prekindless' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0321",
+    "word": "ilkill",
+    "phonetic": "/ilkill/",
+    "definition": "v. kill的形式",
+    "examples": [
+      "This is an example of using 'ilkill' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0322",
+    "word": "prekindness",
+    "phonetic": "/prekindn/",
+    "definition": "n. kind的ness形式",
+    "examples": [
+      "Can you use 'prekindness' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0323",
+    "word": "unkindless",
+    "phonetic": "/unkindle/",
+    "definition": "adv. kind的less形式",
+    "examples": [
+      "Can you use 'unkindless' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0324",
+    "word": "keepible",
+    "phonetic": "/keepible/",
+    "definition": "n. keep的ible形式",
+    "examples": [
+      "Can you use 'keepible' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0325",
+    "word": "diskill",
+    "phonetic": "/diskill/",
+    "definition": "adv. kill的形式",
+    "examples": [
+      "This is an example of using 'diskill' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0326",
+    "word": "irkindness",
+    "phonetic": "/irkindne/",
+    "definition": "adj. kind的ness形式",
+    "examples": [
+      "This is an example of using 'irkindness' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0327",
+    "word": "keepous",
+    "phonetic": "/keepous/",
+    "definition": "adv. keep的ous形式",
+    "examples": [
+      "Understanding 'keepous' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0328",
+    "word": "labor",
+    "phonetic": "/labor/",
+    "definition": "v. labor",
+    "examples": [
+      "The word 'labor' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0329",
+    "word": "lack",
+    "phonetic": "/lack/",
+    "definition": "n. lack",
+    "examples": [
+      "Understanding 'lack' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0330",
+    "word": "land",
+    "phonetic": "/land/",
+    "definition": "adj. land",
+    "examples": [
+      "This is an example of using 'land' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0331",
+    "word": "language",
+    "phonetic": "/language/",
+    "definition": "adj. language",
+    "examples": [
+      "The word 'language' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0332",
+    "word": "large",
+    "phonetic": "/large/",
+    "definition": "adj. large",
+    "examples": [
+      "This is an example of using 'large' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0333",
+    "word": "last",
+    "phonetic": "/last/",
+    "definition": "n. last",
+    "examples": [
+      "This is an example of using 'last' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0334",
+    "word": "late",
+    "phonetic": "/late/",
+    "definition": "v. late",
+    "examples": [
+      "Can you use 'late' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0335",
+    "word": "laugh",
+    "phonetic": "/laugh/",
+    "definition": "adj. laugh",
+    "examples": [
+      "This is an example of using 'laugh' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0336",
+    "word": "law",
+    "phonetic": "/law/",
+    "definition": "adv. law",
+    "examples": [
+      "Can you use 'law' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0337",
+    "word": "lay",
+    "phonetic": "/lay/",
+    "definition": "v. lay",
+    "examples": [
+      "The word 'lay' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0338",
+    "word": "lateful",
+    "phonetic": "/lateful/",
+    "definition": "adj. late的ful形式",
+    "examples": [
+      "Understanding 'lateful' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0339",
+    "word": "inlarge",
+    "phonetic": "/inlarge/",
+    "definition": "adv. large的形式",
+    "examples": [
+      "Understanding 'inlarge' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0340",
+    "word": "unlabor",
+    "phonetic": "/unlabor/",
+    "definition": "adj. labor的形式",
+    "examples": [
+      "Understanding 'unlabor' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0341",
+    "word": "largeive",
+    "phonetic": "/largeive/",
+    "definition": "adv. large的ive形式",
+    "examples": [
+      "Can you use 'largeive' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0342",
+    "word": "landous",
+    "phonetic": "/landous/",
+    "definition": "adj. land的ous形式",
+    "examples": [
+      "This is an example of using 'landous' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0343",
+    "word": "inlanguage",
+    "phonetic": "/inlangua/",
+    "definition": "n. language的形式",
+    "examples": [
+      "Understanding 'inlanguage' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0344",
+    "word": "machine",
+    "phonetic": "/machine/",
+    "definition": "v. machine",
+    "examples": [
+      "Can you use 'machine' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0345",
+    "word": "magazine",
+    "phonetic": "/magazine/",
+    "definition": "adj. magazine",
+    "examples": [
+      "This is an example of using 'magazine' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0346",
+    "word": "main",
+    "phonetic": "/main/",
+    "definition": "n. main",
+    "examples": [
+      "The word 'main' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0347",
+    "word": "make",
+    "phonetic": "/make/",
+    "definition": "adv. make",
+    "examples": [
+      "This is an example of using 'make' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0348",
+    "word": "man",
+    "phonetic": "/man/",
+    "definition": "v. man",
+    "examples": [
+      "The word 'man' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0349",
+    "word": "manage",
+    "phonetic": "/manage/",
+    "definition": "adv. manage",
+    "examples": [
+      "This is an example of using 'manage' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0350",
+    "word": "manager",
+    "phonetic": "/manager/",
+    "definition": "n. manager",
+    "examples": [
+      "Understanding 'manager' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0351",
+    "word": "many",
+    "phonetic": "/many/",
+    "definition": "n. many",
+    "examples": [
+      "This is an example of using 'many' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0352",
+    "word": "market",
+    "phonetic": "/market/",
+    "definition": "adj. market",
+    "examples": [
+      "Can you use 'market' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0353",
+    "word": "mark",
+    "phonetic": "/mark/",
+    "definition": "adj. mark",
+    "examples": [
+      "This is an example of using 'mark' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0354",
+    "word": "overmagazineive",
+    "phonetic": "/overmaga/",
+    "definition": "adj. magazine的ive形式",
+    "examples": [
+      "Understanding 'overmagazineive' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0355",
+    "word": "markment",
+    "phonetic": "/markment/",
+    "definition": "n. mark的ment形式",
+    "examples": [
+      "The word 'markment' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0356",
+    "word": "mismanagerful",
+    "phonetic": "/mismanag/",
+    "definition": "adv. manager的ful形式",
+    "examples": [
+      "The word 'mismanagerful' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0357",
+    "word": "immanage",
+    "phonetic": "/immanage/",
+    "definition": "adv. manage的形式",
+    "examples": [
+      "The word 'immanage' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0358",
+    "word": "magazineness",
+    "phonetic": "/magazine/",
+    "definition": "adv. magazine的ness形式",
+    "examples": [
+      "The word 'magazineness' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0359",
+    "word": "irmakeible",
+    "phonetic": "/irmakeib/",
+    "definition": "adj. make的ible形式",
+    "examples": [
+      "Can you use 'irmakeible' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0360",
+    "word": "name",
+    "phonetic": "/name/",
+    "definition": "n. name",
+    "examples": [
+      "Understanding 'name' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0361",
+    "word": "nation",
+    "phonetic": "/nation/",
+    "definition": "adv. nation",
+    "examples": [
+      "This is an example of using 'nation' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0362",
+    "word": "national",
+    "phonetic": "/national/",
+    "definition": "v. national",
+    "examples": [
+      "Understanding 'national' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0363",
+    "word": "nature",
+    "phonetic": "/nature/",
+    "definition": "v. nature",
+    "examples": [
+      "Can you use 'nature' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0364",
+    "word": "near",
+    "phonetic": "/near/",
+    "definition": "adv. near",
+    "examples": [
+      "Can you use 'near' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0365",
+    "word": "need",
+    "phonetic": "/need/",
+    "definition": "adj. need",
+    "examples": [
+      "Understanding 'need' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0366",
+    "word": "network",
+    "phonetic": "/network/",
+    "definition": "adj. network",
+    "examples": [
+      "Understanding 'network' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0367",
+    "word": "never",
+    "phonetic": "/never/",
+    "definition": "v. never",
+    "examples": [
+      "Understanding 'never' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0368",
+    "word": "new",
+    "phonetic": "/new/",
+    "definition": "v. new",
+    "examples": [
+      "This is an example of using 'new' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0369",
+    "word": "news",
+    "phonetic": "/news/",
+    "definition": "n. news",
+    "examples": [
+      "Can you use 'news' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0370",
+    "word": "renever",
+    "phonetic": "/renever/",
+    "definition": "adv. never的形式",
+    "examples": [
+      "Can you use 'renever' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0371",
+    "word": "neverable",
+    "phonetic": "/neverabl/",
+    "definition": "v. never的able形式",
+    "examples": [
+      "The word 'neverable' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0372",
+    "word": "irnationive",
+    "phonetic": "/irnation/",
+    "definition": "adj. nation的ive形式",
+    "examples": [
+      "Understanding 'irnationive' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0373",
+    "word": "newsal",
+    "phonetic": "/newsal/",
+    "definition": "adv. news的al形式",
+    "examples": [
+      "The word 'newsal' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0374",
+    "word": "renevertion",
+    "phonetic": "/renevert/",
+    "definition": "adv. never的tion形式",
+    "examples": [
+      "Understanding 'renevertion' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0375",
+    "word": "irneverful",
+    "phonetic": "/irneverf/",
+    "definition": "adj. never的ful形式",
+    "examples": [
+      "Understanding 'irneverful' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0376",
+    "word": "disneed",
+    "phonetic": "/disneed/",
+    "definition": "adv. need的形式",
+    "examples": [
+      "Understanding 'disneed' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0377",
+    "word": "overnever",
+    "phonetic": "/overneve/",
+    "definition": "v. never的形式",
+    "examples": [
+      "Understanding 'overnever' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0378",
+    "word": "occur",
+    "phonetic": "/occur/",
+    "definition": "v. occur",
+    "examples": [
+      "The word 'occur' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0379",
+    "word": "of",
+    "phonetic": "/of/",
+    "definition": "v. of",
+    "examples": [
+      "Understanding 'of' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0380",
+    "word": "off",
+    "phonetic": "/off/",
+    "definition": "adv. off",
+    "examples": [
+      "This is an example of using 'off' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0381",
+    "word": "offer",
+    "phonetic": "/offer/",
+    "definition": "adj. offer",
+    "examples": [
+      "Can you use 'offer' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0382",
+    "word": "office",
+    "phonetic": "/office/",
+    "definition": "v. office",
+    "examples": [
+      "Understanding 'office' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0383",
+    "word": "officer",
+    "phonetic": "/officer/",
+    "definition": "adv. officer",
+    "examples": [
+      "Understanding 'officer' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0384",
+    "word": "official",
+    "phonetic": "/official/",
+    "definition": "n. official",
+    "examples": [
+      "Can you use 'official' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0385",
+    "word": "often",
+    "phonetic": "/often/",
+    "definition": "v. often",
+    "examples": [
+      "Can you use 'often' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0386",
+    "word": "oil",
+    "phonetic": "/oil/",
+    "definition": "n. oil",
+    "examples": [
+      "Can you use 'oil' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0387",
+    "word": "old",
+    "phonetic": "/old/",
+    "definition": "n. old",
+    "examples": [
+      "The word 'old' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0388",
+    "word": "oldal",
+    "phonetic": "/oldal/",
+    "definition": "v. old的al形式",
+    "examples": [
+      "Can you use 'oldal' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0389",
+    "word": "overofficerment",
+    "phonetic": "/overoffi/",
+    "definition": "n. officer的ment形式",
+    "examples": [
+      "Can you use 'overofficerment' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0390",
+    "word": "imofficial",
+    "phonetic": "/imoffici/",
+    "definition": "adv. official的形式",
+    "examples": [
+      "The word 'imofficial' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0391",
+    "word": "reoil",
+    "phonetic": "/reoil/",
+    "definition": "adj. oil的形式",
+    "examples": [
+      "Can you use 'reoil' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0392",
+    "word": "officerment",
+    "phonetic": "/officerm/",
+    "definition": "v. officer的ment形式",
+    "examples": [
+      "Can you use 'officerment' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0393",
+    "word": "inoftenment",
+    "phonetic": "/inoftenm/",
+    "definition": "n. often的ment形式",
+    "examples": [
+      "This is an example of using 'inoftenment' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0394",
+    "word": "page",
+    "phonetic": "/page/",
+    "definition": "adj. page",
+    "examples": [
+      "Can you use 'page' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0395",
+    "word": "pain",
+    "phonetic": "/pain/",
+    "definition": "adj. pain",
+    "examples": [
+      "This is an example of using 'pain' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0396",
+    "word": "paint",
+    "phonetic": "/paint/",
+    "definition": "adj. paint",
+    "examples": [
+      "Can you use 'paint' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0397",
+    "word": "painting",
+    "phonetic": "/painting/",
+    "definition": "v. painting",
+    "examples": [
+      "Can you use 'painting' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0398",
+    "word": "paper",
+    "phonetic": "/paper/",
+    "definition": "adv. paper",
+    "examples": [
+      "Understanding 'paper' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0399",
+    "word": "parent",
+    "phonetic": "/parent/",
+    "definition": "adj. parent",
+    "examples": [
+      "Can you use 'parent' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0400",
+    "word": "part",
+    "phonetic": "/part/",
+    "definition": "adv. part",
+    "examples": [
+      "Can you use 'part' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0401",
+    "word": "participate",
+    "phonetic": "/participate/",
+    "definition": "adv. participate",
+    "examples": [
+      "This is an example of using 'participate' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0402",
+    "word": "particular",
+    "phonetic": "/particular/",
+    "definition": "v. particular",
+    "examples": [
+      "The word 'particular' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0403",
+    "word": "partner",
+    "phonetic": "/partner/",
+    "definition": "n. partner",
+    "examples": [
+      "Understanding 'partner' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0404",
+    "word": "paintingful",
+    "phonetic": "/painting/",
+    "definition": "v. painting的ful形式",
+    "examples": [
+      "The word 'paintingful' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0405",
+    "word": "prepart",
+    "phonetic": "/prepart/",
+    "definition": "adv. part的形式",
+    "examples": [
+      "Understanding 'prepart' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0406",
+    "word": "imparentless",
+    "phonetic": "/imparent/",
+    "definition": "n. parent的less形式",
+    "examples": [
+      "This is an example of using 'imparentless' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0407",
+    "word": "paperible",
+    "phonetic": "/paperibl/",
+    "definition": "v. paper的ible形式",
+    "examples": [
+      "This is an example of using 'paperible' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0408",
+    "word": "participateal",
+    "phonetic": "/particip/",
+    "definition": "adv. participate的al形式",
+    "examples": [
+      "Understanding 'participateal' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0409",
+    "word": "quality",
+    "phonetic": "/quality/",
+    "definition": "adj. quality",
+    "examples": [
+      "Can you use 'quality' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0410",
+    "word": "question",
+    "phonetic": "/question/",
+    "definition": "v. question",
+    "examples": [
+      "This is an example of using 'question' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0411",
+    "word": "quickly",
+    "phonetic": "/quickly/",
+    "definition": "adj. quickly",
+    "examples": [
+      "The word 'quickly' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0412",
+    "word": "quite",
+    "phonetic": "/quite/",
+    "definition": "v. quite",
+    "examples": [
+      "Understanding 'quite' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0413",
+    "word": "quiteless",
+    "phonetic": "/quiteles/",
+    "definition": "adv. quite的less形式",
+    "examples": [
+      "The word 'quiteless' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0414",
+    "word": "ilquality",
+    "phonetic": "/ilqualit/",
+    "definition": "v. quality的形式",
+    "examples": [
+      "This is an example of using 'ilquality' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0415",
+    "word": "misquality",
+    "phonetic": "/misquali/",
+    "definition": "adv. quality的形式",
+    "examples": [
+      "This is an example of using 'misquality' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0416",
+    "word": "irqualityness",
+    "phonetic": "/irqualit/",
+    "definition": "n. quality的ness形式",
+    "examples": [
+      "Understanding 'irqualityness' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0417",
+    "word": "imquicklytion",
+    "phonetic": "/imquickl/",
+    "definition": "adv. quickly的tion形式",
+    "examples": [
+      "The word 'imquicklytion' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0418",
+    "word": "ilqualityless",
+    "phonetic": "/ilqualit/",
+    "definition": "adv. quality的less形式",
+    "examples": [
+      "Can you use 'ilqualityless' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0419",
+    "word": "qualityal",
+    "phonetic": "/qualitya/",
+    "definition": "adj. quality的al形式",
+    "examples": [
+      "Understanding 'qualityal' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0420",
+    "word": "requiteable",
+    "phonetic": "/requitea/",
+    "definition": "v. quite的able形式",
+    "examples": [
+      "Understanding 'requiteable' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0421",
+    "word": "requite",
+    "phonetic": "/requite/",
+    "definition": "v. quite的形式",
+    "examples": [
+      "Understanding 'requite' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0422",
+    "word": "race",
+    "phonetic": "/race/",
+    "definition": "adj. race",
+    "examples": [
+      "Understanding 'race' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0423",
+    "word": "radio",
+    "phonetic": "/radio/",
+    "definition": "n. radio",
+    "examples": [
+      "The word 'radio' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0424",
+    "word": "raise",
+    "phonetic": "/raise/",
+    "definition": "adv. raise",
+    "examples": [
+      "This is an example of using 'raise' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0425",
+    "word": "range",
+    "phonetic": "/range/",
+    "definition": "n. range",
+    "examples": [
+      "This is an example of using 'range' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0426",
+    "word": "rate",
+    "phonetic": "/rate/",
+    "definition": "n. rate",
+    "examples": [
+      "Can you use 'rate' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0427",
+    "word": "rather",
+    "phonetic": "/rather/",
+    "definition": "adv. rather",
+    "examples": [
+      "This is an example of using 'rather' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0428",
+    "word": "reach",
+    "phonetic": "/reach/",
+    "definition": "n. reach",
+    "examples": [
+      "This is an example of using 'reach' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0429",
+    "word": "read",
+    "phonetic": "/read/",
+    "definition": "n. read",
+    "examples": [
+      "Can you use 'read' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0430",
+    "word": "ready",
+    "phonetic": "/ready/",
+    "definition": "adj. ready",
+    "examples": [
+      "The word 'ready' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0431",
+    "word": "real",
+    "phonetic": "/real/",
+    "definition": "n. real",
+    "examples": [
+      "Understanding 'real' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0432",
+    "word": "prerealness",
+    "phonetic": "/prerealn/",
+    "definition": "adj. real的ness形式",
+    "examples": [
+      "The word 'prerealness' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0433",
+    "word": "radioous",
+    "phonetic": "/radioous/",
+    "definition": "adv. radio的ous形式",
+    "examples": [
+      "The word 'radioous' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0434",
+    "word": "inreadyal",
+    "phonetic": "/inreadya/",
+    "definition": "adj. ready的al形式",
+    "examples": [
+      "This is an example of using 'inreadyal' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0435",
+    "word": "misraceful",
+    "phonetic": "/misracef/",
+    "definition": "adv. race的ful形式",
+    "examples": [
+      "This is an example of using 'misraceful' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0436",
+    "word": "readyful",
+    "phonetic": "/readyful/",
+    "definition": "v. ready的ful形式",
+    "examples": [
+      "This is an example of using 'readyful' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0437",
+    "word": "rathertion",
+    "phonetic": "/ratherti/",
+    "definition": "v. rather的tion形式",
+    "examples": [
+      "This is an example of using 'rathertion' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0438",
+    "word": "rateless",
+    "phonetic": "/rateless/",
+    "definition": "n. rate的less形式",
+    "examples": [
+      "Understanding 'rateless' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0439",
+    "word": "reraiseous",
+    "phonetic": "/reraiseo/",
+    "definition": "adv. raise的ous形式",
+    "examples": [
+      "Can you use 'reraiseous' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0440",
+    "word": "safe",
+    "phonetic": "/safe/",
+    "definition": "n. safe",
+    "examples": [
+      "Can you use 'safe' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0441",
+    "word": "same",
+    "phonetic": "/same/",
+    "definition": "adv. same",
+    "examples": [
+      "This is an example of using 'same' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0442",
+    "word": "save",
+    "phonetic": "/save/",
+    "definition": "v. save",
+    "examples": [
+      "The word 'save' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0443",
+    "word": "say",
+    "phonetic": "/say/",
+    "definition": "adj. say",
+    "examples": [
+      "Understanding 'say' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0444",
+    "word": "scene",
+    "phonetic": "/scene/",
+    "definition": "n. scene",
+    "examples": [
+      "Can you use 'scene' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0445",
+    "word": "school",
+    "phonetic": "/school/",
+    "definition": "adj. school",
+    "examples": [
+      "This is an example of using 'school' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0446",
+    "word": "science",
+    "phonetic": "/science/",
+    "definition": "v. science",
+    "examples": [
+      "Understanding 'science' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0447",
+    "word": "scientist",
+    "phonetic": "/scientist/",
+    "definition": "adj. scientist",
+    "examples": [
+      "The word 'scientist' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0448",
+    "word": "score",
+    "phonetic": "/score/",
+    "definition": "adv. score",
+    "examples": [
+      "This is an example of using 'score' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0449",
+    "word": "sea",
+    "phonetic": "/sea/",
+    "definition": "n. sea",
+    "examples": [
+      "Understanding 'sea' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0450",
+    "word": "disscoreive",
+    "phonetic": "/disscore/",
+    "definition": "n. score的ive形式",
+    "examples": [
+      "The word 'disscoreive' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0451",
+    "word": "imsafeible",
+    "phonetic": "/imsafeib/",
+    "definition": "n. safe的ible形式",
+    "examples": [
+      "Can you use 'imsafeible' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0452",
+    "word": "prescore",
+    "phonetic": "/prescore/",
+    "definition": "v. score的形式",
+    "examples": [
+      "This is an example of using 'prescore' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0453",
+    "word": "savement",
+    "phonetic": "/savement/",
+    "definition": "n. save的ment形式",
+    "examples": [
+      "Understanding 'savement' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0454",
+    "word": "resame",
+    "phonetic": "/resame/",
+    "definition": "n. same的形式",
+    "examples": [
+      "Can you use 'resame' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0455",
+    "word": "resafe",
+    "phonetic": "/resafe/",
+    "definition": "adv. safe的形式",
+    "examples": [
+      "Can you use 'resafe' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0456",
+    "word": "irsave",
+    "phonetic": "/irsave/",
+    "definition": "n. save的形式",
+    "examples": [
+      "This is an example of using 'irsave' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0457",
+    "word": "table",
+    "phonetic": "/table/",
+    "definition": "n. table",
+    "examples": [
+      "This is an example of using 'table' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0458",
+    "word": "take",
+    "phonetic": "/take/",
+    "definition": "adv. take",
+    "examples": [
+      "This is an example of using 'take' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0459",
+    "word": "talk",
+    "phonetic": "/talk/",
+    "definition": "adj. talk",
+    "examples": [
+      "Can you use 'talk' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0460",
+    "word": "task",
+    "phonetic": "/task/",
+    "definition": "adv. task",
+    "examples": [
+      "Can you use 'task' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0461",
+    "word": "tax",
+    "phonetic": "/tax/",
+    "definition": "n. tax",
+    "examples": [
+      "This is an example of using 'tax' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0462",
+    "word": "teach",
+    "phonetic": "/teach/",
+    "definition": "v. teach",
+    "examples": [
+      "This is an example of using 'teach' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0463",
+    "word": "teacher",
+    "phonetic": "/teacher/",
+    "definition": "n. teacher",
+    "examples": [
+      "This is an example of using 'teacher' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0464",
+    "word": "team",
+    "phonetic": "/team/",
+    "definition": "adv. team",
+    "examples": [
+      "The word 'team' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0465",
+    "word": "technology",
+    "phonetic": "/technology/",
+    "definition": "n. technology",
+    "examples": [
+      "Understanding 'technology' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0466",
+    "word": "tell",
+    "phonetic": "/tell/",
+    "definition": "adj. tell",
+    "examples": [
+      "The word 'tell' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0467",
+    "word": "distalkless",
+    "phonetic": "/distalkl/",
+    "definition": "v. talk的less形式",
+    "examples": [
+      "Understanding 'distalkless' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0468",
+    "word": "takeous",
+    "phonetic": "/takeous/",
+    "definition": "adv. take的ous形式",
+    "examples": [
+      "Understanding 'takeous' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0469",
+    "word": "untechnology",
+    "phonetic": "/untechno/",
+    "definition": "adv. technology的形式",
+    "examples": [
+      "This is an example of using 'untechnology' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0470",
+    "word": "overtask",
+    "phonetic": "/overtask/",
+    "definition": "v. task的形式",
+    "examples": [
+      "Can you use 'overtask' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0471",
+    "word": "irtaskible",
+    "phonetic": "/irtaskib/",
+    "definition": "n. task的ible形式",
+    "examples": [
+      "This is an example of using 'irtaskible' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0472",
+    "word": "taxtion",
+    "phonetic": "/taxtion/",
+    "definition": "adj. tax的tion形式",
+    "examples": [
+      "Understanding 'taxtion' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0473",
+    "word": "ultimate",
+    "phonetic": "/ultimate/",
+    "definition": "v. ultimate",
+    "examples": [
+      "Understanding 'ultimate' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0474",
+    "word": "under",
+    "phonetic": "/under/",
+    "definition": "adj. under",
+    "examples": [
+      "Can you use 'under' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0475",
+    "word": "understand",
+    "phonetic": "/understand/",
+    "definition": "adv. understand",
+    "examples": [
+      "The word 'understand' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0476",
+    "word": "unit",
+    "phonetic": "/unit/",
+    "definition": "adj. unit",
+    "examples": [
+      "Understanding 'unit' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0477",
+    "word": "until",
+    "phonetic": "/until/",
+    "definition": "n. until",
+    "examples": [
+      "The word 'until' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0478",
+    "word": "up",
+    "phonetic": "/up/",
+    "definition": "adj. up",
+    "examples": [
+      "This is an example of using 'up' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0479",
+    "word": "upon",
+    "phonetic": "/upon/",
+    "definition": "adv. upon",
+    "examples": [
+      "Can you use 'upon' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0480",
+    "word": "us",
+    "phonetic": "/us/",
+    "definition": "adv. us",
+    "examples": [
+      "This is an example of using 'us' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0481",
+    "word": "use",
+    "phonetic": "/use/",
+    "definition": "n. use",
+    "examples": [
+      "Understanding 'use' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0482",
+    "word": "usual",
+    "phonetic": "/usual/",
+    "definition": "adj. usual",
+    "examples": [
+      "The word 'usual' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0483",
+    "word": "disultimate",
+    "phonetic": "/disultim/",
+    "definition": "adv. ultimate的形式",
+    "examples": [
+      "Can you use 'disultimate' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0484",
+    "word": "imusable",
+    "phonetic": "/imusable/",
+    "definition": "v. us的able形式",
+    "examples": [
+      "Can you use 'imusable' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0485",
+    "word": "disunit",
+    "phonetic": "/disunit/",
+    "definition": "adj. unit的形式",
+    "examples": [
+      "Understanding 'disunit' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0486",
+    "word": "irus",
+    "phonetic": "/irus/",
+    "definition": "adv. us的形式",
+    "examples": [
+      "This is an example of using 'irus' in a sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0487",
+    "word": "reunderstandive",
+    "phonetic": "/reunders/",
+    "definition": "v. understand的ive形式",
+    "examples": [
+      "The word 'reunderstandive' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0488",
+    "word": "value",
+    "phonetic": "/value/",
+    "definition": "n. value",
+    "examples": [
+      "Can you use 'value' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0489",
+    "word": "various",
+    "phonetic": "/various/",
+    "definition": "n. various",
+    "examples": [
+      "The word 'various' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0490",
+    "word": "very",
+    "phonetic": "/very/",
+    "definition": "n. very",
+    "examples": [
+      "Can you use 'very' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0491",
+    "word": "victim",
+    "phonetic": "/victim/",
+    "definition": "adv. victim",
+    "examples": [
+      "Can you use 'victim' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0492",
+    "word": "view",
+    "phonetic": "/view/",
+    "definition": "n. view",
+    "examples": [
+      "The word 'view' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语常用词汇"
+  },
+  {
+    "id": "学术英语完整词库_0493",
+    "word": "violence",
+    "phonetic": "/violence/",
+    "definition": "adv. violence",
+    "examples": [
+      "Understanding 'violence' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0494",
+    "word": "visit",
+    "phonetic": "/visit/",
+    "definition": "adj. visit",
+    "examples": [
+      "The word 'visit' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0495",
+    "word": "voice",
+    "phonetic": "/voice/",
+    "definition": "n. voice",
+    "examples": [
+      "The word 'voice' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0496",
+    "word": "volume",
+    "phonetic": "/volume/",
+    "definition": "adj. volume",
+    "examples": [
+      "The word 'volume' is commonly used in English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0497",
+    "word": "vote",
+    "phonetic": "/vote/",
+    "definition": "adj. vote",
+    "examples": [
+      "Understanding 'vote' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0498",
+    "word": "overvoiceless",
+    "phonetic": "/overvoic/",
+    "definition": "adj. voice的less形式",
+    "examples": [
+      "Understanding 'overvoiceless' is important for learning English."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0499",
+    "word": "voteous",
+    "phonetic": "/voteous/",
+    "definition": "v. vote的ous形式",
+    "examples": [
+      "Can you use 'voteous' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  },
+  {
+    "id": "学术英语完整词库_0500",
+    "word": "voiceness",
+    "phonetic": "/voicenes/",
+    "definition": "n. voice的ness形式",
+    "examples": [
+      "Can you use 'voiceness' in your own sentence?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "academic"
+    ],
+    "etymology": "英语进阶词汇"
+  }
+]
