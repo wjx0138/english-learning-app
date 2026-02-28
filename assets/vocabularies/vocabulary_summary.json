@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-02-28",
-  "total_vocabs": 25,
-  "total_words": 25395,
+  "total_vocabs": 30,
+  "total_words": 63395,
   "vocabularies": [
     {
       "file": "academic_complete.json",
@@ -34,6 +34,11 @@
       "size_kb": 23.32
     },
     {
+      "file": "cet4_full.json",
+      "words": 4500,
+      "size_kb": 2040.82
+    },
+    {
       "file": "cet4_sample.json",
       "words": 100,
       "size_kb": 37.63
@@ -52,6 +57,11 @@
       "file": "cet6_complete.json",
       "words": 500,
       "size_kb": 161.51
+    },
+    {
+      "file": "cet6_full.json",
+      "words": 6000,
+      "size_kb": 2732.9
     },
     {
       "file": "cet6_ultra.json",
@@ -79,6 +89,11 @@
       "size_kb": 7.08
     },
     {
+      "file": "gre_full.json",
+      "words": 12000,
+      "size_kb": 5480.56
+    },
+    {
       "file": "gre_ultra.json",
       "words": 5874,
       "size_kb": 2052.62
@@ -92,6 +107,11 @@
       "file": "ielts_complete.json",
       "words": 300,
       "size_kb": 97.04
+    },
+    {
+      "file": "ielts_full.json",
+      "words": 7500,
+      "size_kb": 3451.55
     },
     {
       "file": "ielts_ultra.json",
@@ -117,6 +137,11 @@
       "file": "toefl_complete.json",
       "words": 300,
       "size_kb": 97.04
+    },
+    {
+      "file": "toefl_full.json",
+      "words": 8000,
+      "size_kb": 3686.36
     },
     {
       "file": "toefl_ultra.json",

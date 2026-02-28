@@ -22,10 +22,15 @@ class EnhancedVocabularyLoader {
 
     // === 考试词库（超大规模）⭐ 推荐深入学习 ===
     'cet4_ultra': 'assets/vocabularies/cet4_ultra.json',
+    'cet4_full': 'assets/vocabularies/cet4_full.json',
     'cet6_ultra': 'assets/vocabularies/cet6_ultra.json',
+    'cet6_full': 'assets/vocabularies/cet6_full.json',
     'toefl_ultra': 'assets/vocabularies/toefl_ultra.json',
+    'toefl_full': 'assets/vocabularies/toefl_full.json',
     'ielts_ultra': 'assets/vocabularies/ielts_ultra.json',
+    'ielts_full': 'assets/vocabularies/ielts_full.json',
     'gre_ultra': 'assets/vocabularies/gre_ultra.json',
+    'gre_full': 'assets/vocabularies/gre_full.json',
 
     // === 主题词库（小规模） ===
     'daily_life': 'assets/vocabularies/daily_life.json',
