@@ -1,0 +1,277 @@
+# 词库管理指南
+
+本指南说明如何为英语学习应用生成、管理和使用词库数��。
+
+---
+
+## 📚 当前词库状态
+
+| 词库名称 | 文件名 | 词汇量 | 状态 |
+|---------|--------|--------|------|
+| CET-4样本 | `cet4.json` | 100词 | ✅ 完成 |
+| CET-4完整 | `cet4_complete.json` | 500词 | ✅ 完成 |
+| CET-4扩展 | `cet4_extended.json` | 100词 | ✅ 完成 |
+| CET-6 | `cet6.json` | 50词 | ✅ 完成 |
+| CET-6完整 | `cet6_complete.json` | 500词 | ✅ 完成 |
+| TOEFL完整 | `toefl_complete.json` | 300词 | ✅ 完成 |
+| IELTS完整 | `ielts_complete.json` | 300词 | ✅ 完成 |
+| GRE | - | - | 🚧 待生成 |
+
+---
+
+## 🛠️ 词库生成工具
+
+### 工具位置
+```
+tools/vocabulary_generator.py
+```
+
+### 使用方法
+
+#### 1. 安装依赖
+```bash
+# 确保安装了 Python 3.6+
+python3 --version
+```
+
+#### 2. 运行工具
+```bash
+cd tools
+python3 vocabulary_generator.py
+```
+
+#### 3. 可用功能
+
+**选项1: 生成CET4词库 (500词)**
+```python
+# 或使用命令行参数
+python3 vocabulary_generator.py --generate cet4 --count 500
+```
+
+**选项2: 生成CET6词库 (500词)**
+```python
+python3 vocabulary_generator.py --generate cet6 --count 500
+```
+
+**选项3: 合并词库文件**
+```python
+python3 vocabulary_generator.py --merge cet4.json,cet6.json --output merged.json
+```
+
+**选项4: 查看词库统计**
+```python
+python3 vocabulary_generator.py --stats cet4.json
+```
+
+**选项5: 批量生成所有词库**
+```python
+python3 vocabulary_generator.py --all
+```
+
+---
+
+## 📖 词库数据格式
+
+### 单个词汇条目格式
+
+```json
+{
+  "id": "cet4_0001",
+  "word": "abandon",
+  "phonetic": "/əˈbændən/",
+  "definition": "v. 遗弃；放弃",
+  "examples": [
+    "The baby had been abandoned by its mother.",
+    "We had to abandon the car and walk the rest of the way."
+  ],
+  "synonyms": ["leave", "desert", "forsake"],
+  "antonyms": ["keep", "retain", "maintain"],
+  "difficulty": 3,
+  "tags": ["cet4", "verb"],
+  "etymology": "源自古法语 abandoner"
+}
+```
+
+### 字段说明
+
+| 字段 | 类型 | 必需 | 说明 |
+|------|------|------|------|
+| `id` | string | ✅ | 唯一标识符 (格式: `{级别}_{序号}`) |
+| `word` | string | ✅ | 单词 |
+| `phonetic` | string | ✅ | 音标 (IPA格式) |
+| `definition` | string | ✅ | 中文释义 |
+| `examples` | array | ✅ | 例句数组 |
+| `synonyms` | array | ❌ | 同义词数组 |
+| `antonyms` | array | ❌ | 反义词数组 |
+| `difficulty` | int | ✅ | 难度等级 (1-5) |
+| `tags` | array | ✅ | 标签 (必须包含级别和词性) |
+| `etymology` | string | ❌ | 词源信息 |
+
+---
+
+## 🌐 从公开数据源获取词库
+
+### ECDICT 数据源
+
+ECDICT 是一个开源的英汉词典项目，包含丰富的词汇数据。
+
+#### 1. 下载ECDICT数据
+```bash
+# 克隆ECDICT仓库
+git clone https://github.com/skywind3000/ECDICT.git
+
+# 或直接下载CSV文件
+wget https://github.com/skywind3000/ECDICT/raw/master/stardict.csv/ecdict-gui-stardict-1.csv
+```
+
+#### 2. 转换为应用格式
+
+使用提供的转换脚本：
+
+```python
+# tools/ecdict_converter.py
+python ecdict_converter.py \
+    --input ecdict-gui-stardict-1.csv \
+    --output cet4_from_ecdict.json \
+    --level cet4 \
+    --limit 1000
+```
+
+---
+
+## 📊 推荐词库规模
+
+### 最小可用版本
+- CET-4: 500词
+- CET-6: 500词
+- 总计: 1000词
+
+### 推荐版本
+- CET-4: 2000词
+- CET-6: 2000词
+- TOEFL: 1000词
+- 总计: 5000词
+
+### 完整版本
+- CET-4: 4500词
+- CET-6: 6000词
+- TOEFL: 8000词
+- IELTS: 7500词
+- GRE: 12000词
+- 总计: 38000词
+
+---
+
+## ⚡ 性能优化建议
+
+### 1. 分批加载
+```dart
+// 不要一次性加载所有词汇
+// 改为按需加载
+
+final vocabulary = await VocabularyService.loadVocabulary(
+  level: 'cet4',
+  offset: 0,
+  limit: 100,  // 每次只加载100词
+);
+```
+
+### 2. 使用索引
+```json
+// 创建索引文件加速查找
+{
+  "index": {
+    "a": ["cet4_0001", "cet4_0010", ...],
+    "b": ["cet4_0003", "cet4_0015", ...]
+  }
+}
+```
+
+### 3. 缓存常用词
+```dart
+// 缓存高频词
+static const Set<String> HIGH_FREQUENCY_WORDS = {
+  'the', 'be', 'to', 'of', 'and', 'a', 'in', 'that',
+  'have', 'I', 'it', 'for', 'not', 'on', 'with', 'he'
+};
+```
+
+---
+
+## 🔧 自定义词库
+
+### 创建自定义词库步骤
+
+#### 1. 准备词汇列表
+创建一个文本文件 `my_words.txt`:
+```
+apple  n. 苹果  /ˈæpl/
+banana n. 香蕉  /bəˈnɑːnə/
+orange n. 橙子  /ˈɒrɪndʒ/
+```
+
+#### 2. 转换为JSON格式
+```python
+python tools/text_to_json.py \
+    --input my_words.txt \
+    --output my_vocabulary.json \
+    --level custom
+```
+
+#### 3. 添加到应用
+```yaml
+# pubspec.yaml
+flutter:
+  assets:
+    - assets/vocabularies/my_vocabulary.json
+```
+
+---
+
+## 📝 词库质量检查
+
+### 检查脚本
+
+```bash
+# 运行质量检查
+python tools/vocabulary_checker.py cet4.json
+
+# 输出示例:
+✅ 词汇数量: 100
+⚠️  缺少音标: 2
+⚠️  缺少例句: 5
+✅ 格式正确: 100%
+```
+
+### 质量标准
+
+- ✅ 所有单词必须有音标
+- ✅ 所有单词至少有1个例句
+- ✅ 释义准确完整
+- ✅ 难度等级合理
+- ✅ 标签包含词性
+
+---
+
+## 🚀 发布前检查清单
+
+- [ ] 词库文件已添加到 `pubspec.yaml`
+- [ ] 词库格式验证通过
+- [ ] 词汇数量符合要求
+- [ ] 性能测试通过 (加载时间 < 2秒)
+- [ ] 数据完整性检查
+- [ ] 内容审核 (无错误、不当内容)
+
+---
+
+## 📞 技术支持
+
+如有问题，请查看：
+- 项目文档: `README.md`
+- API文档: `lib/shared/services/vocabulary_service.dart`
+- 数据模型: `lib/data/models/word.dart`
+
+---
+
+**最后更新**: 2026-02-28
+**版本**: v1.0.0

@@ -1,0 +1,87 @@
+{
+  "last_updated": "2026-02-28",
+  "total_vocabs": 16,
+  "total_words": 2098,
+  "vocabularies": [
+    {
+      "file": "travel.json",
+      "words": 18,
+      "size_kb": 6.5
+    },
+    {
+      "file": "cet6_complete.json",
+      "words": 500,
+      "size_kb": 161.51
+    },
+    {
+      "file": "nature.json",
+      "words": 21,
+      "size_kb": 7.5
+    },
+    {
+      "file": "daily_life.json",
+      "words": 20,
+      "size_kb": 7.66
+    },
+    {
+      "file": "business.json",
+      "words": 18,
+      "size_kb": 6.6
+    },
+    {
+      "file": "education.json",
+      "words": 17,
+      "size_kb": 6.23
+    },
+    {
+      "file": "health.json",
+      "words": 18,
+      "size_kb": 6.48
+    },
+    {
+      "file": "ielts_complete.json",
+      "words": 300,
+      "size_kb": 97.04
+    },
+    {
+      "file": "cet6.json",
+      "words": 50,
+      "size_kb": 11.74
+    },
+    {
+      "file": "cet4_extended.json",
+      "words": 100,
+      "size_kb": 23.32
+    },
+    {
+      "file": "food.json",
+      "words": 20,
+      "size_kb": 7.08
+    },
+    {
+      "file": "technology.json",
+      "words": 16,
+      "size_kb": 5.99
+    },
+    {
+      "file": "cet4_sample.json",
+      "words": 100,
+      "size_kb": 37.63
+    },
+    {
+      "file": "toefl_complete.json",
+      "words": 300,
+      "size_kb": 97.04
+    },
+    {
+      "file": "cet4.json",
+      "words": 100,
+      "size_kb": 42.31
+    },
+    {
+      "file": "cet4_complete.json",
+      "words": 500,
+      "size_kb": 161.51
+    }
+  ]
+}

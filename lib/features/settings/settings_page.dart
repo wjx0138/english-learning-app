@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../../../core/providers/progress_provider.dart';
 import '../../../shared/services/tts_service.dart';
+import '../../../shared/services/audio_service.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -13,6 +15,22 @@ class SettingsPage extends StatefulWidget {
 
 class _SettingsPageState extends State<SettingsPage> {
   final TTSService _ttsService = TTSService();
+  final AudioService _audioService = AudioService();
+  bool _soundEnabled = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadSoundSettings();
+  }
+
+  Future<void> _loadSoundSettings() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      _soundEnabled = prefs.getBool('sound_enabled') ?? true;
+    });
+    _audioService.setSoundEnabled(_soundEnabled);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -33,6 +51,9 @@ class _SettingsPageState extends State<SettingsPage> {
           const SizedBox(height: 8),
           _buildSectionHeader('语音设置'),
           _buildTTSCard(),
+          const SizedBox(height: 8),
+          _buildSectionHeader('音效设置'),
+          _buildSoundEffectsCard(),
           const SizedBox(height: 8),
           _buildSectionHeader('数据管理'),
           _buildDataManagementCard(),
@@ -165,6 +186,99 @@ class _SettingsPageState extends State<SettingsPage> {
             ),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget _buildSoundEffectsCard() {
+    return Card(
+      margin: const EdgeInsets.symmetric(horizontal: 16),
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                const Icon(
+                  Icons.music_note,
+                  size: 24,
+                ),
+                const SizedBox(width: 16),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        '音效设置',
+                        style: Theme.of(context).textTheme.titleMedium,
+                      ),
+                      Text(
+                        _soundEnabled ? '已开启' : '已关闭',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                              color: Colors.grey[600],
+                            ),
+                      ),
+                    ],
+                  ),
+                ),
+                Switch(
+                  value: _soundEnabled,
+                  onChanged: (value) async {
+                    setState(() {
+                      _soundEnabled = value;
+                    });
+                    _audioService.setSoundEnabled(value);
+                    final prefs = await SharedPreferences.getInstance();
+                    await prefs.setBool('sound_enabled', value);
+
+                    // 播放测试音效
+                    if (value) {
+                      _audioService.playCorrectSound();
+                    }
+
+                    if (mounted) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(value ? '音效已开启' : '音效已关闭'),
+                          duration: const Duration(seconds: 1),
+                        ),
+                      );
+                    }
+                  },
+                ),
+              ],
+            ),
+            const SizedBox(height: 12),
+            const Text(
+              '开启音效后，打字练习、测验等操作会播放反馈音效',
+              style: TextStyle(fontSize: 12, color: Colors.grey),
+            ),
+            const SizedBox(height: 8),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                _buildSoundTestButton('正确音效', () => _audioService.playCorrectSound()),
+                _buildSoundTestButton('错误音效', () => _audioService.playWrongSound()),
+                _buildSoundTestButton('完成音效', () => _audioService.playCompleteSound()),
+                _buildSoundTestButton('成就音效', () => _audioService.playAchievementSound()),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildSoundTestButton(String label, VoidCallback onTap) {
+    return OutlinedButton.icon(
+      onPressed: _soundEnabled ? onTap : null,
+      icon: const Icon(Icons.play_arrow, size: 16),
+      label: Text(label),
+      style: OutlinedButton.styleFrom(
+        foregroundColor: Theme.of(context).colorScheme.primary,
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       ),
     );
   }

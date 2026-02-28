@@ -1,0 +1,693 @@
+{
+  "id": "cet4_001",
+  "name": "CET-4 核心词汇",
+  "description": "大学英语四级核心词汇，覆盖高频考试词汇",
+  "language": "en-US",
+  "targetLanguage": "zh-CN",
+  "wordCount": 50,
+  "level": 2,
+  "category": "exam",
+  "tags": ["CET4", "exam", "college", "essential"],
+  "words": [
+    {
+      "id": "cet4_001",
+      "word": "abandon",
+      "phonetic": "/əˈbændən/",
+      "definition": "v. 遗弃；放弃",
+      "examples": [
+        "The baby had been abandoned by its mother.",
+        "We had to abandon the car and walk the rest of the way."
+      ],
+      "synonyms": ["desert", "leave", "give up"],
+      "antonyms": ["keep", "maintain", "continue"],
+      "difficulty": 2,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_002",
+      "word": "ability",
+      "phonetic": "/əˈbɪləti/",
+      "definition": "n. 能力；本领",
+      "examples": [
+        "He has the ability to solve complex problems.",
+        "She showed great musical ability from an early age."
+      ],
+      "synonyms": ["capability", "skill", "talent"],
+      "antonyms": ["inability", "incapacity"],
+      "difficulty": 1,
+      "tags": ["noun", "common"]
+    },
+    {
+      "id": "cet4_003",
+      "word": "absolute",
+      "phonetic": "/ˈæbsəluːt/",
+      "definition": "adj. 绝对的；完全的",
+      "examples": [
+        "I have absolute confidence in her.",
+        "She was in absolute control of the situation."
+      ],
+      "synonyms": ["complete", "total", "pure"],
+      "antonyms": ["relative", "partial"],
+      "difficulty": 2,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet4_004",
+      "word": "academic",
+      "phonetic": "/ˌækəˈdemɪk/",
+      "definition": "adj. 学术的；学院的",
+      "examples": [
+        "The academic year begins in September.",
+        "She pursued her academic interests at university."
+      ],
+      "synonyms": ["scholarly", "educational"],
+      "antonyms": ["practical", "professional"],
+      "difficulty": 2,
+      "tags": ["adjective", "education"]
+    },
+    {
+      "id": "cet4_005",
+      "word": "accept",
+      "phonetic": "/əkˈsept/",
+      "definition": "v. 接受；同意",
+      "examples": [
+        "She accepted the job offer.",
+        "Please accept my apologies."
+      ],
+      "synonyms": ["approve", "agree to", "take"],
+      "antonyms": ["reject", "refuse", "decline"],
+      "difficulty": 1,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_006",
+      "word": "access",
+      "phonetic": "/ˈækses/",
+      "definition": "n. 接近；通道 v. 存取；访问",
+      "examples": [
+        "Students need access to computers.",
+        "You can access the database from any computer."
+      ],
+      "synonyms": ["entry", "approach", "entrance"],
+      "antonyms": ["exit", "departure"],
+      "difficulty": 2,
+      "tags": ["noun", "verb", "technology"]
+    },
+    {
+      "id": "cet4_007",
+      "word": "accompany",
+      "phonetic": "/əˈkʌmpəni/",
+      "definition": "v. 陪伴；伴奏",
+      "examples": [
+        "May I accompany you to the station?",
+        "The singer was accompanied by a piano."
+      ],
+      "synonyms": ["escort", "attend", "go with"],
+      "antonyms": ["abandon", "leave"],
+      "difficulty": 2,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet4_008",
+      "word": "accomplish",
+      "phonetic": "/əˈkʌmplɪʃ/",
+      "definition": "v. 完成；实现",
+      "examples": [
+        "She accomplished her mission successfully.",
+        "We can accomplish anything if we work together."
+      ],
+      "synonyms": ["achieve", "complete", "fulfill"],
+      "antonyms": ["fail", "abandon"],
+      "difficulty": 2,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet4_009",
+      "word": "according",
+      "phonetic": "/əˈkɔːdɪŋ/",
+      "definition": "adv. 按照；根据",
+      "examples": [
+        "Everything went according to plan.",
+        "According to the weather report, it will rain tomorrow."
+      ],
+      "synonyms": ["as per", "in accordance with"],
+      "difficulty": 1,
+      "tags": ["adverb", "common"]
+    },
+    {
+      "id": "cet4_010",
+      "word": "account",
+      "phonetic": "/əˈkaʊnt/",
+      "definition": "n. 账户；描述 v. 说明",
+      "examples": [
+        "I opened a bank account.",
+        "How do you account for the difference?"
+      ],
+      "synonyms": ["description", "report", "explanation"],
+      "difficulty": 1,
+      "tags": ["noun", "verb", "common"]
+    },
+    {
+      "id": "cet4_011",
+      "word": "accurate",
+      "phonetic": "/ˈækjərət/",
+      "definition": "adj. 准确的；精确的",
+      "examples": [
+        "Please give me an accurate report.",
+        "Her description was very accurate."
+      ],
+      "synonyms": ["correct", "precise", "exact"],
+      "antonyms": ["inaccurate", "wrong"],
+      "difficulty": 2,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet4_012",
+      "word": "achieve",
+      "phonetic": "/əˈtʃiːv/",
+      "definition": "v. 实现；达到",
+      "examples": [
+        "She worked hard to achieve her goals.",
+        "You can achieve anything with determination."
+      ],
+      "synonyms": ["accomplish", "attain", "reach"],
+      "antonyms": ["fail", "lose"],
+      "difficulty": 1,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_013",
+      "word": "acquire",
+      "phonetic": "/əˈkwaɪər/",
+      "definition": "v. 获得；学到",
+      "examples": [
+        "She acquired a good knowledge of English.",
+        "The company acquired a smaller business."
+      ],
+      "synonyms": ["get", "obtain", "gain"],
+      "antonyms": ["lose", "give up"],
+      "difficulty": 2,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet4_014",
+      "word": "action",
+      "phonetic": "/ˈækʃn/",
+      "definition": "n. 行动；作用",
+      "examples": [
+        "We need to take action immediately.",
+        "The action of the drug was quick."
+      ],
+      "synonyms": ["activity", "act", "deed"],
+      "antonyms": ["inaction", "inactivity"],
+      "difficulty": 1,
+      "tags": ["noun", "common"]
+    },
+    {
+      "id": "cet4_015",
+      "word": "active",
+      "phonetic": "/ˈæktɪv/",
+      "definition": "adj. 活跃的；积极的",
+      "examples": [
+        "She is very active in sports.",
+        "He takes an active part in class discussions."
+      ],
+      "synonyms": ["energetic", "lively", "dynamic"],
+      "antonyms": ["inactive", "passive"],
+      "difficulty": 1,
+      "tags": ["adjective", "common"]
+    },
+    {
+      "id": "cet4_016",
+      "word": "activity",
+      "phonetic": "/ækˈtɪvəti/",
+      "definition": "n. 活动；活跃",
+      "examples": [
+        "Outdoor activities are good for health.",
+        "There was a lot of activity in the market."
+      ],
+      "synonyms": ["action", "pursuit", "occupation"],
+      "difficulty": 1,
+      "tags": ["noun", "common"]
+    },
+    {
+      "id": "cet4_017",
+      "word": "actual",
+      "phonetic": "/ˈæktʃuəl/",
+      "definition": "adj. 实际的；真实的",
+      "examples": [
+        "The actual cost was higher than expected.",
+        "What were his actual words?"
+      ],
+      "synonyms": ["real", "genuine", "true"],
+      "antonyms": ["imaginary", "false"],
+      "difficulty": 1,
+      "tags": ["adjective", "common"]
+    },
+    {
+      "id": "cet4_018",
+      "word": "adapt",
+      "phonetic": "/əˈdæpt/",
+      "definition": "v. 适应；改编",
+      "examples": [
+        "It took time to adapt to the new environment.",
+        "The movie was adapted from a novel."
+      ],
+      "synonyms": ["adjust", "accommodate", "modify"],
+      "difficulty": 2,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet4_019",
+      "word": "addition",
+      "phonetic": "/əˈdɪʃn/",
+      "definition": "n. 加法；增加",
+      "examples": [
+        "In addition to English, he speaks French.",
+        "The baby is a welcome addition to the family."
+      ],
+      "synonyms": ["supplement", "increase", "extension"],
+      "antonyms": ["subtraction", "reduction"],
+      "difficulty": 1,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_020",
+      "word": "additional",
+      "phonetic": "/əˈdɪʃənl/",
+      "definition": "adj. 附加的；额外的",
+      "examples": [
+        "There will be an additional charge for delivery.",
+        "We need additional information."
+      ],
+      "synonyms": ["extra", "supplementary", "added"],
+      "difficulty": 2,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet4_021",
+      "word": "address",
+      "phonetic": "/əˈdres/",
+      "definition": "n. 地址；演讲 v. 致函；处理",
+      "examples": [
+        "What is your email address?",
+        "The president will address the nation tonight."
+      ],
+      "synonyms": ["speech", "talk", "handle"],
+      "difficulty": 1,
+      "tags": ["noun", "verb", "common"]
+    },
+    {
+      "id": "cet4_022",
+      "word": "adequate",
+      "phonetic": "/ˈædɪkwət/",
+      "definition": "adj. 足够的；适当的",
+      "examples": [
+        "Is your salary adequate to support your family?",
+        "Her performance was adequate but not outstanding."
+      ],
+      "synonyms": ["sufficient", "enough", "satisfactory"],
+      "antonyms": ["inadequate", "insufficient"],
+      "difficulty": 2,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet4_023",
+      "word": "adjust",
+      "phonetic": "/əˈdʒʌst/",
+      "definition": "v. 调整；适应",
+      "examples": [
+        "You can adjust the height of the chair.",
+        "It took time to adjust to life in a new city."
+      ],
+      "synonyms": ["adapt", "modify", "alter"],
+      "difficulty": 1,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_024",
+      "word": "administration",
+      "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
+      "definition": "n. 管理；行政",
+      "examples": [
+        "The administration of the hospital is efficient.",
+        "He works in public administration."
+      ],
+      "synonyms": ["management", "control", "government"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_025",
+      "word": "admire",
+      "phonetic": "/ədˈmaɪər/",
+      "definition": "v. 钦佩；欣赏",
+      "examples": [
+        "I admire your courage.",
+        "We stopped to admire the view."
+      ],
+      "synonyms": ["respect", "appreciate", "praise"],
+      "antonyms": ["despise", "criticize"],
+      "difficulty": 2,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet4_026",
+      "word": "admit",
+      "phonetic": "/ədˈmɪt/",
+      "definition": "v. 承认；准许进入",
+      "examples": [
+        "He admitted his mistake.",
+        "This ticket admits one person."
+      ],
+      "synonyms": ["acknowledge", "confess", "allow entry"],
+      "antonyms": ["deny", "reject"],
+      "difficulty": 2,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_027",
+      "word": "adopt",
+      "phonetic": "/əˈdɒpt/",
+      "definition": "v. 采用；收养",
+      "examples": [
+        "The committee adopted his proposal.",
+        "They decided to adopt a child."
+      ],
+      "synonyms": ["accept", "embrace", "take on"],
+      "antonyms": ["reject", "abandon"],
+      "difficulty": 2,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet4_028",
+      "word": "adult",
+      "phonetic": "/ˈædʌlt/",
+      "definition": "n. 成年人 adj. 成年的",
+      "examples": [
+        "This movie is suitable for adults only.",
+        "He spent his adult life in London."
+      ],
+      "synonyms": ["grown-up", "mature"],
+      "antonyms": ["child", "juvenile"],
+      "difficulty": 1,
+      "tags": ["noun", "adjective", "common"]
+    },
+    {
+      "id": "cet4_029",
+      "word": "advance",
+      "phonetic": "/ədˈvɑːns/",
+      "definition": "v. 前进；提高 n. 进展",
+      "examples": [
+        "Technology continues to advance rapidly.",
+        "We made great advances in medicine."
+      ],
+      "synonyms": ["progress", "move forward", "improve"],
+      "antonyms": ["retreat", "decline"],
+      "difficulty": 2,
+      "tags": ["verb", "noun", "common"]
+    },
+    {
+      "id": "cet4_030",
+      "word": "advanced",
+      "phonetic": "/ədˈvɑːnst/",
+      "definition": "adj. 高级的；先进的",
+      "examples": [
+        "This is an advanced course.",
+        "The country has advanced technology."
+      ],
+      "synonyms": ["sophisticated", "progressive", "superior"],
+      "antonyms": ["basic", "elementary"],
+      "difficulty": 2,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet4_031",
+      "word": "advantage",
+      "phonetic": "/ədˈvɑːntɪdʒ/",
+      "definition": "n. 优势；利益",
+      "examples": [
+        "Her experience gave her a big advantage.",
+        "What are the advantages of this method?"
+      ],
+      "synonyms": ["benefit", "strength", "asset"],
+      "antonyms": ["disadvantage", "drawback"],
+      "difficulty": 1,
+      "tags": ["noun", "common"]
+    },
+    {
+      "id": "cet4_032",
+      "word": "adventure",
+      "phonetic": "/ədˈventʃər/",
+      "definition": "n. 冒险；奇遇",
+      "examples": [
+        "They went on a great adventure.",
+        "Life is full of adventure."
+      ],
+      "synonyms": ["journey", "expedition", "quest"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_033",
+      "word": "advertise",
+      "phonetic": "/ˈædvətaɪz/",
+      "definition": "v. 做广告；宣传",
+      "examples": [
+        "Companies advertise their products on TV.",
+        "They are advertising for a new manager."
+      ],
+      "synonyms": ["promote", "publicize", "market"],
+      "difficulty": 2,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet4_034",
+      "word": "advertisement",
+      "phonetic": "/ədˈvɜːtɪsmənt/",
+      "definition": "n. 广告",
+      "examples": [
+        "I saw an advertisement for the job.",
+        "Television advertisements are expensive."
+      ],
+      "synonyms": ["ad", "commercial", "notice"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_035",
+      "word": "advice",
+      "phonetic": "/ədˈvaɪs/",
+      "definition": "n. 建议；忠告",
+      "examples": [
+        "Can you give me some advice?",
+        "Thank you for your good advice."
+      ],
+      "synonyms": ["recommendation", "suggestion", "counsel"],
+      "difficulty": 1,
+      "tags": ["noun", "common"]
+    },
+    {
+      "id": "cet4_036",
+      "word": "advise",
+      "phonetic": "/ədˈvaɪz/",
+      "definition": "v. 建议；劝告",
+      "examples": [
+        "I advise you to be careful.",
+        "The doctor advised him to quit smoking."
+      ],
+      "synonyms": ["recommend", "counsel", "suggest"],
+      "difficulty": 1,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_037",
+      "word": "affair",
+      "phonetic": "/əˈfeər/",
+      "definition": "n. 事情；事务",
+      "examples": [
+        "Mind your own affairs.",
+        "The scandal became a public affair."
+      ],
+      "synonyms": ["matter", "business", "event"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_038",
+      "word": "affect",
+      "phonetic": "/əˈfekt/",
+      "definition": "v. 影响；感动",
+      "examples": [
+        "Smoking affects your health.",
+        "The sad movie affected everyone deeply."
+      ],
+      "synonyms": ["influence", "impact", "change"],
+      "difficulty": 2,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_039",
+      "word": "affection",
+      "phonetic": "/əˈfekʃn/",
+      "definition": "n. 喜爱；感情",
+      "examples": [
+        "He has great affection for his children.",
+        "Her eyes showed deep affection."
+      ],
+      "synonyms": ["love", "fondness", "attachment"],
+      "antonyms": ["hate", "dislike"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_040",
+      "word": "afford",
+      "phonetic": "/əˈfɔːd/",
+      "definition": "v. 买得起；承担",
+      "examples": [
+        "I can't afford a new car.",
+        "We can't afford to wait any longer."
+      ],
+      "synonyms": ["bear", "manage", "sustain"],
+      "antonyms": ["refuse", "reject"],
+      "difficulty": 2,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_041",
+      "word": "afraid",
+      "phonetic": "/əˈfreɪd/",
+      "definition": "adj. 害怕的；担心的",
+      "examples": [
+        "Don't be afraid of the dark.",
+        "I'm afraid I can't help you."
+      ],
+      "synonyms": ["scared", "frightened", "fearful"],
+      "antonyms": ["brave", "fearless"],
+      "difficulty": 1,
+      "tags": ["adjective", "common"]
+    },
+    {
+      "id": "cet4_042",
+      "word": "agency",
+      "phonetic": "/ˈeɪdʒənsi/",
+      "definition": "n. 代理处；机构",
+      "examples": [
+        "She works for a travel agency.",
+        "The news agency reported the story."
+      ],
+      "synonyms": ["organization", "bureau", "office"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_043",
+      "word": "agenda",
+      "phonetic": "/əˈdʒendə/",
+      "definition": "n. 议程；日程",
+      "examples": [
+        "What's on the agenda for today?",
+        "We need to stick to the agenda."
+      ],
+      "synonyms": ["schedule", "program", "itinerary"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_044",
+      "word": "agent",
+      "phonetic": "/ˈeɪdʒənt/",
+      "definition": "n. 代理人；特工",
+      "examples": [
+        "My insurance agent helped me.",
+        "He works as a secret agent."
+      ],
+      "synonyms": ["representative", "delegate", "broker"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_045",
+      "word": "aggressive",
+      "phonetic": "/əˈɡresɪv/",
+      "definition": "adj. 侵略性的；有进取心的",
+      "examples": [
+        "He has an aggressive personality.",
+        "The company took aggressive measures."
+      ],
+      "synonyms": ["forceful", "assertive", "competitive"],
+      "antonyms": ["gentle", "passive"],
+      "difficulty": 3,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet4_046",
+      "word": "ago",
+      "phonetic": "/əˈɡəʊ/",
+      "definition": "adv. 以前",
+      "examples": [
+        "I met him two years ago.",
+        "The accident happened a long time ago."
+      ],
+      "synonyms": ["before", "back", "since"],
+      "difficulty": 1,
+      "tags": ["adverb", "common"]
+    },
+    {
+      "id": "cet4_047",
+      "word": "agree",
+      "phonetic": "/əˈɡriː/",
+      "definition": "v. 同意；赞同",
+      "examples": [
+        "I agree with your opinion.",
+        "They couldn't agree on a price."
+      ],
+      "synonyms": ["consent", "approve", "accept"],
+      "antonyms": ["disagree", "object"],
+      "difficulty": 1,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet4_048",
+      "word": "agreement",
+      "phonetic": "/əˈɡriːmənt/",
+      "definition": "n. 协议；同意",
+      "examples": [
+        "They signed a trade agreement.",
+        "We reached an agreement at last."
+      ],
+      "synonyms": ["contract", "deal", "understanding"],
+      "antonyms": ["disagreement", "conflict"],
+      "difficulty": 1,
+      "tags": ["noun", "common"]
+    },
+    {
+      "id": "cet4_049",
+      "word": "agriculture",
+      "phonetic": "/ˈæɡrɪkʌltʃər/",
+      "definition": "n. 农业；农学",
+      "examples": [
+        "The country's economy depends on agriculture.",
+        "Modern agriculture uses advanced technology."
+      ],
+      "synonyms": ["farming", "cultivation"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet4_050",
+      "word": "ahead",
+      "phonetic": "/əˈhed/",
+      "definition": "adv. 在前面；向前",
+      "examples": [
+        "Go straight ahead.",
+        "We have a long day ahead of us."
+      ],
+      "synonyms": ["forward", "onward", "in front"],
+      "antonyms": ["behind", "back"],
+      "difficulty": 1,
+      "tags": ["adverb", "common"]
+    }
+  ]
+}

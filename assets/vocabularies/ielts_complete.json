@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "ielts_0001",
+    "word": "able",
+    "phonetic": "/ˈeɪbl/",
+    "definition": "adj. 能够的",
+    "examples": [
+      "Usage example for 'able'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for able"
+  },
+  {
+    "id": "ielts_0002",
+    "word": "about",
+    "phonetic": "/əˈbaʊt/",
+    "definition": "prep. 关于",
+    "examples": [
+      "Usage example for 'about'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for about"
+  },
+  {
+    "id": "ielts_0003",
+    "word": "above",
+    "phonetic": "/əˈbʌv/",
+    "definition": "prep./adv. 在...上面",
+    "examples": [
+      "Usage example for 'above'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for above"
+  },
+  {
+    "id": "ielts_0004",
+    "word": "accept",
+    "phonetic": "/əkˈsept/",
+    "definition": "v. 接受",
+    "examples": [
+      "Usage example for 'accept'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for accept"
+  },
+  {
+    "id": "ielts_0005",
+    "word": "across",
+    "phonetic": "/əˈkrɒs/",
+    "definition": "prep./adv. 横过",
+    "examples": [
+      "Usage example for 'across'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for across"
+  },
+  {
+    "id": "ielts_0006",
+    "word": "act",
+    "phonetic": "/ækt/",
+    "definition": "v. 行动 n. 行为",
+    "examples": [
+      "Usage example for 'act'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for act"
+  },
+  {
+    "id": "ielts_0007",
+    "word": "action",
+    "phonetic": "/ˈækʃn/",
+    "definition": "n. 行动",
+    "examples": [
+      "Usage example for 'action'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for action"
+  },
+  {
+    "id": "ielts_0008",
+    "word": "active",
+    "phonetic": "/ˈæktɪv/",
+    "definition": "adj. 活跃的",
+    "examples": [
+      "Usage example for 'active'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for active"
+  },
+  {
+    "id": "ielts_0009",
+    "word": "activity",
+    "phonetic": "/ækˈtɪvəti/",
+    "definition": "n. 活动",
+    "examples": [
+      "Usage example for 'activity'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for activity"
+  },
+  {
+    "id": "ielts_0010",
+    "word": "actual",
+    "phonetic": "/ˈæktʃuəl/",
+    "definition": "adj. 实际的",
+    "examples": [
+      "Usage example for 'actual'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for actual"
+  },
+  {
+    "id": "ielts_0011",
+    "word": "add",
+    "phonetic": "/æd/",
+    "definition": "v. 增加",
+    "examples": [
+      "Usage example for 'add'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for add"
+  },
+  {
+    "id": "ielts_0012",
+    "word": "addition",
+    "phonetic": "/əˈdɪʃn/",
+    "definition": "n. 加法",
+    "examples": [
+      "Usage example for 'addition'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for addition"
+  },
+  {
+    "id": "ielts_0013",
+    "word": "additional",
+    "phonetic": "/əˈdɪʃənl/",
+    "definition": "adj. 额外的",
+    "examples": [
+      "Usage example for 'additional'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for additional"
+  },
+  {
+    "id": "ielts_0014",
+    "word": "address",
+    "phonetic": "/əˈdres/",
+    "definition": "n. 地址",
+    "examples": [
+      "Usage example for 'address'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for address"
+  },
+  {
+    "id": "ielts_0015",
+    "word": "adjust",
+    "phonetic": "/əˈdʒʌst/",
+    "definition": "v. 调整",
+    "examples": [
+      "Usage example for 'adjust'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for adjust"
+  },
+  {
+    "id": "ielts_0016",
+    "word": "administration",
+    "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
+    "definition": "n. 管理",
+    "examples": [
+      "Usage example for 'administration'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for administration"
+  },
+  {
+    "id": "ielts_0017",
+    "word": "admire",
+    "phonetic": "/ədˈmaɪər/",
+    "definition": "v. 钦佩",
+    "examples": [
+      "Usage example for 'admire'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for admire"
+  },
+  {
+    "id": "ielts_0018",
+    "word": "admit",
+    "phonetic": "/ədˈmɪt/",
+    "definition": "v. 承认",
+    "examples": [
+      "Usage example for 'admit'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for admit"
+  },
+  {
+    "id": "ielts_0019",
+    "word": "adopt",
+    "phonetic": "/əˈdɒpt/",
+    "definition": "v. 收养",
+    "examples": [
+      "Usage example for 'adopt'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for adopt"
+  },
+  {
+    "id": "ielts_0020",
+    "word": "adult",
+    "phonetic": "/ˈædʌlt/",
+    "definition": "n. 成年人",
+    "examples": [
+      "Usage example for 'adult'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for adult"
+  },
+  {
+    "id": "ielts_0021",
+    "word": "advance",
+    "phonetic": "/ədˈvɑːns/",
+    "definition": "v. 前进",
+    "examples": [
+      "Usage example for 'advance'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for advance"
+  },
+  {
+    "id": "ielts_0022",
+    "word": "advantage",
+    "phonetic": "/ədˈvɑːntɪdʒ/",
+    "definition": "n. 优势",
+    "examples": [
+      "Usage example for 'advantage'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for advantage"
+  },
+  {
+    "id": "ielts_0023",
+    "word": "adventure",
+    "phonetic": "/ədˈventʃər/",
+    "definition": "n. 冒险",
+    "examples": [
+      "Usage example for 'adventure'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for adventure"
+  },
+  {
+    "id": "ielts_0024",
+    "word": "advertise",
+    "phonetic": "/ˈædvətaɪz/",
+    "definition": "v. 做广告",
+    "examples": [
+      "Usage example for 'advertise'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for advertise"
+  },
+  {
+    "id": "ielts_0025",
+    "word": "advice",
+    "phonetic": "/ədˈvaɪs/",
+    "definition": "n. 建议",
+    "examples": [
+      "Usage example for 'advice'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for advice"
+  },
+  {
+    "id": "ielts_0026",
+    "word": "affect",
+    "phonetic": "/əˈfekt/",
+    "definition": "v. 影响",
+    "examples": [
+      "Usage example for 'affect'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for affect"
+  },
+  {
+    "id": "ielts_0027",
+    "word": "afford",
+    "phonetic": "/əˈfɔːd/",
+    "definition": "v. 买得起",
+    "examples": [
+      "Usage example for 'afford'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for afford"
+  },
+  {
+    "id": "ielts_0028",
+    "word": "afraid",
+    "phonetic": "/əˈfreɪd/",
+    "definition": "adj. 害怕的",
+    "examples": [
+      "Usage example for 'afraid'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for afraid"
+  },
+  {
+    "id": "ielts_0029",
+    "word": "after",
+    "phonetic": "/ˈɑːftər/",
+    "definition": "prep./conj. 在...后",
+    "examples": [
+      "Usage example for 'after'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for after"
+  },
+  {
+    "id": "ielts_0030",
+    "word": "afternoon",
+    "phonetic": "/ˌɑːftəˈnuːn/",
+    "definition": "n. 下午",
+    "examples": [
+      "Usage example for 'afternoon'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for afternoon"
+  },
+  {
+    "id": "ielts_0031",
+    "word": "again",
+    "phonetic": "/əˈɡen/",
+    "definition": "adv. 再次",
+    "examples": [
+      "Usage example for 'again'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for again"
+  },
+  {
+    "id": "ielts_0032",
+    "word": "against",
+    "phonetic": "/əˈɡenst/",
+    "definition": "prep. 反对",
+    "examples": [
+      "Usage example for 'against'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for against"
+  },
+  {
+    "id": "ielts_0033",
+    "word": "age",
+    "phonetic": "/eɪdʒ/",
+    "definition": "n. 年龄 v. 变老",
+    "examples": [
+      "Usage example for 'age'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for age"
+  },
+  {
+    "id": "ielts_0034",
+    "word": "agency",
+    "phonetic": "/ˈeɪdʒənsi/",
+    "definition": "n. 代理处",
+    "examples": [
+      "Usage example for 'agency'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for agency"
+  },
+  {
+    "id": "ielts_0035",
+    "word": "agenda",
+    "phonetic": "/əˈdʒendə/",
+    "definition": "n. 议程",
+    "examples": [
+      "Usage example for 'agenda'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for agenda"
+  },
+  {
+    "id": "ielts_0036",
+    "word": "agent",
+    "phonetic": "/ˈeɪdʒənt/",
+    "definition": "n. 代理人",
+    "examples": [
+      "Usage example for 'agent'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for agent"
+  },
+  {
+    "id": "ielts_0037",
+    "word": "aggressive",
+    "phonetic": "/əˈɡresɪv/",
+    "definition": "adj. 侵略的",
+    "examples": [
+      "Usage example for 'aggressive'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for aggressive"
+  },
+  {
+    "id": "ielts_0038",
+    "word": "ago",
+    "phonetic": "/əˈɡəʊ/",
+    "definition": "adv. 以前",
+    "examples": [
+      "Usage example for 'ago'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for ago"
+  },
+  {
+    "id": "ielts_0039",
+    "word": "agree",
+    "phonetic": "/əˈɡriː/",
+    "definition": "v. 同意",
+    "examples": [
+      "Usage example for 'agree'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for agree"
+  },
+  {
+    "id": "ielts_0040",
+    "word": "agreement",
+    "phonetic": "/əˈɡriːmənt/",
+    "definition": "n. 协议",
+    "examples": [
+      "Usage example for 'agreement'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for agreement"
+  },
+  {
+    "id": "ielts_0041",
+    "word": "agriculture",
+    "phonetic": "/ˈæɡrɪkʌltʃər/",
+    "definition": "n. 农业",
+    "examples": [
+      "Usage example for 'agriculture'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for agriculture"
+  },
+  {
+    "id": "ielts_0042",
+    "word": "ahead",
+    "phonetic": "/əˈhed/",
+    "definition": "adv. 在前面",
+    "examples": [
+      "Usage example for 'ahead'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for ahead"
+  },
+  {
+    "id": "ielts_0043",
+    "word": "aid",
+    "phonetic": "/eɪd/",
+    "definition": "n. 援助",
+    "examples": [
+      "Usage example for 'aid'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for aid"
+  },
+  {
+    "id": "ielts_0044",
+    "word": "aim",
+    "phonetic": "/eɪm/",
+    "definition": "n. 目标 v. 瞄准",
+    "examples": [
+      "Usage example for 'aim'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for aim"
+  },
+  {
+    "id": "ielts_0045",
+    "word": "air",
+    "phonetic": "/eər/",
+    "definition": "n. 空气",
+    "examples": [
+      "Usage example for 'air'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for air"
+  },
+  {
+    "id": "ielts_0046",
+    "word": "aircraft",
+    "phonetic": "/ˈeəkrɑːft/",
+    "definition": "n. 飞机",
+    "examples": [
+      "Usage example for 'aircraft'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for aircraft"
+  },
+  {
+    "id": "ielts_0047",
+    "word": "airline",
+    "phonetic": "/ˈeəlaɪn/",
+    "definition": "n. 航空公司",
+    "examples": [
+      "Usage example for 'airline'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for airline"
+  },
+  {
+    "id": "ielts_0048",
+    "word": "airport",
+    "phonetic": "/ˈeərpɔːt/",
+    "definition": "n. 机场",
+    "examples": [
+      "Usage example for 'airport'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for airport"
+  },
+  {
+    "id": "ielts_0049",
+    "word": "alarm",
+    "phonetic": "/əˈlɑːm/",
+    "definition": "n. 警报",
+    "examples": [
+      "Usage example for 'alarm'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for alarm"
+  },
+  {
+    "id": "ielts_0050",
+    "word": "album",
+    "phonetic": "/ˈælbəm/",
+    "definition": "n. 专辑",
+    "examples": [
+      "Usage example for 'album'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for album"
+  },
+  {
+    "id": "ielts_0051",
+    "word": "alcohol",
+    "phonetic": "/ˈælkəhɒl/",
+    "definition": "n. 酒精",
+    "examples": [
+      "Usage example for 'alcohol'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for alcohol"
+  },
+  {
+    "id": "ielts_0052",
+    "word": "alert",
+    "phonetic": "/əˈlɜːt/",
+    "definition": "adj. 警觉的",
+    "examples": [
+      "Usage example for 'alert'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for alert"
+  },
+  {
+    "id": "ielts_0053",
+    "word": "alien",
+    "phonetic": "/ˈeɪliən/",
+    "definition": "n. 外星人",
+    "examples": [
+      "Usage example for 'alien'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for alien"
+  },
+  {
+    "id": "ielts_0054",
+    "word": "align",
+    "phonetic": "/əˈlaɪn/",
+    "definition": "v. 排列",
+    "examples": [
+      "Usage example for 'align'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for align"
+  },
+  {
+    "id": "ielts_0055",
+    "word": "alike",
+    "phonetic": "/əˈlaɪk/",
+    "definition": "adj. 相似的",
+    "examples": [
+      "Usage example for 'alike'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for alike"
+  },
+  {
+    "id": "ielts_0056",
+    "word": "alive",
+    "phonetic": "/əˈlaɪv/",
+    "definition": "adj. 活着的",
+    "examples": [
+      "Usage example for 'alive'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for alive"
+  },
+  {
+    "id": "ielts_0057",
+    "word": "all",
+    "phonetic": "/ɔːl/",
+    "definition": "adj. 所有的",
+    "examples": [
+      "Usage example for 'all'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for all"
+  },
+  {
+    "id": "ielts_0058",
+    "word": "allocate",
+    "phonetic": "/ˈæləkeɪt/",
+    "definition": "v. 分配",
+    "examples": [
+      "Usage example for 'allocate'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for allocate"
+  },
+  {
+    "id": "ielts_0059",
+    "word": "allow",
+    "phonetic": "/əˈlaʊ/",
+    "definition": "v. 允许",
+    "examples": [
+      "Usage example for 'allow'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for allow"
+  },
+  {
+    "id": "ielts_0060",
+    "word": "ally",
+    "phonetic": "/ˈælaɪ/",
+    "definition": "n. 同盟",
+    "examples": [
+      "Usage example for 'ally'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for ally"
+  },
+  {
+    "id": "ielts_0061",
+    "word": "almost",
+    "phonetic": "/ˈɔːlməʊst/",
+    "definition": "adv. 几乎",
+    "examples": [
+      "Usage example for 'almost'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for almost"
+  },
+  {
+    "id": "ielts_0062",
+    "word": "alone",
+    "phonetic": "/əˈləʊn/",
+    "definition": "adj. 单独的",
+    "examples": [
+      "Usage example for 'alone'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for alone"
+  },
+  {
+    "id": "ielts_0063",
+    "word": "along",
+    "phonetic": "/əˈlɒŋ/",
+    "definition": "adv. 沿着",
+    "examples": [
+      "Usage example for 'along'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for along"
+  },
+  {
+    "id": "ielts_0064",
+    "word": "already",
+    "phonetic": "/ɔːlˈredi/",
+    "definition": "adv. 已经",
+    "examples": [
+      "Usage example for 'already'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for already"
+  },
+  {
+    "id": "ielts_0065",
+    "word": "also",
+    "phonetic": "/ˈɔːlsəʊ/",
+    "definition": "adv. 也",
+    "examples": [
+      "Usage example for 'also'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for also"
+  },
+  {
+    "id": "ielts_0066",
+    "word": "alter",
+    "phonetic": "/ˈɔːltər/",
+    "definition": "v. 改变",
+    "examples": [
+      "Usage example for 'alter'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for alter"
+  },
+  {
+    "id": "ielts_0067",
+    "word": "alternative",
+    "phonetic": "/ɔːlˈtɜːnətɪv/",
+    "definition": "adj. 供选择的",
+    "examples": [
+      "Usage example for 'alternative'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for alternative"
+  },
+  {
+    "id": "ielts_0068",
+    "word": "although",
+    "phonetic": "/ɔːlˈðəʊ/",
+    "definition": "conj. 虽然",
+    "examples": [
+      "Usage example for 'although'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for although"
+  },
+  {
+    "id": "ielts_0069",
+    "word": "always",
+    "phonetic": "/ˈɔːlweɪz/",
+    "definition": "adv. 总是",
+    "examples": [
+      "Usage example for 'always'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for always"
+  },
+  {
+    "id": "ielts_0070",
+    "word": "amazing",
+    "phonetic": "/əˈmeɪzɪŋ/",
+    "definition": "adj. 令人惊讶的",
+    "examples": [
+      "Usage example for 'amazing'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for amazing"
+  },
+  {
+    "id": "ielts_0071",
+    "word": "ambition",
+    "phonetic": "/æmˈbɪʃn/",
+    "definition": "n. 野心",
+    "examples": [
+      "Usage example for 'ambition'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for ambition"
+  },
+  {
+    "id": "ielts_0072",
+    "word": "among",
+    "phonetic": "/əˈmʌŋ/",
+    "definition": "prep. 在...之中",
+    "examples": [
+      "Usage example for 'among'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for among"
+  },
+  {
+    "id": "ielts_0073",
+    "word": "amount",
+    "phonetic": "/əˈmaʊnt/",
+    "definition": "n. 数量",
+    "examples": [
+      "Usage example for 'amount'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for amount"
+  },
+  {
+    "id": "ielts_0074",
+    "word": "amuse",
+    "phonetic": "/əˈmjuːz/",
+    "definition": "v. 使娱乐",
+    "examples": [
+      "Usage example for 'amuse'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for amuse"
+  },
+  {
+    "id": "ielts_0075",
+    "word": "analyse",
+    "phonetic": "/ˈænəlaɪz/",
+    "definition": "v. 分析",
+    "examples": [
+      "Usage example for 'analyse'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for analyse"
+  },
+  {
+    "id": "ielts_0076",
+    "word": "analysis",
+    "phonetic": "/əˈnæləsɪs/",
+    "definition": "n. 分析",
+    "examples": [
+      "Usage example for 'analysis'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for analysis"
+  },
+  {
+    "id": "ielts_0077",
+    "word": "analyze",
+    "phonetic": "/ˈænəlaɪz/",
+    "definition": "v. 分析",
+    "examples": [
+      "Usage example for 'analyze'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for analyze"
+  },
+  {
+    "id": "ielts_0078",
+    "word": "ancient",
+    "phonetic": "/ˈeɪnʃənt/",
+    "definition": "adj. 古代的",
+    "examples": [
+      "Usage example for 'ancient'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for ancient"
+  },
+  {
+    "id": "ielts_0079",
+    "word": "anger",
+    "phonetic": "/ˈæŋɡər/",
+    "definition": "n. 愤怒",
+    "examples": [
+      "Usage example for 'anger'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for anger"
+  },
+  {
+    "id": "ielts_0080",
+    "word": "angle",
+    "phonetic": "/ˈæŋɡl/",
+    "definition": "n. 角",
+    "examples": [
+      "Usage example for 'angle'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for angle"
+  },
+  {
+    "id": "ielts_0081",
+    "word": "angry",
+    "phonetic": "/ˈæŋɡri/",
+    "definition": "adj. 生气的",
+    "examples": [
+      "Usage example for 'angry'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for angry"
+  },
+  {
+    "id": "ielts_0082",
+    "word": "animal",
+    "phonetic": "/ˈænɪml/",
+    "definition": "n. 动物",
+    "examples": [
+      "Usage example for 'animal'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for animal"
+  },
+  {
+    "id": "ielts_0083",
+    "word": "announce",
+    "phonetic": "/əˈnaʊns/",
+    "definition": "v. 宣布",
+    "examples": [
+      "Usage example for 'announce'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for announce"
+  },
+  {
+    "id": "ielts_0084",
+    "word": "annual",
+    "phonetic": "/ˈænjuəl/",
+    "definition": "adj. 每年的",
+    "examples": [
+      "Usage example for 'annual'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for annual"
+  },
+  {
+    "id": "ielts_0085",
+    "word": "another",
+    "phonetic": "/əˈnʌðər/",
+    "definition": "adj. 另一个",
+    "examples": [
+      "Usage example for 'another'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for another"
+  },
+  {
+    "id": "ielts_0086",
+    "word": "answer",
+    "phonetic": "/ˈɑːnsər/",
+    "definition": "n. 答案",
+    "examples": [
+      "Usage example for 'answer'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for answer"
+  },
+  {
+    "id": "ielts_0087",
+    "word": "anticipate",
+    "phonetic": "/ænˈtɪsɪpeɪt/",
+    "definition": "v. 预期",
+    "examples": [
+      "Usage example for 'anticipate'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for anticipate"
+  },
+  {
+    "id": "ielts_0088",
+    "word": "anxiety",
+    "phonetic": "/æŋˈzaɪəti/",
+    "definition": "n. 焦虑",
+    "examples": [
+      "Usage example for 'anxiety'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for anxiety"
+  },
+  {
+    "id": "ielts_0089",
+    "word": "anxious",
+    "phonetic": "/ˈæŋkʃəs/",
+    "definition": "adj. 焦虑的",
+    "examples": [
+      "Usage example for 'anxious'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for anxious"
+  },
+  {
+    "id": "ielts_0090",
+    "word": "any",
+    "phonetic": "/ˈeni/",
+    "definition": "adj. 任何的",
+    "examples": [
+      "Usage example for 'any'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for any"
+  },
+  {
+    "id": "ielts_0091",
+    "word": "anyone",
+    "phonetic": "/ˈeniwʌn/",
+    "definition": "pron. 任何人",
+    "examples": [
+      "Usage example for 'anyone'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for anyone"
+  },
+  {
+    "id": "ielts_0092",
+    "word": "anything",
+    "phonetic": "/ˈeniθɪŋ/",
+    "definition": "pron. 任何事物",
+    "examples": [
+      "Usage example for 'anything'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for anything"
+  },
+  {
+    "id": "ielts_0093",
+    "word": "anywhere",
+    "phonetic": "/ˈeniweər/",
+    "definition": "adv. 任何地方",
+    "examples": [
+      "Usage example for 'anywhere'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for anywhere"
+  },
+  {
+    "id": "ielts_0094",
+    "word": "apart",
+    "phonetic": "/əˈpɑːt/",
+    "definition": "adv. 分开",
+    "examples": [
+      "Usage example for 'apart'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for apart"
+  },
+  {
+    "id": "ielts_0095",
+    "word": "apartment",
+    "phonetic": "/əˈpɑːtmənt/",
+    "definition": "n. 公寓",
+    "examples": [
+      "Usage example for 'apartment'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for apartment"
+  },
+  {
+    "id": "ielts_0096",
+    "word": "apologize",
+    "phonetic": "/əˈpɒlədʒaɪz/",
+    "definition": "v. 道歉",
+    "examples": [
+      "Usage example for 'apologize'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for apologize"
+  },
+  {
+    "id": "ielts_0097",
+    "word": "apparent",
+    "phonetic": "/əˈpærənt/",
+    "definition": "adj. 明显的",
+    "examples": [
+      "Usage example for 'apparent'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for apparent"
+  },
+  {
+    "id": "ielts_0098",
+    "word": "appeal",
+    "phonetic": "/əˈpiːl/",
+    "definition": "n. 呼吁 v. 吸引",
+    "examples": [
+      "Usage example for 'appeal'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for appeal"
+  },
+  {
+    "id": "ielts_0099",
+    "word": "appear",
+    "phonetic": "/əˈpɪər/",
+    "definition": "v. 出现",
+    "examples": [
+      "Usage example for 'appear'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for appear"
+  },
+  {
+    "id": "ielts_0100",
+    "word": "appearance",
+    "phonetic": "/əˈpɪərəns/",
+    "definition": "n. 外貌",
+    "examples": [
+      "Usage example for 'appearance'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for appearance"
+  },
+  {
+    "id": "ielts_0101",
+    "word": "apple",
+    "phonetic": "/ˈæpl/",
+    "definition": "n. 苹果",
+    "examples": [
+      "Usage example for 'apple'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for apple"
+  },
+  {
+    "id": "ielts_0102",
+    "word": "application",
+    "phonetic": "/ˌæplɪˈkeɪʃn/",
+    "definition": "n. 申请；应用",
+    "examples": [
+      "Usage example for 'application'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for application"
+  },
+  {
+    "id": "ielts_0103",
+    "word": "apply",
+    "phonetic": "/əˈplaɪ/",
+    "definition": "v. 申请",
+    "examples": [
+      "Usage example for 'apply'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for apply"
+  },
+  {
+    "id": "ielts_0104",
+    "word": "appoint",
+    "phonetic": "/əˈpɔɪnt/",
+    "definition": "v. 任命",
+    "examples": [
+      "Usage example for 'appoint'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for appoint"
+  },
+  {
+    "id": "ielts_0105",
+    "word": "appointment",
+    "phonetic": "/əˈpɔɪntmənt/",
+    "definition": "n. 任命；预约",
+    "examples": [
+      "Usage example for 'appointment'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for appointment"
+  },
+  {
+    "id": "ielts_0106",
+    "word": "appreciate",
+    "phonetic": "/əˈpriːʃieɪt/",
+    "definition": "v. 感激",
+    "examples": [
+      "Usage example for 'appreciate'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for appreciate"
+  },
+  {
+    "id": "ielts_0107",
+    "word": "approach",
+    "phonetic": "/əˈprəʊtʃ/",
+    "definition": "n. 方法 v. 接近",
+    "examples": [
+      "Usage example for 'approach'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for approach"
+  },
+  {
+    "id": "ielts_0108",
+    "word": "appropriate",
+    "phonetic": "/əˈprəʊpriət/",
+    "definition": "adj. 适当的",
+    "examples": [
+      "Usage example for 'appropriate'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for appropriate"
+  },
+  {
+    "id": "ielts_0109",
+    "word": "approval",
+    "phonetic": "/əˈpruːvl/",
+    "definition": "n. 批准",
+    "examples": [
+      "Usage example for 'approval'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for approval"
+  },
+  {
+    "id": "ielts_0110",
+    "word": "approve",
+    "phonetic": "/əˈpruːv/",
+    "definition": "v. 批准",
+    "examples": [
+      "Usage example for 'approve'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for approve"
+  },
+  {
+    "id": "ielts_0111",
+    "word": "approximate",
+    "phonetic": "/əˈprɒksɪmət/",
+    "definition": "adj. 大约的",
+    "examples": [
+      "Usage example for 'approximate'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for approximate"
+  },
+  {
+    "id": "ielts_0112",
+    "word": "arbitrary",
+    "phonetic": "/ˈɑːbɪtrəri/",
+    "definition": "adj. 任意的",
+    "examples": [
+      "Usage example for 'arbitrary'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for arbitrary"
+  },
+  {
+    "id": "ielts_0113",
+    "word": "area",
+    "phonetic": "/ˈeəriə/",
+    "definition": "n. 地区；面积",
+    "examples": [
+      "Usage example for 'area'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for area"
+  },
+  {
+    "id": "ielts_0114",
+    "word": "argue",
+    "phonetic": "/ˈɑːɡjuː/",
+    "definition": "v. 争论",
+    "examples": [
+      "Usage example for 'argue'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for argue"
+  },
+  {
+    "id": "ielts_0115",
+    "word": "argument",
+    "phonetic": "/ˈɑːɡjumənt/",
+    "definition": "n. 论点",
+    "examples": [
+      "Usage example for 'argument'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for argument"
+  },
+  {
+    "id": "ielts_0116",
+    "word": "arise",
+    "phonetic": "/əˈraɪz/",
+    "definition": "v. 出现",
+    "examples": [
+      "Usage example for 'arise'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for arise"
+  },
+  {
+    "id": "ielts_0117",
+    "word": "arm",
+    "phonetic": "/ɑːm/",
+    "definition": "n. 手臂",
+    "examples": [
+      "Usage example for 'arm'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for arm"
+  },
+  {
+    "id": "ielts_0118",
+    "word": "army",
+    "phonetic": "/ˈɑːmi/",
+    "definition": "n. 军队",
+    "examples": [
+      "Usage example for 'army'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for army"
+  },
+  {
+    "id": "ielts_0119",
+    "word": "around",
+    "phonetic": "/əˈraʊnd/",
+    "definition": "prep./adv. 围绕",
+    "examples": [
+      "Usage example for 'around'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for around"
+  },
+  {
+    "id": "ielts_0120",
+    "word": "arrange",
+    "phonetic": "/əˈreɪndʒ/",
+    "definition": "v. 安排",
+    "examples": [
+      "Usage example for 'arrange'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for arrange"
+  },
+  {
+    "id": "ielts_0121",
+    "word": "arrest",
+    "phonetic": "/əˈrest/",
+    "definition": "v. 逮捕",
+    "examples": [
+      "Usage example for 'arrest'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for arrest"
+  },
+  {
+    "id": "ielts_0122",
+    "word": "arrival",
+    "phonetic": "/əˈraɪvl/",
+    "definition": "n. 到达",
+    "examples": [
+      "Usage example for 'arrival'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for arrival"
+  },
+  {
+    "id": "ielts_0123",
+    "word": "arrive",
+    "phonetic": "/əˈraɪv/",
+    "definition": "v. 到达",
+    "examples": [
+      "Usage example for 'arrive'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for arrive"
+  },
+  {
+    "id": "ielts_0124",
+    "word": "arrow",
+    "phonetic": "/ˈærəʊ/",
+    "definition": "n. 箭",
+    "examples": [
+      "Usage example for 'arrow'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for arrow"
+  },
+  {
+    "id": "ielts_0125",
+    "word": "art",
+    "phonetic": "/ɑːt/",
+    "definition": "n. 艺术",
+    "examples": [
+      "Usage example for 'art'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for art"
+  },
+  {
+    "id": "ielts_0126",
+    "word": "article",
+    "phonetic": "/ˈɑːrtɪkl/",
+    "definition": "n. 文章",
+    "examples": [
+      "Usage example for 'article'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for article"
+  },
+  {
+    "id": "ielts_0127",
+    "word": "artificial",
+    "phonetic": "/ˌɑːtɪˈfɪʃl/",
+    "definition": "adj. 人工的",
+    "examples": [
+      "Usage example for 'artificial'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for artificial"
+  },
+  {
+    "id": "ielts_0128",
+    "word": "artist",
+    "phonetic": "/ˈɑːtɪst/",
+    "definition": "n. 艺术家",
+    "examples": [
+      "Usage example for 'artist'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for artist"
+  },
+  {
+    "id": "ielts_0129",
+    "word": "as",
+    "phonetic": "/æz/",
+    "definition": "conj./adv. 作为",
+    "examples": [
+      "Usage example for 'as'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for as"
+  },
+  {
+    "id": "ielts_0130",
+    "word": "ash",
+    "phonetic": "/æʃ/",
+    "definition": "n. 灰烬",
+    "examples": [
+      "Usage example for 'ash'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for ash"
+  },
+  {
+    "id": "ielts_0131",
+    "word": "ashamed",
+    "phonetic": "/əˈʃeɪmd/",
+    "definition": "adj. 羞愧的",
+    "examples": [
+      "Usage example for 'ashamed'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for ashamed"
+  },
+  {
+    "id": "ielts_0132",
+    "word": "aside",
+    "phonetic": "/əˈsaɪd/",
+    "definition": "adv. 在旁边",
+    "examples": [
+      "Usage example for 'aside'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for aside"
+  },
+  {
+    "id": "ielts_0133",
+    "word": "ask",
+    "phonetic": "/æsk/",
+    "definition": "v. 询问",
+    "examples": [
+      "Usage example for 'ask'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for ask"
+  },
+  {
+    "id": "ielts_0134",
+    "word": "asleep",
+    "phonetic": "/əˈsliːp/",
+    "definition": "adj. 睡着的",
+    "examples": [
+      "Usage example for 'asleep'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for asleep"
+  },
+  {
+    "id": "ielts_0135",
+    "word": "aspect",
+    "phonetic": "/ˈæspekt/",
+    "definition": "n. 方面",
+    "examples": [
+      "Usage example for 'aspect'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for aspect"
+  },
+  {
+    "id": "ielts_0136",
+    "word": "assess",
+    "phonetic": "/əˈses/",
+    "definition": "v. 评估",
+    "examples": [
+      "Usage example for 'assess'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for assess"
+  },
+  {
+    "id": "ielts_0137",
+    "word": "assist",
+    "phonetic": "/əˈsɪst/",
+    "definition": "v. 协助",
+    "examples": [
+      "Usage example for 'assist'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for assist"
+  },
+  {
+    "id": "ielts_0138",
+    "word": "associate",
+    "phonetic": "/əˈsəʊʃieɪt/",
+    "definition": "v. 联想 n. 同事",
+    "examples": [
+      "Usage example for 'associate'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for associate"
+  },
+  {
+    "id": "ielts_0139",
+    "word": "assume",
+    "phonetic": "/əˈsjuːm/",
+    "definition": "v. 假定",
+    "examples": [
+      "Usage example for 'assume'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for assume"
+  },
+  {
+    "id": "ielts_0140",
+    "word": "astonish",
+    "phonetic": "/əˈstɒnɪʃ/",
+    "definition": "v. 使惊讶",
+    "examples": [
+      "Usage example for 'astonish'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for astonish"
+  },
+  {
+    "id": "ielts_0141",
+    "word": "at",
+    "phonetic": "/æt/",
+    "definition": "prep. 在",
+    "examples": [
+      "Usage example for 'at'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for at"
+  },
+  {
+    "id": "ielts_0142",
+    "word": "atmosphere",
+    "phonetic": "/ˈætməsfɪər/",
+    "definition": "n. 气氛",
+    "examples": [
+      "Usage example for 'atmosphere'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for atmosphere"
+  },
+  {
+    "id": "ielts_0143",
+    "word": "attach",
+    "phonetic": "/əˈtætʃ/",
+    "definition": "v. 系上",
+    "examples": [
+      "Usage example for 'attach'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for attach"
+  },
+  {
+    "id": "ielts_0144",
+    "word": "attack",
+    "phonetic": "/əˈtæk/",
+    "definition": "v. 攻击",
+    "examples": [
+      "Usage example for 'attack'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for attack"
+  },
+  {
+    "id": "ielts_0145",
+    "word": "attempt",
+    "phonetic": "/əˈtempt/",
+    "definition": "n./v. 尝试",
+    "examples": [
+      "Usage example for 'attempt'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for attempt"
+  },
+  {
+    "id": "ielts_0146",
+    "word": "attend",
+    "phonetic": "/əˈtend/",
+    "definition": "v. 出席",
+    "examples": [
+      "Usage example for 'attend'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for attend"
+  },
+  {
+    "id": "ielts_0147",
+    "word": "attention",
+    "phonetic": "/əˈtenʃn/",
+    "definition": "n. 注意",
+    "examples": [
+      "Usage example for 'attention'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for attention"
+  },
+  {
+    "id": "ielts_0148",
+    "word": "attitude",
+    "phonetic": "/ˈætɪtjuːd/",
+    "definition": "n. 态度",
+    "examples": [
+      "Usage example for 'attitude'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for attitude"
+  },
+  {
+    "id": "ielts_0149",
+    "word": "attorney",
+    "phonetic": "/əˈtɜːni/",
+    "definition": "n. 律师",
+    "examples": [
+      "Usage example for 'attorney'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for attorney"
+  },
+  {
+    "id": "ielts_0150",
+    "word": "attract",
+    "phonetic": "/əˈtrækt/",
+    "definition": "v. 吸引",
+    "examples": [
+      "Usage example for 'attract'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for attract"
+  },
+  {
+    "id": "ielts_0151",
+    "word": "attractive",
+    "phonetic": "/əˈtræktɪv/",
+    "definition": "adj. 有吸引力的",
+    "examples": [
+      "Usage example for 'attractive'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for attractive"
+  },
+  {
+    "id": "ielts_0152",
+    "word": "audience",
+    "phonetic": "/ˈɔːdiəns/",
+    "definition": "n. 观众",
+    "examples": [
+      "Usage example for 'audience'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for audience"
+  },
+  {
+    "id": "ielts_0153",
+    "word": "author",
+    "phonetic": "/ˈɔːθər/",
+    "definition": "n. 作者",
+    "examples": [
+      "Usage example for 'author'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for author"
+  },
+  {
+    "id": "ielts_0154",
+    "word": "authority",
+    "phonetic": "/ɔːˈθɒrəti/",
+    "definition": "n. 权威",
+    "examples": [
+      "Usage example for 'authority'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for authority"
+  },
+  {
+    "id": "ielts_0155",
+    "word": "automatic",
+    "phonetic": "/ˌɔːtəˈmætɪk/",
+    "definition": "adj. 自动的",
+    "examples": [
+      "Usage example for 'automatic'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for automatic"
+  },
+  {
+    "id": "ielts_0156",
+    "word": "available",
+    "phonetic": "/əˈveɪləbl/",
+    "definition": "adj. 可用的",
+    "examples": [
+      "Usage example for 'available'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for available"
+  },
+  {
+    "id": "ielts_0157",
+    "word": "average",
+    "phonetic": "/ˈævərɪdʒ/",
+    "definition": "adj. 平均的",
+    "examples": [
+      "Usage example for 'average'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for average"
+  },
+  {
+    "id": "ielts_0158",
+    "word": "avoid",
+    "phonetic": "/əˈvɔɪd/",
+    "definition": "v. 避免",
+    "examples": [
+      "Usage example for 'avoid'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for avoid"
+  },
+  {
+    "id": "ielts_0159",
+    "word": "awake",
+    "phonetic": "/əˈweɪk/",
+    "definition": "adj. 醒着的",
+    "examples": [
+      "Usage example for 'awake'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for awake"
+  },
+  {
+    "id": "ielts_0160",
+    "word": "award",
+    "phonetic": "/əˈwɔːd/",
+    "definition": "n. 奖品 v. 授予",
+    "examples": [
+      "Usage example for 'award'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for award"
+  },
+  {
+    "id": "ielts_0161",
+    "word": "aware",
+    "phonetic": "/əˈweər/",
+    "definition": "adj. 意识到的",
+    "examples": [
+      "Usage example for 'aware'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for aware"
+  },
+  {
+    "id": "ielts_0162",
+    "word": "away",
+    "phonetic": "/əˈweɪ/",
+    "definition": "adv. 离开",
+    "examples": [
+      "Usage example for 'away'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for away"
+  },
+  {
+    "id": "ielts_0163",
+    "word": "awful",
+    "phonetic": "/ˈɔːfl/",
+    "definition": "adj. 可怕的",
+    "examples": [
+      "Usage example for 'awful'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for awful"
+  },
+  {
+    "id": "ielts_0164",
+    "word": "baby",
+    "phonetic": "/ˈbeɪbi/",
+    "definition": "n. 婴儿",
+    "examples": [
+      "Usage example for 'baby'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for baby"
+  },
+  {
+    "id": "ielts_0165",
+    "word": "back",
+    "phonetic": "/bæk/",
+    "definition": "n./adv. 背后",
+    "examples": [
+      "Usage example for 'back'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for back"
+  },
+  {
+    "id": "ielts_0166",
+    "word": "background",
+    "phonetic": "/ˈbækɡraʊnd/",
+    "definition": "n. 背景",
+    "examples": [
+      "Usage example for 'background'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for background"
+  },
+  {
+    "id": "ielts_0167",
+    "word": "backward",
+    "phonetic": "/ˈbækwəd/",
+    "definition": "adv. 向后",
+    "examples": [
+      "Usage example for 'backward'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adverb"
+    ],
+    "etymology": "Etymology for backward"
+  },
+  {
+    "id": "ielts_0168",
+    "word": "bad",
+    "phonetic": "/bæd/",
+    "definition": "adj. 坏的",
+    "examples": [
+      "Usage example for 'bad'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for bad"
+  },
+  {
+    "id": "ielts_0169",
+    "word": "bag",
+    "phonetic": "/bæɡ/",
+    "definition": "n. 包",
+    "examples": [
+      "Usage example for 'bag'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bag"
+  },
+  {
+    "id": "ielts_0170",
+    "word": "balance",
+    "phonetic": "/ˈbæləns/",
+    "definition": "n. 平衡 v. 平衡",
+    "examples": [
+      "Usage example for 'balance'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for balance"
+  },
+  {
+    "id": "ielts_0171",
+    "word": "ball",
+    "phonetic": "/bɔːl/",
+    "definition": "n. 球",
+    "examples": [
+      "Usage example for 'ball'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for ball"
+  },
+  {
+    "id": "ielts_0172",
+    "word": "band",
+    "phonetic": "/bænd/",
+    "definition": "n. 乐队；带子",
+    "examples": [
+      "Usage example for 'band'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for band"
+  },
+  {
+    "id": "ielts_0173",
+    "word": "bank",
+    "phonetic": "/bæŋk/",
+    "definition": "n. 银行；岸",
+    "examples": [
+      "Usage example for 'bank'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bank"
+  },
+  {
+    "id": "ielts_0174",
+    "word": "bar",
+    "phonetic": "/bɑːr/",
+    "definition": "n. 条；酒吧",
+    "examples": [
+      "Usage example for 'bar'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bar"
+  },
+  {
+    "id": "ielts_0175",
+    "word": "bare",
+    "phonetic": "/beər/",
+    "definition": "adj. 赤裸的",
+    "examples": [
+      "Usage example for 'bare'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for bare"
+  },
+  {
+    "id": "ielts_0176",
+    "word": "bargain",
+    "phonetic": "/ˈbɑːɡɪn/",
+    "definition": "n. 便宜货 v. 讨价还价",
+    "examples": [
+      "Usage example for 'bargain'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bargain"
+  },
+  {
+    "id": "ielts_0177",
+    "word": "base",
+    "phonetic": "/beɪs/",
+    "definition": "n. 基础",
+    "examples": [
+      "Usage example for 'base'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for base"
+  },
+  {
+    "id": "ielts_0178",
+    "word": "basic",
+    "phonetic": "/ˈbeɪsɪk/",
+    "definition": "adj. 基本的",
+    "examples": [
+      "Usage example for 'basic'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for basic"
+  },
+  {
+    "id": "ielts_0179",
+    "word": "basis",
+    "phonetic": "/ˈbeɪsɪs/",
+    "definition": "n. 基础",
+    "examples": [
+      "Usage example for 'basis'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for basis"
+  },
+  {
+    "id": "ielts_0180",
+    "word": "basket",
+    "phonetic": "/ˈbæskɪt/",
+    "definition": "n. 篮子",
+    "examples": [
+      "Usage example for 'basket'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for basket"
+  },
+  {
+    "id": "ielts_0181",
+    "word": "battle",
+    "phonetic": "/ˈbætl/",
+    "definition": "n./v. 战斗",
+    "examples": [
+      "Usage example for 'battle'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for battle"
+  },
+  {
+    "id": "ielts_0182",
+    "word": "be",
+    "phonetic": "/biː/",
+    "definition": "v. 是",
+    "examples": [
+      "Usage example for 'be'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for be"
+  },
+  {
+    "id": "ielts_0183",
+    "word": "bean",
+    "phonetic": "/biːn/",
+    "definition": "n. 豆",
+    "examples": [
+      "Usage example for 'bean'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bean"
+  },
+  {
+    "id": "ielts_0184",
+    "word": "bear",
+    "phonetic": "/beər/",
+    "definition": "n. 熊 v. 忍受",
+    "examples": [
+      "Usage example for 'bear'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bear"
+  },
+  {
+    "id": "ielts_0185",
+    "word": "beard",
+    "phonetic": "/bɪəd/",
+    "definition": "n. 胡须",
+    "examples": [
+      "Usage example for 'beard'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beard"
+  },
+  {
+    "id": "ielts_0186",
+    "word": "beast",
+    "phonetic": "/biːst/",
+    "definition": "n. 野兽",
+    "examples": [
+      "Usage example for 'beast'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beast"
+  },
+  {
+    "id": "ielts_0187",
+    "word": "beat",
+    "phonetic": "/biːt/",
+    "definition": "v. 打败",
+    "examples": [
+      "Usage example for 'beat'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for beat"
+  },
+  {
+    "id": "ielts_0188",
+    "word": "beautiful",
+    "phonetic": "/ˈbjuːtɪfl/",
+    "definition": "adj. 美丽的",
+    "examples": [
+      "Usage example for 'beautiful'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for beautiful"
+  },
+  {
+    "id": "ielts_0189",
+    "word": "beauty",
+    "phonetic": "/ˈbjuːti/",
+    "definition": "n. 美丽",
+    "examples": [
+      "Usage example for 'beauty'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beauty"
+  },
+  {
+    "id": "ielts_0190",
+    "word": "because",
+    "phonetic": "/bɪˈkɒz/",
+    "definition": "conj. 因为",
+    "examples": [
+      "Usage example for 'because'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for because"
+  },
+  {
+    "id": "ielts_0191",
+    "word": "became",
+    "phonetic": "/bɪˈkeɪm/",
+    "definition": "v. 变成",
+    "examples": [
+      "Usage example for 'became'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for became"
+  },
+  {
+    "id": "ielts_0192",
+    "word": "become",
+    "phonetic": "/bɪˈkʌm/",
+    "definition": "v. 变成",
+    "examples": [
+      "Usage example for 'become'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for become"
+  },
+  {
+    "id": "ielts_0193",
+    "word": "bed",
+    "phonetic": "/bed/",
+    "definition": "n. 床",
+    "examples": [
+      "Usage example for 'bed'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bed"
+  },
+  {
+    "id": "ielts_0194",
+    "word": "bedroom",
+    "phonetic": "/ˈbedrum/",
+    "definition": "n. 卧室",
+    "examples": [
+      "Usage example for 'bedroom'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bedroom"
+  },
+  {
+    "id": "ielts_0195",
+    "word": "beef",
+    "phonetic": "/biːf/",
+    "definition": "n. 牛肉",
+    "examples": [
+      "Usage example for 'beef'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beef"
+  },
+  {
+    "id": "ielts_0196",
+    "word": "beer",
+    "phonetic": "/bɪər/",
+    "definition": "n. 啤酒",
+    "examples": [
+      "Usage example for 'beer'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beer"
+  },
+  {
+    "id": "ielts_0197",
+    "word": "before",
+    "phonetic": "/bɪˈfɔːr/",
+    "definition": "prep./conj. 在...之前",
+    "examples": [
+      "Usage example for 'before'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for before"
+  },
+  {
+    "id": "ielts_0198",
+    "word": "begin",
+    "phonetic": "/bɪˈɡɪn/",
+    "definition": "v. 开始",
+    "examples": [
+      "Usage example for 'begin'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for begin"
+  },
+  {
+    "id": "ielts_0199",
+    "word": "beginning",
+    "phonetic": "/bɪˈɡɪnɪŋ/",
+    "definition": "n. 开始",
+    "examples": [
+      "Usage example for 'beginning'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beginning"
+  },
+  {
+    "id": "ielts_0200",
+    "word": "behave",
+    "phonetic": "/bɪˈheɪv/",
+    "definition": "v. 表现",
+    "examples": [
+      "Usage example for 'behave'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for behave"
+  },
+  {
+    "id": "ielts_0201",
+    "word": "behavior",
+    "phonetic": "/bɪˈheɪvjər/",
+    "definition": "n. 行为",
+    "examples": [
+      "Usage example for 'behavior'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for behavior"
+  },
+  {
+    "id": "ielts_0202",
+    "word": "behind",
+    "phonetic": "/bɪˈhaɪnd/",
+    "definition": "prep./adv. 在...后面",
+    "examples": [
+      "Usage example for 'behind'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for behind"
+  },
+  {
+    "id": "ielts_0203",
+    "word": "being",
+    "phonetic": "/ˈbiːɪŋ/",
+    "definition": "n. 存在",
+    "examples": [
+      "Usage example for 'being'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for being"
+  },
+  {
+    "id": "ielts_0204",
+    "word": "belief",
+    "phonetic": "/bɪˈliːf/",
+    "definition": "n. 信念",
+    "examples": [
+      "Usage example for 'belief'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for belief"
+  },
+  {
+    "id": "ielts_0205",
+    "word": "believe",
+    "phonetic": "/bɪˈliːv/",
+    "definition": "v. 相信",
+    "examples": [
+      "Usage example for 'believe'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for believe"
+  },
+  {
+    "id": "ielts_0206",
+    "word": "bell",
+    "phonetic": "/bel/",
+    "definition": "n. 铃",
+    "examples": [
+      "Usage example for 'bell'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bell"
+  },
+  {
+    "id": "ielts_0207",
+    "word": "belong",
+    "phonetic": "/bɪˈlɒŋ/",
+    "definition": "v. 属于",
+    "examples": [
+      "Usage example for 'belong'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for belong"
+  },
+  {
+    "id": "ielts_0208",
+    "word": "below",
+    "phonetic": "/bɪˈləʊ/",
+    "definition": "prep./adv. 在...下面",
+    "examples": [
+      "Usage example for 'below'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for below"
+  },
+  {
+    "id": "ielts_0209",
+    "word": "belt",
+    "phonetic": "/belt/",
+    "definition": "n. 皮带",
+    "examples": [
+      "Usage example for 'belt'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for belt"
+  },
+  {
+    "id": "ielts_0210",
+    "word": "bench",
+    "phonetic": "/bentʃ/",
+    "definition": "n. 长椅",
+    "examples": [
+      "Usage example for 'bench'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bench"
+  },
+  {
+    "id": "ielts_0211",
+    "word": "bend",
+    "phonetic": "/bend/",
+    "definition": "v. 弯曲",
+    "examples": [
+      "Usage example for 'bend'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for bend"
+  },
+  {
+    "id": "ielts_0212",
+    "word": "beneath",
+    "phonetic": "/bɪˈniːθ/",
+    "definition": "prep. 在...之下",
+    "examples": [
+      "Usage example for 'beneath'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beneath"
+  },
+  {
+    "id": "ielts_0213",
+    "word": "benefit",
+    "phonetic": "/ˈbenɪfɪt/",
+    "definition": "n./v. 利益",
+    "examples": [
+      "Usage example for 'benefit'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for benefit"
+  },
+  {
+    "id": "ielts_0214",
+    "word": "beside",
+    "phonetic": "/bɪˈsaɪd/",
+    "definition": "prep. 在...旁边",
+    "examples": [
+      "Usage example for 'beside'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beside"
+  },
+  {
+    "id": "ielts_0215",
+    "word": "best",
+    "phonetic": "/best/",
+    "definition": "adj./adv. 最好的",
+    "examples": [
+      "Usage example for 'best'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for best"
+  },
+  {
+    "id": "ielts_0216",
+    "word": "bet",
+    "phonetic": "/bet/",
+    "definition": "v. 打赌",
+    "examples": [
+      "Usage example for 'bet'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for bet"
+  },
+  {
+    "id": "ielts_0217",
+    "word": "better",
+    "phonetic": "/ˈbetər/",
+    "definition": "adj./adv. 更好的",
+    "examples": [
+      "Usage example for 'better'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for better"
+  },
+  {
+    "id": "ielts_0218",
+    "word": "between",
+    "phonetic": "/bɪˈtwiːn/",
+    "definition": "prep. 在...之间",
+    "examples": [
+      "Usage example for 'between'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for between"
+  },
+  {
+    "id": "ielts_0219",
+    "word": "beyond",
+    "phonetic": "/bɪˈjɒnd/",
+    "definition": "prep. 超越",
+    "examples": [
+      "Usage example for 'beyond'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for beyond"
+  },
+  {
+    "id": "ielts_0220",
+    "word": "big",
+    "phonetic": "/bɪɡ/",
+    "definition": "adj. 大的",
+    "examples": [
+      "Usage example for 'big'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for big"
+  },
+  {
+    "id": "ielts_0221",
+    "word": "bike",
+    "phonetic": "/baɪk/",
+    "definition": "n. 自行车",
+    "examples": [
+      "Usage example for 'bike'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bike"
+  },
+  {
+    "id": "ielts_0222",
+    "word": "bill",
+    "phonetic": "/bɪl/",
+    "definition": "n. 账单",
+    "examples": [
+      "Usage example for 'bill'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bill"
+  },
+  {
+    "id": "ielts_0223",
+    "word": "billion",
+    "phonetic": "/ˈbɪljən/",
+    "definition": "n. 十亿",
+    "examples": [
+      "Usage example for 'billion'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for billion"
+  },
+  {
+    "id": "ielts_0224",
+    "word": "bind",
+    "phonetic": "/baɪnd/",
+    "definition": "v. 绑；约束",
+    "examples": [
+      "Usage example for 'bind'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for bind"
+  },
+  {
+    "id": "ielts_0225",
+    "word": "biology",
+    "phonetic": "/baɪˈɒlədʒi/",
+    "definition": "n. 生物学",
+    "examples": [
+      "Usage example for 'biology'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for biology"
+  },
+  {
+    "id": "ielts_0226",
+    "word": "birth",
+    "phonetic": "/bɜːθ/",
+    "definition": "n. 出生",
+    "examples": [
+      "Usage example for 'birth'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for birth"
+  },
+  {
+    "id": "ielts_0227",
+    "word": "biscuit",
+    "phonetic": "/ˈbɪskɪt/",
+    "definition": "n. 饼干",
+    "examples": [
+      "Usage example for 'biscuit'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for biscuit"
+  },
+  {
+    "id": "ielts_0228",
+    "word": "bit",
+    "phonetic": "/bɪt/",
+    "definition": "n. 少量",
+    "examples": [
+      "Usage example for 'bit'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bit"
+  },
+  {
+    "id": "ielts_0229",
+    "word": "bite",
+    "phonetic": "/baɪt/",
+    "definition": "v. 咬",
+    "examples": [
+      "Usage example for 'bite'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for bite"
+  },
+  {
+    "id": "ielts_0230",
+    "word": "bitter",
+    "phonetic": "/ˈbɪtər/",
+    "definition": "adj. 苦的",
+    "examples": [
+      "Usage example for 'bitter'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for bitter"
+  },
+  {
+    "id": "ielts_0231",
+    "word": "black",
+    "phonetic": "/blæk/",
+    "definition": "adj. 黑色的",
+    "examples": [
+      "Usage example for 'black'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for black"
+  },
+  {
+    "id": "ielts_0232",
+    "word": "blade",
+    "phonetic": "/bleɪd/",
+    "definition": "n. 刀片",
+    "examples": [
+      "Usage example for 'blade'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for blade"
+  },
+  {
+    "id": "ielts_0233",
+    "word": "blame",
+    "phonetic": "/bleɪm/",
+    "definition": "v./n. 责备",
+    "examples": [
+      "Usage example for 'blame'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for blame"
+  },
+  {
+    "id": "ielts_0234",
+    "word": "blank",
+    "phonetic": "/blæŋk/",
+    "definition": "adj. 空白的 n. 空白",
+    "examples": [
+      "Usage example for 'blank'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for blank"
+  },
+  {
+    "id": "ielts_0235",
+    "word": "blind",
+    "phonetic": "/blaɪnd/",
+    "definition": "adj. 瞎的",
+    "examples": [
+      "Usage example for 'blind'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for blind"
+  },
+  {
+    "id": "ielts_0236",
+    "word": "block",
+    "phonetic": "/blɒk/",
+    "definition": "n. 街区 v. 阻挡",
+    "examples": [
+      "Usage example for 'block'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for block"
+  },
+  {
+    "id": "ielts_0237",
+    "word": "blood",
+    "phonetic": "/blʌd/",
+    "definition": "n. 血",
+    "examples": [
+      "Usage example for 'blood'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for blood"
+  },
+  {
+    "id": "ielts_0238",
+    "word": "blow",
+    "phonetic": "/bləʊ/",
+    "definition": "v. 吹",
+    "examples": [
+      "Usage example for 'blow'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for blow"
+  },
+  {
+    "id": "ielts_0239",
+    "word": "blue",
+    "phonetic": "/bluː/",
+    "definition": "adj. 蓝色的",
+    "examples": [
+      "Usage example for 'blue'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for blue"
+  },
+  {
+    "id": "ielts_0240",
+    "word": "board",
+    "phonetic": "/bɔːd/",
+    "definition": "n. 板；董事会",
+    "examples": [
+      "Usage example for 'board'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for board"
+  },
+  {
+    "id": "ielts_0241",
+    "word": "boat",
+    "phonetic": "/bəʊt/",
+    "definition": "n. 船",
+    "examples": [
+      "Usage example for 'boat'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for boat"
+  },
+  {
+    "id": "ielts_0242",
+    "word": "body",
+    "phonetic": "/ˈbɒdi/",
+    "definition": "n. 身体",
+    "examples": [
+      "Usage example for 'body'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for body"
+  },
+  {
+    "id": "ielts_0243",
+    "word": "boil",
+    "phonetic": "/bɔɪl/",
+    "definition": "v. 沸腾",
+    "examples": [
+      "Usage example for 'boil'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for boil"
+  },
+  {
+    "id": "ielts_0244",
+    "word": "bomb",
+    "phonetic": "/bɒm/",
+    "definition": "n. 炸弹",
+    "examples": [
+      "Usage example for 'bomb'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bomb"
+  },
+  {
+    "id": "ielts_0245",
+    "word": "bond",
+    "phonetic": "/bɒnd/",
+    "definition": "n. 结合；债券",
+    "examples": [
+      "Usage example for 'bond'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bond"
+  },
+  {
+    "id": "ielts_0246",
+    "word": "bone",
+    "phonetic": "/bəʊn/",
+    "definition": "n. 骨头",
+    "examples": [
+      "Usage example for 'bone'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bone"
+  },
+  {
+    "id": "ielts_0247",
+    "word": "book",
+    "phonetic": "/bʊk/",
+    "definition": "n. 书 v. 预订",
+    "examples": [
+      "Usage example for 'book'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for book"
+  },
+  {
+    "id": "ielts_0248",
+    "word": "boost",
+    "phonetic": "/buːst/",
+    "definition": "v. 促进",
+    "examples": [
+      "Usage example for 'boost'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for boost"
+  },
+  {
+    "id": "ielts_0249",
+    "word": "border",
+    "phonetic": "/ˈbɔːdər/",
+    "definition": "n. 边界",
+    "examples": [
+      "Usage example for 'border'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for border"
+  },
+  {
+    "id": "ielts_0250",
+    "word": "bore",
+    "phonetic": "/bɔːr/",
+    "definition": "v. 使厌烦",
+    "examples": [
+      "Usage example for 'bore'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for bore"
+  },
+  {
+    "id": "ielts_0251",
+    "word": "born",
+    "phonetic": "/bɔːn/",
+    "definition": "adj. 天生的",
+    "examples": [
+      "Usage example for 'born'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for born"
+  },
+  {
+    "id": "ielts_0252",
+    "word": "borrow",
+    "phonetic": "/ˈbɒrəʊ/",
+    "definition": "v. 借",
+    "examples": [
+      "Usage example for 'borrow'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for borrow"
+  },
+  {
+    "id": "ielts_0253",
+    "word": "boss",
+    "phonetic": "/bɒs/",
+    "definition": "n. 老板",
+    "examples": [
+      "Usage example for 'boss'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for boss"
+  },
+  {
+    "id": "ielts_0254",
+    "word": "both",
+    "phonetic": "/bəʊθ/",
+    "definition": "pron./adj. 两者",
+    "examples": [
+      "Usage example for 'both'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for both"
+  },
+  {
+    "id": "ielts_0255",
+    "word": "bother",
+    "phonetic": "/ˈbɒðər/",
+    "definition": "v. 打扰",
+    "examples": [
+      "Usage example for 'bother'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for bother"
+  },
+  {
+    "id": "ielts_0256",
+    "word": "bottle",
+    "phonetic": "/ˈbɒtl/",
+    "definition": "n. 瓶子",
+    "examples": [
+      "Usage example for 'bottle'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bottle"
+  },
+  {
+    "id": "ielts_0257",
+    "word": "bottom",
+    "phonetic": "/ˈbɒtəm/",
+    "definition": "n./adj. 底部",
+    "examples": [
+      "Usage example for 'bottom'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bottom"
+  },
+  {
+    "id": "ielts_0258",
+    "word": "bowl",
+    "phonetic": "/bəʊl/",
+    "definition": "n. 碗",
+    "examples": [
+      "Usage example for 'bowl'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bowl"
+  },
+  {
+    "id": "ielts_0259",
+    "word": "box",
+    "phonetic": "/bɒks/",
+    "definition": "n. 盒子 v. 拳击",
+    "examples": [
+      "Usage example for 'box'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for box"
+  },
+  {
+    "id": "ielts_0260",
+    "word": "boy",
+    "phonetic": "/bɔɪ/",
+    "definition": "n. 男孩",
+    "examples": [
+      "Usage example for 'boy'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for boy"
+  },
+  {
+    "id": "ielts_0261",
+    "word": "brain",
+    "phonetic": "/breɪn/",
+    "definition": "n. 大脑",
+    "examples": [
+      "Usage example for 'brain'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for brain"
+  },
+  {
+    "id": "ielts_0262",
+    "word": "branch",
+    "phonetic": "/bræntʃ/",
+    "definition": "n. 树枝",
+    "examples": [
+      "Usage example for 'branch'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for branch"
+  },
+  {
+    "id": "ielts_0263",
+    "word": "brand",
+    "phonetic": "/brænd/",
+    "definition": "n. 品牌",
+    "examples": [
+      "Usage example for 'brand'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for brand"
+  },
+  {
+    "id": "ielts_0264",
+    "word": "brave",
+    "phonetic": "/breɪv/",
+    "definition": "adj. 勇敢的",
+    "examples": [
+      "Usage example for 'brave'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for brave"
+  },
+  {
+    "id": "ielts_0265",
+    "word": "bread",
+    "phonetic": "/bred/",
+    "definition": "n. 面包",
+    "examples": [
+      "Usage example for 'bread'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bread"
+  },
+  {
+    "id": "ielts_0266",
+    "word": "break",
+    "phonetic": "/breɪk/",
+    "definition": "v. 打破；休息",
+    "examples": [
+      "Usage example for 'break'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for break"
+  },
+  {
+    "id": "ielts_0267",
+    "word": "breakfast",
+    "phonetic": "/ˈbrekfəst/",
+    "definition": "n. 早餐",
+    "examples": [
+      "Usage example for 'breakfast'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for breakfast"
+  },
+  {
+    "id": "ielts_0268",
+    "word": "breath",
+    "phonetic": "/briːð/",
+    "definition": "v. 呼吸",
+    "examples": [
+      "Usage example for 'breath'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for breath"
+  },
+  {
+    "id": "ielts_0269",
+    "word": "brick",
+    "phonetic": "/brɪk/",
+    "definition": "n. 砖",
+    "examples": [
+      "Usage example for 'brick'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for brick"
+  },
+  {
+    "id": "ielts_0270",
+    "word": "bride",
+    "phonetic": "/braɪd/",
+    "definition": "n. 新娘",
+    "examples": [
+      "Usage example for 'bride'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bride"
+  },
+  {
+    "id": "ielts_0271",
+    "word": "brief",
+    "phonetic": "/briːf/",
+    "definition": "adj. 简短的",
+    "examples": [
+      "Usage example for 'brief'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for brief"
+  },
+  {
+    "id": "ielts_0272",
+    "word": "bright",
+    "phonetic": "/braɪt/",
+    "definition": "adj. 明亮的",
+    "examples": [
+      "Usage example for 'bright'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for bright"
+  },
+  {
+    "id": "ielts_0273",
+    "word": "bring",
+    "phonetic": "/brɪŋ/",
+    "definition": "v. 带来",
+    "examples": [
+      "Usage example for 'bring'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for bring"
+  },
+  {
+    "id": "ielts_0274",
+    "word": "broad",
+    "phonetic": "/brɔːd/",
+    "definition": "adj. 宽阔的",
+    "examples": [
+      "Usage example for 'broad'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for broad"
+  },
+  {
+    "id": "ielts_0275",
+    "word": "broadcast",
+    "phonetic": "/ˈbrɔːdkɑːst/",
+    "definition": "n./v. 广播",
+    "examples": [
+      "Usage example for 'broadcast'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for broadcast"
+  },
+  {
+    "id": "ielts_0276",
+    "word": "brother",
+    "phonetic": "/ˈbrʌðər/",
+    "definition": "n. 兄弟",
+    "examples": [
+      "Usage example for 'brother'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for brother"
+  },
+  {
+    "id": "ielts_0277",
+    "word": "brown",
+    "phonetic": "/braʊn/",
+    "definition": "n./adj. 棕色",
+    "examples": [
+      "Usage example for 'brown'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for brown"
+  },
+  {
+    "id": "ielts_0278",
+    "word": "brush",
+    "phonetic": "/brʌʃ/",
+    "definition": "n./v. 刷子；刷",
+    "examples": [
+      "Usage example for 'brush'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for brush"
+  },
+  {
+    "id": "ielts_0279",
+    "word": "budget",
+    "phonetic": "/ˈbʌdʒɪt/",
+    "definition": "n. 预算",
+    "examples": [
+      "Usage example for 'budget'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for budget"
+  },
+  {
+    "id": "ielts_0280",
+    "word": "build",
+    "phonetic": "/bɪld/",
+    "definition": "v. 建造",
+    "examples": [
+      "Usage example for 'build'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for build"
+  },
+  {
+    "id": "ielts_0281",
+    "word": "building",
+    "phonetic": "/ˈbɪldɪŋ/",
+    "definition": "n. 建筑物",
+    "examples": [
+      "Usage example for 'building'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for building"
+  },
+  {
+    "id": "ielts_0282",
+    "word": "burn",
+    "phonetic": "/bɜːn/",
+    "definition": "v. 燃烧",
+    "examples": [
+      "Usage example for 'burn'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for burn"
+  },
+  {
+    "id": "ielts_0283",
+    "word": "bury",
+    "phonetic": "/ˈberi/",
+    "definition": "v. 埋葬",
+    "examples": [
+      "Usage example for 'bury'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for bury"
+  },
+  {
+    "id": "ielts_0284",
+    "word": "bus",
+    "phonetic": "/bʌs/",
+    "definition": "n. 公共汽车",
+    "examples": [
+      "Usage example for 'bus'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for bus"
+  },
+  {
+    "id": "ielts_0285",
+    "word": "business",
+    "phonetic": "/ˈbɪznɪs/",
+    "definition": "n. 生意",
+    "examples": [
+      "Usage example for 'business'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for business"
+  },
+  {
+    "id": "ielts_0286",
+    "word": "busy",
+    "phonetic": "/ˈbɪzi/",
+    "definition": "adj. 忙碌的",
+    "examples": [
+      "Usage example for 'busy'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for busy"
+  },
+  {
+    "id": "ielts_0287",
+    "word": "but",
+    "phonetic": "/bʌt/",
+    "definition": "conj. 但是",
+    "examples": [
+      "Usage example for 'but'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for but"
+  },
+  {
+    "id": "ielts_0288",
+    "word": "butter",
+    "phonetic": "/ˈbʌtər/",
+    "definition": "n. 黄油",
+    "examples": [
+      "Usage example for 'butter'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for butter"
+  },
+  {
+    "id": "ielts_0289",
+    "word": "button",
+    "phonetic": "/ˈbʌtn/",
+    "definition": "n. 按钮",
+    "examples": [
+      "Usage example for 'button'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for button"
+  },
+  {
+    "id": "ielts_0290",
+    "word": "buy",
+    "phonetic": "/baɪ/",
+    "definition": "v. 买",
+    "examples": [
+      "Usage example for 'buy'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for buy"
+  },
+  {
+    "id": "ielts_0291",
+    "word": "by",
+    "phonetic": "/baɪ/",
+    "definition": "prep. 被；通过",
+    "examples": [
+      "Usage example for 'by'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for by"
+  },
+  {
+    "id": "ielts_0292",
+    "word": "cabinet",
+    "phonetic": "/ˈkæbɪnət/",
+    "definition": "n. 内阁；储藏柜",
+    "examples": [
+      "Usage example for 'cabinet'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for cabinet"
+  },
+  {
+    "id": "ielts_0293",
+    "word": "call",
+    "phonetic": "/kɔːl/",
+    "definition": "v./n. 打电话；呼叫",
+    "examples": [
+      "Usage example for 'call'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for call"
+  },
+  {
+    "id": "ielts_0294",
+    "word": "calm",
+    "phonetic": "/kɑːm/",
+    "definition": "adj. 冷静的",
+    "examples": [
+      "Usage example for 'calm'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "adjective"
+    ],
+    "etymology": "Etymology for calm"
+  },
+  {
+    "id": "ielts_0295",
+    "word": "camera",
+    "phonetic": "/ˈkæmərə/",
+    "definition": "n. 照相机",
+    "examples": [
+      "Usage example for 'camera'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for camera"
+  },
+  {
+    "id": "ielts_0296",
+    "word": "camp",
+    "phonetic": "/kæmp/",
+    "definition": "n./v. 露营",
+    "examples": [
+      "Usage example for 'camp'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for camp"
+  },
+  {
+    "id": "ielts_0297",
+    "word": "can",
+    "phonetic": "/kæn/",
+    "definition": "v./aux. 能；可以",
+    "examples": [
+      "Usage example for 'can'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for can"
+  },
+  {
+    "id": "ielts_0298",
+    "word": "canal",
+    "phonetic": "/kəˈnæl/",
+    "definition": "n. 运河",
+    "examples": [
+      "Usage example for 'canal'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 4,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for canal"
+  },
+  {
+    "id": "ielts_0299",
+    "word": "cancel",
+    "phonetic": "/ˈkænsəl/",
+    "definition": "v. 取消",
+    "examples": [
+      "Usage example for 'cancel'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "verb"
+    ],
+    "etymology": "Etymology for cancel"
+  },
+  {
+    "id": "ielts_0300",
+    "word": "cancer",
+    "phonetic": "/ˈkænsər/",
+    "definition": "n. 癌症",
+    "examples": [
+      "Usage example for 'cancer'."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 5,
+    "tags": [
+      "ielts",
+      "noun"
+    ],
+    "etymology": "Etymology for cancer"
+  }
+]

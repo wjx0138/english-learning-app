@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../../data/models/word.dart';
 import '../../../shared/services/tts_service.dart';
+import '../word_detail/word_detail_page.dart';
 
 class VocabularyListPage extends StatefulWidget {
   const VocabularyListPage({super.key});
@@ -248,7 +249,16 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 4),
       child: InkWell(
-        onTap: () => _showWordDetailDialog(word),
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => WordDetailPage(
+                wordId: word.id,
+                showBack: false,
+              ),
+            ),
+          );
+        },
         borderRadius: BorderRadius.circular(12),
         child: Padding(
           padding: const EdgeInsets.all(16),

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "daily_life_001",
+    "word": "eat",
+    "phonetic": "/eat/",
+    "definition": "日常生活词汇中的词汇: eat",
+    "examples": [
+      "Example using 'eat' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_002",
+    "word": "drink",
+    "phonetic": "/drink/",
+    "definition": "日常生活词汇中的词汇: drink",
+    "examples": [
+      "Example using 'drink' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_003",
+    "word": "sleep",
+    "phonetic": "/sleep/",
+    "definition": "日常生活词汇中的词汇: sleep",
+    "examples": [
+      "Example using 'sleep' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_004",
+    "word": "walk",
+    "phonetic": "/walk/",
+    "definition": "日常生活词汇中的词汇: walk",
+    "examples": [
+      "Example using 'walk' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_005",
+    "word": "run",
+    "phonetic": "/run/",
+    "definition": "日常生活词汇中的词汇: run",
+    "examples": [
+      "Example using 'run' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_006",
+    "word": "play",
+    "phonetic": "/play/",
+    "definition": "日常生活词汇中的词汇: play",
+    "examples": [
+      "Example using 'play' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_007",
+    "word": "work",
+    "phonetic": "/work/",
+    "definition": "日常生活词汇中的词汇: work",
+    "examples": [
+      "Example using 'work' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_008",
+    "word": "study",
+    "phonetic": "/study/",
+    "definition": "日常生活词汇中的词汇: study",
+    "examples": [
+      "Example using 'study' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_009",
+    "word": "home",
+    "phonetic": "/home/",
+    "definition": "日常生活词汇中的词汇: home",
+    "examples": [
+      "Example using 'home' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_010",
+    "word": "house",
+    "phonetic": "/house/",
+    "definition": "日常生活词汇中的词汇: house",
+    "examples": [
+      "Example using 'house' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_011",
+    "word": "room",
+    "phonetic": "/room/",
+    "definition": "日常生活词汇中的词汇: room",
+    "examples": [
+      "Example using 'room' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_012",
+    "word": "kitchen",
+    "phonetic": "/kitchen/",
+    "definition": "日常生活词汇中的词汇: kitchen",
+    "examples": [
+      "Example using 'kitchen' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_013",
+    "word": "bedroom",
+    "phonetic": "/bedroom/",
+    "definition": "日常生活词汇中的词汇: bedroom",
+    "examples": [
+      "Example using 'bedroom' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_014",
+    "word": "bathroom",
+    "phonetic": "/bathroom/",
+    "definition": "日常生活词汇中的词汇: bathroom",
+    "examples": [
+      "Example using 'bathroom' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_015",
+    "word": "family",
+    "phonetic": "/family/",
+    "definition": "日常生活词汇中的词汇: family",
+    "examples": [
+      "Example using 'family' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_016",
+    "word": "father",
+    "phonetic": "/father/",
+    "definition": "日常生活词汇中的词汇: father",
+    "examples": [
+      "Example using 'father' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_017",
+    "word": "mother",
+    "phonetic": "/mother/",
+    "definition": "日常生活词汇中的词汇: mother",
+    "examples": [
+      "Example using 'mother' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_018",
+    "word": "brother",
+    "phonetic": "/brother/",
+    "definition": "日常生活词汇中的词汇: brother",
+    "examples": [
+      "Example using 'brother' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_019",
+    "word": "sister",
+    "phonetic": "/sister/",
+    "definition": "日常生活词汇中的词汇: sister",
+    "examples": [
+      "Example using 'sister' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  },
+  {
+    "id": "daily_life_020",
+    "word": "friend",
+    "phonetic": "/friend/",
+    "definition": "日常生活词汇中的词汇: friend",
+    "examples": [
+      "Example using 'friend' in 日常生活词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "daily_life",
+      "noun"
+    ],
+    "etymology": "Word in 日常生活词汇"
+  }
+]

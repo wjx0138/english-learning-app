@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/providers/progress_provider.dart';
+import '../../data/models/learning_data.dart';
+import '../../shared/services/chart_data_service.dart';
+import 'widgets/learning_curve_chart.dart';
+import 'widgets/vocabulary_growth_chart.dart';
+import 'widgets/learning_stats_card.dart';
 
 class ProgressPage extends StatefulWidget {
   const ProgressPage({super.key});
@@ -11,6 +16,10 @@ class ProgressPage extends StatefulWidget {
 }
 
 class _ProgressPageState extends State<ProgressPage> {
+  // Mock data for charts (will be replaced with real data later)
+  late List<LearningData> _learningData;
+  late List<VocabularyGrowthData> _vocabularyGrowthData;
+
   @override
   void initState() {
     super.initState();
@@ -18,6 +27,10 @@ class _ProgressPageState extends State<ProgressPage> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       context.read<ProgressProvider>().initialize();
     });
+
+    // Generate mock data for charts
+    _learningData = ChartDataService.generateMockLearningData();
+    _vocabularyGrowthData = ChartDataService.generateMockVocabularyGrowthData();
   }
 
   @override
@@ -53,6 +66,18 @@ class _ProgressPageState extends State<ProgressPage> {
 
                 // Weekly study chart
                 _buildWeeklyChart(context, progressProvider),
+                const SizedBox(height: 24),
+
+                // Learning statistics cards
+                _buildLearningStatsCards(context),
+                const SizedBox(height: 24),
+
+                // Learning curve chart
+                LearningCurveChart(data: _learningData),
+                const SizedBox(height: 24),
+
+                // Vocabulary growth chart
+                VocabularyGrowthChart(data: _vocabularyGrowthData),
                 const SizedBox(height: 24),
 
                 // Achievements section
@@ -485,6 +510,23 @@ class _ProgressPageState extends State<ProgressPage> {
           ],
         ),
       ),
+    );
+  }
+
+  Widget _buildLearningStatsCards(BuildContext context) {
+    // Calculate statistics from mock data
+    final totalStudyTime = ChartDataService.calculateTotalStudyTime(_learningData);
+    final weeklySummary = ChartDataService.getWeeklySummary(_learningData);
+    final todayStats = ChartDataService.getTodayStats(_learningData);
+    final totalWords = _vocabularyGrowthData.isNotEmpty
+        ? _vocabularyGrowthData.last.totalWords
+        : 0;
+
+    return LearningStatsGrid(
+      totalWords: totalWords,
+      wordsLearned: weeklySummary['totalWords'] as int,
+      studyStreak: Provider.of<ProgressProvider>(context).currentStreak,
+      totalStudyTime: totalStudyTime,
     );
   }
 

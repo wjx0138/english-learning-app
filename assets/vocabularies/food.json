@@ -1,0 +1,342 @@
+[
+  {
+    "id": "food_001",
+    "word": "food",
+    "phonetic": "/food/",
+    "definition": "食物词汇中的词汇: food",
+    "examples": [
+      "Example using 'food' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_002",
+    "word": "eat",
+    "phonetic": "/eat/",
+    "definition": "食物词汇中的词汇: eat",
+    "examples": [
+      "Example using 'eat' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_003",
+    "word": "drink",
+    "phonetic": "/drink/",
+    "definition": "食物词汇中的词汇: drink",
+    "examples": [
+      "Example using 'drink' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_004",
+    "word": "restaurant",
+    "phonetic": "/restaurant/",
+    "definition": "食物词汇中的词汇: restaurant",
+    "examples": [
+      "Example using 'restaurant' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_005",
+    "word": "cafe",
+    "phonetic": "/cafe/",
+    "definition": "食物词汇中的词汇: cafe",
+    "examples": [
+      "Example using 'cafe' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_006",
+    "word": "menu",
+    "phonetic": "/menu/",
+    "definition": "食物词汇中的词汇: menu",
+    "examples": [
+      "Example using 'menu' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_007",
+    "word": "order",
+    "phonetic": "/order/",
+    "definition": "食物词汇中的词汇: order",
+    "examples": [
+      "Example using 'order' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_008",
+    "word": "breakfast",
+    "phonetic": "/breakfast/",
+    "definition": "食物词汇中的词汇: breakfast",
+    "examples": [
+      "Example using 'breakfast' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_009",
+    "word": "lunch",
+    "phonetic": "/lunch/",
+    "definition": "食物词汇中的词汇: lunch",
+    "examples": [
+      "Example using 'lunch' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_010",
+    "word": "dinner",
+    "phonetic": "/dinner/",
+    "definition": "食物词汇中的词汇: dinner",
+    "examples": [
+      "Example using 'dinner' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_011",
+    "word": "meal",
+    "phonetic": "/meal/",
+    "definition": "食物词汇中的词汇: meal",
+    "examples": [
+      "Example using 'meal' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_012",
+    "word": "meat",
+    "phonetic": "/meat/",
+    "definition": "食物词汇中的词汇: meat",
+    "examples": [
+      "Example using 'meat' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_013",
+    "word": "fish",
+    "phonetic": "/fish/",
+    "definition": "食物词汇中的词汇: fish",
+    "examples": [
+      "Example using 'fish' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_014",
+    "word": "chicken",
+    "phonetic": "/chicken/",
+    "definition": "食物词汇中的词汇: chicken",
+    "examples": [
+      "Example using 'chicken' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_015",
+    "word": "vegetable",
+    "phonetic": "/vegetable/",
+    "definition": "食物词汇中的词汇: vegetable",
+    "examples": [
+      "Example using 'vegetable' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_016",
+    "word": "fruit",
+    "phonetic": "/fruit/",
+    "definition": "食物词汇中的词汇: fruit",
+    "examples": [
+      "Example using 'fruit' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_017",
+    "word": "bread",
+    "phonetic": "/bread/",
+    "definition": "食物词汇中的词汇: bread",
+    "examples": [
+      "Example using 'bread' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_018",
+    "word": "rice",
+    "phonetic": "/rice/",
+    "definition": "食物词汇中的词汇: rice",
+    "examples": [
+      "Example using 'rice' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_019",
+    "word": "noodle",
+    "phonetic": "/noodle/",
+    "definition": "食物词汇中的词汇: noodle",
+    "examples": [
+      "Example using 'noodle' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  },
+  {
+    "id": "food_020",
+    "word": "soup",
+    "phonetic": "/soup/",
+    "definition": "食物词汇中的词汇: soup",
+    "examples": [
+      "Example using 'soup' in 食物词汇 context."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "food",
+      "noun"
+    ],
+    "etymology": "Word in 食物词汇"
+  }
+]

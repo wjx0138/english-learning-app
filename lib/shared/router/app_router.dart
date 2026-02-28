@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../features/home/home_page.dart';
-import '../../features/flashcard/flashcard_page.dart';
-import '../../features/typing/typing_page.dart';
-import '../../features/quiz/quiz_page.dart';
+import '../../features/flashcard/enhanced_flashcard_page.dart';
+import '../../features/typing/typing_mode_selection_page.dart';
+import '../../features/quiz/enhanced_quiz_page.dart';
 import '../../features/progress/progress_page.dart';
 import '../../features/vocabulary/vocabulary_list_page.dart';
 import '../../features/settings/settings_page.dart';
+import '../../features/error_book/error_book_page.dart';
+import '../../features/course/course_selection_page.dart';
+import '../../features/gamification/gamification_page.dart';
 
 /// Application router configuration using go_router
 class AppRouter {
@@ -21,17 +24,17 @@ class AppRouter {
       GoRoute(
         path: '/flashcard',
         name: 'flashcard',
-        builder: (context, state) => const FlashcardPage(),
+        builder: (context, state) => const EnhancedFlashcardPage(),
       ),
       GoRoute(
         path: '/typing',
         name: 'typing',
-        builder: (context, state) => const TypingPage(),
+        builder: (context, state) => const TypingModeSelectionPage(),
       ),
       GoRoute(
         path: '/quiz',
         name: 'quiz',
-        builder: (context, state) => const QuizPage(),
+        builder: (context, state) => const EnhancedQuizPage(),
       ),
       GoRoute(
         path: '/vocabulary',
@@ -47,6 +50,21 @@ class AppRouter {
         path: '/settings',
         name: 'settings',
         builder: (context, state) => const SettingsPage(),
+      ),
+      GoRoute(
+        path: '/error-book',
+        name: 'error-book',
+        builder: (context, state) => const ErrorBookPage(),
+      ),
+      GoRoute(
+        path: '/courses',
+        name: 'courses',
+        builder: (context, state) => const CourseSelectionPage(),
+      ),
+      GoRoute(
+        path: '/gamification',
+        name: 'gamification',
+        builder: (context, state) => const GamificationPage(),
       ),
     ],
   );

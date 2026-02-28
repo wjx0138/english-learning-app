@@ -3,7 +3,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart' as path;
-import '../../models/word.dart';
+import '../models/word.dart';
 
 class WordRepository {
   static const String _dbName = 'english_learning.db';

@@ -5,8 +5,11 @@ import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../../core/providers/card_provider.dart';
 import '../../../core/providers/progress_provider.dart';
+import '../../../core/providers/app_provider.dart';
 import '../../../data/models/word.dart';
+import '../../../data/models/gamification.dart';
 import '../../../core/utils/srs_algorithm.dart';
+import '../../../shared/services/gamification_service.dart';
 import 'widgets/card_widget.dart';
 
 class FlashcardPage extends StatefulWidget {
@@ -78,7 +81,16 @@ class _FlashcardPageState extends State<FlashcardPage> {
     });
 
     final cardProvider = context.read<CardProvider>();
+    final appProvider = context.read<AppProvider>();
     cardProvider.submitAnswer(rating);
+
+    // Add points based on rating
+    // Rating 1 (Again): 1 point
+    // Rating 2 (Hard): 3 points
+    // Rating 3 (Good): 5 points
+    // Rating 4 (Easy): 7 points
+    final points = [1, 3, 5, 7][rating - 1];
+    appProvider.addPoints(points, type: PointEventType.reviewCard);
 
     // Track correctly answered words
     if (rating != FSRSAlgorithm.ratingAgain && _currentWordIndex < _vocabulary.length) {
@@ -106,6 +118,16 @@ class _FlashcardPageState extends State<FlashcardPage> {
               wrongAnswers: cardProvider.wrongAnswers,
               correctWordIds: _correctWordIds,
             );
+
+            // Add gamification rewards
+            final wordsLearned = _correctWordIds.length;
+            appProvider.recordStudy(
+              wordsLearned: wordsLearned,
+              practiceMinutes: (_vocabulary.length / 6).ceil(), // Estimate: ~6 cards per minute
+            );
+
+            // Check for achievements
+            appProvider.checkAchievements();
           }
         } else {
           // Load next card

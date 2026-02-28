@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "cet4_001",
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "definition": "v. 遗弃；放弃；抛弃",
+    "examples": [
+      "The baby had been abandoned by its mother.",
+      "We had to abandon the car and walk the rest of the way."
+    ],
+    "synonyms": ["leave", "desert", "forsake"],
+    "antonyms": ["keep", "retain", "maintain"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "源自古法语 abandoner"
+  },
+  {
+    "id": "cet4_002",
+    "word": "ability",
+    "phonetic": "/əˈbɪləti/",
+    "definition": "n. 能力；本领；才能",
+    "examples": [
+      "He has the ability to solve complex problems.",
+      "She showed great musical ability from an early age."
+    ],
+    "synonyms": ["capability", "capacity", "skill"],
+    "antonyms": ["inability", "incompetence"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 habilis"
+  },
+  {
+    "id": "cet4_003",
+    "word": "background",
+    "phonetic": "/ˈbækɡraʊnd/",
+    "definition": "n. 背景；后台；经历",
+    "examples": [
+      "She has a background in computer science.",
+      "The music faded into the background."
+    ],
+    "synonyms": ["backdrop", "environment", "history"],
+    "antonyms": ["foreground"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "back + ground"
+  },
+  {
+    "id": "cet4_004",
+    "word": "candidate",
+    "phonetic": "/ˈkændɪdət/",
+    "definition": "n. 候选人；申请者",
+    "examples": [
+      "He is the best candidate for the job.",
+      "There are three candidates in the election."
+    ],
+    "synonyms": ["applicant", "nominee", "contender"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 candidatus"
+  },
+  {
+    "id": "cet4_005",
+    "word": "decade",
+    "phonetic": "/ˈdekeɪd/",
+    "definition": "n. 十年；十年期",
+    "examples": [
+      "The first decade of the 21st century.",
+      "Prices have risen over the last decade."
+    ],
+    "synonyms": ["ten years"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 deka (十)"
+  },
+  {
+    "id": "cet4_006",
+    "word": "effective",
+    "phonetic": "/ɪˈfektɪv/",
+    "definition": "adj. 有效的；起作用的",
+    "examples": [
+      "The medicine is effective against the disease.",
+      "We need an effective solution to this problem."
+    ],
+    "synonyms": ["efficient", "productive", "successful"],
+    "antonyms": ["ineffective", "useless"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 efficere"
+  },
+  {
+    "id": "cet4_007",
+    "word": "factor",
+    "phonetic": "/ˈfæktər/",
+    "definition": "n. 因素；要素",
+    "examples": [
+      "Cost was a major factor in our decision.",
+      "Several factors contributed to his success."
+    ],
+    "synonyms": ["element", "component", "aspect"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 factor"
+  },
+  {
+    "id": "cet4_008",
+    "word": "general",
+    "phonetic": "/ˈdʒenrəl/",
+    "definition": "adj. 一般的；普遍的；大体的",
+    "examples": [
+      "In general, I agree with your proposal.",
+      "The general opinion is that it's a good idea."
+    ],
+    "synonyms": ["common", "universal", "broad"],
+    "antonyms": ["specific", "particular"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 generalis"
+  },
+  {
+    "id": "cet4_009",
+    "word": "habitat",
+    "phonetic": "/ˈhæbɪtæt/",
+    "definition": "n. 栖息地；产地",
+    "examples": [
+      "Polar bears depend on sea ice for their habitat.",
+      "The forest is the natural habitat of many birds."
+    ],
+    "synonyms": ["environment", "home", "surroundings"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 habitat"
+  },
+  {
+    "id": "cet4_010",
+    "word": "identify",
+    "phonetic": "/aɪˈdentɪfaɪ/",
+    "definition": "v. 识别；认出；确定",
+    "examples": [
+      "Can you identify the man in this picture?",
+      "The police identified the body as that of the missing woman."
+    ],
+    "synonyms": ["recognize", "determine", "discover"],
+    "antonyms": ["mistake", "confuse"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 identificare"
+  },
+  {
+    "id": "cet4_011",
+    "word": "journey",
+    "phonetic": "/ˈdʒɜːrni/",
+    "definition": "n. 旅程；旅行",
+    "examples": [
+      "Life is a journey, not a destination.",
+      "They went on a journey across Europe."
+    ],
+    "synonyms": ["trip", "travel", "voyage"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自古法语 journee"
+  },
+  {
+    "id": "cet4_012",
+    "word": "knowledge",
+    "phonetic": "/ˈnɒlɪdʒ/",
+    "definition": "n. 知识；学问；了解",
+    "examples": [
+      "Knowledge is power.",
+      "She has a good knowledge of French."
+    ],
+    "synonyms": ["understanding", "learning", "wisdom"],
+    "antonyms": ["ignorance"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自古英语 cnāwlæġ"
+  },
+  {
+    "id": "cet4_013",
+    "word": "landscape",
+    "phonetic": "/ˈlændskeɪp/",
+    "definition": "n. 风景；地貌",
+    "examples": [
+      "The landscape is beautiful in spring.",
+      "The artist painted a landscape of the mountains."
+    ],
+    "synonyms": ["scenery", "view", "countryside"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "land + scape"
+  },
+  {
+    "id": "cet4_014",
+    "word": "maintain",
+    "phonetic": "/meɪnˈteɪn/",
+    "definition": "v. 维持；保养；坚持",
+    "examples": [
+      "The government maintains close ties with the US.",
+      "You need to maintain a balanced diet."
+    ],
+    "synonyms": ["preserve", "sustain", "support"],
+    "antonyms": ["abandon", "neglect"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自古法语 maintenir"
+  },
+  {
+    "id": "cet4_015",
+    "word": "native",
+    "phonetic": "/ˈneɪtɪv/",
+    "definition": "adj. 本地的；土生的；天生的",
+    "examples": [
+      "He is a native of New York.",
+      "The kangaroo is native to Australia."
+    ],
+    "synonyms": ["indigenous", "local", "innate"],
+    "antonyms": ["foreign", "alien"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 nativus"
+  },
+  {
+    "id": "cet4_016",
+    "word": "obtain",
+    "phonetic": "/əbˈteɪn/",
+    "definition": "v. 获得；得到",
+    "examples": [
+      "I managed to obtain a copy of the report.",
+      "You can obtain a visa from the embassy."
+    ],
+    "synonyms": ["get", "acquire", "gain"],
+    "antonyms": ["lose", "give"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 obtinere"
+  },
+  {
+    "id": "cet4_017",
+    "word": "participate",
+    "phonetic": "/pɑːrˈtɪsɪpeɪt/",
+    "definition": "v. 参与；参加",
+    "examples": [
+      "Everyone is encouraged to participate in the discussion.",
+      "She participated in the Olympic Games."
+    ],
+    "synonyms": ["join", "take part", "engage"],
+    "antonyms": ["withdraw", "abstain"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 participare"
+  },
+  {
+    "id": "cet4_018",
+    "word": "quality",
+    "phonetic": "/ˈkwɒləti/",
+    "definition": "n. 质量；品质；优质",
+    "examples": [
+      "We aim to provide high quality service.",
+      "The quality of the air is improving."
+    ],
+    "synonyms": ["standard", "grade", "excellence"],
+    "antonyms": ["inferiority"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 qualitas"
+  },
+  {
+    "id": "cet4_019",
+    "word": "radical",
+    "phonetic": "/ˈrædɪkl/",
+    "definition": "adj. 根本的；激进的",
+    "examples": [
+      "They made radical changes to the system.",
+      "His views are quite radical."
+    ],
+    "synonyms": ["extreme", "drastic", "fundamental"],
+    "antonyms": ["moderate", "conservative"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 radicalis"
+  },
+  {
+    "id": "cet4_020",
+    "word": "safety",
+    "phonetic": "/ˈseɪfti/",
+    "definition": "n. 安全；保险",
+    "examples": [
+      "Safety is our top priority.",
+      "The children were led to safety."
+    ],
+    "synonyms": ["security", "protection"],
+    "antonyms": ["danger", "risk"],
+    "difficulty": 1,
+    "tags": ["cet4", "noun"],
+    "etymology": "safe + -ty"
+  },
+  {
+    "id": "cet4_021",
+    "word": "target",
+    "phonetic": "/ˈtɑːrɡɪt/",
+    "definition": "n. 目标；靶子；对象",
+    "examples": [
+      "We need to set clear targets for improvement.",
+      "The arrow hit the center of the target."
+    ],
+    "synonyms": ["goal", "objective", "aim"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自古法语 targe"
+  },
+  {
+    "id": "cet4_022",
+    "word": "ultimate",
+    "phonetic": "/ˈʌltɪmət/",
+    "definition": "adj. 最终的；极限的",
+    "examples": [
+      "Our ultimate goal is to win the championship.",
+      "The ultimate responsibility lies with the president."
+    ],
+    "synonyms": ["final", "eventual", "last"],
+    "antonyms": ["initial", "intermediate"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 ultimatus"
+  },
+  {
+    "id": "cet4_023",
+    "word": "vacation",
+    "phonetic": "/veɪˈkeɪʃn/",
+    "definition": "n. 假期；休假",
+    "examples": [
+      "We're planning a vacation to Hawaii.",
+      "She's on vacation this week."
+    ],
+    "synonyms": ["holiday", "break", "leave"],
+    "antonyms": ["work"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 vacatio"
+  },
+  {
+    "id": "cet4_024",
+    "word": "wage",
+    "phonetic": "/weɪdʒ/",
+    "definition": "n. 工资；报酬",
+    "examples": [
+      "Workers are demanding higher wages.",
+      "He earns a weekly wage of $500."
+    ],
+    "synonyms": ["salary", "pay", "earnings"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自古英语 wed"
+  },
+  {
+    "id": "cet4_025",
+    "word": "yield",
+    "phonetic": "/jiːld/",
+    "definition": "v. 生产；屈服；出产",
+    "examples": [
+      "The tree yields fruit every year.",
+      "He refused to yield to pressure."
+    ],
+    "synonyms": ["produce", "generate", "surrender"],
+    "antonyms": ["resist", "withhold"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自古英语 gieldan"
+  },
+  {
+    "id": "cet4_026",
+    "word": "zone",
+    "phonetic": "/zəʊn/",
+    "definition": "n. 区域；地带；范围",
+    "examples": [
+      "This is a no-parking zone.",
+      "The war zone was dangerous."
+    ],
+    "synonyms": ["area", "region", "belt"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 zone"
+  },
+  {
+    "id": "cet4_027",
+    "word": "academic",
+    "phonetic": "/ˌækəˈdemɪk/",
+    "definition": "adj. 学术的；学院的",
+    "examples": [
+      "She pursued an academic career.",
+      "The academic year starts in September."
+    ],
+    "synonyms": ["scholarly", "educational"],
+    "antonyms": ["practical", "vocational"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自希腊语 akademeia"
+  },
+  {
+    "id": "cet4_028",
+    "word": "barrier",
+    "phonetic": "/ˈbæriər/",
+    "definition": "n. 障碍；壁垒；屏障",
+    "examples": [
+      "Language can be a barrier to communication.",
+      "They broke down the barriers between different groups."
+    ],
+    "synonyms": ["obstacle", "hurdle", "obstruction"],
+    "antonyms": ["aid", "help"],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自古法语 barriere"
+  },
+  {
+    "id": "cet4_029",
+    "word": "campaign",
+    "phonetic": "/kæmˈpeɪn/",
+    "definition": "n. 运动；战役；活动",
+    "examples": [
+      "The presidential campaign is in full swing.",
+      "They launched a campaign to raise awareness."
+    ],
+    "synonyms": ["movement", "drive", "operation"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自法语 campagne"
+  },
+  {
+    "id": "cet4_030",
+    "word": "data",
+    "phonetic": "/ˈdeɪtə/",
+    "definition": "n. 数据；资料",
+    "examples": [
+      "We need more data to support our conclusion.",
+      "The data shows that sales are increasing."
+    ],
+    "synonyms": ["information", "facts", "statistics"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 datum (复数)"
+  },
+  {
+    "id": "cet4_031",
+    "word": "economy",
+    "phonetic": "/ɪˈkɒnəmi/",
+    "definition": "n. 经济；节约",
+    "examples": [
+      "The global economy is recovering.",
+      "We need to practice economy in our spending."
+    ],
+    "synonyms": ["finance", "market", "thrift"],
+    "antonyms": ["waste", "luxury"],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 oikonomia"
+  },
+  {
+    "id": "cet4_032",
+    "word": "fabric",
+    "phonetic": "/ˈfæbrɪk/",
+    "definition": "n. 织物；结构；布料",
+    "examples": [
+      "Cotton is a natural fabric.",
+      "The fabric of society was changing."
+    ],
+    "synonyms": ["cloth", "material", "textile"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 fabricum"
+  },
+  {
+    "id": "cet4_033",
+    "word": "gap",
+    "phonetic": "/ɡæp/",
+    "definition": "n. 缺口；差距；间隙",
+    "examples": [
+      "There's a gap between the rich and the poor.",
+      "The dog ran through the gap in the fence."
+    ],
+    "synonyms": ["opening", "hole", "space"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自古诺斯语 gap"
+  },
+  {
+    "id": "cet4_034",
+    "word": "hardware",
+    "phonetic": "/ˈhɑːrdweər/",
+    "definition": "n. 硬件；五金制品",
+    "examples": [
+      "The computer hardware needs to be upgraded.",
+      "They sell tools and hardware."
+    ],
+    "synonyms": ["equipment", "machinery", "tools"],
+    "antonyms": ["software"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "hard + ware"
+  },
+  {
+    "id": "cet4_035",
+    "word": "illustrate",
+    "phonetic": "/ˈɪləstreɪt/",
+    "definition": "v. 说明；举例；图表化",
+    "examples": [
+      "Let me illustrate this with an example.",
+      "The book is illustrated with colorful drawings."
+    ],
+    "synonyms": ["demonstrate", "show", "clarify"],
+    "antonyms": ["obscure", "confuse"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 illustrare"
+  },
+  {
+    "id": "cet4_036",
+    "word": "justice",
+    "phonetic": "/ˈdʒʌstɪs/",
+    "definition": "n. 正义；公正；司法",
+    "examples": [
+      "All people should be treated with justice.",
+      "The criminal was brought to justice."
+    ],
+    "synonyms": ["fairness", "equity", "righteousness"],
+    "antonyms": ["injustice", "unfairness"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 justitia"
+  },
+  {
+    "id": "cet4_037",
+    "word": "keen",
+    "phonetic": "/kiːn/",
+    "definition": "adj. 热切的；敏锐的；激烈的",
+    "examples": [
+      "He is keen on playing football.",
+      "Dogs have a keen sense of smell."
+    ],
+    "synonyms": ["eager", "enthusiastic", "sharp"],
+    "antonyms": ["unenthusiastic", "dull"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自古英语 cene"
+  },
+  {
+    "id": "cet4_038",
+    "word": "launch",
+    "phonetic": "/lɔːntʃ/",
+    "definition": "v. 发射；发起；上市",
+    "examples": [
+      "They plan to launch a new product.",
+      "The rocket was launched successfully."
+    ],
+    "synonyms": ["start", "begin", "initiate"],
+    "antonyms": ["cancel", "terminate"],
+    "difficulty": 2,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自古法语 lancier"
+  },
+  {
+    "id": "cet4_039",
+    "word": "mechanism",
+    "phonetic": "/ˈmekənɪzəm/",
+    "definition": "n. 机制；原理；办法",
+    "examples": [
+      "The mechanism of action is not fully understood.",
+      "We need to develop a mechanism for resolving conflicts."
+    ],
+    "synonyms": ["system", "structure", "process"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 mechane"
+  },
+  {
+    "id": "cet4_040",
+    "word": "negative",
+    "phonetic": "/ˈneɡətɪv/",
+    "definition": "adj. 负面的；消极的；否定的",
+    "examples": [
+      "He has a negative attitude toward life.",
+      "The test result was negative."
+    ],
+    "synonyms": ["unfavorable", "pessimistic", "harmful"],
+    "antonyms": ["positive", "optimistic"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 negativus"
+  },
+  {
+    "id": "cet4_041",
+    "word": "outcome",
+    "phonetic": "/ˈaʊtkʌm/",
+    "definition": "n. 结果；结局；后果",
+    "examples": [
+      "What was the outcome of the meeting?",
+      "A positive outcome is expected."
+    ],
+    "synonyms": ["result", "consequence", "effect"],
+    "antonyms": ["cause", "origin"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "out + come"
+  },
+  {
+    "id": "cet4_042",
+    "word": "package",
+    "phonetic": "/ˈpækɪdʒ/",
+    "definition": "n. 包裹；包装；套装",
+    "examples": [
+      "I received a package from my friend.",
+      "The software package includes many useful tools."
+    ],
+    "synonyms": ["parcel", "bundle", "pack"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "pack + -age"
+  },
+  {
+    "id": "cet4_043",
+    "word": "quote",
+    "phonetic": "/kwəʊt/",
+    "definition": "v. 引用；报价",
+    "examples": [
+      "He quoted a poem in his speech.",
+      "Can you quote me a price for this job?"
+    ],
+    "synonyms": ["cite", "reference", "mention"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 quotare"
+  },
+  {
+    "id": "cet4_044",
+    "word": "rare",
+    "phonetic": "/reər/",
+    "definition": "adj. 稀有的；罕见的",
+    "examples": [
+      "It's rare to see such a beautiful sunset.",
+      "This is a rare opportunity."
+    ],
+    "synonyms": ["uncommon", "scarce", "infrequent"],
+    "antonyms": ["common", "frequent"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 rarus"
+  },
+  {
+    "id": "cet4_045",
+    "word": "satisfy",
+    "phonetic": "/ˈsætɪsfaɪ/",
+    "definition": "v. 满足；使满意",
+    "examples": [
+      "The result didn't satisfy him.",
+      "Nothing satisfies her anymore."
+    ],
+    "synonyms": ["please", "fulfill", "meet"],
+    "antonyms": ["disappoint", "dissatisfy"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 satisfacere"
+  },
+  {
+    "id": "cet4_046",
+    "word": "technical",
+    "phonetic": "/ˈteknɪkl/",
+    "definition": "adj. 技术的；专业的",
+    "examples": [
+      "The problem requires a technical solution.",
+      "He has excellent technical skills."
+    ],
+    "synonyms": ["technological", "specialized"],
+    "antonyms": ["nontechnical", "general"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自希腊语 techne"
+  },
+  {
+    "id": "cet4_047",
+    "word": "unique",
+    "phonetic": "/juˈniːk/",
+    "definition": "adj. 独特的；唯一的",
+    "examples": [
+      "Each person's fingerprints are unique.",
+      "She has a unique talent for music."
+    ],
+    "synonyms": ["distinctive", "individual", "exclusive"],
+    "antonyms": ["common", "ordinary"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 unicus"
+  },
+  {
+    "id": "cet4_048",
+    "word": "valid",
+    "phonetic": "/ˈvælɪd/",
+    "definition": "adj. 有效的；正当的",
+    "examples": [
+      "Your ticket is valid for three months.",
+      "He raised a valid point."
+    ],
+    "synonyms": ["legitimate", "authentic", "sound"],
+    "antonyms": ["invalid", "false"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 validus"
+  },
+  {
+    "id": "cet4_049",
+    "word": "wealth",
+    "phonetic": "/welθ/",
+    "definition": "n. 财富；丰富",
+    "examples": [
+      "Health is more important than wealth.",
+      "The country's wealth comes from oil."
+    ],
+    "synonyms": ["riches", "fortune", "prosperity"],
+    "antonyms": ["poverty"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自古英语 weal"
+  },
+  {
+    "id": "cet4_050",
+    "word": "accelerate",
+    "phonetic": "/əkˈseləreɪt/",
+    "definition": "v. 加速；促进",
+    "examples": [
+      "The car began to accelerate.",
+      "We need to accelerate the pace of reform."
+    ],
+    "synonyms": ["speed up", "quicken", "hasten"],
+    "antonyms": ["slow down", "decelerate"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 accelerare"
+  },
+  {
+    "id": "cet4_051",
+    "word": "benefit",
+    "phonetic": "/ˈbenɪfɪt/",
+    "definition": "n. 利益；好处 v. 有益于",
+    "examples": [
+      "The new policy will benefit everyone.",
+      "Regular exercise has many health benefits."
+    ],
+    "synonyms": ["advantage", "profit", "help"],
+    "antonyms": ["disadvantage", "harm"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun", "verb"],
+    "etymology": "来自拉丁语 beneficium"
+  },
+  {
+    "id": "cet4_052",
+    "word": "concept",
+    "phonetic": "/ˈkɒnsept/",
+    "definition": "n. 概念；观念",
+    "examples": [
+      "It's difficult to define this concept.",
+      "The concept of democracy."
+    ],
+    "synonyms": ["idea", "notion", "thought"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 conceptum"
+  },
+  {
+    "id": "cet4_053",
+    "word": "drama",
+    "phonetic": "/ˈdrɑːmə/",
+    "definition": "n. 戏剧；剧本",
+    "examples": [
+      "She studied drama at university.",
+      "The TV drama is very popular."
+    ],
+    "synonyms": ["play", "theater", "performance"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 drama"
+  },
+  {
+    "id": "cet4_054",
+    "word": "emotion",
+    "phonetic": "/ɪˈməʊʃn/",
+    "definition": "n. 情感；情绪",
+    "examples": [
+      "He couldn't hide his emotions.",
+      "Love, hate, and fear are basic emotions."
+    ],
+    "synonyms": ["feeling", "sentiment", "passion"],
+    "antonyms": ["reason", "logic"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 emotio"
+  },
+  {
+    "id": "cet4_055",
+    "word": "evolve",
+    "phonetic": "/ɪˈvɒlv/",
+    "definition": "v. 进化；发展",
+    "examples": [
+      "Species evolve over time.",
+      "The situation evolved rapidly."
+    ],
+    "synonyms": ["develop", "change", "progress"],
+    "antonyms": ["stay", "remain"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 evolvere"
+  },
+  {
+    "id": "cet4_056",
+    "word": "feature",
+    "phonetic": "/ˈfiːtʃər/",
+    "definition": "n. 特征；特色；容貌",
+    "examples": [
+      "The main feature of this phone is its camera.",
+      "Her eyes are her best feature."
+    ],
+    "synonyms": ["characteristic", "quality", "aspect"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 factura"
+  },
+  {
+    "id": "cet4_057",
+    "word": "global",
+    "phonetic": "/ˈɡləʊbl/",
+    "definition": "adj. 全球的；整体的",
+    "examples": [
+      "Global warming is a serious problem.",
+      "The company operates on a global scale."
+    ],
+    "synonyms": ["worldwide", "international", "universal"],
+    "antonyms": ["local", "regional"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 globus"
+  },
+  {
+    "id": "cet4_058",
+    "word": "highlight",
+    "phonetic": "/ˈhaɪlaɪt/",
+    "definition": "v. 突出；强调 n. 高光",
+    "examples": [
+      "The report highlights the need for reform.",
+      "The highlight of the trip was the visit to Paris."
+    ],
+    "synonyms": ["emphasize", "stress", "feature"],
+    "antonyms": ["downplay", "minimize"],
+    "difficulty": 2,
+    "tags": ["cet4", "verb", "noun"],
+    "etymology": "high + light"
+  },
+  {
+    "id": "cet4_059",
+    "word": "incentive",
+    "phonetic": "/ɪnˈsentɪv/",
+    "definition": "n. 激励；动力；诱因",
+    "examples": [
+      "Money is a powerful incentive.",
+      "They offer bonuses as an incentive to work harder."
+    ],
+    "synonyms": ["motivation", "encouragement", "stimulus"],
+    "antonyms": ["deterrent", "discouragement"],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 incentivum"
+  },
+  {
+    "id": "cet4_060",
+    "word": "journal",
+    "phonetic": "/ˈdʒɜːnl/",
+    "definition": "n. 日志；杂志；期刊",
+    "examples": [
+      "She keeps a personal journal.",
+      "The article was published in a medical journal."
+    ],
+    "synonyms": ["diary", "log", "magazine"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 diurnalis"
+  },
+  {
+    "id": "cet4_061",
+    "word": "knowledgeable",
+    "phonetic": "/ˈnɒlɪdʒəbl/",
+    "definition": "adj. 知识渊博的；有见识的",
+    "examples": [
+      "He is very knowledgeable about history.",
+      "She gave a knowledgeable answer."
+    ],
+    "synonyms": ["educated", "informed", "learned"],
+    "antonyms": ["ignorant", "uninformed"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "knowledge + -able"
+  },
+  {
+    "id": "cet4_062",
+    "word": "legislation",
+    "phonetic": "/ˌledʒɪsˈleɪʃn/",
+    "definition": "n. 立法；法律",
+    "examples": [
+      "New legislation is needed to protect the environment.",
+      "The legislation will come into effect next year."
+    ],
+    "synonyms": ["law", "statute", "act"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁法 legis latio"
+  },
+  {
+    "id": "cet4_063",
+    "word": "minimal",
+    "phonetic": "/ˈmɪnɪml/",
+    "definition": "adj. 最小的；最低限度的",
+    "examples": [
+      "The damage was minimal.",
+      "We need to make minimal changes."
+    ],
+    "synonyms": ["slight", "small", "minor"],
+    "antonyms": ["maximal", "major", "significant"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "minimum + -al"
+  },
+  {
+    "id": "cet4_064",
+    "word": "negative",
+    "phonetic": "/ˈneɡətɪv/",
+    "definition": "adj. 消极的；负面的；否定的",
+    "examples": [
+      "He has a negative attitude.",
+      "The feedback was mostly negative."
+    ],
+    "synonyms": ["pessimistic", "unfavorable", "harmful"],
+    "antonyms": ["positive", "optimistic"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 negativus"
+  },
+  {
+    "id": "cet4_065",
+    "word": "optimal",
+    "phonetic": "/ˈɒptɪml/",
+    "definition": "adj. 最佳的；最优的",
+    "examples": [
+      "This is the optimal time to plant crops.",
+      "We need to find the optimal solution."
+    ],
+    "synonyms": ["best", "ideal", "perfect"],
+    "antonyms": ["worst", "suboptimal"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 optimus"
+  },
+  {
+    "id": "cet4_066",
+    "word": "positive",
+    "phonetic": "/ˈpɒzətɪv/",
+    "definition": "adj. 积极的；正面的；肯定的",
+    "examples": [
+      "She has a positive attitude toward life.",
+      "The test result was positive."
+    ],
+    "synonyms": ["optimistic", "hopeful", "confident"],
+    "antonyms": ["negative", "pessimistic"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 positivus"
+  },
+  {
+    "id": "cet4_067",
+    "word": "qualitative",
+    "phonetic": "/ˈkwɒlɪtətɪv/",
+    "definition": "adj. 质量的；定性的",
+    "examples": [
+      "We need qualitative analysis of the data.",
+      "There was a qualitative improvement."
+    ],
+    "synonyms": ["quality-based"],
+    "antonyms": ["quantitative"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "quality + -ative"
+  },
+  {
+    "id": "cet4_068",
+    "word": "ratio",
+    "phonetic": "/ˈreɪʃiəʊ/",
+    "definition": "n. 比率；比例",
+    "examples": [
+      "The ratio of men to women is 3 to 2.",
+      "What's the ratio of students to teachers?"
+    ],
+    "synonyms": ["proportion", "rate", "percentage"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 ratio"
+  },
+  {
+    "id": "cet4_069",
+    "word": "significant",
+    "phonetic": "/sɪɡˈnɪfɪkənt/",
+    "definition": "adj. 重要的；显著的；有意义的",
+    "examples": [
+      "There was a significant improvement.",
+      "This is a significant decision."
+    ],
+    "synonyms": ["important", "major", "notable"],
+    "antonyms": ["insignificant", "minor", "trivial"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 significare"
+  },
+  {
+    "id": "cet4_070",
+    "word": "therapy",
+    "phonetic": "/ˈθerəpi/",
+    "definition": "n. 治疗；疗法",
+    "examples": [
+      "She's undergoing therapy for depression.",
+      "Physical therapy helped him recover."
+    ],
+    "synonyms": ["treatment", "cure", "healing"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 therapeia"
+  },
+  {
+    "id": "cet4_071",
+    "word": "ultimate",
+    "phonetic": "/ˈʌltɪmət/",
+    "definition": "adj. 最终的；极限的 n. 终极",
+    "examples": [
+      "Our ultimate goal is success.",
+      "The ultimate responsibility lies with him."
+    ],
+    "synonyms": ["final", "eventual", "last"],
+    "antonyms": ["initial", "intermediate"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective", "noun"],
+    "etymology": "来自拉丁语 ultimatus"
+  },
+  {
+    "id": "cet4_072",
+    "word": "visual",
+    "phonetic": "/ˈvɪʒuəl/",
+    "definition": "adj. 视觉的；形象的",
+    "examples": [
+      "The film has stunning visual effects.",
+      "She's a visual learner."
+    ],
+    "synonyms": ["optical", "seen", "graphic"],
+    "antonyms": ["auditory", "unseen"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 visualis"
+  },
+  {
+    "id": "cet4_073",
+    "word": "wealthy",
+    "phonetic": "/ˈwelθi/",
+    "definition": "adj. 富有的；丰富的",
+    "examples": [
+      "He comes from a wealthy family.",
+      "The country is wealthy in natural resources."
+    ],
+    "synonyms": ["rich", "affluent", "prosperous"],
+    "antonyms": ["poor", "needy"],
+    "difficulty": 2,
+    "tags": ["cet4", "adjective"],
+    "etymology": "wealth + -y"
+  },
+  {
+    "id": "cet4_074",
+    "word": "yield",
+    "phonetic": "/jiːld/",
+    "definition": "v. 出产；屈服；收益 n. 产量",
+    "examples": [
+      "The investment yields 5% annually.",
+      "He refused to yield to pressure."
+    ],
+    "synonyms": ["produce", "generate", "surrender"],
+    "antonyms": ["resist", "withhold"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb", "noun"],
+    "etymology": "来自古英语 gieldan"
+  },
+  {
+    "id": "cet4_075",
+    "word": "zone",
+    "phonetic": "/zəʊn/",
+    "definition": "n. 区域；地带；范围",
+    "examples": [
+      "This is a no-smoking zone.",
+      "The city has been declared a disaster zone."
+    ],
+    "synonyms": ["area", "region", "district"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 zone"
+  },
+  {
+    "id": "cet4_076",
+    "word": "academic",
+    "phonetic": "/ˌækəˈdemɪk/",
+    "definition": "adj. 学术的；学院的 n. 大学教师",
+    "examples": [
+      "She has excellent academic credentials.",
+      "He pursued an academic career."
+    ],
+    "synonyms": ["scholarly", "educational"],
+    "antonyms": ["practical", "vocational"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective", "noun"],
+    "etymology": "来自希腊语 akademeia"
+  },
+  {
+    "id": "cet4_077",
+    "word": "budget",
+    "phonetic": "/ˈbʌdʒɪt/",
+    "definition": "n. 预算 v. 编制预算",
+    "examples": [
+      "We need to stick to our budget.",
+      "She budgeted carefully for the trip."
+    ],
+    "synonyms": ["allowance", "allocation", "estimate"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun", "verb"],
+    "etymology": "来自古法语 bougette"
+  },
+  {
+    "id": "cet4_078",
+    "word": "capacity",
+    "phonetic": "/kəˈpæsəti/",
+    "definition": "n. 容量；能力；资格",
+    "examples": [
+      "The stadium has a seating capacity of 50,000.",
+      "She has the capacity to lead."
+    ],
+    "synonyms": ["ability", "capability", "volume"],
+    "antonyms": ["inability", "incapacity"],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 capacitas"
+  },
+  {
+    "id": "cet4_079",
+    "word": "decade",
+    "phonetic": "/ˈdekeɪd/",
+    "definition": "n. 十年；十年期",
+    "examples": [
+      "The last decade saw many changes.",
+      "We've been working together for a decade."
+    ],
+    "synonyms": ["ten years"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 deka"
+  },
+  {
+    "id": "cet4_080",
+    "word": "element",
+    "phonetic": "/ˈelɪmənt/",
+    "definition": "n. 元素；要素；成分",
+    "examples": [
+      "Honesty is an essential element of friendship.",
+      "Chemical elements combine to form compounds."
+    ],
+    "synonyms": ["component", "factor", "ingredient"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 elementum"
+  },
+  {
+    "id": "cet4_081",
+    "word": "feedback",
+    "phonetic": "/ˈfiːdbæk/",
+    "definition": "n. 反馈；反应",
+    "examples": [
+      "We appreciate your feedback.",
+      "The teacher gave constructive feedback."
+    ],
+    "synonyms": ["response", "reaction", "comments"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "feed + back"
+  },
+  {
+    "id": "cet4_082",
+    "word": "guarantee",
+    "phonetic": "/ˌɡærənˈtiː/",
+    "definition": "v. 保证；担保 n. 保证书",
+    "examples": [
+      "We guarantee satisfaction or your money back.",
+      "The product comes with a two-year guarantee."
+    ],
+    "synonyms": ["promise", "assure", "warranty"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "verb", "noun"],
+    "etymology": "来自古法语 garantir"
+  },
+  {
+    "id": "cet4_083",
+    "word": "hierarchy",
+    "phonetic": "/ˈhaɪərɑːrki/",
+    "definition": "n. 等级制度；层级",
+    "examples": [
+      "The corporate hierarchy is quite rigid.",
+      "There's a clear hierarchy of needs."
+    ],
+    "synonyms": ["ranking", "order", "structure"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 hierarchia"
+  },
+  {
+    "id": "cet4_084",
+    "word": "ideology",
+    "phonetic": "/ˌaɪdiˈɒlədʒi/",
+    "definition": "n. 意识形态；思想体系",
+    "examples": [
+      "The two parties have different ideologies.",
+      "His ideology is based on equality."
+    ],
+    "synonyms": ["belief", "philosophy", "creed"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 idea + logos"
+  },
+  {
+    "id": "cet4_085",
+    "word": "justice",
+    "phonetic": "/ˈdʒʌstɪs/",
+    "definition": "n. 正义；公正；司法",
+    "examples": [
+      "Justice must be served.",
+      "The court system is based on justice."
+    ],
+    "synonyms": ["fairness", "equity", "righteousness"],
+    "antonyms": ["injustice", "unfairness"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自拉丁语 justitia"
+  },
+  {
+    "id": "cet4_086",
+    "word": "kernel",
+    "phonetic": "/ˈkɜːrnl/",
+    "definition": "n. 核心；内核；谷粒",
+    "examples": [
+      "This is the kernel of the argument.",
+      "The operating system kernel manages resources."
+    ],
+    "synonyms": ["core", "essence", "heart"],
+    "antonyms": ["periphery", "surface"],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自古英语 cyrnel"
+  },
+  {
+    "id": "cet4_087",
+    "word": "label",
+    "phonetic": "/ˈleɪbl/",
+    "definition": "n. 标签；标记 v. 贴标签",
+    "examples": [
+      "Read the label before taking medicine.",
+      "Please label your luggage."
+    ],
+    "synonyms": ["tag", "mark", "sticker"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun", "verb"],
+    "etymology": "来自古法语 lambelle"
+  },
+  {
+    "id": "cet4_088",
+    "word": "mechanism",
+    "phonetic": "/ˈmekənɪzəm/",
+    "definition": "n. 机制；原理；办法",
+    "examples": [
+      "The mechanism of action is complex.",
+      "We need a mechanism for conflict resolution."
+    ],
+    "synonyms": ["system", "process", "method"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 mechane"
+  },
+  {
+    "id": "cet4_089",
+    "word": "negotiate",
+    "phonetic": "/nɪˈɡəʊʃieɪt/",
+    "definition": "v. 谈判；协商",
+    "examples": [
+      "They are trying to negotiate a peace settlement.",
+      "We need to negotiate the price."
+    ],
+    "synonyms": ["bargain", "discuss", "arrange"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 negotiari"
+  },
+  {
+    "id": "cet4_090",
+    "word": "output",
+    "phonetic": "/ˈaʊtpʊt/",
+    "definition": "n. 产量；输出",
+    "examples": [
+      "The factory increased its output.",
+      "The output of the command was displayed."
+    ],
+    "synonyms": ["production", "yield", "result"],
+    "antonyms": ["input"],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "out + put"
+  },
+  {
+    "id": "cet4_091",
+    "word": "participate",
+    "phonetic": "/pɑːˈtɪsɪpeɪt/",
+    "definition": "v. 参与；参加",
+    "examples": [
+      "Everyone is encouraged to participate.",
+      "She participated in the competition."
+    ],
+    "synonyms": ["join", "take part", "engage"],
+    "antonyms": ["withdraw", "abstain"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 participare"
+  },
+  {
+    "id": "cet4_092",
+    "word": "qualification",
+    "phonetic": "/ˌkwɒlɪfɪˈkeɪʃn/",
+    "definition": "n. 资格；条件；限定",
+    "examples": [
+      "What qualifications do you need for this job?",
+      "She has the necessary qualifications."
+    ],
+    "synonyms": ["credential", "requirement", "condition"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "qualify + -cation"
+  },
+  {
+    "id": "cet4_093",
+    "word": "radical",
+    "phonetic": "/ˈrædɪkl/",
+    "definition": "adj. 根本的；激进的",
+    "examples": [
+      "They made radical changes to the system.",
+      "His political views are quite radical."
+    ],
+    "synonyms": ["extreme", "drastic", "fundamental"],
+    "antonyms": ["moderate", "conservative"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 radicalis"
+  },
+  {
+    "id": "cet4_094",
+    "word": "strategy",
+    "phonetic": "/ˈstrætədʒi/",
+    "definition": "n. 战略；策略",
+    "examples": [
+      "We need a new marketing strategy.",
+      "The company's long-term strategy."
+    ],
+    "synonyms": ["plan", "tactic", "approach"],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 strategia"
+  },
+  {
+    "id": "cet4_095",
+    "word": "technical",
+    "phonetic": "/ˈteknɪkl/",
+    "definition": "adj. 技术的；专业的",
+    "examples": [
+      "The problem requires technical expertise.",
+      "He has strong technical skills."
+    ],
+    "synonyms": ["technological", "specialized"],
+    "antonyms": ["nontechnical", "general"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自希腊语 techne"
+  },
+  {
+    "id": "cet4_096",
+    "word": "ultimate",
+    "phonetic": "/ˈʌltɪmət/",
+    "definition": "adj. 最终的；极限的",
+    "examples": [
+      "Our ultimate goal is to win.",
+      "The ultimate responsibility is yours."
+    ],
+    "synonyms": ["final", "eventual", "last"],
+    "antonyms": ["initial", "intermediate"],
+    "difficulty": 3,
+    "tags": ["cet4", "adjective"],
+    "etymology": "来自拉丁语 ultimatus"
+  },
+  {
+    "id": "cet4_097",
+    "word": "verify",
+    "phonetic": "/ˈverɪfaɪ/",
+    "definition": "v. 核实；证实；查证",
+    "examples": [
+      "Please verify your identity.",
+      "We need to verify the information."
+    ],
+    "synonyms": ["confirm", "check", "prove"],
+    "antonyms": ["deny", "disprove"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb"],
+    "etymology": "来自拉丁语 verificare"
+  },
+  {
+    "id": "cet4_098",
+    "word": "welfare",
+    "phonetic": "/ˈwelfeər/",
+    "definition": "n. 福利；幸福；安康",
+    "examples": [
+      "The government provides welfare programs.",
+      "We care about the welfare of our employees."
+    ],
+    "synonyms": ["wellbeing", "benefit", "prosperity"],
+    "antonyms": ["misery", "hardship"],
+    "difficulty": 3,
+    "tags": ["cet4", "noun"],
+    "etymology": "well + fare"
+  },
+  {
+    "id": "cet4_099",
+    "word": "yield",
+    "phonetic": "/jiːld/",
+    "definition": "v. 生产；屈服 n. 产量；收益",
+    "examples": [
+      "The investment yields good returns.",
+      "He finally yielded to pressure."
+    ],
+    "synonyms": ["produce", "generate", "surrender"],
+    "antonyms": ["resist", "withhold"],
+    "difficulty": 3,
+    "tags": ["cet4", "verb", "noun"],
+    "etymology": "来自古英语 gieldan"
+  },
+  {
+    "id": "cet4_100",
+    "word": "zone",
+    "phonetic": "/zəʊn/",
+    "definition": "n. 区域；地带；范围",
+    "examples": [
+      "This is a pedestrian zone.",
+      "The tropical zone is warm year-round."
+    ],
+    "synonyms": ["area", "region", "belt"],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"],
+    "etymology": "来自希腊语 zone"
+  }
+]

@@ -1,0 +1,689 @@
+{
+  "id": "cet6_001",
+  "name": "CET-6 核心词汇",
+  "description": "大学英语六级核心词汇，涵盖高级英语词汇",
+  "language": "en-US",
+  "targetLanguage": "zh-CN",
+  "wordCount": 50,
+  "level": 3,
+  "category": "exam",
+  "tags": ["CET6", "exam", "college", "advanced"],
+  "words": [
+    {
+      "id": "cet6_001",
+      "word": "abnormal",
+      "phonetic": "/æbˈnɔːrml/",
+      "definition": "adj. 反常的；变态的",
+      "examples": [
+        "The abnormal weather affected the crops.",
+        "His behavior was considered abnormal."
+      ],
+      "synonyms": ["unusual", "irregular", "atypical"],
+      "antonyms": ["normal", "regular", "typical"],
+      "difficulty": 3,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_002",
+      "word": "abolish",
+      "phonetic": "/əˈbɒlɪʃ/",
+      "definition": "v. 废除；取消",
+      "examples": [
+        "The government abolished the death penalty.",
+        "Slavery was abolished in the 19th century."
+      ],
+      "synonyms": ["eliminate", "eliminate", "do away with"],
+      "antonyms": ["establish", "create"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_003",
+      "word": "abrupt",
+      "phonetic": "/əˈbrʌpt/",
+      "definition": "adj. 突然的；生硬的",
+      "examples": [
+        "The conversation came to an abrupt end.",
+        "He made an abrupt turn."
+      ],
+      "synonyms": ["sudden", "unexpected", "sharp"],
+      "antonyms": ["gradual", "gentle"],
+      "difficulty": 3,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_004",
+      "word": "absurd",
+      "phonetic": "/əbˈsɜːd/",
+      "definition": "adj. 荒谬的；可笑的",
+      "examples": [
+        "The idea is completely absurd.",
+        "It's absurd to suggest such a thing."
+      ],
+      "synonyms": ["ridiculous", "preposterous", "ludicrous"],
+      "antonyms": ["reasonable", "sensible"],
+      "difficulty": 3,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_005",
+      "word": "abundance",
+      "phonetic": "/əˈbʌndəns/",
+      "definition": "n. 丰富；充裕",
+      "examples": [
+        "The area has an abundance of wildlife.",
+        "There was food in abundance."
+      ],
+      "synonyms": ["plenty", "wealth", "profusion"],
+      "antonyms": ["scarcity", "lack"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_006",
+      "word": "academy",
+      "phonetic": "/əˈkædəmi/",
+      "definition": "n. 学院；学会",
+      "examples": [
+        "He graduated from the military academy.",
+        "She was elected to the Academy of Sciences."
+      ],
+      "synonyms": ["institute", "school", "college"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_007",
+      "word": "accelerate",
+      "phonetic": "/əkˈseləreɪt/",
+      "definition": "v. 加速；促进",
+      "examples": [
+        "The car began to accelerate.",
+        "We need to accelerate the reform process."
+      ],
+      "synonyms": ["speed up", "quicken", "hasten"],
+      "antonyms": ["decelerate", "slow"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_008",
+      "word": "accessory",
+      "phonetic": "/əkˈsesəri/",
+      "definition": "n. 附件；同谋 adj. 附属的",
+      "examples": [
+        "Bicycle accessories include helmets and lights.",
+        "He was charged as an accessory to murder."
+      ],
+      "synonyms": ["attachment", "supplement", "adjunct"],
+      "difficulty": 3,
+      "tags": ["noun", "adjective"]
+    },
+    {
+      "id": "cet6_009",
+      "word": "accommodate",
+      "phonetic": "/əˈkɒmədeɪt/",
+      "definition": "v. 容纳；供应；顺应",
+      "examples": [
+        "The hotel can accommodate 200 guests.",
+        "We must accommodate his special needs."
+      ],
+      "synonyms": ["house", "fit", "adjust"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_010",
+      "word": "accordance",
+      "phonetic": "/əˈkɔːrdəns/",
+      "definition": "n. 一致；和谐",
+      "examples": [
+        "He acted in accordance with his beliefs.",
+        "In accordance with your request, I've written a report."
+      ],
+      "synonyms": ["agreement", "compliance", "conformity"],
+      "antonyms": ["disagreement", "conflict"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_011",
+      "word": "accumulate",
+      "phonetic": "/əˈkjuːmjəleɪt/",
+      "definition": "v. 积累；堆积",
+      "examples": [
+        "Dust accumulates quickly in this room.",
+        "She accumulated great wealth."
+      ],
+      "synonyms": ["gather", "collect", "amass"],
+      "antonyms": ["scatter", "disperse"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_012",
+      "word": "accurate",
+      "phonetic": "/ˈækjərət/",
+      "definition": "adj. 准确的；精确的",
+      "examples": [
+        "Please give me an accurate description.",
+        "Her predictions proved remarkably accurate."
+      ],
+      "synonyms": ["precise", "exact", "correct"],
+      "antonyms": ["inaccurate", "vague"],
+      "difficulty": 2,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_013",
+      "word": "acknowledge",
+      "phonetic": "/əkˈnɒlɪdʒ/",
+      "definition": "v. 承认；致谢",
+      "examples": [
+        "He acknowledged his mistake.",
+        "We must acknowledge their help."
+      ],
+      "synonyms": ["admit", "recognize", "confess"],
+      "antonyms": ["deny", "ignore"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_014",
+      "word": "acquaintance",
+      "phonetic": "/əˈkweɪntəns/",
+      "definition": "n. 熟人；了解",
+      "examples": [
+        "She is an old acquaintance of mine.",
+        "I have some acquaintance with the subject."
+      ],
+      "synonyms": ["associate", "contact", "friend"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_015",
+      "word": "acquisition",
+      "phonetic": "/ˌækwɪˈzɪʃn/",
+      "definition": "n. 获得；获得物",
+      "examples": [
+        "The company announced the acquisition of a rival.",
+        "He devoted his time to the acquisition of knowledge."
+      ],
+      "synonyms": ["obtaining", "gain", "purchase"],
+      "antonyms": ["loss", "disposal"],
+      "difficulty": 4,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_016",
+      "word": "adaptation",
+      "phonetic": "/ˌædæpˈteɪʃn/",
+      "definition": "n. 适应；改编",
+      "examples": [
+        "The movie is an adaptation of a famous novel.",
+        "Animals undergo adaptations to survive."
+      ],
+      "synonyms": ["adjustment", "modification", "version"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_017",
+      "word": "adequate",
+      "phonetic": "/ˈædɪkwət/",
+      "definition": "adj. 足够的；适当的",
+      "examples": [
+        "Is your income adequate for your needs?",
+        "The facilities were barely adequate."
+      ],
+      "synonyms": ["sufficient", "enough", "satisfactory"],
+      "antonyms": ["inadequate", "insufficient"],
+      "difficulty": 2,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_018",
+      "word": "adjacent",
+      "phonetic": "/əˈdʒeɪsnt/",
+      "definition": "adj. 邻近的；毗连的",
+      "examples": [
+        "They sat in adjacent seats.",
+        "The garden is adjacent to the park."
+      ],
+      "synonyms": ["neighboring", "nearby", "bordering"],
+      "antonyms": ["distant", "remote"],
+      "difficulty": 3,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_019",
+      "word": "advocate",
+      "phonetic": "/ˈædvəkeɪt/",
+      "definition": "v. 提倡 n. 拥护者；律师",
+      "examples": [
+        "I advocate a more gradual approach.",
+        "He is a strong advocate of education reform."
+      ],
+      "synonyms": ["support", "promote", "back"],
+      "antonyms": ["oppose", "resist"],
+      "difficulty": 4,
+      "tags": ["verb", "noun"]
+    },
+    {
+      "id": "cet6_020",
+      "word": "aesthetic",
+      "phonetic": "/iːsˈθetɪk/",
+      "definition": "adj. 美学的；审美的",
+      "examples": [
+        "The building has aesthetic appeal.",
+        "She has good aesthetic judgment."
+      ],
+      "synonyms": ["artistic", "visual", "beauty"],
+      "difficulty": 4,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_021",
+      "word": "affiliate",
+      "phonetic": "/əˈfɪlieɪt/",
+      "definition": "v. 使隶加入；接纳 n. 成员；分支机构",
+      "examples": [
+        "Our hospital is affiliated with the university.",
+        "The network has local affiliates across the country."
+      ],
+      "synonyms": ["associate", "connect", "attach"],
+      "difficulty": 4,
+      "tags": ["verb", "noun"]
+    },
+    {
+      "id": "cet6_022",
+      "word": "aggravate",
+      "phonetic": "/ˈæɡrəveɪt/",
+      "definition": "v. 加重；激怒",
+      "examples": [
+        "Stress can aggravate the problem.",
+        "His comments aggravated the situation."
+      ],
+      "synonyms": ["worsen", "intensify", "irritate"],
+      "antonyms": ["improve", "soothe"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_023",
+      "word": "alienate",
+      "phonetic": "/ˈeɪliəneɪt/",
+      "definition": "v. 使疏远；转让",
+      "examples": [
+        "His comments alienated many supporters.",
+        "Don't alienate yourself from your friends."
+      ],
+      "synonyms": ["isolate", "distance", "estrange"],
+      "antonyms": ["unite", "connect"],
+      "difficulty": 4,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_024",
+      "word": "allegedly",
+      "phonetic": "/əˈledʒɪdli/",
+      "definition": "adv. 据说",
+      "examples": [
+        "He allegedly stole the money.",
+        "The accident was allegedly caused by negligence."
+      ],
+      "synonyms": ["supposedly", "reportedly", "presumably"],
+      "difficulty": 3,
+      "tags": ["adverb"]
+    },
+    {
+      "id": "cet6_025",
+      "word": "alleviate",
+      "phonetic": "/əˈliːvieɪt/",
+      "definition": "v. 减轻；缓和",
+      "examples": [
+        "The medicine alleviated the pain.",
+        "We need to alleviate poverty."
+      ],
+      "synonyms": ["relieve", "ease", "reduce"],
+      "antonyms": ["aggravate", "worsen"],
+      "difficulty": 4,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_026",
+      "word": "ambiguity",
+      "phonetic": "/ˌæmbɪˈɡjuːəti/",
+      "definition": "n. 模棱两可；含糊",
+      "examples": [
+        "The ambiguity of the statement caused confusion.",
+        "We need to remove any ambiguity from the contract."
+      ],
+      "synonyms": ["vagueness", "uncertainty", "obscurity"],
+      "antonyms": ["clarity", "certainty"],
+      "difficulty": 4,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_027",
+      "word": "ambitious",
+      "phonetic": "/æmˈbɪʃəs/",
+      "definition": "adj. 有雄心的；宏大的",
+      "examples": [
+        "She is an ambitious young woman.",
+        "The project is too ambitious."
+      ],
+      "synonyms": ["determined", "aspiring", "goal-oriented"],
+      "antonyms": ["unambitious", "lazy"],
+      "difficulty": 3,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_028",
+      "word": "amplify",
+      "phonetic": "/ˈæmplɪfaɪ/",
+      "definition": "v. 放大；增强",
+      "examples": [
+        "We need to amplify the sound.",
+        "She amplified her remarks with examples."
+      ],
+      "synonyms": ["magnify", "expand", "enhance"],
+      "antonyms": ["reduce", "diminish"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_029",
+      "word": "analogy",
+      "phonetic": "/əˈnælədʒi/",
+      "definition": "n. 类比；相似",
+      "examples": [
+        "He drew an analogy between the two situations.",
+        "The teacher used an analogy to explain the concept."
+      ],
+      "synonyms": ["similarity", "comparison", "parallel"],
+      "difficulty": 4,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_030",
+      "word": "anonymous",
+      "phonetic": "/əˈnɒnɪməs/",
+      "definition": "adj. 匿名的",
+      "examples": [
+        "The donor wishes to remain anonymous.",
+        "He received an anonymous letter."
+      ],
+      "synonyms": ["unnamed", "nameless", "unknown"],
+      "antonyms": ["named", "identified"],
+      "difficulty": 3,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_031",
+      "word": "applaud",
+      "phonetic": "/əˈplɔːd/",
+      "definition": "v. 鼓掌；赞许",
+      "examples": [
+        "The audience applauded loudly.",
+        "We applaud her decision to resign."
+      ],
+      "synonyms": ["clap", "cheer", "praise"],
+      "antonyms": ["boo", "criticize"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_032",
+      "word": "aptitude",
+      "phonetic": "/ˈæptɪtjuːd/",
+      "definition": "n. 能力；倾向",
+      "examples": [
+        "She has an aptitude for mathematics.",
+        "The test measures your aptitude for learning."
+      ],
+      "synonyms": ["talent", "ability", "capability"],
+      "antonyms": ["inability", "incapacity"],
+      "difficulty": 4,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_033",
+      "word": "arbitrary",
+      "phonetic": "/ˈɑːbɪtrəri/",
+      "definition": "adj. 任意的；专断的",
+      "examples": [
+        "The decision seemed completely arbitrary.",
+        "Arbitrary arrests are not allowed."
+      ],
+      "synonyms": ["random", "capricious", "whimsical"],
+      "antonyms": ["reasoned", "logical"],
+      "difficulty": 4,
+      "tags": ["adjective"]
+    },
+    {
+      "id": "cet6_034",
+      "word": "architecture",
+      "phonetic": "/ˈɑːkɪtektʃər/",
+      "definition": "n. 建筑学；建筑风格",
+      "examples": [
+        "She is studying architecture.",
+        "The city is famous for its architecture."
+      ],
+      "synonyms": ["building design", "structure", "style"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_035",
+      "word": "arise",
+      "phonetic": "/əˈraɪz/",
+      "definition": "v. 出现；产生；起立",
+      "examples": [
+        "A conflict may arise from this misunderstanding.",
+        "He arose from his chair."
+      ],
+      "synonyms": ["emerge", "occur", "stand up"],
+      "antonyms": ["disappear", "vanish"],
+      "difficulty": 2,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_036",
+      "word": "arouse",
+      "phonetic": "/əˈraʊz/",
+      "definition": "v. 引起；唤醒；激起",
+      "examples": [
+        "His behavior aroused suspicion.",
+        "The speech aroused great enthusiasm."
+      ],
+      "synonyms": ["evoke", "provoke", "stimulate"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_037",
+      "word": "array",
+      "phonetic": "/əˈreɪ/",
+      "definition": "n. 数组；排列；一系列",
+      "examples": [
+        "We faced a complex array of problems.",
+        "The store offers a vast array of products."
+      ],
+      "synonyms": ["range", "variety", "collection"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_038",
+      "word": "articulate",
+      "phonetic": "/ɑːˈtɪkjuleɪt/",
+      "definition": "v. 清晰表达； adj. 发音清晰的",
+      "examples": [
+        "She articulated her ideas clearly.",
+        "He is an articulate speaker."
+      ],
+      "synonyms": ["express", "enunciate", "pronounce"],
+      "difficulty": 4,
+      "tags": ["verb", "adjective"]
+    },
+    {
+      "id": "cet6_039",
+      "word": "ascertain",
+      "phonetic": "/ˌæsəˈteɪn/",
+      "definition": "v. 查明；确定",
+      "examples": [
+        "We need to ascertain the truth.",
+        "It's difficult to ascertain the cause."
+      ],
+      "synonyms": ["determine", "discover", "find out"],
+      "difficulty": 4,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_040",
+      "word": "assault",
+      "phonetic": "/əˈsɔːlt/",
+      "definition": "n. 攻击； assault v. 袭击",
+      "examples": [
+        "He was charged with sexual assault.",
+        "The enemy launched an assault."
+      ],
+      "synonyms": ["attack", "strike", "offensive"],
+      "difficulty": 3,
+      "tags": ["noun", "verb"]
+    },
+    {
+      "id": "cet6_041",
+      "word": "assert",
+      "phonetic": "/əˈsɜːt/",
+      "definition": "v. 断言；主张",
+      "examples": [
+        "He asserted his innocence.",
+        "She asserted that the claim was false."
+      ],
+      "synonyms": ["declare", "state", "maintain"],
+      "difficulty": 3,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_042",
+      "word": "assimilate",
+      "phonetic": "/əˈsɪməleɪt/",
+      "definition": "v. 同化；吸收",
+      "examples": [
+        "Immigrants assimilate into the local culture.",
+        "The body assimilates nutrients from food."
+      ],
+      "synonyms": ["absorb", "integrate", "adapt"],
+      "difficulty": 4,
+      "tags": ["verb"]
+    },
+    {
+      "id": "cet6_043",
+      "word": "assumption",
+      "phonetic": "/əˈsʌmpʃn/",
+      "definition": "n. 假定；承担",
+      "examples": [
+        "We acted on the assumption that prices would rise.",
+        "His assumption of power was controversial."
+      ],
+      "synonyms": ["supposition", "presumption", "premise"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_044",
+      "word": "assurance",
+      "phonetic": "/əˈʃʊərəns/",
+      "definition": "n. 保证；确信",
+      "examples": [
+        "I need your assurance that this won't happen again.",
+        "She spoke with assurance."
+      ],
+      "synonyms": ["guarantee", "confidence", "certainty"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_045",
+      "word": "astronomy",
+      "phonetic": "/əˈstrɒnəmi/",
+      "definition": "n. 天文学",
+      "examples": [
+        "Astronomy is the study of stars and planets.",
+        "He has a deep interest in astronomy."
+      ],
+      "synonyms": ["stargazing", "space science"],
+      "difficulty": 3,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_046",
+      "word": "atlas",
+      "phonetic": "/ˈætləs/",
+      "definition": "n. 地图集；图表集",
+      "examples": [
+        "She looked up the country in the atlas.",
+        "The road atlas shows all major highways."
+      ],
+      "synonyms": ["map book", "collection"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_047",
+      "word": "attorney",
+      "phonetic": "/əˈtɜːni/",
+      "definition": "n. 代理人；律师",
+      "examples": [
+        "She hired an attorney to handle the case.",
+        "The power of attorney was given to his wife."
+      ],
+      "synonyms": ["lawyer", "counsel", "advocate"],
+      "difficulty": 2,
+      "tags": ["noun"]
+    },
+    {
+      "id": "cet6_048",
+      "word": "attract",
+      "phonetic": "/əˈtrækt/",
+      "definition": "v. 吸引；引起",
+      "examples": [
+        "The flower attracts bees.",
+        "The movie attracted a large audience."
+      ],
+      "synonyms": ["draw", "pull", "lure"],
+      "antonyms": ["repel", "deter"],
+      "difficulty": 2,
+      "tags": ["verb", "common"]
+    },
+    {
+      "id": "cet6_049",
+      "word": "attribute",
+      "phonetic": "/əˈtrɪbjuːt/",
+      "definition": "v. 归因于 n. 属性；特质",
+      "examples": [
+        "She attributes her success to hard work.",
+        "Patience is one of his attributes."
+      ],
+      "synonyms": ["ascribe", "characteristic", "quality"],
+      "difficulty": 3,
+      "tags": ["verb", "noun"]
+    },
+    {
+      "id": "cet6_050",
+      "word": "auction",
+      "phonetic": "/ˈɔːkʃn/",
+      "definition": "n. 拍卖 v. 拍卖",
+      "examples": [
+        "They bought the house at auction.",
+        "The painting will be auctioned next week."
+      ],
+      "synonyms": ["sale", "public sale"],
+      "difficulty": 3,
+      "tags": ["noun", "verb"]
+    }
+  ]
+}

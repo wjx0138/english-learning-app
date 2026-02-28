@@ -1,0 +1,287 @@
+import '../../data/models/course.dart';
+
+/// 课程数据服务 - 提供预定义的课程列表
+class CourseService {
+  /// 获取所有课程
+  static List<Course> getAllCourses() {
+    return [
+      // CET-4 课程
+      Course(
+        id: 'cet4_basic',
+        name: 'CET-4 基础词汇',
+        description: '大学英语四级核心词汇，适合基础薄弱的同学',
+        theme: CourseTheme.cet4,
+        difficulty: CourseDifficulty.beginner,
+        wordIds: [],  // 将从词库文件加载
+        assetPath: 'assets/data/cet4_words.json',
+        wordCount: 4500,
+        estimatedTime: const Duration(hours: 30),
+        tags: ['cet4', '基础', '高频'],
+      ),
+      Course(
+        id: 'cet4_core',
+        name: 'CET-4 核心词汇',
+        description: '大学英语四级核心词汇，重点突破',
+        theme: CourseTheme.cet4,
+        difficulty: CourseDifficulty.intermediate,
+        wordIds: [],
+        assetPath: 'assets/data/cet4_words.json',
+        wordCount: 2000,
+        estimatedTime: const Duration(hours: 20),
+        tags: ['cet4', '核心', '必考'],
+      ),
+
+      // CET-6 课程
+      Course(
+        id: 'cet6_core',
+        name: 'CET-6 核心词汇',
+        description: '大学英语六级核心词汇，提升阅读能力',
+        theme: CourseTheme.cet6,
+        difficulty: CourseDifficulty.advanced,
+        wordIds: [],
+        assetPath: 'assets/data/cet6_words.json',
+        wordCount: 2500,
+        estimatedTime: const Duration(hours: 25),
+        tags: ['cet6', '核心', '进阶'],
+      ),
+
+      // TOEFL 课程
+      Course(
+        id: 'toefl_basic',
+        name: 'TOEFL 基础词汇',
+        description: '托福基础词汇，打下扎实基础',
+        theme: CourseTheme.toefl,
+        difficulty: CourseDifficulty.intermediate,
+        wordIds: [],
+        assetPath: 'assets/data/toefl_words.json',
+        wordCount: 3000,
+        estimatedTime: const Duration(hours: 30),
+        tags: ['toefl', '基础', '出国'],
+      ),
+      Course(
+        id: 'toefl_advanced',
+        name: 'TOEFL 高级词汇',
+        description: '托福高级词汇，冲刺高分',
+        theme: CourseTheme.toefl,
+        difficulty: CourseDifficulty.advanced,
+        wordIds: [],
+        assetPath: 'assets/data/toefl_words.json',
+        wordCount: 4000,
+        estimatedTime: const Duration(hours: 40),
+        isPremium: true,
+        tags: ['toefl', '高级', '冲刺'],
+      ),
+
+      // IELTS 课程
+      Course(
+        id: 'ielts_academic',
+        name: 'IELTS 学术词汇',
+        description: '雅思学术类词汇，适合学术类考生',
+        theme: CourseTheme.ielts,
+        difficulty: CourseDifficulty.advanced,
+        wordIds: [],
+        assetPath: 'assets/data/ielts_words.json',
+        wordCount: 3500,
+        estimatedTime: const Duration(hours: 35),
+        tags: ['ielts', '学术', 'A类'],
+      ),
+      Course(
+        id: 'ielts_general',
+        name: 'IELTS 培训类词汇',
+        description: '雅思培训类词汇，适合移民类考生',
+        theme: CourseTheme.ielts,
+        difficulty: CourseDifficulty.intermediate,
+        wordIds: [],
+        assetPath: 'assets/data/ielts_words.json',
+        wordCount: 2500,
+        estimatedTime: const Duration(hours: 25),
+        tags: ['ielts', '培训', 'G类'],
+      ),
+
+      // GRE 课程
+      Course(
+        id: 'gre_essential',
+        name: 'GRE 核心词汇',
+        description: 'GRE必背词汇，涵盖高频考点',
+        theme: CourseTheme.gre,
+        difficulty: CourseDifficulty.expert,
+        wordIds: [],
+        assetPath: 'assets/data/gre_words.json',
+        wordCount: 5000,
+        estimatedTime: const Duration(hours: 50),
+        isPremium: true,
+        tags: ['gre', '核心', '必备'],
+      ),
+
+      // 商务英语
+      Course(
+        id: 'business_beginner',
+        name: '商务英语入门',
+        description: '商务场景基础词汇，适合职场新人',
+        theme: CourseTheme.business,
+        difficulty: CourseDifficulty.beginner,
+        wordIds: [],
+        assetPath: 'assets/data/business_words.json',
+        wordCount: 1500,
+        estimatedTime: const Duration(hours: 15),
+        tags: ['商务', '职场', '实用'],
+      ),
+      Course(
+        id: 'business_advanced',
+        name: '高级商务英语',
+        description: '高级商务词汇，适合商务人士',
+        theme: CourseTheme.business,
+        difficulty: CourseDifficulty.advanced,
+        wordIds: [],
+        assetPath: 'assets/data/business_words.json',
+        wordCount: 2500,
+        estimatedTime: const Duration(hours: 25),
+        isPremium: true,
+        tags: ['商务', '高级', '专业'],
+      ),
+
+      // 旅游英语
+      Course(
+        id: 'travel_essential',
+        name: '旅游英语必备',
+        description: '旅游场景常用词汇，轻松出行',
+        theme: CourseTheme.travel,
+        difficulty: CourseDifficulty.beginner,
+        wordIds: [],
+        assetPath: 'assets/data/travel_words.json',
+        wordCount: 1000,
+        estimatedTime: const Duration(hours: 10),
+        tags: ['旅游', '出行', '实用'],
+      ),
+
+      // 日常英语
+      Course(
+        id: 'daily_conversation',
+        name: '日常会话词汇',
+        description: '日常生活高频词汇，提升交流能力',
+        theme: CourseTheme.daily,
+        difficulty: CourseDifficulty.beginner,
+        wordIds: [],
+        assetPath: 'assets/data/daily_words.json',
+        wordCount: 2000,
+        estimatedTime: const Duration(hours: 20),
+        tags: ['日常', '会话', '高频'],
+      ),
+      Course(
+        id: 'daily_advanced',
+        name: '高级日常词汇',
+        description: '日常交流高级词汇，表达更地道',
+        theme: CourseTheme.daily,
+        difficulty: CourseDifficulty.intermediate,
+        wordIds: [],
+        assetPath: 'assets/data/daily_words.json',
+        wordCount: 2000,
+        estimatedTime: const Duration(hours: 20),
+        tags: ['日常', '高级', '地道'],
+      ),
+
+      // 科技英语
+      Course(
+        id: 'tech_basic',
+        name: '科技英语基础',
+        description: '科技领域基础词汇，了解前沿资讯',
+        theme: CourseTheme.technology,
+        difficulty: CourseDifficulty.intermediate,
+        wordIds: [],
+        assetPath: 'assets/data/tech_words.json',
+        wordCount: 1800,
+        estimatedTime: const Duration(hours: 18),
+        tags: ['科技', 'IT', '前沿'],
+      ),
+    ];
+  }
+
+  /// 按主题分组课程
+  static List<CourseCategory> getCoursesByCategory() {
+    final allCourses = getAllCourses();
+    final Map<CourseTheme, List<Course>> grouped = {};
+
+    for (final course in allCourses) {
+      if (!grouped.containsKey(course.theme)) {
+        grouped[course.theme] = [];
+      }
+      grouped[course.theme]!.add(course);
+    }
+
+    return grouped.entries.map((entry) {
+      return CourseCategory(
+        theme: entry.key,
+        courses: entry.value,
+        description: _getCategoryDescription(entry.key),
+      );
+    }).toList();
+  }
+
+  /// 按难度筛选课程
+  static List<Course> getCoursesByDifficulty(CourseDifficulty difficulty) {
+    return getAllCourses()
+        .where((course) => course.difficulty == difficulty)
+        .toList();
+  }
+
+  /// 获取课程详情
+  static Course? getCourseById(String id) {
+    try {
+      return getAllCourses().firstWhere((course) => course.id == id);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  /// 获取推荐课程
+  static List<Course> getRecommendedCourses() {
+    // 这里可以根据用户的学习记录推荐课程
+    // 目前返回热门课程
+    return [
+      getCourseById('cet4_basic')!,
+      getCourseById('cet4_core')!,
+      getCourseById('daily_conversation')!,
+      getCourseById('travel_essential')!,
+    ];
+  }
+
+  /// 获取新课程
+  static List<Course> getNewCourses() {
+    return getAllCourses().take(5).toList();
+  }
+
+  /// 搜索课程
+  static List<Course> searchCourses(String query) {
+    final lowerQuery = query.toLowerCase();
+    return getAllCourses().where((course) {
+      return course.name.toLowerCase().contains(lowerQuery) ||
+          course.description.toLowerCase().contains(lowerQuery) ||
+          course.tags.any((tag) => tag.toLowerCase().contains(lowerQuery));
+    }).toList();
+  }
+
+  static String _getCategoryDescription(CourseTheme theme) {
+    switch (theme) {
+      case CourseTheme.cet4:
+        return '大学英语四级考试词汇';
+      case CourseTheme.cet6:
+        return '大学英语六级考试词汇';
+      case CourseTheme.toefl:
+        return '托福考试必备词汇';
+      case CourseTheme.ielts:
+        return '雅思考试核心词汇';
+      case CourseTheme.gre:
+        return 'GRE考试高分词汇';
+      case CourseTheme.business:
+        return '商务职场专业词汇';
+      case CourseTheme.travel:
+        return '旅游出行实用词汇';
+      case CourseTheme.daily:
+        return '日常生活交流词汇';
+      case CourseTheme.academic:
+        return '学术研究专业词汇';
+      case CourseTheme.technology:
+        return '科技前沿相关词汇';
+    }
+  }
+}
