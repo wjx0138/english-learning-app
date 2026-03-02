@@ -1,252 +1,2602 @@
 [
   {
-    "id": "daily_001",
-    "word": "accommodate",
-    "phonetic": "/əˈkɒmədeɪt/",
-    "definition": "v. 容纳；适应",
+    "id": "daily_00001",
+    "word": "'hood",
+    "phonetic": "/hʊd/",
+    "definition": "n. 罩；风帽；（布质）面罩；学位连领帽（表示学位种类）\\nv. 覆盖；用头巾包；使(马,鹰等)戴头罩；给…加罩\\n[网络] 胡德；兜帽；引擎盖",
     "examples": [
-      "The hotel can accommodate 200 guests.",
-      "We must accommodate different learning styles."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "house",
-      "lodging",
-      "adapt"
-    ],
-    "antonyms": [
-      "evict",
-      "reject",
-      "refuse"
-    ],
-    "difficulty": 3,
-    "tags": [
-      "daily",
-      "verb"
-    ]
-  },
-  {
-    "id": "daily_002",
-    "word": "affordable",
-    "phonetic": "/əˈfɔːdəbl/",
-    "definition": "adj. 买得起的",
-    "examples": [
-      "The apartment is affordable for young professionals.",
-      "Healthcare should be affordable for everyone."
-    ],
-    "synonyms": [
-      "cheap",
-      "reasonable",
-      "economical"
-    ],
-    "antonyms": [
-      "expensive",
-      "costly",
-      "unaffordable"
-    ],
-    "difficulty": 2,
-    "tags": [
-      "daily",
-      "adjective"
-    ]
-  },
-  {
-    "id": "daily_003",
-    "word": "available",
-    "phonetic": "/əˈveɪləbl/",
-    "definition": "adj. 可获得的；有空的",
-    "examples": [
-      "This product is available in all stores.",
-      "The manager is not available right now."
-    ],
-    "synonyms": [
-      "accessible",
-      "obtainable",
-      "free"
-    ],
-    "antonyms": [
-      "unavailable",
-      "busy",
-      "occupied"
-    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 1,
-    "tags": [
-      "daily",
-      "adjective"
-    ]
+    "tags": []
   },
   {
-    "id": "daily_004",
-    "word": "convenient",
-    "phonetic": "/kənˈviːniənt/",
-    "definition": "adj. 方便的",
+    "id": "daily_00002",
+    "word": "'s Gravenhage",
+    "phonetic": "/,skrɑ:vən'hɑ:ɡə/",
+    "definition": "[荷兰语]海牙(= Hague)",
     "examples": [
-      "The location is convenient for shopping.",
-      "Online shopping is very convenient."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "handy",
-      "useful",
-      "suitable"
-    ],
-    "antonyms": [
-      "inconvenient",
-      "difficult",
-      "troublesome"
-    ],
-    "difficulty": 2,
-    "tags": [
-      "daily",
-      "adjective"
-    ]
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
   },
   {
-    "id": "daily_005",
-    "word": "determine",
-    "phonetic": "/dɪˈtɜːmɪn/",
-    "definition": "v. 决定；查明",
+    "id": "daily_00003",
+    "word": "'tween",
+    "phonetic": "/twi:n/",
+    "definition": "prep. [诗歌用语] = between [亦作 tweeny]",
     "examples": [
-      "We need to determine the cause of the problem.",
-      "Your attitude will determine your success."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "decide",
-      "resolve",
-      "figure out"
-    ],
-    "antonyms": [
-      "hesitate",
-      "waver",
-      "ignore"
-    ],
-    "difficulty": 2,
-    "tags": [
-      "daily",
-      "verb"
-    ]
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
   },
   {
-    "id": "daily_006",
-    "word": "essential",
-    "phonetic": "/ɪˈsenʃl/",
-    "definition": "adj. 必要的，本质的",
+    "id": "daily_00004",
+    "word": "'tween decks",
+    "phonetic": "",
+    "definition": "[网络] 甲板间；二层舱；双层甲板",
     "examples": [
-      "Water is essential for life.",
-      "Good communication is essential in relationships."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "necessary",
-      "vital",
-      "crucial"
-    ],
-    "antonyms": [
-      "unnecessary",
-      "optional",
-      "inessential"
-    ],
-    "difficulty": 2,
-    "tags": [
-      "daily",
-      "adjective"
-    ]
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
   },
   {
-    "id": "daily_007",
-    "word": "frequent",
-    "phonetic": "/ˈfriːkwənt/",
-    "definition": "adj. 频繁的",
+    "id": "daily_00005",
+    "word": "-ability",
+    "phonetic": "/ə'biliti/",
+    "definition": "suf. [用于构成名词, 意义相当于-able]表示“能力”, “可能性”, “倾向性”, “适宜性”",
     "examples": [
-      "Frequent exercise is good for your health.",
-      "We made frequent stops on our road trip."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "regular",
-      "repeated",
-      "common"
-    ],
-    "antonyms": [
-      "rare",
-      "infrequent",
-      "occasional"
-    ],
-    "difficulty": 2,
-    "tags": [
-      "daily",
-      "adjective"
-    ]
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
   },
   {
-    "id": "daily_008",
-    "word": "maintain",
-    "phonetic": "/meɪnˈteɪn/",
-    "definition": "v. 维持，保养",
+    "id": "daily_00006",
+    "word": "-able",
+    "phonetic": "/əbl/",
+    "definition": "suf. [附在动词或名词后构成形容词] 表示：“能…的,会…的”：durable; “可以…的”：drinkable; “具有…特性的”：fashionable; “有助于…的”,“倾向于…的”：peaceable; “易于…的”：breakable",
     "examples": [
-      "You need to maintain a healthy diet.",
-      "Regular maintenance keeps the car running well."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "sustain",
-      "preserve",
-      "uphold"
-    ],
-    "antonyms": [
-      "neglect",
-      "abandon",
-      "ignore"
-    ],
-    "difficulty": 2,
-    "tags": [
-      "daily",
-      "verb"
-    ]
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
   },
   {
-    "id": "daily_009",
-    "word": "recommend",
-    "phonetic": "/ˌrekəˈmend/",
-    "definition": "v. 推荐，建议",
+    "id": "daily_00007",
+    "word": "-ably",
+    "phonetic": "/əbli/",
+    "definition": "suf. [构成与-able结尾的形容词相应的副词]",
     "examples": [
-      "I recommend this restaurant to everyone.",
-      "The doctor recommended plenty of rest."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "suggest",
-      "advise",
-      "propose"
-    ],
-    "antonyms": [
-      "warn",
-      "discourage",
-      "reject"
-    ],
-    "difficulty": 2,
-    "tags": [
-      "daily",
-      "verb"
-    ]
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
   },
   {
-    "id": "daily_010",
-    "word": "significant",
-    "phonetic": "/sɪɡˈnɪfɪkənt/",
-    "definition": "adj. 重要的，有意义的",
+    "id": "daily_00008",
+    "word": "-acy",
+    "phonetic": "/əsi/",
+    "definition": "suf. [用于构成抽象名词]表示性质, 状态, 位置, 地位, 职位",
     "examples": [
-      "There was a significant improvement in his grades.",
-      "This discovery is significant for medical research."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "important",
-      "major",
-      "meaningful"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00009",
+    "word": "-ad",
+    "phonetic": "/'æd/",
+    "definition": " [医]〔状语性后缀〕意为向…方, 向…侧",
+    "examples": [
+      "This is an example sentence."
     ],
-    "antonyms": [
-      "insignificant",
-      "minor",
-      "trivial"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00010",
+    "word": "-ade",
+    "phonetic": "/eid/",
+    "definition": "suf. 用以构成名词表示：“行动”,“…的动作”：blockade; “行动者”：renegade; “行动者的集体”：cavalcade; “行动的产物”：arcade; “参与”,“参加”：brigade",
+    "examples": [
+      "This is an example sentence."
     ],
-    "difficulty": 3,
-    "tags": [
-      "daily",
-      "adjective"
-    ]
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00011",
+    "word": "-adelphous",
+    "phonetic": "/ə'delfəs/",
+    "definition": " 表示“[植物学]有雄蕊束的”：monadelphous",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00012",
+    "word": "-aemia",
+    "phonetic": "/'i:miə/",
+    "definition": " [用以构成名词]表示血液",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00013",
+    "word": "-age",
+    "phonetic": "/idʒ/",
+    "definition": "comb. 表示数量;表示动作;表示身份;表示地方",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00014",
+    "word": "-agogue",
+    "phonetic": "/ə'ɡɒɡ/",
+    "definition": " [医]〔后缀〕意为催, 利",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00015",
+    "word": "-aholic",
+    "phonetic": "",
+    "definition": " 嗜好…的；对…成瘾的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00016",
+    "word": "-al",
+    "phonetic": "",
+    "definition": " [医]〔后缀〕用于化合物名之后, 示有醛基-CHO存在, 如chloral（氯醛, 三氯乙醛）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00017",
+    "word": "-algia",
+    "phonetic": "/'ælɡə/",
+    "definition": " [医]〔后缀〕意为痛",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00018",
+    "word": "-alia",
+    "phonetic": "",
+    "definition": " （与某活动或兴趣范围）有关的物品",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00019",
+    "word": "-ally",
+    "phonetic": "",
+    "definition": " 以-al结尾的形容词加ly构成副词)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00020",
+    "word": "-an",
+    "phonetic": "/æn/",
+    "definition": "suf. 表示; “碳水化合物的酐类”：dextran; “不饱和的碳化物”：tolan; 用于专有人、地名等后构成通常可兼作名词用的形容词表示“…时期的(人)”, “…地方的(人)”, “在…居住的(人)”, “在…出生的(人)”：American, Asian, Elizabethan, Victorian; 用于表示体制、学科等的词后及宗教或其他流派创始人的人名后构成可兼作名词的形容词或单词",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00021",
+    "word": "-ance",
+    "phonetic": "/əns/",
+    "definition": "suf. 性质,状况：annoyance, importance; 表示程度,总量：conductance; 行动,行为,过程：performance, utterance",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00022",
+    "word": "-ancy",
+    "phonetic": "/ənsi/",
+    "definition": "suf. =-ance (尤其多表示“性质”, “状况”)：",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00023",
+    "word": "-ane",
+    "phonetic": "/'eɪn/",
+    "definition": " [医]〔词尾〕意为饱和开链碳氢化合物, CnH2n+2",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00024",
+    "word": "-ant",
+    "phonetic": "/ənt/",
+    "definition": "suf. [构成形容词] 表示：进行...动作的,处于...状态的,促进...作用的：repentant, triumphant, expectorant; 有...的,显示...的,做...的：defiant, radiant; [构成名词]表示进行...动作的人,施行...作用者,...者(人或物):accountant, assistant, occupant",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00025",
+    "word": "-ar",
+    "phonetic": "/ə/",
+    "definition": "suf. [构成形容词]表示：...的：molecular,nuclear; ...状的,似...的：triangular; 有...特性的：popular; [构成名词]表示：...的人,...的物：bursar, scholar, vicar, morta; 动作者[-er或-or的异体]：liar, pedlar",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00026",
+    "word": "-arch",
+    "phonetic": "/ɑ:k/",
+    "definition": " 表示“原始的”; 表示“统治者”, “首领”, “领导者”",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00027",
+    "word": "-archy",
+    "phonetic": "/'ɑ:ki/",
+    "definition": " 表示管理,统治,政体：matriarchy,monarchy",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00028",
+    "word": "-ard",
+    "phonetic": "/əd/",
+    "definition": "suf. 表示沉湎于...的人,过于...的人：drunkard,sluggard",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00029",
+    "word": "-arian",
+    "phonetic": "/'εəriən/",
+    "definition": "suf. [构成形容词或名词]表示：...岁的(人)：octogenarian, centenarian; ...派的(人);...主义的(人)：Unitarian,utilitarian; 从事...工作(或职业)的(人)：argarian,antiquarian; 制定(或做出)...的(人)：disciplinarian",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00030",
+    "word": "-ary",
+    "phonetic": "/ɛri/",
+    "definition": "suf. [构成形容词]表示...的, 与...有关的, 与...有联系的, 属于...的：auxiliary, elementary; [构成名词]表示：与...有关的人,从事...的人：missionary; 与...有关之物：dictionary; ...的处所,...的地方：granary,aviary; [拉丁语-aris][构成名词和形容词]表示：像...(的), 同类(的)：mili",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00031",
+    "word": "-ase",
+    "phonetic": "/'eɪs/",
+    "definition": " [医]〔词尾〕酶",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00032",
+    "word": "-ast",
+    "phonetic": "",
+    "definition": "abbr. 大西洋标准时间（Atlantic Standard Time）\\nn. (Ast)人名；(德、塞、捷、法)阿斯特",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00033",
+    "word": "-aster",
+    "phonetic": "/'æstə/",
+    "definition": " [用以构成生物学属名]表示“星”, “星状结构”：diaster\\nsuf. 表示“劣等的”,“次等的”,“伪的”,“无价值的”：criticaster, poetaster",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00034",
+    "word": "-ate",
+    "phonetic": "",
+    "definition": " [医]〔后缀〕构成分词名词。加于词根, 表示为该词根原意的产物或作用。例如hemolysate表示溶血产物",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00035",
+    "word": "-athon",
+    "phonetic": "",
+    "definition": " 持续时间很长的活动（尤指为慈善事业募集基金）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00036",
+    "word": "-ation",
+    "phonetic": "",
+    "definition": " ——见 -ion",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00037",
+    "word": "-ative",
+    "phonetic": "/'etɪv/",
+    "definition": "suf. [构成形容词]表示：有...关系的,有...性质的：authoritative,decorative; 有...倾向的：talkative,informative",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00038",
+    "word": "-ator",
+    "phonetic": "/'eitə/",
+    "definition": "suf. [构成名词]表示做...动作的人,...者,...物,起...作用的物：improvisator,cinerator",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00039",
+    "word": "-babble",
+    "phonetic": "/'bæb(ə)l/",
+    "definition": "vi. 喋喋不休；呀呀学语；作潺潺声\\nvt. 含糊不清地说；泄露\\nn. 含糊不清的话；胡言乱语；潺潺声",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00040",
+    "word": "-bellied",
+    "phonetic": "",
+    "definition": " ——见 belly",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00041",
+    "word": "-biosis",
+    "phonetic": "/bɪ'osɪs/",
+    "definition": " 表示(某种)生活方式：anabiosis,symbiosis",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00042",
+    "word": "-biotic",
+    "phonetic": "/baɪ'ɒtɪk/",
+    "definition": "a. 生物的；有关生命的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00043",
+    "word": "-blast",
+    "phonetic": "/blæst/",
+    "definition": " 表示胚(芽),胚胎,胚层,细胞,原基：idioblast, splanchnoblast(内脏原基)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00044",
+    "word": "-blastic",
+    "phonetic": "/blɑ:st, blæstik/",
+    "definition": "a. 再结晶的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00045",
+    "word": "-busting",
+    "phonetic": "",
+    "definition": "垄耕\\n沟耕",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00046",
+    "word": "-cardium",
+    "phonetic": "/'kɑ:diəm/",
+    "definition": "comb.form 表示“心”：epicardium",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00047",
+    "word": "-cele",
+    "phonetic": "/'seli:/",
+    "definition": " [医]〔后缀〕意为肿瘤, 肿胀",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00048",
+    "word": "-cene",
+    "phonetic": "/si:n/",
+    "definition": " 表示新近的, 新的；(尤指)新生代的和特定时代：Miocene",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00049",
+    "word": "-centric",
+    "phonetic": "",
+    "definition": " 以…为中心；有…中心",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00050",
+    "word": "-cercal",
+    "phonetic": "/'sə:kəl/",
+    "definition": " 表示“有…尾的”：homocercal",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00051",
+    "word": "-chrome",
+    "phonetic": "/k'rəʊm/",
+    "definition": " [医]〔后缀〕意为与颜色有关的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00052",
+    "word": "-cidal",
+    "phonetic": "/'saidəl/",
+    "definition": " 表示：杀者的,杀的：homicidal; 可杀的,有杀害能力的：fungicidal",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00053",
+    "word": "-cide",
+    "phonetic": "",
+    "definition": " [医]〔后缀〕意为杀伤者或杀",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00054",
+    "word": "-cline",
+    "phonetic": "/klaɪn/",
+    "definition": "n. [生物] 渐变群, 生态群\\nn. (Cline)人名；(英)克莱因；(法)克利纳",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00055",
+    "word": "-clinic",
+    "phonetic": "/'klɪnɪk/",
+    "definition": "n. 临床；诊所",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00056",
+    "word": "-coccus",
+    "phonetic": "/'kɔkəs/",
+    "definition": " 表示球菌[用于各种细菌名称]",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00057",
+    "word": "-coele",
+    "phonetic": "/'kəʊeli:/",
+    "definition": " [医]〔后缀〕意为腔, 空间, 穴, 孔。有时拼作-cele和-coel",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00058",
+    "word": "-colous",
+    "phonetic": "/-kələs/",
+    "definition": " 表示生长于,居住于：arenicolous",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00059",
+    "word": "-cracy",
+    "phonetic": "",
+    "definition": " …的政府；…的统治",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00060",
+    "word": "-crat",
+    "phonetic": "/kræt/",
+    "definition": " 表示参与或支持(某种)政府或统治集团",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00061",
+    "word": "-cratic",
+    "phonetic": "",
+    "definition": "suff. 参加的；统治者的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00062",
+    "word": "-culus",
+    "phonetic": "/'kʌləs/",
+    "definition": "n. 杯状器官；[昆] 肛门孔",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00063",
+    "word": "-cy",
+    "phonetic": "/si/",
+    "definition": " 表示：性质,状态,事实：hesitancy; 职位,职务,级别：captaincy",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00064",
+    "word": "-cyte",
+    "phonetic": "/'sɪt/",
+    "definition": " [医]〔词尾〕意为细胞, 其含具体类型随词根而定, 如椭圆细胞(elliptocyte), 红细胞(erythro-cyte), 白细胞(leukocyte)等",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00065",
+    "word": "-d",
+    "phonetic": "",
+    "definition": " ——见 -ed",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00066",
+    "word": "-derm",
+    "phonetic": "/'dɜ:m/",
+    "definition": " [医]〔皮肤〕皮肤, 胚层",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00067",
+    "word": "-dermatous",
+    "phonetic": "/'də:mətəs/",
+    "definition": "comb.form 表示“有某种皮(或皮肤)的” [参较-derm]",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00068",
+    "word": "-dimensional",
+    "phonetic": "",
+    "definition": " …维的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00069",
+    "word": "-dom",
+    "phonetic": "",
+    "definition": " （表示状况或状态）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00070",
+    "word": "-drome",
+    "phonetic": "/drəum/",
+    "definition": " 表示：跑,跑道,道路：hippodrome,motordrome; 跑的东西：Palindrome,syndrome; 大空间,大场地,大面积：aerodrome, picturedrome",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00071",
+    "word": "-dromous",
+    "phonetic": "/drəməs/",
+    "definition": " 表示行的,流动的：anadromous,catadromous",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00072",
+    "word": "-dynia",
+    "phonetic": "/'dɪniə/",
+    "definition": "痛",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00073",
+    "word": "-ean",
+    "phonetic": "/'iən/",
+    "definition": "suf. [用以构成形容词和名词]表示...的,属于...的,像...的,似...的：European,Aegean, Caesarean, curstacean",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00074",
+    "word": "-ectomy",
+    "phonetic": "/'ektəmi/",
+    "definition": " 表示切除(术),截除(术)：appendectomy, tonsillectomy",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00075",
+    "word": "-ed",
+    "phonetic": "/əd/",
+    "definition": " 附在规则动词后构成过去式和过去分词；附在规则动词和名词后构成同义形容词",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00076",
+    "word": "-ee",
+    "phonetic": "",
+    "definition": " 受动者；受益者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00077",
+    "word": "-eer",
+    "phonetic": "",
+    "definition": " 与…有关的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00078",
+    "word": "-eme",
+    "phonetic": "/i:m/",
+    "definition": "suf. [用以构成名词][语言学]表示“位”, “素”:",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00079",
+    "word": "-en",
+    "phonetic": "/n/",
+    "definition": "suf. 加在形容词后构成动词使, 使成为, 变得：darken, weaken; 加在名词后构成动词变得有,使有,具有：heighten,hearten,strengthen; 加在物质名词后构成形容词表示由...制的, 由...构成的, ...一样的：wooden, woolen; 构成某些不规则动词的过去分词：risen, written; 用以构成某些名词的复数：children,bret",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00080",
+    "word": "-enabled",
+    "phonetic": "",
+    "definition": " 能与某一系统（或技术）使用的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00081",
+    "word": "-ence",
+    "phonetic": "",
+    "definition": " ——见 -ance",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00082",
+    "word": "-ency",
+    "phonetic": "",
+    "definition": " ——见 -ancy",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00083",
+    "word": "-ene",
+    "phonetic": "/'i:n/",
+    "definition": " [医]〔后缀〕指含一个双键的不饱和碳氢化合物即烯",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00084",
+    "word": "-ent",
+    "phonetic": "/ənt/",
+    "definition": " （附在动词后构成名词）表示动作者, 生效物；（附在动词后构成形容词）表示有...性质的, 作...动作的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00085",
+    "word": "-er",
+    "phonetic": "",
+    "definition": " …的人（或物）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00086",
+    "word": "-ergic",
+    "phonetic": "/'ə:dʒik/",
+    "definition": "comb.form 表示“表现活动的”, “刺激活动的”：",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00087",
+    "word": "-ery",
+    "phonetic": "/əri/",
+    "definition": "suf. [构成名词]表示：场所, 地方; 作为...的地方; 实践, 动作, 职业, 技术; ...类的产品(或货物); 集体",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00088",
+    "word": "-es",
+    "phonetic": "/iz/",
+    "definition": "suf. 附于词尾为s, z, sh, ch 的大多数名词之后,或词尾由y变为i,f变为v的一些名词之后,以及某些词尾为o的名词之后,构成复数,asses, whizzes, ashes, witches, dandies, duties calves, heroes, mosquitoes, potatoes; 附于一些源自希腊语的名词后, 构成复数; 附于词尾为s, z, sh, ch 的大多",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00089",
+    "word": "-escence",
+    "phonetic": "/'esəns/",
+    "definition": "suf. [用以构成名词, 相当于形容词后缀-escent]表示变化, 状态, 动作, 过程",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00090",
+    "word": "-escent",
+    "phonetic": "/'esənt/",
+    "definition": "suf. [用以构成形容词, 词义相当于词尾为-esce 的动词和以-escence 结尾的名词]表示：“在…过程中”, “开始发生”, “开始成为”,“发光的”, “反光的”",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00091",
+    "word": "-ese",
+    "phonetic": "",
+    "definition": " …国（或城市）的；…国（或城市）的人；…国（或城市）的语言",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00092",
+    "word": "-esque",
+    "phonetic": "",
+    "definition": " …风格（或样式）的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00093",
+    "word": "-ess",
+    "phonetic": "",
+    "definition": " 女…；雌…；母…",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00094",
+    "word": "-est",
+    "phonetic": "",
+    "definition": " 构成形容词和副词的最高级)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00095",
+    "word": "-et",
+    "phonetic": "/it/",
+    "definition": "suf. 用于构成名词表示“…的人”; 用于构成名词表示：“小”",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00096",
+    "word": "-ette",
+    "phonetic": "",
+    "definition": " 小",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00097",
+    "word": "-exempt",
+    "phonetic": "/ɪg'zem(p)t; eg-/",
+    "definition": "vt. 免除；豁免\\na. 被免除的；被豁免的\\nn. 免税者；被免除义务者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00098",
+    "word": "-ey",
+    "phonetic": "",
+    "definition": " ——见 -y (1)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00099",
+    "word": "-faced",
+    "phonetic": "/feɪst/",
+    "definition": "a. 有某种面孔或表情的；有…表面的\\nv. 面对（face的过去分词）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00100",
+    "word": "-facient",
+    "phonetic": "/'feɪʃjənt/",
+    "definition": " [医]〔后缀〕生, 做, 使变成",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00101",
+    "word": "-faction",
+    "phonetic": "/'fækʃ(ə)n/",
+    "definition": "n. 派别；内讧；小集团；纪实小说",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00102",
+    "word": "-factive",
+    "phonetic": "",
+    "definition": "假象的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00103",
+    "word": "-fer",
+    "phonetic": "/fə/",
+    "definition": " 表示“结果实的植物”；“生产者”：conifer",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00104",
+    "word": "-ferous",
+    "phonetic": "/'fɪərəs/",
+    "definition": " [医]〔后缀〕意为产生, 生育",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00105",
+    "word": "-fest",
+    "phonetic": "",
+    "definition": " 节日；联欢；大型聚会",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00106",
+    "word": "-fic",
+    "phonetic": "/fik/",
+    "definition": " 表示形成...的, 产生...的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00107",
+    "word": "-fication",
+    "phonetic": "/fi'keiʃən/",
+    "definition": " 表示形成, ...化",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00108",
+    "word": "-fisted",
+    "phonetic": "/'fistid/",
+    "definition": "a. 握成拳头的\\nv. 拳打（fist的过去式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00109",
+    "word": "-fold",
+    "phonetic": "",
+    "definition": " 乘以；…倍；由…部分组成",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00110",
+    "word": "-form",
+    "phonetic": "/fɔ:m/",
+    "definition": " 表示：具有...形状：dentiform,有...种形式：triform",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00111",
+    "word": "-fuge",
+    "phonetic": "/f'ju:dʒ/",
+    "definition": " [医]〔后缀〕意为驱除剂, 如febrifuge,意为“解热剂”",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00112",
+    "word": "-ful",
+    "phonetic": "/ful/",
+    "definition": "suff. 表示充满...的；表示有...倾向的；表示有...性质的；表示充满...的量",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00113",
+    "word": "-fy",
+    "phonetic": "",
+    "definition": " ——见 -ify",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00114",
+    "word": "-gamic",
+    "phonetic": "/'ɡæmɪk/",
+    "definition": "a. 性的；受胎的；受精的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00115",
+    "word": "-gamous",
+    "phonetic": "/-ɡəməs/",
+    "definition": " 表示：结婚的,两性结合的：polygamous; 具有...生殖器官的：heterogamous",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00116",
+    "word": "-gamy",
+    "phonetic": "/-ɡeimi/",
+    "definition": " 表示：婚姻,性结合：polygamy; 具有...受精方式；具有...生殖器官：cleistogamy",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00117",
+    "word": "-gate",
+    "phonetic": "/geɪt/",
+    "definition": "n. 大门；出入口；门道\\nvt. 给…装大门\\nn. (Gate)人名；(英)盖特；(法、瑞典)加特",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00118",
+    "word": "-gen",
+    "phonetic": "/d'ʒen/",
+    "definition": " [医]〔词尾〕原, 剂：加到词干上指该词干表示的物体或状态产生的动因, 如过敏原(allergen), 冷冻剂(cryogen), 致病原(pathogen)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00119",
+    "word": "-genetic",
+    "phonetic": "/dʒɪ'netɪk/",
+    "definition": "a. 遗传的；基因的；起源的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00120",
+    "word": "-genic",
+    "phonetic": "/d'ʒenɪk/",
+    "definition": " [医]〔词尾〕产生, 生产",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00121",
+    "word": "-genous",
+    "phonetic": "/d'ʒenəs/",
+    "definition": " [医]〔词尾〕意为来自, 生自：如endogenous, pyogenous",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00122",
+    "word": "-geny",
+    "phonetic": "/d'ʒenɪ/",
+    "definition": " [医]〔构词成分〕世代, 起源",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00123",
+    "word": "-gnathous",
+    "phonetic": "/ɡnəθəs/",
+    "definition": " 表示“有(某种)颌(或颚)的”：prognathous",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00124",
+    "word": "-gon",
+    "phonetic": "/ɡɔn/",
+    "definition": " 表示...角形：pentagon",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00125",
+    "word": "-gonium",
+    "phonetic": "/'ɡəuniəm/",
+    "definition": " 表示“性原细胞”, “生殖原细胞”：archegonium",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00126",
+    "word": "-gony",
+    "phonetic": "/ɡəni/",
+    "definition": " 表示发生,生殖,起源：cosmogony,theogony",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00127",
+    "word": "-grade",
+    "phonetic": "/-ɡreid/",
+    "definition": " 表示“走, 动, 行”, “某种走动、移动的样子”",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00128",
+    "word": "-gram",
+    "phonetic": "/ɡ'ræm/",
+    "definition": " [医]〔后缀〕意为图, 像",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00129",
+    "word": "-graph",
+    "phonetic": "/ɡræf/",
+    "definition": " 表示：书写器；描绘器；记录器：telegraph; (以某种方法)书写(或描绘、记录)的结果(或东西)：monograph, lithograph",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00130",
+    "word": "-graphic",
+    "phonetic": "/'græfɪk/",
+    "definition": "a. 形象的；图表的；绘画似的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00131",
+    "word": "-graphical",
+    "phonetic": "/'græfɪk(ə)l/",
+    "definition": "a. 图解的；绘画的；生动的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00132",
+    "word": "-graphy",
+    "phonetic": "",
+    "definition": " [医]〔词尾〕意为书写, 记录, 记录法",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00133",
+    "word": "-gynous",
+    "phonetic": "/dʒinəs/",
+    "definition": " 表示：妇女的;女性的：misogynous; 有(某种或若干)雌性的：polygynous; 女性生殖器的；雌性生殖器的；雌蕊的：monogynous",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00134",
+    "word": "-gyny",
+    "phonetic": "/dʒini/",
+    "definition": " 表示：妇女；女性; 有(某种或若干)雌性; 女性生殖器；雌性生殖器；雌蕊",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00135",
+    "word": "-head",
+    "phonetic": "/hed/",
+    "definition": "n. 头；头痛；上端；最前的部分；理解力\\nvt. 前进；用头顶；作为…的首领；站在…的前头；给…加标题\\nvi. 出发；成头状物；船驶往\\na. 头的；主要的；在顶端的\\nn. (Head)人名；(英)黑德",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00136",
+    "word": "-honored",
+    "phonetic": "/ˈɒnə(r)d/",
+    "definition": "a. 受尊敬的；已承兑或付款的\\nv. 荣幸（honor的过去分词）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00137",
+    "word": "-hood",
+    "phonetic": "",
+    "definition": " …的状态（或性质）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00138",
+    "word": "-hydric",
+    "phonetic": "/'haidrik/",
+    "definition": " [化学]表示含羟基的；含...个羟基的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00139",
+    "word": "-ia",
+    "phonetic": "/'ɪə/",
+    "definition": " [医]〔词尾〕意为：情况, 状况",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00140",
+    "word": "-ial",
+    "phonetic": "/jəl/",
+    "definition": " [构成形容词]表示具有...特性的,属于...的：ceremonial, jovial, judicial, artificial",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00141",
+    "word": "-ian",
+    "phonetic": "/jən/",
+    "definition": "suff. 属于...的（构成名词或形容词词尾）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00142",
+    "word": "-iasis",
+    "phonetic": "/ɪə'sɪs/",
+    "definition": " [医]〔词尾〕意为病, 病态。见-sis项下",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00143",
+    "word": "-iatric",
+    "phonetic": "/'aɪətrɪk/",
+    "definition": " [医]〔构词成分〕意为医疗术的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00144",
+    "word": "-iatrics",
+    "phonetic": "/'aɪətrɪks/",
+    "definition": " [医]〔构词成分〕意为医疗术",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00145",
+    "word": "-iatry",
+    "phonetic": "/'aɪətrɪ/",
+    "definition": " [医]〔后缀〕意为：医疗术",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00146",
+    "word": "-ibility",
+    "phonetic": "",
+    "definition": " ——见  -able",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00147",
+    "word": "-ible",
+    "phonetic": "/ɪbl/",
+    "definition": "suf. [用于构成以-ire或-ere结尾的拉丁语动词派生的形容词]表示可...的, 能...地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00148",
+    "word": "-ibly",
+    "phonetic": "/əbli; ibli/",
+    "definition": "suf. [构成以-ible结尾的形容词的对应副词]表示“可…地”, “能…地”：possibly, visibly",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00149",
+    "word": "-ic",
+    "phonetic": "",
+    "definition": " [医]〔后缀〕意为属于…的, 有…特性的。例如acidic（酸性的）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00150",
+    "word": "-ical",
+    "phonetic": "",
+    "definition": "abbr. 互联网日历（iCalendar）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00151",
+    "word": "-ically",
+    "phonetic": "/ikəli/",
+    "definition": "suf. [构成以-ic, ical 结尾的形容词的对应副词]",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00152",
+    "word": "-ician",
+    "phonetic": "/i'ʃən/",
+    "definition": "suf. [构成名词后缀]表示...家,...师,...工作者：beautician, geometrician, physician",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00153",
+    "word": "-ics",
+    "phonetic": "/iks/",
+    "definition": "suf. [构成名词后缀]; [通常用作单数]表示...学,...术,...研究：linguistics,physics; 常用作复数表示性质,特征：atmospherics; [常用作单数]表示体系,系统：architectonics; 常用作复数表示实践,活动：acrobatics,histrionics",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00154",
+    "word": "-id",
+    "phonetic": "/'ɪd/",
+    "definition": " [医][希 eidos form,shape]〔后缀〕意为形式, 样子, 类似",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00155",
+    "word": "-idae",
+    "phonetic": "/ɪ'deɪ/",
+    "definition": " [医]〔后缀〕在动物学上表示“科”",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00156",
+    "word": "-ide",
+    "phonetic": "",
+    "definition": " [医]〔后缀〕意为：二元化合物, 如chloride（氯化物）, sulfide（硫化物）或carbide（碳化物）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00157",
+    "word": "-idium",
+    "phonetic": "/'idiəm/",
+    "definition": "suf. 构词成分, 用以构成动物学、生物学、植物学、解剖学、化学名称中]表示“小的东西”：peridium",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00158",
+    "word": "-ie",
+    "phonetic": "/i/",
+    "definition": "suf. [构成名词] 表示：小,小而可爱：beautie; 属于...类型的人(或物), 有...性质的人(或物)：bookie; 与...有关的人(或物)：townie",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00159",
+    "word": "-ier",
+    "phonetic": "/ə(r)/",
+    "definition": "suf. 表示与...活动(或事物)有关的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00160",
+    "word": "-iferous",
+    "phonetic": "/'ifərəs/",
+    "definition": "comb.form =-ferous",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00161",
+    "word": "-iform",
+    "phonetic": "/ifɔ:m/",
+    "definition": "comb.form =-form",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00162",
+    "word": "-ify",
+    "phonetic": "/ifai/",
+    "definition": "suf. =-fy：intensify",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00163",
+    "word": "-ile",
+    "phonetic": "/ɪl/",
+    "definition": "suf. [后缀,构成形容词和名词]表示能,与...有关,适于,倾向：docile,fragile,prehensile,volatile[亦作-il]",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00164",
+    "word": "-in",
+    "phonetic": "",
+    "definition": " 很多人参加的活动",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00165",
+    "word": "-inae",
+    "phonetic": "/'aini:/",
+    "definition": "suf. [动物学][用以构成动物亚科名称]表示...亚科：Felinae",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00166",
+    "word": "-incher",
+    "phonetic": "/'intʃə/",
+    "definition": "n. 小管；口径是…英寸的东西",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00167",
+    "word": "-ine",
+    "phonetic": "/aɪni:n/",
+    "definition": " [医]〔后缀〕意为：生物碱, 卤素, 有机碱",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00168",
+    "word": "-ing",
+    "phonetic": "/iŋ/",
+    "definition": "a. 表示行为、状态、情况等；表示...行业、...学、...法；表示总称及材料 与...有关的东西",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00169",
+    "word": "-ion",
+    "phonetic": "",
+    "definition": " …行为；…状态",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00170",
+    "word": "-ious",
+    "phonetic": "/jəs/",
+    "definition": "suf. [构成形容词]表示具有...性质的,充满...的：delicious, precious, anxious",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00171",
+    "word": "-ise",
+    "phonetic": "",
+    "definition": " ——见  -ize",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00172",
+    "word": "-ish",
+    "phonetic": "/ iʃ/",
+    "definition": "suff. 像...似的; ...民族的; 有点儿...的; 大约...",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00173",
+    "word": "-ising",
+    "phonetic": "",
+    "definition": "n. 伊辛（一种模型名）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00174",
+    "word": "-ism",
+    "phonetic": "",
+    "definition": " [医]〔后缀〕：状态, 情况：尤指由特定原因所致疾病状态, 如alcoholism（酒精中毒）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00175",
+    "word": "-ist",
+    "phonetic": "",
+    "definition": " …的信仰者；…的实行者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00176",
+    "word": "-ista",
+    "phonetic": "",
+    "definition": " 非常热衷于…的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00177",
+    "word": "-ite",
+    "phonetic": "",
+    "definition": " [医]〔后缀〕意为矿、岩石及身体或器官的一部",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00178",
+    "word": "-ition",
+    "phonetic": "",
+    "definition": " ——见  -ion",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00179",
+    "word": "-itious",
+    "phonetic": "/'iʃəs/",
+    "definition": "suf. [构成形容词]表示“与…有关的”, “具有…性质的”：fictitious",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00180",
+    "word": "-itis",
+    "phonetic": "",
+    "definition": " [医]〔复-itides〕〔后缀〕炎, 炎症",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00181",
+    "word": "-itol",
+    "phonetic": "/i'tɔl; i'təul/",
+    "definition": "suf. 【化学】表示“醇”, 多羟醇：inositol",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00182",
+    "word": "-its",
+    "phonetic": "/ɪts/",
+    "definition": "pron. 它的\\nn. (Its)人名；(俄)伊茨",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00183",
+    "word": "-ity",
+    "phonetic": "/ɪti/",
+    "definition": "suff. 表示性质；表示状态；表示程度",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00184",
+    "word": "-ium",
+    "phonetic": "/jəm/",
+    "definition": "suf. [构成名词]表示：[化学]化学元素：sodium; [化学]阳离子：ammonium, carbonium; [生物学]身体部位, 生物构造：mycelium; [植物学]块,小块：pollinium",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00185",
+    "word": "-ive",
+    "phonetic": "/iv/",
+    "definition": "suff. 与...有关的；具有...性质的；有...倾向的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00186",
+    "word": "-ization",
+    "phonetic": "/ɪ'zeʃən/",
+    "definition": "suf. [构成以-ize 结尾的动词的相应名词]",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00187",
+    "word": "-ize",
+    "phonetic": "",
+    "definition": "stuff. [医]（后缀）表示使成为；表示使…化",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00188",
+    "word": "-kin",
+    "phonetic": "/kin/",
+    "definition": "suf. 表示小：lambkin, princekin; [构成姓氏]：Peterkin",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00189",
+    "word": "-kinesis",
+    "phonetic": "/ki'ni:sis/",
+    "definition": " 表示“分裂”：karyokinesis; 表示“运动”：photokinesis",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00190",
+    "word": "-kins",
+    "phonetic": "",
+    "definition": "n. 家族；亲属；性质相似的东西；地位或职业相近的人（kin的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00191",
+    "word": "-later",
+    "phonetic": "/'leɪtə/",
+    "definition": "adv. 后来；稍后；随后\\na. 更迟的；更后的\\nn. (Later)人名；(德)拉特",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00192",
+    "word": "-latry",
+    "phonetic": "/lətri/",
+    "definition": " 表示崇拜, 敬仰, 过分虔诚：heliolatry",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00193",
+    "word": "-leaved",
+    "phonetic": "",
+    "definition": " ——见 leaf n. (2)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00194",
+    "word": "-lepsy",
+    "phonetic": "/'lepsi/",
+    "definition": " 表示(病的)发作, (病的)侵袭：epilepsy",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00195",
+    "word": "-less",
+    "phonetic": "",
+    "definition": " 没有；无",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00196",
+    "word": "-lessness",
+    "phonetic": "",
+    "definition": "n. 下级；初等（等于inferiority）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00197",
+    "word": "-let",
+    "phonetic": "",
+    "definition": " 小的；不很重要的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00198",
+    "word": "-like",
+    "phonetic": "",
+    "definition": " 类似…的；有…特征的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00199",
+    "word": "-ling",
+    "phonetic": "",
+    "definition": " 幼小；不重要",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
+  },
+  {
+    "id": "daily_00200",
+    "word": "-lings",
+    "phonetic": "/liŋz/",
+    "definition": "suf. -ling的异体",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "tags": []
   }
 ]

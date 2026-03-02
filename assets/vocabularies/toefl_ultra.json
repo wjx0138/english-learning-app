@@ -1,515 +1,3131 @@
 [
   {
-    "id": "toefl_001",
-    "word": "abandon",
-    "phonetic": "/əˈbændən/",
-    "definition": "v. 遗弃；放弃；n. 放任，狂热",
+    "id": "toefl_00001",
+    "word": "abandonment",
+    "phonetic": "/ә'bændәmәnt/",
+    "definition": "n. 放弃, 抛弃, 放纵\\n[经] 委付, 废弃, 放弃(采矿权)",
     "examples": [
-      "The captain gave the order to abandon ship.",
-      "She decided to abandon her career in law."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "desert",
-      "forsake",
-      "relinquish"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00002",
+    "word": "abashed",
+    "phonetic": "/ә'bæʃd/",
+    "definition": "a. 不安的, 窘迫的",
+    "examples": [
+      "This is an example sentence."
     ],
-    "antonyms": [
-      "keep",
-      "maintain",
-      "retain"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00003",
+    "word": "abbreviation",
+    "phonetic": "/ә.bri:vi'eiʃәn/",
+    "definition": "n. 缩写词, 缩写, 缩短, 节略",
+    "examples": [
+      "This is an example sentence."
     ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00004",
+    "word": "abiding",
+    "phonetic": "/ә'baidiŋ/",
+    "definition": "a. 永久的, 持久的, 不变的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00005",
+    "word": "ablaze",
+    "phonetic": "/ә'bleiz/",
+    "definition": "a. 着火的, 闪亮的, 激昂的\\nadv. 着火, 闪耀",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00006",
+    "word": "abnormal",
+    "phonetic": "/æb'nɒ:mәl/",
+    "definition": "a. 反常的, 不规则的, 变态的, 畸形的\\nn. 畸形的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00007",
+    "word": "aboard",
+    "phonetic": "/ә'bɒ:d/",
+    "definition": "adv. 在船上, 在火车上, 在飞机上\\nprep. 在...之上",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00008",
+    "word": "abolitionist",
+    "phonetic": "/.æbәu'liʃәnist/",
+    "definition": "n. 废除主义者, 废奴主义者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00009",
+    "word": "abort",
+    "phonetic": "/ә'bɒ:t/",
+    "definition": "vi. 流产, 中途失败\\nvt. 使流产, 使失败, 使中止",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 3,
     "tags": [
       "toefl",
-      "verb"
+      "ielts"
     ]
   },
   {
-    "id": "toefl_002",
-    "word": "abbreviate",
-    "phonetic": "/əˈbriːvieɪt/",
-    "definition": "v. 缩写，缩短",
+    "id": "toefl_00010",
+    "word": "absent",
+    "phonetic": "/'æbsәnt/",
+    "definition": "a. 缺席的, 不在的, 缺乏的, 漫不经心的\\nvt. 使缺席",
     "examples": [
-      "The word 'doctor' is often abbreviated to 'Dr'.",
-      "We need to abbreviate the meeting to stay on schedule."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "shorten",
-      "condense",
-      "abridge"
-    ],
-    "antonyms": [
-      "expand",
-      "elaborate",
-      "extend"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "verb",
-      "academic"
+      "zk",
+      "gk",
+      "cet4"
     ]
   },
   {
-    "id": "toefl_003",
-    "word": "abdicate",
-    "phonetic": "/ˈæbdɪkeɪt/",
-    "definition": "v. 退位，放弃（职位、权力等）",
+    "id": "toefl_00011",
+    "word": "absentee",
+    "phonetic": "/.æbsәn'ti:/",
+    "definition": "n. 缺席者, 不在者\\n[经] 缺勤者, 缺席者, 未到工者",
     "examples": [
-      "The king was forced to abdicate after the revolution.",
-      "He chose to abdicate his responsibilities to his successor."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "renounce",
-      "relinquish",
-      "waive"
-    ],
-    "antonyms": [
-      "assume",
-      "claim",
-      "undertake"
-    ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "verb",
-      "formal"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_004",
-    "word": "aberrant",
-    "phonetic": "/æˈberənt/",
-    "definition": "adj. 异常的，偏离正道的",
+    "id": "toefl_00012",
+    "word": "absorbing",
+    "phonetic": "/әb'sɒ:biŋ/",
+    "definition": "a. 吸引人的, 非常有趣的\\n[机] 吸收的",
     "examples": [
-      "The scientist noticed aberrant behavior in the experiment.",
-      "Such aberrant results require further investigation."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "abnormal",
-      "atypical",
-      "anomalous"
-    ],
-    "antonyms": [
-      "normal",
-      "typical",
-      "standard"
-    ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "adjective",
-      "academic"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_005",
-    "word": "abhor",
-    "phonetic": "/əbˈhɔːr/",
-    "definition": "v. 憎恶，厌恶",
+    "id": "toefl_00013",
+    "word": "absorption",
+    "phonetic": "/әb'sɒ:pʃәn/",
+    "definition": "n. 吸收, 专心, 全神贯注\\n[化] 吸收; 吸收作用",
     "examples": [
-      "She abhors any form of discrimination or prejudice.",
-      "Most civilized people abhor violence and cruelty."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "detest",
-      "loathe",
-      "despise"
-    ],
-    "antonyms": [
-      "love",
-      "adore",
-      "cherish"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "verb",
-      "formal"
+      "cet6",
+      "toefl"
     ]
   },
   {
-    "id": "toefl_006",
-    "word": "cacophony",
-    "phonetic": "/kəˈkɒfəni/",
-    "definition": "n. 刺耳的声音，嘈杂声",
+    "id": "toefl_00014",
+    "word": "abstinence",
+    "phonetic": "/'æbstinәns/",
+    "definition": "n. 节制, 禁欲, 戒酒\\n[医] 节制, 禁戒(如禁酒,节欲)",
     "examples": [
-      "The cacophony of car horns filled the street.",
-      "A cacophony of alarms woke everyone up."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "discord",
-      "dissonance",
-      "noise"
-    ],
-    "antonyms": [
-      "harmony",
-      "melody",
-      "silence"
-    ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "noun",
-      "academic"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_007",
-    "word": "capitulate",
-    "phonetic": "/kəˈpɪtʃuleɪt/",
-    "definition": "v. （有条件）投降，屈服",
+    "id": "toefl_00015",
+    "word": "abstraction",
+    "phonetic": "/æb'strækʃәn/",
+    "definition": "n. 抽象化, 心不在焉, 空想, 提炼, 抽象派作品\\n[化] 提取; 抽取; 夺取; 夺取反应; 除去",
     "examples": [
-      "The company finally capitulated to the workers' demands.",
-      "She refused to capitulate despite intense pressure."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "surrender",
-      "yield",
-      "submit"
-    ],
-    "antonyms": [
-      "resist",
-      "fight",
-      "defy"
-    ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "verb",
-      "formal"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_008",
-    "word": "diligence",
-    "phonetic": "/ˈdɪlɪdʒəns/",
-    "definition": "n. 勤奋，努力",
+    "id": "toefl_00016",
+    "word": "abundantly",
+    "phonetic": "/ә'bʌndәntli/",
+    "definition": "adv. 大量地, 丰富地",
     "examples": [
-      "Her diligence and dedication led to her success.",
-      "The teacher rewarded the students for their diligence."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "industriousness",
-      "hard work",
-      "perseverance"
-    ],
-    "antonyms": [
-      "laziness",
-      "idleness",
-      "negligence"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "noun"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_009",
-    "word": "elucidate",
-    "phonetic": "/ɪˈluːsɪdeɪt/",
-    "definition": "v. 阐明，说明",
+    "id": "toefl_00017",
+    "word": "abyss",
+    "phonetic": "/ә'bis/",
+    "definition": "n. 深渊, 深邃, 地狱",
     "examples": [
-      "The professor elucidated the complex theory.",
-      "Let me elucidate this point with an example."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "clarify",
-      "explain",
-      "illuminate"
-    ],
-    "antonyms": [
-      "confuse",
-      "obscure",
-      "complicate"
-    ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "verb",
-      "academic"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_010",
-    "word": "ephemeral",
-    "phonetic": "/ɪˈfemərəl/",
-    "definition": "adj. 短暂的，瞬息的",
+    "id": "toefl_00018",
+    "word": "academy",
+    "phonetic": "/ә'kædәmi/",
+    "definition": "n. 学院, 院校, 学会",
     "examples": [
-      "Fame can be ephemeral in the entertainment industry.",
-      "The beauty of cherry blossoms is ephemeral."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "transient",
-      "fleeting",
-      "short-lived"
-    ],
-    "antonyms": [
-      "permanent",
-      "lasting",
-      "enduring"
-    ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "adjective",
-      "literary"
+      "gk",
+      "cet4",
+      "cet6"
     ]
   },
   {
-    "id": "toefl_011",
-    "word": "fabricate",
-    "phonetic": "/ˈfæbrɪkeɪt/",
-    "definition": "v. 捏造，伪造；建造",
+    "id": "toefl_00019",
+    "word": "accelerated",
+    "phonetic": "/әk'selәreitid/",
+    "definition": "a. 加快的\\n[医] 加速的",
     "examples": [
-      "He was accused of fabricating evidence.",
-      "The story was completely fabricated by the media."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "invent",
-      "forge",
-      "construct"
-    ],
-    "antonyms": [
-      "destroy",
-      "demolish",
-      "verify"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "verb"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_012",
-    "word": "gratitude",
-    "phonetic": "/ˈɡrætɪtjuːd/",
-    "definition": "n. 感激，感谢",
+    "id": "toefl_00020",
+    "word": "accelerating",
+    "phonetic": "/æk'selәreitiŋ/",
+    "definition": "[计] 加速",
     "examples": [
-      "She expressed her gratitude for their help.",
-      "We should show gratitude to those who support us."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "thankfulness",
-      "appreciation",
-      "gratefulness"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00021",
+    "word": "acceleration",
+    "phonetic": "/әk.selә'reiʃәn/",
+    "definition": "n. 加速, 促进, 加速度\\n[化] 加速度",
+    "examples": [
+      "This is an example sentence."
     ],
-    "antonyms": [
-      "ingratitude",
-      "ungratefulness",
-      "thanklessness"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00022",
+    "word": "accessibility",
+    "phonetic": "/әk.sesә'biliti/",
+    "definition": "n. 易接近, 可进入\\n[化] 可及性; 可达性; 可接近性; 吸湿性",
+    "examples": [
+      "This is an example sentence."
     ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00023",
+    "word": "accidental",
+    "phonetic": "/.æksi'dentl/",
+    "definition": "a. 意外的, 偶然的, 非主要的, 附属的\\nn. 临时记号, 次要方面",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00024",
+    "word": "accidentally",
+    "phonetic": "/.æksi'dentli/",
+    "definition": "adv. 偶然地, 意外地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00025",
+    "word": "acclaimed",
+    "phonetic": "/ə'kleɪmd/",
+    "definition": "v. 欢呼（acclaim的过去式及过去分词）\\na. 受到赞扬的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00026",
+    "word": "accompaniment",
+    "phonetic": "/ә'kʌmpәnimәnt/",
+    "definition": "n. 伴随物, 附加物, 伴奏",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00027",
+    "word": "accompanying",
+    "phonetic": "",
+    "definition": "a. 随同的, 附见的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00028",
+    "word": "accomplishment",
+    "phonetic": "/ә'kʌmpliʃmәnt/",
+    "definition": "n. 成就, 完成",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00029",
+    "word": "accordion",
+    "phonetic": "/ә'kɒ:djәn/",
+    "definition": "n. 手风琴\\na. 可折叠的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00030",
+    "word": "account for",
+    "phonetic": "",
+    "definition": "对…负有责任；对…做出解释；说明……的原因；导致；（比例）占",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 3,
     "tags": [
       "toefl",
-      "noun"
+      "ielts"
     ]
   },
   {
-    "id": "toefl_013",
-    "word": "hypothesis",
-    "phonetic": "/haɪˈpɒθəsɪs/",
-    "definition": "n. 假设，假说",
+    "id": "toefl_00031",
+    "word": "accountant",
+    "phonetic": "/ә'kauntәnt/",
+    "definition": "n. 会计人员, 会计师\\n[经] 会计师, 会计人员",
     "examples": [
-      "The scientist tested her hypothesis through experiments.",
-      "We need to develop a hypothesis to explain this phenomenon."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "theory",
-      "premise",
-      "assumption"
-    ],
-    "antonyms": [
-      "fact",
-      "reality",
-      "conclusion"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "noun",
-      "academic"
+      "gk",
+      "ky",
+      "toefl"
     ]
   },
   {
-    "id": "toefl_014",
-    "word": "implement",
-    "phonetic": "/ˈɪmplɪment/",
-    "definition": "v. 实施，执行；n. 工具",
+    "id": "toefl_00032",
+    "word": "accounting",
+    "phonetic": "/ә'kauntiŋ/",
+    "definition": "n. 会计学, 帐单, 清帐\\n[计] 帐户处理, 记帐",
     "examples": [
-      "The company plans to implement new policies.",
-      "We need tools to implement the changes effectively."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "execute",
-      "carry out",
-      "instrument"
-    ],
-    "antonyms": [
-      "neglect",
-      "ignore",
-      "abandon"
-    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 3,
     "tags": [
       "toefl",
-      "verb",
-      "noun"
+      "ielts"
     ]
   },
   {
-    "id": "toefl_015",
-    "word": "mitigate",
-    "phonetic": "/ˈmɪtɪɡeɪt/",
-    "definition": "v. 减轻，缓和",
+    "id": "toefl_00033",
+    "word": "accredit",
+    "phonetic": "/ә'kredit/",
+    "definition": "vt. 信托, 确认, 归结于, 委派\\n[经] 发行信用证, 信托, 委托",
     "examples": [
-      "We need strategies to mitigate the effects of climate change.",
-      "The government took steps to mitigate the crisis."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "alleviate",
-      "reduce",
-      "lessen"
-    ],
-    "antonyms": [
-      "aggravate",
-      "intensify",
-      "worsen"
-    ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "verb",
-      "formal"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_016",
-    "word": "nominal",
-    "phonetic": "/ˈnɒmɪnl/",
-    "definition": "adj. 名义上的，微不足道的",
+    "id": "toefl_00034",
+    "word": "accumulation",
+    "phonetic": "/ә.kju:mju'leiʃәn/",
+    "definition": "n. 积聚, 累积, 积聚物\\n[医] 蓄积, 累积",
     "examples": [
-      "She is the nominal head of the organization.",
-      "There was only a nominal fee for the service."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "titular",
-      "minimal",
-      "symbolic"
-    ],
-    "antonyms": [
-      "real",
-      "actual",
-      "significant"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "adjective"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_017",
-    "word": "obscure",
-    "phonetic": "/əbˈskjʊə(r)/",
-    "definition": "adj. 模糊的；v. 使模糊",
+    "id": "toefl_00035",
+    "word": "accusation",
+    "phonetic": "/ækju:'zeiʃәn/",
+    "definition": "n. 控告, 指控, 指责\\n[法] 控告, 起诉, 告发",
     "examples": [
-      "The poem's meaning is obscure and difficult to interpret.",
-      "Clouds obscured the view of the mountains."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "unclear",
-      "vague",
-      "hide"
-    ],
-    "antonyms": [
-      "clear",
-      "obvious",
-      "reveal"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "adjective",
-      "verb"
+      "toefl"
     ]
   },
   {
-    "id": "toefl_018",
-    "word": "optimistic",
-    "phonetic": "/ˌɒptɪˈmɪstɪk/",
-    "definition": "adj. 乐观的",
+    "id": "toefl_00036",
+    "word": "accustom",
+    "phonetic": "/ә'kʌstәm/",
+    "definition": "vt. 使习惯于",
     "examples": [
-      "She remains optimistic about the company's future.",
-      "We should be optimistic but also realistic."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "hopeful",
-      "positive",
-      "confident"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00037",
+    "word": "accustomed",
+    "phonetic": "/ә'kʌstәmd/",
+    "definition": "a. 惯常的, 习惯了的",
+    "examples": [
+      "This is an example sentence."
     ],
-    "antonyms": [
-      "pessimistic",
-      "negative",
-      "cynical"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00038",
+    "word": "achievement",
+    "phonetic": "/ә'tʃi:vmәnt/",
+    "definition": "n. 完成, 成就, 功业",
+    "examples": [
+      "This is an example sentence."
     ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00039",
+    "word": "acidic",
+    "phonetic": "/ә'sidik/",
+    "definition": "a. 成酸的, 尖刻的, 酸性的\\n[机] 酸性",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00040",
+    "word": "acidity",
+    "phonetic": "/ә'siditi/",
+    "definition": "n. 酸性\\n[化] 酸度; 酸性; 酸性反应",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00041",
+    "word": "acoustical",
+    "phonetic": "/ә'ku:stikәl/",
+    "definition": "a. 听觉的, 声学的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00042",
+    "word": "acting",
+    "phonetic": "/'æktiŋ/",
+    "definition": "n. 演戏, 装腔作势\\na. 代理的, 演出用的, 起作用的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00043",
+    "word": "activate",
+    "phonetic": "/'æktiveit/",
+    "definition": "vt. 使活动, 使激活, 正式建成\\nvi. 有活力",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00044",
+    "word": "actively",
+    "phonetic": "/'æktivli/",
+    "definition": "adv. 活跃地, 积极地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00045",
+    "word": "acupuncture",
+    "phonetic": "/'ækju.pʌŋktʃә/",
+    "definition": "n. 针刺, 针刺疗法\\nvt. 施以针灸",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00046",
+    "word": "adaptation",
+    "phonetic": "/.ædæp'teiʃәn/",
+    "definition": "n. 适应, 改编, 改编本\\n[医] 适应[作用]",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00047",
+    "word": "adaptive",
+    "phonetic": "/ә'dæptiv/",
+    "definition": "a. 适应的, 能适应的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00048",
+    "word": "addicted",
+    "phonetic": "/ә'diktid/",
+    "definition": "a. 沉溺于...的, 无法摆脱(某种嗜好)的\\n[法] 嗜, 好, 惯于",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00049",
+    "word": "addictive",
+    "phonetic": "/ә'diktiv/",
+    "definition": "a. 上瘾的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00050",
+    "word": "additional",
+    "phonetic": "/ә'diʃәnәl/",
+    "definition": "a. 附加的, 另外的, 额外的\\n[机] 加添的, 附加的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00051",
+    "word": "adherence",
+    "phonetic": "/әd'hiәrәns/",
+    "definition": "n. 依附, 固执, 坚持\\n[化] 粘合",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00052",
+    "word": "adjoin",
+    "phonetic": "/ә'dʒɒin/",
+    "definition": "v. 邻接, 毗连",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00053",
+    "word": "adjoining",
+    "phonetic": "/ә'dʒɒiniŋ/",
+    "definition": "a. 邻接的, 毗连的\\n[机] 联接",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00054",
+    "word": "adjustment",
+    "phonetic": "/ә'dʒʌstmәnt/",
+    "definition": "n. 调整, 调节, 校正\\n[化] 调节",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00055",
+    "word": "administer",
+    "phonetic": "/әd'ministә/",
+    "definition": "vt. 管理, 料理, 执行\\nvi. 执行遗产管理人的职责, 给予帮助",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00056",
+    "word": "administrate",
+    "phonetic": "/әd'ministreit/",
+    "definition": "vt. 管理, 支配",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00057",
+    "word": "administrative",
+    "phonetic": "/әd'ministrәtiv/",
+    "definition": "a. 管理的, 行政的\\n[法] 行政的, 管理的, 遗产管理的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00058",
+    "word": "administrator",
+    "phonetic": "/әd'ministreitә/",
+    "definition": "n. 管理人, 行政官\\n[经] 遗产管理人员",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 3,
     "tags": [
       "toefl",
-      "adjective"
+      "ielts"
     ]
   },
   {
-    "id": "toefl_019",
-    "word": "pragmatic",
-    "phonetic": "/præɡˈmætɪk/",
-    "definition": "adj. 务实的，实用的",
+    "id": "toefl_00059",
+    "word": "admirable",
+    "phonetic": "/'ædmәrәbl/",
+    "definition": "a. 可钦佩的, 极好的, 令人惊奇的",
     "examples": [
-      "We need a pragmatic approach to solve this problem.",
-      "Her pragmatic leadership helped the company grow."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "practical",
-      "realistic",
-      "sensible"
-    ],
-    "antonyms": [
-      "idealistic",
-      "impractical",
-      "unrealistic"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "toefl",
-      "adjective"
+      "gk",
+      "toefl"
     ]
   },
   {
-    "id": "toefl_020",
-    "word": "scrutinize",
-    "phonetic": "/ˈskruːtənaɪz/",
-    "definition": "v. 详细检查，仔细审查",
+    "id": "toefl_00060",
+    "word": "admiration",
+    "phonetic": "/.ædmә'reiʃәn/",
+    "definition": "n. 赞赏, 钦佩, 引人赞赏的对象",
     "examples": [
-      "The committee will scrutinize the proposal carefully.",
-      "We need to scrutinize the contract before signing."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "examine",
-      "inspect",
-      "analyze"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00061",
+    "word": "admittedly",
+    "phonetic": "/әd'mitidli/",
+    "definition": "adv. 公认地, 诚然",
+    "examples": [
+      "This is an example sentence."
     ],
-    "antonyms": [
-      "ignore",
-      "neglect",
-      "overlook"
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00062",
+    "word": "adoption",
+    "phonetic": "/ә'dɒpʃәn/",
+    "definition": "n. 采用, 采纳, 收养\\n[法] 收养, 采纳, 采用",
+    "examples": [
+      "This is an example sentence."
     ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00063",
+    "word": "adornment",
+    "phonetic": "/ә'dɒ:nmәnt/",
+    "definition": "n. 装饰, 装饰品",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00064",
+    "word": "adulteration",
+    "phonetic": "/ә.dʌltә'reiʃәn/",
+    "definition": "n. 掺杂, 掺假的东西\\n[化] 掺杂; 掺加",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00065",
+    "word": "advancement",
+    "phonetic": "/әd'vɑ:nsmәnt/",
+    "definition": "n. 前进, 进步, 提升\\n[医] 徙前术",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00066",
+    "word": "adventure",
+    "phonetic": "/әd'ventʃә/",
+    "definition": "n. 冒险, 冒险经历\\nv. 冒险",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00067",
+    "word": "adventurer",
+    "phonetic": "/әd'ventʃәrә/",
+    "definition": "n. 冒险家, 投机者\\n[法] 冒险者, 投机者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00068",
+    "word": "adventurous",
+    "phonetic": "/әd'ventʃәrәs/",
+    "definition": "a. 喜欢冒险的, 有进取心的, 危险的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00069",
+    "word": "adversely",
+    "phonetic": "",
+    "definition": "adv. 不利, 有害, 相反, 逆, 敌对, 逆向",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00070",
+    "word": "adversity",
+    "phonetic": "/әd'vә:sәti/",
+    "definition": "n. 逆境, 不幸, 灾祸, 灾难",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00071",
+    "word": "aerodynamics",
+    "phonetic": "/.єәrәudai'næmiks/",
+    "definition": "n. 空气动力学\\n[化] 空气动力学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00072",
+    "word": "aesthetical",
+    "phonetic": "/i:s'θetikәl/",
+    "definition": "a. 美学的, 艺术的, 美的, 审美的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00073",
+    "word": "affectionate",
+    "phonetic": "/ә'fekʃәnәt/",
+    "definition": "a. 深情的, 充满情爱的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00074",
+    "word": "affective",
+    "phonetic": "/ә'fektiv/",
+    "definition": "a. 情感的, 表达感情的\\n[医] 感情的, 情感的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00075",
+    "word": "aged",
+    "phonetic": "/'eidʒid/",
+    "definition": "a. 老的, 陈的, 有...岁的\\n[化] 老化的; 老化了的; 陈化的; 陈化了的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00076",
+    "word": "aggravating",
+    "phonetic": "/'ægrәveitiŋ/",
+    "definition": "a. 使恶化的, 加重的, 恼人的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00077",
+    "word": "aggregation",
+    "phonetic": "/ægri'geiʃәn/",
+    "definition": "n. 集合, 聚合, 集合体\\n[化] 聚集; 聚集作用",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00078",
+    "word": "aggressiveness",
+    "phonetic": "",
+    "definition": "n. (贬)侵略, 侵犯, 寻衅, (褒)敢作敢为, 有进取心, (武器)攻击性, 过分, 放肆",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00079",
+    "word": "agitation",
+    "phonetic": "/.ædʒi'teiʃәn/",
+    "definition": "n. 激动, 焦虑, 煽动, 搅动, 摇动\\n[化] 搅拌; 搅拌作用",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00080",
+    "word": "aglow",
+    "phonetic": "/ә'glәu/",
+    "definition": "a. 发光的, 通红的\\nadv. 发光地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00081",
+    "word": "agonize",
+    "phonetic": "/'ægәnaiz/",
+    "definition": "vt. 使极度痛苦, 折磨\\nvi. 感到痛苦",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00082",
+    "word": "airsickness",
+    "phonetic": "/'єәsiknis/",
+    "definition": "n. 晕机",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00083",
+    "word": "ajar",
+    "phonetic": "/ә'dʒɑ:/",
+    "definition": "a. 微开的, 半开的, 不和谐的\\nadv. 微开, 半开, 不协调地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00084",
+    "word": "akin",
+    "phonetic": "/ә'kin/",
+    "definition": "a. 同类的, 同族的, 同源的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00085",
+    "word": "alder",
+    "phonetic": "/'ɒ:ldә/",
+    "definition": "n. 桤木\\n[机] 赤杨木",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00086",
+    "word": "algae",
+    "phonetic": "/'ælgi:/",
+    "definition": "pl. 藻类, 海藻\\n[化] 藻类",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00087",
+    "word": "algebra",
+    "phonetic": "/'ældʒibrә/",
+    "definition": "n. 代数学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00088",
+    "word": "alien",
+    "phonetic": "/'eiljәn/",
+    "definition": "n. 外国人, 外侨\\na. 外国的, 相异的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00089",
+    "word": "alight",
+    "phonetic": "/ә'lait/",
+    "definition": "vi. 落下, 偶然发现\\na. 点着的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00090",
+    "word": "alignment",
+    "phonetic": "/ә'lainmәnt/",
+    "definition": "n. 队列, 结盟, 校正\\n[计] 校准; 对齐; 对准",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00091",
+    "word": "alike",
+    "phonetic": "/ә'laik/",
+    "definition": "a. 相似的, 同样的\\nadv. 一样, 以同样的方式",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00092",
+    "word": "alligator",
+    "phonetic": "/'æligeitә/",
+    "definition": "n. 短吻鳄\\n[机] 两栖装甲车",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00093",
+    "word": "alliteration",
+    "phonetic": "/ә.litә'reiʃәn/",
+    "definition": "n. 头韵\\n[医] 同音韵错误症",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00094",
+    "word": "allot",
+    "phonetic": "/ә'lɒt/",
+    "definition": "vt. 分配, 分摊指定\\n[经] (按股或按规定)分配, 配(拨)给, 规(派)定",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
       "toefl",
-      "verb",
-      "formal"
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00095",
+    "word": "alloy",
+    "phonetic": "/'ælɒi. ә'lɒi/",
+    "definition": "n. 合金\\nvt. 将...铸成合金, 减低成色\\nvi. 合铸",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00096",
+    "word": "allure",
+    "phonetic": "/ә'luә/",
+    "definition": "vt. 引诱, 吸引\\nn. 魅力, 诱惑力",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00097",
+    "word": "alteration",
+    "phonetic": "/.ɒ:ltә'reiʃәn/",
+    "definition": "n. 变更, 改动\\n[医] 变更",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00098",
+    "word": "alternately",
+    "phonetic": "/'ɒ:ltәnәtli/",
+    "definition": "adv. 交替地, 间隔地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00099",
+    "word": "alternation",
+    "phonetic": "/.ɒ:ltә'neiʃәn/",
+    "definition": "n. 交互, 轮流, 间隔\\n[计] 交替工作",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00100",
+    "word": "altitude",
+    "phonetic": "/'æltitju:d/",
+    "definition": "n. 高度, 海拔, 高处\\n[电] 高度",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00101",
+    "word": "aluminum",
+    "phonetic": "/ә'lu:minәm/",
+    "definition": "n. 铝\\n[化] 铝Al",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00102",
+    "word": "alumnus",
+    "phonetic": "/ә'lʌmnәs/",
+    "definition": "n. 男毕业生, 男校友",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00103",
+    "word": "amaze",
+    "phonetic": "/ә'meiz/",
+    "definition": "vt. 使吃惊",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00104",
+    "word": "amazement",
+    "phonetic": "/ә'meizmәnt/",
+    "definition": "n. 惊愕, 惊异",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00105",
+    "word": "ambitious",
+    "phonetic": "/æm'biʃәs/",
+    "definition": "a. 有野心的, 抱负不凡的, 雄心勃勃的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00106",
+    "word": "amplification",
+    "phonetic": "/.æmplifi'keiʃәn/",
+    "definition": "n. 扩大, 放大\\n[化] 放大; 放大作用",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00107",
+    "word": "anatomy",
+    "phonetic": "/ә'nætәmi/",
+    "definition": "n. 剖析, 解剖学, 骨骼, 结构\\n[医] 解剖学, 解剖",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00108",
+    "word": "ancestral",
+    "phonetic": "/æn'sestrәl/",
+    "definition": "a. 祖先的, 祖传的\\n[法] 祖先的, 祖传的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00109",
+    "word": "anecdotal",
+    "phonetic": "/,ænek'dәutl/",
+    "definition": "a. 轶事的, 爱谈奇闻轶事的, 多轶事的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00110",
+    "word": "anesthesia",
+    "phonetic": "/.ænis'θi:ziә/",
+    "definition": "n. 麻醉, 麻木\\n[化] 麻醉; 失去知觉",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00111",
+    "word": "annex",
+    "phonetic": "/ә'neks/",
+    "definition": "n. 附加物, 附属建筑物\\nvt. 附加, 盖(印), 并吞",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00112",
+    "word": "announcer",
+    "phonetic": "/ә'naunsә/",
+    "definition": "n. 节目报告员, 宣告者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00113",
+    "word": "annoying",
+    "phonetic": "/ә'nɒiiŋ/",
+    "definition": "a. 恼人的, 讨厌的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00114",
+    "word": "annually",
+    "phonetic": "/'ænjuәli/",
+    "definition": "adv. 一年一次, 每年\\n[经] 年度的, 每年的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00115",
+    "word": "antagonist",
+    "phonetic": "/æn'tægәnist/",
+    "definition": "n. 敌手, 对手\\n[化] 对抗物; 拮抗物; 反协同剂; 反协同试剂",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00116",
+    "word": "Antarctica",
+    "phonetic": "/ænt'ɑ:ktikә/",
+    "definition": "n. 南极洲",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00117",
+    "word": "anthropology",
+    "phonetic": "/.ænθrә'pɒlәdʒi/",
+    "definition": "n. 人类学\\n[医] 人类学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00118",
+    "word": "anticipation",
+    "phonetic": "/æn.tisi'peiʃәn/",
+    "definition": "n. 预期, 预料\\n[医] 提前出现(如遗传病)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00119",
+    "word": "antiquate",
+    "phonetic": "/'æntikweit/",
+    "definition": "vt. 使古旧, 废弃",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00120",
+    "word": "apathetic",
+    "phonetic": "/.æpә'θetik/",
+    "definition": "a. 缺乏感情的, 无动于衷的, 缺乏兴趣的\\n[医] 无情[感]的, 淡漠的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00121",
+    "word": "ape",
+    "phonetic": "/eip/",
+    "definition": "n. 无尾猿\\n[计] 应用程序评价",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00122",
+    "word": "apology",
+    "phonetic": "/ә'pɒlәdʒi/",
+    "definition": "n. 道歉, 辩护\\n[法] 道歉, 谢罪, 辩解者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00123",
+    "word": "appealing",
+    "phonetic": "/ә'pi:liŋ/",
+    "definition": "a. 有感染力的, 动人的, 恳求的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00124",
+    "word": "appliance",
+    "phonetic": "/ә'plaiәns/",
+    "definition": "n. 器械, 用具, 应用\\n[医] 矫正器; 器",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00125",
+    "word": "apportion",
+    "phonetic": "/ә'pɒ:ʃәn/",
+    "definition": "vt. 分配, 分摊, 分派\\n[法] 分派, 分摊, 分配",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00126",
+    "word": "appraisal",
+    "phonetic": "/ә'preizәl/",
+    "definition": "n. 评价, 估价\\n[经] 评价, 评估",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00127",
+    "word": "appreciation",
+    "phonetic": "/ә.pri:ʃi'eiʃәn/",
+    "definition": "n. 感激, 赏识, 鉴别\\n[经] 涨价, 增值",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00128",
+    "word": "apprehension",
+    "phonetic": "/.æpri'henʃәn/",
+    "definition": "n. 理解, 忧惧, 逮捕\\n[医] 领会",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00129",
+    "word": "approaching",
+    "phonetic": "",
+    "definition": "v. 进场；侵入；接近（approach的ing形式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00130",
+    "word": "appropriation",
+    "phonetic": "/әprәupri'eiʃәn/",
+    "definition": "n. 拨用, 挪用, 拨款\\n[经] 拨款, 挪用",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00131",
+    "word": "approximately",
+    "phonetic": "/ә'prɒksimәtli/",
+    "definition": "adv. 大约, 大致, 近于\\n[经] 大约, 近似",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00132",
+    "word": "aptly",
+    "phonetic": "/'æptli/",
+    "definition": "adv. 适当地, 适宜地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00133",
+    "word": "aquamarine",
+    "phonetic": "/.ækwәmә'ri:n/",
+    "definition": "n. 海蓝宝石, 浅绿色\\n[化] 海蓝宝石",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00134",
+    "word": "aquarium",
+    "phonetic": "/ә'kwєәriәm/",
+    "definition": "n. 水族馆, 养鱼池, 水草缸\\n[医] 培养缸",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00135",
+    "word": "arbitration",
+    "phonetic": "/.ɑ:bi'treiʃәn/",
+    "definition": "n. 仲裁, 公断\\n[计] 仲裁",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00136",
+    "word": "arbitrator",
+    "phonetic": "/'ɑ:bitreitә/",
+    "definition": "n. 仲裁人, 公断者\\n[经] 公断人, 仲裁人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00137",
+    "word": "arc",
+    "phonetic": "/ɑ:k/",
+    "definition": "n. 弧, 弧形, 弓形, 弧光\\n[化] 弧",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00138",
+    "word": "archaeological",
+    "phonetic": "/.ɑ:kiә'lɒdʒikl/",
+    "definition": "a. 考古学的, 考古学上的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00139",
+    "word": "archaic",
+    "phonetic": "/ɑ:'keiik/",
+    "definition": "a. 古体的, 过时的, 古老的, 古代的\\n[医] 原始的, 古代的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00140",
+    "word": "architectural",
+    "phonetic": "/.ɑ:ki'tektʃәrәl/",
+    "definition": "a. 有关建筑的, 建筑学的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00141",
+    "word": "architecture",
+    "phonetic": "/'ɑ:kitektʃә/",
+    "definition": "n. 建筑学, 建筑式样\\n[计] 体系结构",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00142",
+    "word": "ardor",
+    "phonetic": "/'ɑ:dә/",
+    "definition": "n. 热忱, 热情, 情欲, 激情, 灼热\\n[医] 灼热; 热心",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00143",
+    "word": "arduous",
+    "phonetic": "/'ɑ:djuәs/",
+    "definition": "a. 费力的, 努力的, 险峻的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00144",
+    "word": "arithmetic",
+    "phonetic": "/ә'riθmәtik/",
+    "definition": "n. 算术, 算术知识\\n[机] 算术; 算术的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00145",
+    "word": "armament",
+    "phonetic": "/'ɑ:mәmәnt/",
+    "definition": "n. 军备, 军队, 武器\\n[机] 武器",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00146",
+    "word": "armor",
+    "phonetic": "/'ɑ:mә/",
+    "definition": "n. 盔甲, 潜水服, 装甲\\nvt. 为...装甲",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00147",
+    "word": "armored",
+    "phonetic": "/'ɑ:mәd/",
+    "definition": "a. 装甲的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00148",
+    "word": "arms",
+    "phonetic": "/ɑ:mz/",
+    "definition": "n. 武器, 军事行动\\n[机] 武器, 军械, 枪械",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00149",
+    "word": "ascend",
+    "phonetic": "/ә'send/",
+    "definition": "vi. 上升, 追溯, 登高\\nvt. 攀登",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00150",
+    "word": "ascending",
+    "phonetic": "/ә'sendiŋ/",
+    "definition": "a. 上升的, 向上的\\n[计] 递增",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00151",
+    "word": "ascent",
+    "phonetic": "/ә'sent/",
+    "definition": "n. 上升, 提高, 攀登, 上坡路",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00152",
+    "word": "ascertain",
+    "phonetic": "/.æsә'tein/",
+    "definition": "vt. 确定, 查明\\n[法] 查明, 弄清, 确定",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00153",
+    "word": "asphalt",
+    "phonetic": "/'æsfælt/",
+    "definition": "n. 柏油\\na. 用柏油铺成的\\nvt. 以柏油铺",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00154",
+    "word": "aspiring",
+    "phonetic": "/ә'spaiәriŋ/",
+    "definition": "a. 有抱负的, 有志气的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00155",
+    "word": "assassin",
+    "phonetic": "/ә'sæsin/",
+    "definition": "n. 暗杀者, 刺客\\n[法] 暗杀者, 行刺者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00156",
+    "word": "assassinate",
+    "phonetic": "/ә'sæsineit/",
+    "definition": "vt. 暗杀, 行刺\\n[法] 暗杀, 行刺, 中伤",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00157",
+    "word": "assemblage",
+    "phonetic": "/ә'semblidʒ/",
+    "definition": "n. 集合, 装配, 一群人\\n[法] 配合, 集合, 集合物",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00158",
+    "word": "assign",
+    "phonetic": "/ә'sain/",
+    "definition": "vt. 分配, 指派, 赋值\\n[计] 赋值",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00159",
+    "word": "assignment",
+    "phonetic": "/ә'sainmәnt/",
+    "definition": "n. 分配, 功课, 任务, 转让, 归因, 陈述\\n[计] 赋值",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00160",
+    "word": "assistantship",
+    "phonetic": "/ә'sistәnt-ʃip/",
+    "definition": "n. (大学)研究生助教奖学金",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00161",
+    "word": "assortment",
+    "phonetic": "/ә'sɒ:tmәnt/",
+    "definition": "n. 分类, 各种各样\\n[医] [遗传]配列",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00162",
+    "word": "assuredly",
+    "phonetic": "/ә'ʃuәridli/",
+    "definition": "adv. 确实地, 无疑地, 确信地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00163",
+    "word": "astonish",
+    "phonetic": "/ә'stɒniʃ/",
+    "definition": "vt. 使惊讶",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00164",
+    "word": "astonished",
+    "phonetic": "",
+    "definition": "a. 吃惊的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00165",
+    "word": "astonishing",
+    "phonetic": "/ә'stɒniʃiŋ/",
+    "definition": "a. 令人惊讶的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00166",
+    "word": "astounding",
+    "phonetic": "/ә'staundiŋ/",
+    "definition": "a. 令人惊骇的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00167",
+    "word": "astronomer",
+    "phonetic": "/ә'strɒnәmә/",
+    "definition": "n. 天文学家",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00168",
+    "word": "astronomy",
+    "phonetic": "/ә'strɒnәmi/",
+    "definition": "n. 天文学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00169",
+    "word": "asymmetrical",
+    "phonetic": "",
+    "definition": "a. 不对称的, 偏位的\\n[计] 非对称的, 不对称的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00170",
+    "word": "atheist",
+    "phonetic": "/'eiθiist/",
+    "definition": "n. 无神论者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00171",
+    "word": "atom",
+    "phonetic": "/'ætәm/",
+    "definition": "n. 原子, 核能, 微粒, 微量\\n[计] 原子",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "toefl_00172",
+    "word": "atomic",
+    "phonetic": "/ә'tɒmik/",
+    "definition": "a. 原子的, 原子能的\\n[医] 原子的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00173",
+    "word": "atomization",
+    "phonetic": "/.ætәumai'zeiʃәn/",
+    "definition": "n. 粉碎, 以原子弹轰炸, 雾化\\n[化] 原子化; 雾化",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00174",
+    "word": "attached",
+    "phonetic": "/ә'tætʃt/",
+    "definition": "a. 附加的；依恋的, 充满爱心的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00175",
+    "word": "attachment",
+    "phonetic": "/ә'tʃætʃmәnt/",
+    "definition": "n. 连接, 附属物, 连接物, 爱慕\\n[计] 附加, 附件",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00176",
+    "word": "attendance",
+    "phonetic": "/ә'tendәns/",
+    "definition": "n. 出席, 出席的人数, 照料\\n[法] 管理, 照料, 资助",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00177",
+    "word": "attendant",
+    "phonetic": "/ә'tendәnt/",
+    "definition": "n. 随从, 侍者, 出席者\\na. 侍候的, 伴随的, 出席的, 在场的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00178",
+    "word": "attraction",
+    "phonetic": "/ә'trækʃәn/",
+    "definition": "n. 吸引, 吸引人的事物, 吸引力\\n[医] 吸引",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00179",
+    "word": "audition",
+    "phonetic": "/ɒ:'diʃәn/",
+    "definition": "n. 听, 听力, 试听\\n[计] 审计命令",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00180",
+    "word": "auditor",
+    "phonetic": "/'ɒ:ditә/",
+    "definition": "n. 审计员, 听者, 旁听生\\n[经] 审计(查帐)员, 审计师, 会计检查员",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00181",
+    "word": "auditory",
+    "phonetic": "/'ɒ:ditәri/",
+    "definition": "a. 听觉的, 听觉器官的\\n[医] 听[音]的, 听觉的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00182",
+    "word": "aura",
+    "phonetic": "/'ɒ:rә/",
+    "definition": "n. 气氛, 气味\\n[医] 先兆",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00183",
+    "word": "authenticate",
+    "phonetic": "/ɒ:'θentikeit/",
+    "definition": "vt. 证明可信, 证实为真, 使具法律效力\\n[法] 认证, 鉴定, 证明",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00184",
+    "word": "authoritative",
+    "phonetic": "/ɒ:'θɒritәtiv/",
+    "definition": "a. 权威性的, 官方的, 命令式的\\n[法] 官方的, 当局的, 权威的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00185",
+    "word": "authorize",
+    "phonetic": "/'ɒ:θәraiz/",
+    "definition": "vt. 授权, 批准, 委托\\n[经] 授权, 委任, 认可",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00186",
+    "word": "autobiographical",
+    "phonetic": "/ɔ:tәjbaiә'^ræfik(ә)l/",
+    "definition": "a. 自传的, 自传体的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00187",
+    "word": "automated",
+    "phonetic": "",
+    "definition": "a. 自动化的；机械化的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00188",
+    "word": "automotive",
+    "phonetic": "/.ɒ:tәu'mәutiv/",
+    "definition": "a. 汽车的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00189",
+    "word": "autopsy",
+    "phonetic": "/'ɒ:tәpsi/",
+    "definition": "n. 验尸\\n[医] 尸体解剖, 尸体剖检",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00190",
+    "word": "avenue",
+    "phonetic": "/'ævәnju:/",
+    "definition": "n. 大街, 途径, 林荫路",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00191",
+    "word": "aviation",
+    "phonetic": "/.eivi'eiʃәn/",
+    "definition": "n. 航空, 航空学, 飞行术\\n[法] 航空, 飞行, 飞行术",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "toefl_00192",
+    "word": "aviator",
+    "phonetic": "/'eivieitә/",
+    "definition": "n. 飞行员",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00193",
+    "word": "avocational",
+    "phonetic": "",
+    "definition": "业余爱好的\\n副业的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00194",
+    "word": "avoidable",
+    "phonetic": "/ә'vɒidәbl/",
+    "definition": "a. 可避免的\\n[法] 可作为无效的, 可回避的, 可避免的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00195",
+    "word": "avoidance",
+    "phonetic": "/ә'vɒidәns/",
+    "definition": "n. 避免, 避开, 逃避\\n[经] 回避, 废止, 宣告无效",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00196",
+    "word": "avouch",
+    "phonetic": "/ә'vautʃ/",
+    "definition": "v. 断言, 主张, 保证, 承认",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00197",
+    "word": "awareness",
+    "phonetic": "/ә'weәnis/",
+    "definition": "n. 意识, 认识\\n[计] 识别, 议定, 明白",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "toefl_00198",
+    "word": "awkwardly",
+    "phonetic": "",
+    "definition": "adv. 笨拙地；无技巧地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00199",
+    "word": "axe",
+    "phonetic": "",
+    "definition": "n. 斧, 斧头\\nvt. 削减(人员、经费、计划、机构等)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "toefl_00200",
+    "word": "baboon",
+    "phonetic": "/bә'bu:n/",
+    "definition": "n. 狒狒\\n[医] 狒狒",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl"
     ]
   }
 ]

@@ -1,0 +1,3280 @@
+[
+  {
+    "id": "kaoyan_00001",
+    "word": "abdomen",
+    "phonetic": "/'æbdәmen/",
+    "definition": "n. 腹部\\n[医] 腹[部]",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00002",
+    "word": "adjective",
+    "phonetic": "/'ædʒiktiv/",
+    "definition": "n. 形容词\\na. 形容词的, 从属的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00003",
+    "word": "adverb",
+    "phonetic": "/'ædvә:b/",
+    "definition": "n. 副词",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00004",
+    "word": "aloud",
+    "phonetic": "/ә'laud/",
+    "definition": "adv. 出声地, 大声地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00005",
+    "word": "amplifier",
+    "phonetic": "/'æmplifaiә/",
+    "definition": "n. 扩大的人(物), 放大器, 扩音器\\n[计] 放大器",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00006",
+    "word": "ant",
+    "phonetic": "/ænt/",
+    "definition": "n. 蚂蚁",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00007",
+    "word": "apologise",
+    "phonetic": "/ә'pɔlәdʒaiz/",
+    "definition": "vi. 道歉（等于apologize）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00008",
+    "word": "brow",
+    "phonetic": "/brau/",
+    "definition": "n. 眉毛, 额\\n[医] 额, 眉, 睫毛",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00009",
+    "word": "candy",
+    "phonetic": "/'kændi/",
+    "definition": "n. 糖果, 冰糖\\nvt. 用糖煮, 使结晶为砂糖\\nvi. 结晶为砂糖",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00010",
+    "word": "classmate",
+    "phonetic": "/'klɑ:smeit/",
+    "definition": "n. 同班同学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00011",
+    "word": "clone",
+    "phonetic": "/klәun/",
+    "definition": "n. 无性系\\n[计] 代用件",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00012",
+    "word": "clothe",
+    "phonetic": "/klәuð/",
+    "definition": "vt. 给...穿衣, 盖上, 赋予",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00013",
+    "word": "courtyard",
+    "phonetic": "/'kɒ:tjɑ:d/",
+    "definition": "n. 庭院, 天井",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "gk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00014",
+    "word": "cyberspace",
+    "phonetic": "",
+    "definition": "[计] 空间, 网控空间",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00015",
+    "word": "daytime",
+    "phonetic": "/'deitaim/",
+    "definition": "n. 白天, 日间",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00016",
+    "word": "doctorate",
+    "phonetic": "/'dɒktәrit/",
+    "definition": "n. 博士头衔",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00017",
+    "word": "donkey",
+    "phonetic": "/'dɒŋki/",
+    "definition": "n. 驴子, 笨蛋, 顽固者, 辅助发动机, 辅助泵",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00018",
+    "word": "downstairs",
+    "phonetic": "/'daun'stєәz/",
+    "definition": "n. 楼下\\na. 楼下的\\nadv. 在楼下",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00019",
+    "word": "dynasty",
+    "phonetic": "/'dainæsti/",
+    "definition": "n. 朝代, 王朝",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "gk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00020",
+    "word": "foreseeable",
+    "phonetic": "/'fɒ:'si:әbl/",
+    "definition": "a. 可预知的, 能预测的\\n[法] 可预见的, 可预料的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00021",
+    "word": "genealogist",
+    "phonetic": "/.dʒi:ni'ælәdʒist/",
+    "definition": "n. 系谱学者, 系谱专家",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00022",
+    "word": "glamor",
+    "phonetic": "/'glæmә/",
+    "definition": "n. 魅力, 迷人的美, 魔法\\nvt. 迷惑",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00023",
+    "word": "goodby",
+    "phonetic": "/.ɡud'bai/",
+    "definition": "int. 再见（等于goodbye）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00024",
+    "word": "highland",
+    "phonetic": "/'hailәnd/",
+    "definition": "n. 高地, 苏格兰高地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00025",
+    "word": "holder",
+    "phonetic": "/'hәuldә/",
+    "definition": "n. 持有人, 所有人, 支持物\\n[化] 夹持器; 夹具; 贮罐",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00026",
+    "word": "honorable",
+    "phonetic": "/'ɒnәrәbl/",
+    "definition": "a. 值得尊敬的, 荣耀的, 高贵的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00027",
+    "word": "housework",
+    "phonetic": "/'hauswә:k/",
+    "definition": "n. 家事, 家务",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00028",
+    "word": "hypocrisy",
+    "phonetic": "/hi'pɒkrәsi/",
+    "definition": "n. 伪善\\n[法] 伪善, 虚伪",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00029",
+    "word": "infrared",
+    "phonetic": "/.infrә'red/",
+    "definition": "a. 红外线的\\nn. 红外线",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00030",
+    "word": "innovate",
+    "phonetic": "/'inәuveit/",
+    "definition": "vi. 改革, 创新",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00031",
+    "word": "insightful",
+    "phonetic": "/'in.saitful/",
+    "definition": "a. 有深刻见解的, 富有洞察力的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00032",
+    "word": "intrusive",
+    "phonetic": "/in'tru:siv/",
+    "definition": "a. 打扰的, 插入的\\n[法] 闯入的, 侵入的, 干涉的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00033",
+    "word": "juggle",
+    "phonetic": "/dʒʌgl/",
+    "definition": "vi. 玩戏法, 行骗, 篡改\\nvt. 耍弄, 歪曲, 篡改\\nn. 玩戏法, 魔术, 欺骗",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00034",
+    "word": "kilo",
+    "phonetic": "/'kilәu/",
+    "definition": "n. 千\\n[计] 千",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00035",
+    "word": "kinship",
+    "phonetic": "/'kinʃip/",
+    "definition": "n. 亲属关系\\n[法] 亲属关系, 家族关系, 关系",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00036",
+    "word": "labor",
+    "phonetic": "/'leibә/",
+    "definition": "n. 劳动, 努力, 工作, 劳工, 分娩\\nvi. 劳动, 努力, 苦干\\nvt. 详细分析, 使厌烦",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00037",
+    "word": "laptop",
+    "phonetic": "",
+    "definition": "[计] 膝上型的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00038",
+    "word": "madame",
+    "phonetic": "/'mædәm/",
+    "definition": "n. 夫人, 小姐, 太太, 女士, 主妇, (非正式)喜欢差使/指使别人的女子, 鸨母",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00039",
+    "word": "modernization",
+    "phonetic": "/.mɒdәnai'zeiʃәn/",
+    "definition": "n. 现代化",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00040",
+    "word": "narrate",
+    "phonetic": "/nә'reit/",
+    "definition": "v. 说故事, 说明, 叙述",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00041",
+    "word": "neighborhood",
+    "phonetic": "/'neibәhud/",
+    "definition": "n. 附近, 邻近",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00042",
+    "word": "noodle",
+    "phonetic": "/'nu:dl/",
+    "definition": "n. 面条, 笨蛋",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00043",
+    "word": "noteworthy",
+    "phonetic": "/'nәutwә:ði/",
+    "definition": "a. 值得注目的, 显著的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00044",
+    "word": "oneself",
+    "phonetic": "/wʌn'self/",
+    "definition": "pron. 自己, 亲自",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00045",
+    "word": "optimize",
+    "phonetic": "/'ɒptimaiz/",
+    "definition": "vt. 使完美, 使完善, 充分利用, 乐观地对待, 优化\\nvi. 持乐观态度\\n[计] 优化",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00046",
+    "word": "overpass",
+    "phonetic": "/'әuvәpɑ:s/",
+    "definition": "n. 天桥, 旱桥, 立交桥\\nvt. 超越, 胜过, 通过, 忽略, 侵犯",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00047",
+    "word": "owing",
+    "phonetic": "/'әuiŋ/",
+    "definition": "a. 未付的, 亏欠的, 受惠的, 归因于...的\\n[经] 应付的, 欠着的, 未付的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00048",
+    "word": "panda",
+    "phonetic": "/'pændә/",
+    "definition": "n. 大熊猫, 小熊猫",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00049",
+    "word": "paradoxical",
+    "phonetic": "/.pærә'dɒksikl/",
+    "definition": "a. 似非而是的, 矛盾的, 诡论的\\n[医] 奇异的, 矛盾的, 逆理的, 反常的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00050",
+    "word": "passerby",
+    "phonetic": "/'pæsә'bai/",
+    "definition": "n. 过路人, 行人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00051",
+    "word": "paternal",
+    "phonetic": "/pә'tә:nl/",
+    "definition": "a. 父亲的, 父系的, 似父亲的, 得自父亲的, 家长式统治的\\n[法] 父系的, 父亲的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00052",
+    "word": "peanut",
+    "phonetic": "/'pi:nʌt/",
+    "definition": "n. 花生, 小人物, 极小的数额\\na. 渺小的, 微不足道的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00053",
+    "word": "perceptual",
+    "phonetic": "/pә'septʃuәl/",
+    "definition": "a. 知觉的, 有知觉的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00054",
+    "word": "pickup",
+    "phonetic": "/'pikʌp/",
+    "definition": "n. 拾起, 加速, 刺激, 猎物的收集, 好转, 恢复健康, 搭车者, 兴奋剂, 电视摄像\\n[电] 拾音器",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00055",
+    "word": "pneumonia",
+    "phonetic": "/nju:'mәunjә/",
+    "definition": "n. 肺炎\\n[医] 肺炎",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00056",
+    "word": "realise",
+    "phonetic": "/'riәlaiz,'ri:-/",
+    "definition": "vt. 实现, 认识到, 体会到, 了解, 认清, 使显得逼真, 变卖财产为现钱",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00057",
+    "word": "reasoning",
+    "phonetic": "/'ri:zniŋ/",
+    "definition": "n. 推论, 推理, 论证\\n[化] 推理",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00058",
+    "word": "reassurance",
+    "phonetic": "/.ri:ә'ʃurәns/",
+    "definition": "n. 安心, 放心, 再保证",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00059",
+    "word": "recurrent",
+    "phonetic": "/ri'kʌrәnt/",
+    "definition": "a. 再发生的, 定期重复的, 循环的\\n[医] 复发的, 再发的, 回归的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00060",
+    "word": "repression",
+    "phonetic": "/ri'preʃәn/",
+    "definition": "n. 抑制, 压抑, 制止\\n[医] 压抑, 抑制",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00061",
+    "word": "repressive",
+    "phonetic": "/ri'presiv/",
+    "definition": "a. 压抑的, 抑制的, 镇压的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00062",
+    "word": "retrospection",
+    "phonetic": "/.retrә'spekʃәn/",
+    "definition": "n. 回顾, 追忆, 反省\\n[医] 追想, 回忆",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00063",
+    "word": "rigour",
+    "phonetic": "/'rigә/",
+    "definition": "n. 严格, 严厉, 苛刻, 严酷, 严密, 精确",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00064",
+    "word": "rut",
+    "phonetic": "/rʌt/",
+    "definition": "n. 辙迹, 凹槽, 常规, 惯例, 发情期\\nvi. 交尾, 发情\\nvt. 挖槽于",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00065",
+    "word": "sophomore",
+    "phonetic": "/'sɒfәmɒ:/",
+    "definition": "n. (大学)二年级生\\na. 二年级学生的, 二年级的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00066",
+    "word": "spicy",
+    "phonetic": "/'spaisi/",
+    "definition": "a. 香的, 多香料的, 辛辣的, 下流的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00067",
+    "word": "stereotyped",
+    "phonetic": "/'steriәjtaipt/",
+    "definition": "a. 用铅版印的, 老一套的, 套用老调的, 千篇一律的, 已成陈规的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00068",
+    "word": "sufficiency",
+    "phonetic": "/sә'fiʃәnsi/",
+    "definition": "n. 充足, 充分的数量, 自负",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00069",
+    "word": "superstitious",
+    "phonetic": "/.sju:pә'stiʃәs/",
+    "definition": "a. 迷信的\\n[法] 迷信的, 由迷信引起的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00070",
+    "word": "temperamental",
+    "phonetic": "/.temprә'mentl/",
+    "definition": "a. 气质的, 性格的, 易兴奋的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00071",
+    "word": "theological",
+    "phonetic": "/θiә'lɔdʒikәl/",
+    "definition": "a. 神学上的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00072",
+    "word": "thriftless",
+    "phonetic": "/'θriftlis/",
+    "definition": "a. 不节俭的, 浪费的, 无用的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00073",
+    "word": "toward",
+    "phonetic": "/tә'wɒ:d/",
+    "definition": "prep. 向, 对于, 为了\\na. 即将来临的, 进行中的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00074",
+    "word": "zip",
+    "phonetic": "/zip/",
+    "definition": "n. 尖啸声, 拉链, 活力\\nvt. 给...以速度, 使增加活力, 拉(拉链)\\nvi. 有力而迅速地行动, 嘘嘘地响, 拉拉链",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": [
+      "gk",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00075",
+    "word": "abnormal",
+    "phonetic": "/æb'nɒ:mәl/",
+    "definition": "a. 反常的, 不规则的, 变态的, 畸形的\\nn. 畸形的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00076",
+    "word": "aboard",
+    "phonetic": "/ә'bɒ:d/",
+    "definition": "adv. 在船上, 在火车上, 在飞机上\\nprep. 在...之上",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00077",
+    "word": "absent",
+    "phonetic": "/'æbsәnt/",
+    "definition": "a. 缺席的, 不在的, 缺乏的, 漫不经心的\\nvt. 使缺席",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00078",
+    "word": "academy",
+    "phonetic": "/ә'kædәmi/",
+    "definition": "n. 学院, 院校, 学会",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00079",
+    "word": "accent",
+    "phonetic": "/'æksәnt/",
+    "definition": "n. 重音, 口音, 特点, 注重点\\nvt. 重读, 加重音号于, 强调",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00080",
+    "word": "acceptance",
+    "phonetic": "/әk'septәns/",
+    "definition": "n. 接受, 接纳, 承认, 同意, 赞同, 容忍, 相信\\n[经] 承兑, 认付, (工程)验收",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00081",
+    "word": "accidental",
+    "phonetic": "/.æksi'dentl/",
+    "definition": "a. 意外的, 偶然的, 非主要的, 附属的\\nn. 临时记号, 次要方面",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00082",
+    "word": "accommodation",
+    "phonetic": "/ә.kɒmә'deiʃәn/",
+    "definition": "n. 膳宿, 预订铺位, 适应性调节, 调和, 贷款\\n[医] 调节(眼); 适应",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00083",
+    "word": "accordance",
+    "phonetic": "/ә'kɒ:dәns/",
+    "definition": "n. 一致, 和谐",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00084",
+    "word": "accordingly",
+    "phonetic": "/ә'kɒ:diŋli/",
+    "definition": "adv. 相应地, 因此, 于是",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00085",
+    "word": "accountant",
+    "phonetic": "/ә'kauntәnt/",
+    "definition": "n. 会计人员, 会计师\\n[经] 会计师, 会计人员",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00086",
+    "word": "accustom",
+    "phonetic": "/ә'kʌstәm/",
+    "definition": "vt. 使习惯于",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00087",
+    "word": "accustomed",
+    "phonetic": "/ә'kʌstәmd/",
+    "definition": "a. 惯常的, 习惯了的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00088",
+    "word": "ache",
+    "phonetic": "/eik/",
+    "definition": "n. 疼痛\\nvi. 痛, 哀怜, 渴望",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00089",
+    "word": "activate",
+    "phonetic": "/'æktiveit/",
+    "definition": "vt. 使活动, 使激活, 正式建成\\nvi. 有活力",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00090",
+    "word": "additional",
+    "phonetic": "/ә'diʃәnәl/",
+    "definition": "a. 附加的, 另外的, 额外的\\n[机] 加添的, 附加的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00091",
+    "word": "adjoin",
+    "phonetic": "/ә'dʒɒin/",
+    "definition": "v. 邻接, 毗连",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00092",
+    "word": "administer",
+    "phonetic": "/әd'ministә/",
+    "definition": "vt. 管理, 料理, 执行\\nvi. 执行遗产管理人的职责, 给予帮助",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00093",
+    "word": "administrate",
+    "phonetic": "/әd'ministreit/",
+    "definition": "vt. 管理, 支配",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00094",
+    "word": "adventure",
+    "phonetic": "/әd'ventʃә/",
+    "definition": "n. 冒险, 冒险经历\\nv. 冒险",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00095",
+    "word": "aeroplane",
+    "phonetic": "/'єәrәplein/",
+    "definition": "n. 飞机\\n[机] 飞机",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00096",
+    "word": "afterward",
+    "phonetic": "/'ɑ:ftәwәd/",
+    "definition": "adv. 然后, 后来",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00097",
+    "word": "aisle",
+    "phonetic": "/ail/",
+    "definition": "n. 走廊, 侧廊, 过道\\n[机] 走道",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00098",
+    "word": "alien",
+    "phonetic": "/'eiljәn/",
+    "definition": "n. 外国人, 外侨\\na. 外国的, 相异的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00099",
+    "word": "alike",
+    "phonetic": "/ә'laik/",
+    "definition": "a. 相似的, 同样的\\nadv. 一样, 以同样的方式",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00100",
+    "word": "alloy",
+    "phonetic": "/'ælɒi. ә'lɒi/",
+    "definition": "n. 合金\\nvt. 将...铸成合金, 减低成色\\nvi. 合铸",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00101",
+    "word": "alphabet",
+    "phonetic": "/'ælfәbit/",
+    "definition": "n. 字母\\n[计] 字母表",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00102",
+    "word": "altitude",
+    "phonetic": "/'æltitju:d/",
+    "definition": "n. 高度, 海拔, 高处\\n[电] 高度",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00103",
+    "word": "aluminum",
+    "phonetic": "/ә'lu:minәm/",
+    "definition": "n. 铝\\n[化] 铝Al",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00104",
+    "word": "amaze",
+    "phonetic": "/ә'meiz/",
+    "definition": "vt. 使吃惊",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00105",
+    "word": "ambitious",
+    "phonetic": "/æm'biʃәs/",
+    "definition": "a. 有野心的, 抱负不凡的, 雄心勃勃的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00106",
+    "word": "ambulance",
+    "phonetic": "/'æmbjulәns/",
+    "definition": "n. 救护车\\n[医] 救护车",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00107",
+    "word": "analogue",
+    "phonetic": "/'ænәlɒg/",
+    "definition": "n. 类似物, 相似情况\\n[医] 类似物, 同型物, 相似器官, 同功异质体",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00108",
+    "word": "analyse",
+    "phonetic": "/'ænәlaiz/",
+    "definition": "vt. 分析, 细察, 分解\\n[经] 分析",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00109",
+    "word": "analytic",
+    "phonetic": "/.ænә'litik/",
+    "definition": "a. 分析的, 善于分析的, 解析的\\n[医] 分析的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00110",
+    "word": "angel",
+    "phonetic": "/'eindʒәl/",
+    "definition": "n. 天使, 守护神, 善人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00111",
+    "word": "ankle",
+    "phonetic": "/'æŋkl/",
+    "definition": "n. 踝\\n[医] 踝, 踝关节",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00112",
+    "word": "anyhow",
+    "phonetic": "/'enihau/",
+    "definition": "adv. 无论如何, 至少",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00113",
+    "word": "apology",
+    "phonetic": "/ә'pɒlәdʒi/",
+    "definition": "n. 道歉, 辩护\\n[法] 道歉, 谢罪, 辩解者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00114",
+    "word": "appendix",
+    "phonetic": "/ә'pendiks/",
+    "definition": "n. 附录, 附加物, 阑尾\\n[化] 增补",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00115",
+    "word": "appliance",
+    "phonetic": "/ә'plaiәns/",
+    "definition": "n. 器械, 用具, 应用\\n[医] 矫正器; 器",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00116",
+    "word": "appraisal",
+    "phonetic": "/ә'preizәl/",
+    "definition": "n. 评价, 估价\\n[经] 评价, 评估",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00117",
+    "word": "architecture",
+    "phonetic": "/'ɑ:kitektʃә/",
+    "definition": "n. 建筑学, 建筑式样\\n[计] 体系结构",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00118",
+    "word": "arithmetic",
+    "phonetic": "/ә'riθmәtik/",
+    "definition": "n. 算术, 算术知识\\n[机] 算术; 算术的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00119",
+    "word": "arrow",
+    "phonetic": "/'ærәu/",
+    "definition": "n. 箭, 箭状物, 箭头记号",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00120",
+    "word": "artistic",
+    "phonetic": "/ɑ:'tistik/",
+    "definition": "a. 艺术的, 艺术家的, 富有艺术性的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00121",
+    "word": "ascend",
+    "phonetic": "/ә'send/",
+    "definition": "vi. 上升, 追溯, 登高\\nvt. 攀登",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00122",
+    "word": "ascertain",
+    "phonetic": "/.æsә'tein/",
+    "definition": "vt. 确定, 查明\\n[法] 查明, 弄清, 确定",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00123",
+    "word": "ash",
+    "phonetic": "/æʃ/",
+    "definition": "n. 灰, 灰烬\\n[化] 灰分",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00124",
+    "word": "ashamed",
+    "phonetic": "/ә'ʃeimd/",
+    "definition": "a. 惭愧的, 羞耻的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00125",
+    "word": "ashore",
+    "phonetic": "/ә'ʃɒ:/",
+    "definition": "adv. 向岸, 在岸上",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00126",
+    "word": "asleep",
+    "phonetic": "/ә'sli:p/",
+    "definition": "a. 睡着的, 长眠的, 麻木的\\nadv. 熟睡地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00127",
+    "word": "assassinate",
+    "phonetic": "/ә'sæsineit/",
+    "definition": "vt. 暗杀, 行刺\\n[法] 暗杀, 行刺, 中伤",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00128",
+    "word": "assign",
+    "phonetic": "/ә'sain/",
+    "definition": "vt. 分配, 指派, 赋值\\n[计] 赋值",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00129",
+    "word": "assignment",
+    "phonetic": "/ә'sainmәnt/",
+    "definition": "n. 分配, 功课, 任务, 转让, 归因, 陈述\\n[计] 赋值",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00130",
+    "word": "assurance",
+    "phonetic": "/ә'ʃuәrәns/",
+    "definition": "n. 保证, 把握, 信心, 保险\\n[经] 保证, 担保, 保险",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00131",
+    "word": "astonish",
+    "phonetic": "/ә'stɒniʃ/",
+    "definition": "vt. 使惊讶",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00132",
+    "word": "astronaut",
+    "phonetic": "/'æstrәnɒ:t/",
+    "definition": "n. 太空旅行者, 宇航员\\n[法] 美国太空人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00133",
+    "word": "astronomy",
+    "phonetic": "/ә'strɒnәmi/",
+    "definition": "n. 天文学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00134",
+    "word": "atom",
+    "phonetic": "/'ætәm/",
+    "definition": "n. 原子, 核能, 微粒, 微量\\n[计] 原子",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00135",
+    "word": "attendance",
+    "phonetic": "/ә'tendәns/",
+    "definition": "n. 出席, 出席的人数, 照料\\n[法] 管理, 照料, 资助",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00136",
+    "word": "attendant",
+    "phonetic": "/ә'tendәnt/",
+    "definition": "n. 随从, 侍者, 出席者\\na. 侍候的, 伴随的, 出席的, 在场的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00137",
+    "word": "attentive",
+    "phonetic": "/ә'tentiv/",
+    "definition": "a. 注意的, 留心的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00138",
+    "word": "audio",
+    "phonetic": "/'ɒ:diou/",
+    "definition": "a. 音频的, 声音的\\n[电] 声频",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00139",
+    "word": "aural",
+    "phonetic": "/'ɒ:rәl/",
+    "definition": "a. 耳的, 听觉的, 气氛的, 气味的, 光环的\\n[医] 耳的; 先兆的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00140",
+    "word": "avail",
+    "phonetic": "/ә'veil/",
+    "definition": "vi. 有用, 有利\\nvt. 有利于\\nn. 效用, 利益",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00141",
+    "word": "avenue",
+    "phonetic": "/'ævәnju:/",
+    "definition": "n. 大街, 途径, 林荫路",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00142",
+    "word": "aviation",
+    "phonetic": "/.eivi'eiʃәn/",
+    "definition": "n. 航空, 航空学, 飞行术\\n[法] 航空, 飞行, 飞行术",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00143",
+    "word": "awake",
+    "phonetic": "/ә'weik/",
+    "definition": "a. 醒着的\\nvt. 唤醒, 唤起, 使意识到\\nvi. 醒来, 被唤起, 意识到",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00144",
+    "word": "axe",
+    "phonetic": "",
+    "definition": "n. 斧, 斧头\\nvt. 削减(人员、经费、计划、机构等)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00145",
+    "word": "bachelor",
+    "phonetic": "/'bætʃәlә/",
+    "definition": "n. 单身汉, 学士\\n[法] 学士, 单身汉",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00146",
+    "word": "backward",
+    "phonetic": "/'bækwәd/",
+    "definition": "adv. 向后地, 相反地\\na. 向后的, 相反的\\n[计] 倒推",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00147",
+    "word": "bacon",
+    "phonetic": "/'beikәn/",
+    "definition": "n. 熏猪肉\\n[机] 腌肉",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00148",
+    "word": "badminton",
+    "phonetic": "/'bædmintәn/",
+    "definition": "n. 羽毛球运动",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00149",
+    "word": "baggage",
+    "phonetic": "/'bægidʒ/",
+    "definition": "n. 行李\\n[经] 行李",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00150",
+    "word": "balcony",
+    "phonetic": "/'bælkәni/",
+    "definition": "n. 阳台, 戏院楼厅",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00151",
+    "word": "bald",
+    "phonetic": "/bɒ:ld/",
+    "definition": "a. 秃头的, 光秃的, 单调的, 赤裸的\\nvi. 变秃",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00152",
+    "word": "ballet",
+    "phonetic": "/'bælei/",
+    "definition": "n. 芭蕾舞",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00153",
+    "word": "bang",
+    "phonetic": "/bæŋ/",
+    "definition": "n. 重击, 突然巨响, 刘海\\nv. 发巨响, 重击\\nadv. 砰然地, 突然巨响地, 直接地\\n[计] 撞击符",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00154",
+    "word": "banner",
+    "phonetic": "/'bænә/",
+    "definition": "n. 旗帜\\na. 显著的, 特别好的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00155",
+    "word": "barber",
+    "phonetic": "/'bɑ:bә/",
+    "definition": "n. 理发师",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00156",
+    "word": "basement",
+    "phonetic": "/'beismәnt/",
+    "definition": "n. 地下室, 墙脚\\n[化] 地下室",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00157",
+    "word": "basin",
+    "phonetic": "/'beisn/",
+    "definition": "n. 盆, 盆地\\n[医] 第三脑室, 骨盆",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00158",
+    "word": "bathe",
+    "phonetic": "/beið/",
+    "definition": "vt. 沐浴, 用水洗\\nvi. 洗澡",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00159",
+    "word": "battery",
+    "phonetic": "/'bætәri/",
+    "definition": "n. 电池, 殴打\\n[化] 蓄电池",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00160",
+    "word": "beard",
+    "phonetic": "/biәd/",
+    "definition": "n. 胡须\\nvt. 抓住胡须, 公开反对",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00161",
+    "word": "beast",
+    "phonetic": "/bi:st/",
+    "definition": "n. 畜生, 动物, 野兽, 兽性",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00162",
+    "word": "bee",
+    "phonetic": "/bi:/",
+    "definition": "n. 蜜蜂, 聚会",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00163",
+    "word": "beforehand",
+    "phonetic": "/bi'fɒ:hænd/",
+    "definition": "adv. 预先",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00164",
+    "word": "beg",
+    "phonetic": "/beg/",
+    "definition": "v. 乞求, 乞讨, 请求",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00165",
+    "word": "behavior",
+    "phonetic": "/bi'heivjә/",
+    "definition": "n. 行为, 举止\\n[医] 行为",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00166",
+    "word": "belly",
+    "phonetic": "/'beli/",
+    "definition": "n. 腹部, 食欲\\nvt. 使鼓起\\nvi. 鼓起, 匍匐前进",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00167",
+    "word": "beloved",
+    "phonetic": "/bi'lʌvd/",
+    "definition": "a. 心爱的\\nn. 心爱的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00168",
+    "word": "beneficial",
+    "phonetic": "/.beni'fiʃәl/",
+    "definition": "a. 有益的, 受益的\\n[经] 有使用权的, 可享利益的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00169",
+    "word": "beware",
+    "phonetic": "/bi'wєә/",
+    "definition": "v. 小心, 谨防",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00170",
+    "word": "bias",
+    "phonetic": "/'baiәs/",
+    "definition": "n. 偏见, 斜纹\\na. 偏斜的\\nadv. 偏斜\\nvt. 使有偏见\\n[计] 偏流; 偏压; 偏磁; 偏离",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00171",
+    "word": "bible",
+    "phonetic": "/'baibl/",
+    "definition": "n. 圣经",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00172",
+    "word": "bicycle",
+    "phonetic": "/'baisikl/",
+    "definition": "n. 自行车",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00173",
+    "word": "bind",
+    "phonetic": "/baind/",
+    "definition": "vt. 绑, 约束, 装订, 包扎, 使结合\\nvi. 凝固, 有约束力\\n[计] 赋值, 绑定",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00174",
+    "word": "biography",
+    "phonetic": "/bai'ɒgrәfi/",
+    "definition": "n. 传记",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00175",
+    "word": "biology",
+    "phonetic": "/bai'ɒlәdʒi/",
+    "definition": "n. 生物学\\n[化] 生物; 生物学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00176",
+    "word": "bipedal",
+    "phonetic": "/'bai,pedəl,bai'pe-/",
+    "definition": "[医] 两足的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00177",
+    "word": "biscuit",
+    "phonetic": "/'biskit/",
+    "definition": "n. 饼干\\n[化] 素坯; 饼干",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "kaoyan_00178",
+    "word": "blank",
+    "phonetic": "/blæŋk/",
+    "definition": "n. 空格, 空白\\na. 空白的, 空虚的, 完全的, 无色的\\nvi. 消失, 成为空白\\nvt. 使无效, 取消, 封锁\\n[计] 空白",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00179",
+    "word": "blanket",
+    "phonetic": "/'blæŋkit/",
+    "definition": "n. 毛毯, 毯子\\nvt. 掩盖, 覆盖\\na. 总共的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00180",
+    "word": "blaze",
+    "phonetic": "/bleiz/",
+    "definition": "n. 火焰, 烈火, 光辉\\nvi. 燃烧, 发光\\nvt. 使燃烧, 宣布, 在树皮上刻痕",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00181",
+    "word": "bleed",
+    "phonetic": "/bli:d/",
+    "definition": "vi. 流血, 悲痛, 渗出\\nvt. 使出血, 榨取",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00182",
+    "word": "blend",
+    "phonetic": "/blend/",
+    "definition": "vt. 混合\\nn. 混合",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00183",
+    "word": "bless",
+    "phonetic": "/bles/",
+    "definition": "vt. 祝福, 祈佑, 使神圣化",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00184",
+    "word": "bloom",
+    "phonetic": "/blu:m/",
+    "definition": "n. 花, 开花, 青春, 钢块\\nvi. 开花, 焕发青春, 茂盛\\nvt. 使茂盛, 把...轧成钢坯",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00185",
+    "word": "blouse",
+    "phonetic": "/blauz/",
+    "definition": "n. 宽松的上衣",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00186",
+    "word": "bold",
+    "phonetic": "/bәuld/",
+    "definition": "a. 大胆的\\nn. 粗体\\n[计] 粗体",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00187",
+    "word": "bonus",
+    "phonetic": "/'bәunәs/",
+    "definition": "n. 奖金, 红利\\n[经] 奖金, 红利, 额外补贴",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00188",
+    "word": "booth",
+    "phonetic": "/bu:θ/",
+    "definition": "n. 亭, 摊棚\\n[经] 货摊, 电话间",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00189",
+    "word": "bosom",
+    "phonetic": "/'buzәm/",
+    "definition": "n. 胸部, 胸, 胸怀, 内部, 中间\\nvt. 怀抱",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00190",
+    "word": "bounce",
+    "phonetic": "/bauns/",
+    "definition": "n. 跳, 跳跃, 弹力, 撞击\\nvi. 反跳, 弹跳\\nvt. 使跳回, 撞击\\n[计] 打回",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00191",
+    "word": "boundary",
+    "phonetic": "/'baundri/",
+    "definition": "n. 边界, 分界线\\n[计] 边界",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00192",
+    "word": "bow",
+    "phonetic": "/bәu.bau/",
+    "definition": "n. 弓, 眼睛框\\nv. 用弓拉琴, 弯成弓形\\nn. 鞠躬, 屈服",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "kaoyan_00193",
+    "word": "bowel",
+    "phonetic": "/'bauәl/",
+    "definition": "n. 肠, 内脏, 内部\\nvt. 挖...的内脏",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00194",
+    "word": "bowling",
+    "phonetic": "/'bәuliŋ/",
+    "definition": "n. 保龄球戏",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "kaoyan_00195",
+    "word": "brandy",
+    "phonetic": "/'brændi/",
+    "definition": "n. 白兰地酒\\n[化] 白兰地",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00196",
+    "word": "brass",
+    "phonetic": "/bræs.brɑ:s/",
+    "definition": "n. 黄铜, 黄铜制品\\na. 黄铜的, 铜管乐器的\\nv. 镀以黄铜, 支付",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00197",
+    "word": "breakdown",
+    "phonetic": "/'breikdaun/",
+    "definition": "n. 崩溃, 故障\\n[化] 事故; 击穿",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "kaoyan_00198",
+    "word": "breeze",
+    "phonetic": "/bri:z/",
+    "definition": "n. 微风, 煤屑, 轻而易举的事\\nvi. 吹微风, 逃走",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00199",
+    "word": "brick",
+    "phonetic": "/brik/",
+    "definition": "n. 砖块, 积木\\na. 用砖做的\\nvt. 用砖造, 用砖砌",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "kaoyan_00200",
+    "word": "bride",
+    "phonetic": "/braid/",
+    "definition": "n. 新娘",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky"
+    ]
+  }
+]

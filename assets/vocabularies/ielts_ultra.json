@@ -1,256 +1,3230 @@
 [
   {
-    "id": "ielts_001",
-    "word": "accumulate",
-    "phonetic": "/əˈkjuːmjəleɪt/",
-    "definition": "v. 积累，积聚",
+    "id": "ielts_00001",
+    "word": "abbreviation",
+    "phonetic": "/ә.bri:vi'eiʃәn/",
+    "definition": "n. 缩写词, 缩写, 缩短, 节略",
     "examples": [
-      "Dust accumulates in the room if not cleaned regularly.",
-      "She accumulated valuable experience over the years."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "gather",
-      "collect",
-      "amass"
-    ],
-    "antonyms": [
-      "scatter",
-      "disperse",
-      "waste"
-    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ielts",
-      "verb"
+      "cet6",
+      "toefl",
+      "ielts"
     ]
   },
   {
-    "id": "ielts_002",
-    "word": "adequate",
-    "phonetic": "/ˈædɪkwət/",
-    "definition": "adj. 充分的，适当的",
+    "id": "ielts_00002",
+    "word": "abnormal",
+    "phonetic": "/æb'nɒ:mәl/",
+    "definition": "a. 反常的, 不规则的, 变态的, 畸形的\\nn. 畸形的人",
     "examples": [
-      "Is your salary adequate to support your family?",
-      "We need adequate time to prepare for the exam."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "sufficient",
-      "enough",
-      "satisfactory"
-    ],
-    "antonyms": [
-      "inadequate",
-      "insufficient",
-      "deficient"
-    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ielts",
-      "adjective"
+      "gk",
+      "cet4",
+      "cet6"
     ]
   },
   {
-    "id": "ielts_003",
-    "word": "advocate",
-    "phonetic": "/ˈædvəkeɪt/",
-    "definition": "v. 提倡，支持 n. 拥护者",
+    "id": "ielts_00003",
+    "word": "abort",
+    "phonetic": "/ә'bɒ:t/",
+    "definition": "vi. 流产, 中途失败\\nvt. 使流产, 使失败, 使中止",
     "examples": [
-      "Many doctors advocate a healthy diet and exercise.",
-      "She is a strong advocate of education reform."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "support",
-      "promote",
-      "champion"
-    ],
-    "antonyms": [
-      "oppose",
-      "criticize",
-      "attack"
-    ],
-    "difficulty": 4,
-    "tags": [
-      "ielts",
-      "verb",
-      "noun"
-    ]
-  },
-  {
-    "id": "ielts_004",
-    "word": "alter",
-    "phonetic": "/ˈɔːltə(r)/",
-    "definition": "v. 改变，变更",
-    "examples": [
-      "We need to alter our plans due to bad weather.",
-      "The dress needs to be altered before the wedding."
-    ],
-    "synonyms": [
-      "change",
-      "modify",
-      "adjust"
-    ],
-    "antonyms": [
-      "preserve",
-      "maintain",
-      "keep"
-    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ielts",
-      "verb"
+      "toefl",
+      "ielts"
     ]
   },
   {
-    "id": "ielts_005",
-    "word": "ambiguous",
-    "phonetic": "/æmˈbɪɡjuəs/",
-    "definition": "adj. 模糊的，模棱两可的",
+    "id": "ielts_00004",
+    "word": "accidents",
+    "phonetic": "",
+    "definition": "n. 意外事故；事故（accident的复数）",
     "examples": [
-      "The instructions were ambiguous and confusing.",
-      "His ambiguous response didn't help clarify the situation."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "unclear",
-      "vague",
-      "equivocal"
-    ],
-    "antonyms": [
-      "clear",
-      "unambiguous",
-      "definite"
-    ],
-    "difficulty": 4,
-    "tags": [
-      "ielts",
-      "adjective",
-      "academic"
-    ]
-  },
-  {
-    "id": "ielts_006",
-    "word": "anticipate",
-    "phonetic": "/ænˈtɪsɪpeɪt/",
-    "definition": "v. 预期，预料",
-    "examples": [
-      "We anticipate a large crowd at the concert.",
-      "She anticipated his questions and prepared answers."
-    ],
-    "synonyms": [
-      "expect",
-      "predict",
-      "foresee"
-    ],
-    "antonyms": [
-      "surprise",
-      "misjudge",
-      "dread"
-    ],
-    "difficulty": 4,
-    "tags": [
-      "ielts",
-      "verb"
-    ]
-  },
-  {
-    "id": "ielts_007",
-    "word": "apparent",
-    "phonetic": "/əˈpærənt/",
-    "definition": "adj. 明显的；表面的",
-    "examples": [
-      "It became apparent that he was lying.",
-      "The apparent cause of the accident was driver error."
-    ],
-    "synonyms": [
-      "obvious",
-      "evident",
-      "clear"
-    ],
-    "antonyms": [
-      "hidden",
-      "obscure",
-      "unclear"
-    ],
+    "synonyms": [],
+    "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ielts",
-      "adjective"
+      "ielts"
     ]
   },
   {
-    "id": "ielts_008",
-    "word": "arbitrary",
-    "phonetic": "/ˈɑːbɪtrəri/",
-    "definition": "adj. 任意的，随意的",
+    "id": "ielts_00005",
+    "word": "accommodation",
+    "phonetic": "/ә.kɒmә'deiʃәn/",
+    "definition": "n. 膳宿, 预订铺位, 适应性调节, 调和, 贷款\\n[医] 调节(眼); 适应",
     "examples": [
-      "The decision seemed completely arbitrary.",
-      "There should be no arbitrary arrests in a democratic society."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "random",
-      "capricious",
-      "whimsical"
-    ],
-    "antonyms": [
-      "reasoned",
-      "logical",
-      "systematic"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "ielts",
-      "adjective",
-      "academic"
+      "gk",
+      "cet4",
+      "cet6"
     ]
   },
   {
-    "id": "ielts_009",
-    "word": "comply",
-    "phonetic": "/kəmˈplaɪ/",
-    "definition": "v. 遵守，顺从（with）",
+    "id": "ielts_00006",
+    "word": "accommodations",
+    "phonetic": "",
+    "definition": "n. 膳宿；住房, 住宿；居住设施（accommodation的复数）",
     "examples": [
-      "All students must comply with school regulations.",
-      "The company failed to comply with safety standards."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "obey",
-      "adhere to",
-      "follow"
-    ],
-    "antonyms": [
-      "disobey",
-      "violate",
-      "defy"
-    ],
-    "difficulty": 4,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "ielts",
-      "verb",
-      "formal"
+      "ielts"
     ]
   },
   {
-    "id": "ielts_010",
-    "word": "conspicuous",
-    "phonetic": "/kənˈspɪkjuəs/",
-    "definition": "adj. 显著的，显而易见的",
+    "id": "ielts_00007",
+    "word": "account for",
+    "phonetic": "",
+    "definition": "对…负有责任；对…做出解释；说明……的原因；导致；（比例）占",
     "examples": [
-      "Her absence was conspicuous at the meeting.",
-      "The mistake was conspicuous to everyone."
+      "This is an example sentence."
     ],
-    "synonyms": [
-      "noticeable",
-      "obvious",
-      "prominent"
-    ],
-    "antonyms": [
-      "inconspicuous",
-      "hidden",
-      "obscure"
-    ],
-    "difficulty": 5,
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
     "tags": [
-      "ielts",
-      "adjective"
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00008",
+    "word": "accountant",
+    "phonetic": "/ә'kauntәnt/",
+    "definition": "n. 会计人员, 会计师\\n[经] 会计师, 会计人员",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00009",
+    "word": "accountants",
+    "phonetic": "",
+    "definition": "会计人员",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00010",
+    "word": "accounting",
+    "phonetic": "/ә'kauntiŋ/",
+    "definition": "n. 会计学, 帐单, 清帐\\n[计] 帐户处理, 记帐",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00011",
+    "word": "accuser",
+    "phonetic": "/ә'kju:zә/",
+    "definition": "n. 控诉者, 指责者\\n[法] 原告, 指控人, 控告者",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00012",
+    "word": "achievement",
+    "phonetic": "/ә'tʃi:vmәnt/",
+    "definition": "n. 完成, 成就, 功业",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00013",
+    "word": "actions",
+    "phonetic": "",
+    "definition": "n. 动作；行动（action的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00014",
+    "word": "activate",
+    "phonetic": "/'æktiveit/",
+    "definition": "vt. 使活动, 使激活, 正式建成\\nvi. 有活力",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00015",
+    "word": "activities",
+    "phonetic": "",
+    "definition": "n. （activity复数形式）活动；活动区；活动性",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00016",
+    "word": "additional",
+    "phonetic": "/ә'diʃәnәl/",
+    "definition": "a. 附加的, 另外的, 额外的\\n[机] 加添的, 附加的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00017",
+    "word": "adjoin",
+    "phonetic": "/ә'dʒɒin/",
+    "definition": "v. 邻接, 毗连",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00018",
+    "word": "administer",
+    "phonetic": "/әd'ministә/",
+    "definition": "vt. 管理, 料理, 执行\\nvi. 执行遗产管理人的职责, 给予帮助",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00019",
+    "word": "administrator",
+    "phonetic": "/әd'ministreitә/",
+    "definition": "n. 管理人, 行政官\\n[经] 遗产管理人员",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00020",
+    "word": "adolescence",
+    "phonetic": "/.ædәu'lesәns/",
+    "definition": "n. 青春期\\n[医] 青年期, 青春期",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00021",
+    "word": "adults",
+    "phonetic": "",
+    "definition": "n. 成年人（adult的复数形式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00022",
+    "word": "advantages",
+    "phonetic": "",
+    "definition": "n. 优势；特点；有利；[经] 利益（advantage的复数）\\nv. 促进（advantage的三单形式）；有利于",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00023",
+    "word": "advertisement",
+    "phonetic": "/.ædvә'taizmәnt/",
+    "definition": "n. 广告, 启事, 广告宣传\\n[法] 广告, 公告, 告示",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "ielts_00024",
+    "word": "advertisements",
+    "phonetic": "",
+    "definition": "n. [经] 广告（advertisement的复数）；宣传",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00025",
+    "word": "advertising",
+    "phonetic": "/'ædvәtaiziŋ/",
+    "definition": "n. 广告业, 广告\\na. 广告的\\n[计] 发广告",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00026",
+    "word": "affairs",
+    "phonetic": "",
+    "definition": "n. 事务, 事宜；风流韵事",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00027",
+    "word": "Africa",
+    "phonetic": "/'æfrikә/",
+    "definition": "n. 非洲",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00028",
+    "word": "African",
+    "phonetic": "/'æfrikәn/",
+    "definition": "n. 非洲人\\na. 非洲的, 非洲人的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00029",
+    "word": "agencies",
+    "phonetic": "",
+    "definition": "n. 代理；代理处（agency的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00030",
+    "word": "agitation",
+    "phonetic": "/.ædʒi'teiʃәn/",
+    "definition": "n. 激动, 焦虑, 煽动, 搅动, 摇动\\n[化] 搅拌; 搅拌作用",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00031",
+    "word": "aisle",
+    "phonetic": "/ail/",
+    "definition": "n. 走廊, 侧廊, 过道\\n[机] 走道",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00032",
+    "word": "Alaska",
+    "phonetic": "/ә'læskә/",
+    "definition": "n. 阿拉斯加州",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00033",
+    "word": "alien",
+    "phonetic": "/'eiljәn/",
+    "definition": "n. 外国人, 外侨\\na. 外国的, 相异的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00034",
+    "word": "alley",
+    "phonetic": "/'æli/",
+    "definition": "n. 小路, 巷",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00035",
+    "word": "allot",
+    "phonetic": "/ә'lɒt/",
+    "definition": "vt. 分配, 分摊指定\\n[经] (按股或按规定)分配, 配(拨)给, 规(派)定",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00036",
+    "word": "alloy",
+    "phonetic": "/'ælɒi. ә'lɒi/",
+    "definition": "n. 合金\\nvt. 将...铸成合金, 减低成色\\nvi. 合铸",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00037",
+    "word": "altitude",
+    "phonetic": "/'æltitju:d/",
+    "definition": "n. 高度, 海拔, 高处\\n[电] 高度",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00038",
+    "word": "amaze",
+    "phonetic": "/ә'meiz/",
+    "definition": "vt. 使吃惊",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00039",
+    "word": "ambiguity",
+    "phonetic": "/.æmbi'gju:iti/",
+    "definition": "n. 不明确, 含糊\\n[计] 二义性; 多义性",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00040",
+    "word": "ambitious",
+    "phonetic": "/æm'biʃәs/",
+    "definition": "a. 有野心的, 抱负不凡的, 雄心勃勃的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00041",
+    "word": "ambulance",
+    "phonetic": "/'æmbjulәns/",
+    "definition": "n. 救护车\\n[医] 救护车",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00042",
+    "word": "amends",
+    "phonetic": "/ә'mendz/",
+    "definition": "n. 赔偿\\n[经] 赔偿",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00043",
+    "word": "America",
+    "phonetic": "/ә'merikә/",
+    "definition": "n. 美洲, 美国",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00044",
+    "word": "American",
+    "phonetic": "/ә'merikәn/",
+    "definition": "n. 美国人\\na. 美国的, 美洲的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00045",
+    "word": "amidst",
+    "phonetic": "/ә'midst/",
+    "definition": "prep. 在...当中",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00046",
+    "word": "ammunition",
+    "phonetic": "/.æmju'niʃәn/",
+    "definition": "n. 军火, 弹药\\n[机] 弹药",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00047",
+    "word": "analytical",
+    "phonetic": "/.ænә'litikl/",
+    "definition": "a. 分析的, 善于分析的, 解析的\\n[机] 分析的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00048",
+    "word": "animals",
+    "phonetic": "",
+    "definition": "n. 动物, 动物世界；牲畜（animal的复数形式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00049",
+    "word": "ankle",
+    "phonetic": "/'æŋkl/",
+    "definition": "n. 踝\\n[医] 踝, 踝关节",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00050",
+    "word": "annuity",
+    "phonetic": "/ә'nju:iti/",
+    "definition": "n. 年金, 年金保险, 年金领受权\\n[医] 年金, 年俸",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00051",
+    "word": "anthropology",
+    "phonetic": "/.ænθrә'pɒlәdʒi/",
+    "definition": "n. 人类学\\n[医] 人类学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00052",
+    "word": "antibiotics",
+    "phonetic": "",
+    "definition": "n. 抗生学；抗生素",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00053",
+    "word": "anticipation",
+    "phonetic": "/æn.tisi'peiʃәn/",
+    "definition": "n. 预期, 预料\\n[医] 提前出现(如遗传病)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00054",
+    "word": "antonym",
+    "phonetic": "/'æntәunim/",
+    "definition": "n. 反义词",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00055",
+    "word": "anyhow",
+    "phonetic": "/'enihau/",
+    "definition": "adv. 无论如何, 至少",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00056",
+    "word": "ape",
+    "phonetic": "/eip/",
+    "definition": "n. 无尾猿\\n[计] 应用程序评价",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00057",
+    "word": "apes",
+    "phonetic": "/eips/",
+    "definition": "n. 猿( ape的名词复数 )\\nv. 模仿( ape的第三人称单数 )",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00058",
+    "word": "apologetic",
+    "phonetic": "/ә.pɒlә'dʒetik/",
+    "definition": "a. 道歉的, 急于认错的, 辩护的\\n[法] 辩护的, 辩解的, 道歉的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00059",
+    "word": "appendix",
+    "phonetic": "/ә'pendiks/",
+    "definition": "n. 附录, 附加物, 阑尾\\n[化] 增补",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00060",
+    "word": "appliance",
+    "phonetic": "/ә'plaiәns/",
+    "definition": "n. 器械, 用具, 应用\\n[医] 矫正器; 器",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00061",
+    "word": "applied",
+    "phonetic": "/ә'plaid/",
+    "definition": "a. 应用的\\n[机] 应用的; 应用, 申请",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00062",
+    "word": "appraisal",
+    "phonetic": "/ә'preizәl/",
+    "definition": "n. 评价, 估价\\n[经] 评价, 评估",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00063",
+    "word": "apprehension",
+    "phonetic": "/.æpri'henʃәn/",
+    "definition": "n. 理解, 忧惧, 逮捕\\n[医] 领会",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00064",
+    "word": "approaches",
+    "phonetic": "",
+    "definition": "处理",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00065",
+    "word": "aquarium",
+    "phonetic": "/ә'kwєәriәm/",
+    "definition": "n. 水族馆, 养鱼池, 水草缸\\n[医] 培养缸",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00066",
+    "word": "arc",
+    "phonetic": "/ɑ:k/",
+    "definition": "n. 弧, 弧形, 弓形, 弧光\\n[化] 弧",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00067",
+    "word": "archaeological",
+    "phonetic": "/.ɑ:kiә'lɒdʒikl/",
+    "definition": "a. 考古学的, 考古学上的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00068",
+    "word": "archaic",
+    "phonetic": "/ɑ:'keiik/",
+    "definition": "a. 古体的, 过时的, 古老的, 古代的\\n[医] 原始的, 古代的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00069",
+    "word": "architecture",
+    "phonetic": "/'ɑ:kitektʃә/",
+    "definition": "n. 建筑学, 建筑式样\\n[计] 体系结构",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00070",
+    "word": "archives",
+    "phonetic": "/'ɑ:kaivz/",
+    "definition": "n. 档案, 档案室\\n[法] 公文档案, 案卷, 档案保管处",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00071",
+    "word": "arduous",
+    "phonetic": "/'ɑ:djuәs/",
+    "definition": "a. 费力的, 努力的, 险峻的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00072",
+    "word": "areas",
+    "phonetic": "",
+    "definition": "n. 区域, 领域；面积（area的复数形式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00073",
+    "word": "armour",
+    "phonetic": "/'ɑ:mә/",
+    "definition": "n. 甲胄, 装甲, 潜水服",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00074",
+    "word": "articles",
+    "phonetic": "",
+    "definition": "n. 文章；冠词；物品；条款（article的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00075",
+    "word": "artistic",
+    "phonetic": "/ɑ:'tistik/",
+    "definition": "a. 艺术的, 艺术家的, 富有艺术性的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00076",
+    "word": "ascend",
+    "phonetic": "/ә'send/",
+    "definition": "vi. 上升, 追溯, 登高\\nvt. 攀登",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00077",
+    "word": "ascent",
+    "phonetic": "/ә'sent/",
+    "definition": "n. 上升, 提高, 攀登, 上坡路",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00078",
+    "word": "ascertain",
+    "phonetic": "/.æsә'tein/",
+    "definition": "vt. 确定, 查明\\n[法] 查明, 弄清, 确定",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00079",
+    "word": "ashamed",
+    "phonetic": "/ә'ʃeimd/",
+    "definition": "a. 惭愧的, 羞耻的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00080",
+    "word": "Asia",
+    "phonetic": "/'eiʒә/",
+    "definition": "n. 亚洲",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00081",
+    "word": "aspirin",
+    "phonetic": "/'æspәrin/",
+    "definition": "n. 阿斯匹林\\n[化] 乙酰水杨酸; 阿司匹灵; 邻乙酸基苯甲酸",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00082",
+    "word": "assassination",
+    "phonetic": "/ә.sæsi'neiʃәn/",
+    "definition": "n. 暗杀\\n[法] 暗杀, 行刺",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00083",
+    "word": "assign",
+    "phonetic": "/ә'sain/",
+    "definition": "vt. 分配, 指派, 赋值\\n[计] 赋值",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00084",
+    "word": "assignment",
+    "phonetic": "/ә'sainmәnt/",
+    "definition": "n. 分配, 功课, 任务, 转让, 归因, 陈述\\n[计] 赋值",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00085",
+    "word": "assignments",
+    "phonetic": "",
+    "definition": "n. 分配；作业（assignment的复数形式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00086",
+    "word": "assurance",
+    "phonetic": "/ә'ʃuәrәns/",
+    "definition": "n. 保证, 把握, 信心, 保险\\n[经] 保证, 担保, 保险",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00087",
+    "word": "astronomy",
+    "phonetic": "/ә'strɒnәmi/",
+    "definition": "n. 天文学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00088",
+    "word": "Athens",
+    "phonetic": "/'æθәns/",
+    "definition": "n. 雅典(希腊首都)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00089",
+    "word": "atlas",
+    "phonetic": "/'ætlәs/",
+    "definition": "n. 地图集, 图表集\\n[计] 自动测试和负载分析系统",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00090",
+    "word": "atmospheric",
+    "phonetic": "/ætmәs'ferik/",
+    "definition": "a. 大气的\\n[医] 大气的; 大气压的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00091",
+    "word": "attacks",
+    "phonetic": "",
+    "definition": "n. 攻击, 评击（attack的复数形式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00092",
+    "word": "attempts",
+    "phonetic": "",
+    "definition": "n. 企图, 试图；尝试（attempt的复数）\\nv. 试图；努力去做（attempt的三单形式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00093",
+    "word": "attendance",
+    "phonetic": "/ә'tendәns/",
+    "definition": "n. 出席, 出席的人数, 照料\\n[法] 管理, 照料, 资助",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00094",
+    "word": "attendant",
+    "phonetic": "/ә'tendәnt/",
+    "definition": "n. 随从, 侍者, 出席者\\na. 侍候的, 伴随的, 出席的, 在场的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00095",
+    "word": "attentive",
+    "phonetic": "/ә'tentiv/",
+    "definition": "a. 注意的, 留心的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00096",
+    "word": "audio",
+    "phonetic": "/'ɒ:diou/",
+    "definition": "a. 音频的, 声音的\\n[电] 声频",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00097",
+    "word": "audition",
+    "phonetic": "/ɒ:'diʃәn/",
+    "definition": "n. 听, 听力, 试听\\n[计] 审计命令",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00098",
+    "word": "Australia",
+    "phonetic": "/ɒ'streiljә/",
+    "definition": "n. 澳洲, 澳大利亚",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00099",
+    "word": "Australian",
+    "phonetic": "/ɒ'streiljәn/",
+    "definition": "n. 澳大利亚人\\na. 澳大利亚的, 澳洲的, 澳洲人的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00100",
+    "word": "authoritative",
+    "phonetic": "/ɒ:'θɒritәtiv/",
+    "definition": "a. 权威性的, 官方的, 命令式的\\n[法] 官方的, 当局的, 权威的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00101",
+    "word": "authorize",
+    "phonetic": "/'ɒ:θәraiz/",
+    "definition": "vt. 授权, 批准, 委托\\n[经] 授权, 委任, 认可",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00102",
+    "word": "automobile",
+    "phonetic": "/'ɒ:tәmәbi:l/",
+    "definition": "n. 汽车\\n[机] 汽车",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00103",
+    "word": "avail",
+    "phonetic": "/ә'veil/",
+    "definition": "vi. 有用, 有利\\nvt. 有利于\\nn. 效用, 利益",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00104",
+    "word": "avenue",
+    "phonetic": "/'ævәnju:/",
+    "definition": "n. 大街, 途径, 林荫路",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00105",
+    "word": "aviation",
+    "phonetic": "/.eivi'eiʃәn/",
+    "definition": "n. 航空, 航空学, 飞行术\\n[法] 航空, 飞行, 飞行术",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00106",
+    "word": "awareness",
+    "phonetic": "/ә'weәnis/",
+    "definition": "n. 意识, 认识\\n[计] 识别, 议定, 明白",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00107",
+    "word": "backward",
+    "phonetic": "/'bækwәd/",
+    "definition": "adv. 向后地, 相反地\\na. 向后的, 相反的\\n[计] 倒推",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00108",
+    "word": "bacon",
+    "phonetic": "/'beikәn/",
+    "definition": "n. 熏猪肉\\n[机] 腌肉",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00109",
+    "word": "badminton",
+    "phonetic": "/'bædmintәn/",
+    "definition": "n. 羽毛球运动",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00110",
+    "word": "baggage",
+    "phonetic": "/'bægidʒ/",
+    "definition": "n. 行李\\n[经] 行李",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00111",
+    "word": "balcony",
+    "phonetic": "/'bælkәni/",
+    "definition": "n. 阳台, 戏院楼厅",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00112",
+    "word": "bald",
+    "phonetic": "/bɒ:ld/",
+    "definition": "a. 秃头的, 光秃的, 单调的, 赤裸的\\nvi. 变秃",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00113",
+    "word": "baldness",
+    "phonetic": "/'bɒ:ldnis/",
+    "definition": "n. 光秃, 率直, 枯燥\\n[医] 秃[发], 脱发",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00114",
+    "word": "ballet",
+    "phonetic": "/'bælei/",
+    "definition": "n. 芭蕾舞",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00115",
+    "word": "ballroom",
+    "phonetic": "/'bɒ:lrum/",
+    "definition": "n. 舞厅, 跳舞场",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00116",
+    "word": "bamboo",
+    "phonetic": "/bæm'bu:/",
+    "definition": "n. 竹子\\n[医] 竹类",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00117",
+    "word": "bands",
+    "phonetic": "/'bændz/",
+    "definition": "n. 法官；乐队",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00118",
+    "word": "bang",
+    "phonetic": "/bæŋ/",
+    "definition": "n. 重击, 突然巨响, 刘海\\nv. 发巨响, 重击\\nadv. 砰然地, 突然巨响地, 直接地\\n[计] 撞击符",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00119",
+    "word": "bank",
+    "phonetic": "/bæŋk/",
+    "definition": "n. 银行, 堤, 岸\\n[医] 库",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00120",
+    "word": "banner",
+    "phonetic": "/'bænә/",
+    "definition": "n. 旗帜\\na. 显著的, 特别好的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00121",
+    "word": "barber",
+    "phonetic": "/'bɑ:bә/",
+    "definition": "n. 理发师",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00122",
+    "word": "barometer",
+    "phonetic": "/bә'rɒmitә/",
+    "definition": "n. 气压计\\n[化] 气压计",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00123",
+    "word": "basement",
+    "phonetic": "/'beismәnt/",
+    "definition": "n. 地下室, 墙脚\\n[化] 地下室",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00124",
+    "word": "bathe",
+    "phonetic": "/beið/",
+    "definition": "vt. 沐浴, 用水洗\\nvi. 洗澡",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00125",
+    "word": "batter",
+    "phonetic": "/'bætә/",
+    "definition": "v. 连续猛打（尤其指妇女），猛击\\nn. 面糊（食物），击球员，打击手",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00126",
+    "word": "battery",
+    "phonetic": "/'bætәri/",
+    "definition": "n. 电池, 殴打\\n[化] 蓄电池",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00127",
+    "word": "bead",
+    "phonetic": "/bi:d/",
+    "definition": "n. 珠子, 滴\\nvt. 用珠装饰\\nvi. 形成珠\\n[计] 珠",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00128",
+    "word": "bear",
+    "phonetic": "/bєә/",
+    "definition": "n. 熊\\nvt. 忍受, 支承, 产生, 怀有, 通过卖空使跌价\\nvi. 忍受, 结果实, 压挤, 行进, 转向",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00129",
+    "word": "beard",
+    "phonetic": "/biәd/",
+    "definition": "n. 胡须\\nvt. 抓住胡须, 公开反对",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00130",
+    "word": "beats",
+    "phonetic": "/bi:ts/",
+    "definition": "n. 音乐节拍；差拍振动；心脏跳动（beat的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00131",
+    "word": "beds",
+    "phonetic": "",
+    "definition": "n. 床上用品, 床组（bed复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00132",
+    "word": "bedsit",
+    "phonetic": "/bed'sɪt/",
+    "definition": "n. 卧室兼起居室\\nvt. 租用卧室兼起居室",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00133",
+    "word": "beforehand",
+    "phonetic": "/bi'fɒ:hænd/",
+    "definition": "adv. 预先",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00134",
+    "word": "beginners",
+    "phonetic": "",
+    "definition": "n. 初学者；生手；首创者（beginner的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00135",
+    "word": "behavior",
+    "phonetic": "/bi'heivjә/",
+    "definition": "n. 行为, 举止\\n[医] 行为",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00136",
+    "word": "belly",
+    "phonetic": "/'beli/",
+    "definition": "n. 腹部, 食欲\\nvt. 使鼓起\\nvi. 鼓起, 匍匐前进",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00137",
+    "word": "beloved",
+    "phonetic": "/bi'lʌvd/",
+    "definition": "a. 心爱的\\nn. 心爱的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00138",
+    "word": "belts",
+    "phonetic": "",
+    "definition": "n. 带子；皮带（belt的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00139",
+    "word": "beneficial",
+    "phonetic": "/.beni'fiʃәl/",
+    "definition": "a. 有益的, 受益的\\n[经] 有使用权的, 可享利益的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00140",
+    "word": "benefits",
+    "phonetic": "",
+    "definition": "n. 利益, 收益；福利, 效益（benefit的复数形式）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00141",
+    "word": "Berlin",
+    "phonetic": "/bә:'lin/",
+    "definition": "n. 柏林, (软质)柏林毛线",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00142",
+    "word": "berth",
+    "phonetic": "/bә:θ/",
+    "definition": "n. 船岸之间的水区, 锚地, 卧铺\\nvi. 停泊\\nvt. 使停泊",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00143",
+    "word": "best",
+    "phonetic": "/best/",
+    "definition": "a. 最好的\\nadv. 最好地\\nn. 最好的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00144",
+    "word": "bias",
+    "phonetic": "/'baiәs/",
+    "definition": "n. 偏见, 斜纹\\na. 偏斜的\\nadv. 偏斜\\nvt. 使有偏见\\n[计] 偏流; 偏压; 偏磁; 偏离",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00145",
+    "word": "bible",
+    "phonetic": "/'baibl/",
+    "definition": "n. 圣经",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00146",
+    "word": "bicycle",
+    "phonetic": "/'baisikl/",
+    "definition": "n. 自行车",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "zk",
+      "gk",
+      "cet4"
+    ]
+  },
+  {
+    "id": "ielts_00147",
+    "word": "bicycles",
+    "phonetic": "",
+    "definition": "n. 自行车；脚踏车（bicycle的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00148",
+    "word": "bilateral",
+    "phonetic": "/bai'lætәrәl/",
+    "definition": "a. 有两边的, 双边的, 双方的\\n[医] 两侧的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00149",
+    "word": "bind",
+    "phonetic": "/baind/",
+    "definition": "vt. 绑, 约束, 装订, 包扎, 使结合\\nvi. 凝固, 有约束力\\n[计] 赋值, 绑定",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00150",
+    "word": "biography",
+    "phonetic": "/bai'ɒgrәfi/",
+    "definition": "n. 传记",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00151",
+    "word": "biological",
+    "phonetic": "/.baiәu'lɒdʒikәl/",
+    "definition": "a. 生物学的\\n[医] 生物学的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00152",
+    "word": "biology",
+    "phonetic": "/bai'ɒlәdʒi/",
+    "definition": "n. 生物学\\n[化] 生物; 生物学",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00153",
+    "word": "birds",
+    "phonetic": "",
+    "definition": "n. 鸟类；禽（bird的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00154",
+    "word": "Birmingham",
+    "phonetic": "/'bә:miŋәm/",
+    "definition": "n. 伯明翰",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00155",
+    "word": "bitumen",
+    "phonetic": "/bi'tjumin/",
+    "definition": "n. 沥青\\n[化] 沥青; 石油沥青",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00156",
+    "word": "blank",
+    "phonetic": "/blæŋk/",
+    "definition": "n. 空格, 空白\\na. 空白的, 空虚的, 完全的, 无色的\\nvi. 消失, 成为空白\\nvt. 使无效, 取消, 封锁\\n[计] 空白",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00157",
+    "word": "blanket",
+    "phonetic": "/'blæŋkit/",
+    "definition": "n. 毛毯, 毯子\\nvt. 掩盖, 覆盖\\na. 总共的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00158",
+    "word": "blaze",
+    "phonetic": "/bleiz/",
+    "definition": "n. 火焰, 烈火, 光辉\\nvi. 燃烧, 发光\\nvt. 使燃烧, 宣布, 在树皮上刻痕",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00159",
+    "word": "bleed",
+    "phonetic": "/bli:d/",
+    "definition": "vi. 流血, 悲痛, 渗出\\nvt. 使出血, 榨取",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00160",
+    "word": "blend",
+    "phonetic": "/blend/",
+    "definition": "vt. 混合\\nn. 混合",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00161",
+    "word": "bless",
+    "phonetic": "/bles/",
+    "definition": "vt. 祝福, 祈佑, 使神圣化",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00162",
+    "word": "blink",
+    "phonetic": "/bliŋk/",
+    "definition": "vi. 眨眼, 闪亮\\nvt. 眨眼, 使闪亮\\nn. 眨眼, 瞬间, 闪光, 闪烁\\n[计] 闪烁",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00163",
+    "word": "bloc",
+    "phonetic": "/blɒk/",
+    "definition": "n. 集团",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00164",
+    "word": "blocks",
+    "phonetic": "/'blɔks/",
+    "definition": "n. 积木；黑金石；街区；[音]双头木鱼；楼群（block的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00165",
+    "word": "blond",
+    "phonetic": "/blɒnd/",
+    "definition": "a. 金发的\\nn. 白肤碧眼金发的人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00166",
+    "word": "blonde",
+    "phonetic": "/blɔnd/",
+    "definition": "a. (头发)亚麻色的, 淡色的, 白肤金发碧眼的, 白里透红的, 白皙的, 淡黄色的\\nn. 肤色白皙的金发女人",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00167",
+    "word": "bloom",
+    "phonetic": "/blu:m/",
+    "definition": "n. 花, 开花, 青春, 钢块\\nvi. 开花, 焕发青春, 茂盛\\nvt. 使茂盛, 把...轧成钢坯",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00168",
+    "word": "blot",
+    "phonetic": "/blɒt/",
+    "definition": "n. 污点, 墨水渍\\nvt. 乱涂, 使模糊, 吸干\\nvi. 弄上墨渍, 吸墨水",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00169",
+    "word": "blouse",
+    "phonetic": "/blauz/",
+    "definition": "n. 宽松的上衣",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00170",
+    "word": "bold",
+    "phonetic": "/bәuld/",
+    "definition": "a. 大胆的\\nn. 粗体\\n[计] 粗体",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00171",
+    "word": "bones",
+    "phonetic": "/bәunz/",
+    "definition": "n. 骨骼, 尸体",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00172",
+    "word": "bonus",
+    "phonetic": "/'bәunәs/",
+    "definition": "n. 奖金, 红利\\n[经] 奖金, 红利, 额外补贴",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00173",
+    "word": "bookcase",
+    "phonetic": "/'bukkeis/",
+    "definition": "n. 书架, 书柜",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00174",
+    "word": "booking",
+    "phonetic": "/'bukiŋ/",
+    "definition": "n. 预约演出合同\\n[机] 书型模法",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00175",
+    "word": "bookkeeper",
+    "phonetic": "/'bukki:pә/",
+    "definition": "n. 簿记员\\n[经] 簿记员, 记帐员",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00176",
+    "word": "booklet",
+    "phonetic": "/'buklit/",
+    "definition": "n. 小册子",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00177",
+    "word": "booklist",
+    "phonetic": "/'buklist/",
+    "definition": "(某个题目或学科的)推荐书目, 书单",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00178",
+    "word": "books",
+    "phonetic": "",
+    "definition": "n. 书评；书籍（book的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00179",
+    "word": "bookshelf",
+    "phonetic": "/'bukʃelf/",
+    "definition": "n. 书架",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00180",
+    "word": "bookshop",
+    "phonetic": "/'bukʃɒp/",
+    "definition": "n. 书店",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00181",
+    "word": "booth",
+    "phonetic": "/bu:θ/",
+    "definition": "n. 亭, 摊棚\\n[经] 货摊, 电话间",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00182",
+    "word": "boots",
+    "phonetic": "/bu:ts/",
+    "definition": "n. （英）擦靴的仆役；靴子（boot的复数）",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00183",
+    "word": "bounce",
+    "phonetic": "/bauns/",
+    "definition": "n. 跳, 跳跃, 弹力, 撞击\\nvi. 反跳, 弹跳\\nvt. 使跳回, 撞击\\n[计] 打回",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00184",
+    "word": "boundary",
+    "phonetic": "/'baundri/",
+    "definition": "n. 边界, 分界线\\n[计] 边界",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "cet4",
+      "cet6"
+    ]
+  },
+  {
+    "id": "ielts_00185",
+    "word": "bounty",
+    "phonetic": "/'baunti/",
+    "definition": "n. 慷慨, 宽大, 礼物\\n[经] 奖励金, 补贴",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00186",
+    "word": "bowel",
+    "phonetic": "/'bauәl/",
+    "definition": "n. 肠, 内脏, 内部\\nvt. 挖...的内脏",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00187",
+    "word": "bowling",
+    "phonetic": "/'bәuliŋ/",
+    "definition": "n. 保龄球戏",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00188",
+    "word": "bowls",
+    "phonetic": "",
+    "definition": "n. 滚木球戏",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00189",
+    "word": "breakdown",
+    "phonetic": "/'breikdaun/",
+    "definition": "n. 崩溃, 故障\\n[化] 事故; 击穿",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet6",
+      "ky",
+      "toefl"
+    ]
+  },
+  {
+    "id": "ielts_00190",
+    "word": "breakthrough",
+    "phonetic": "/'breikθru:/",
+    "definition": "n. 突破\\n[经] 突破, 新发现, 新进展",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00191",
+    "word": "breeding",
+    "phonetic": "/'bri:diŋ/",
+    "definition": "n. 教养, 生育, 饲养\\n[医] 生育, 繁殖, 育种, 饲养",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00192",
+    "word": "breeze",
+    "phonetic": "/bri:z/",
+    "definition": "n. 微风, 煤屑, 轻而易举的事\\nvi. 吹微风, 逃走",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
+    ]
+  },
+  {
+    "id": "ielts_00193",
+    "word": "brew",
+    "phonetic": "/bru:/",
+    "definition": "n. 酿造酒, 酝酿\\nv. 酿造, 酝酿",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "toefl",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00194",
+    "word": "briefcase",
+    "phonetic": "/'bri:fkeis/",
+    "definition": "n. 公事包",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ky",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00195",
+    "word": "bring about",
+    "phonetic": "",
+    "definition": "带来, 使掉头",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00196",
+    "word": "Bristol",
+    "phonetic": "/'bristәl/",
+    "definition": "n. 布里斯托尔(英国西部港口)",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00197",
+    "word": "Britain",
+    "phonetic": "/'britәn/",
+    "definition": "n. 英国",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00198",
+    "word": "British",
+    "phonetic": "/'britiʃ/",
+    "definition": "a. 英国的\\nn. 英国人, 英国英语",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "gk",
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00199",
+    "word": "brochures",
+    "phonetic": "/brəʊ'ʃəz/",
+    "definition": "n. 小册子( brochure的名词复数 ); （某地、某旅馆等的）情况介绍手册; （印成小册子的）论文",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "ielts"
+    ]
+  },
+  {
+    "id": "ielts_00200",
+    "word": "bronze",
+    "phonetic": "/brɒnz/",
+    "definition": "n. 青铜, 铜像\\na. 青铜色的",
+    "examples": [
+      "This is an example sentence."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "tags": [
+      "cet4",
+      "cet6",
+      "ky"
     ]
   }
 ]
