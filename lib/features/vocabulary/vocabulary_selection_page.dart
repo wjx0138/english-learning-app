@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:go_router/go_router.dart';
 import '../../core/providers/app_provider.dart';
 import '../../data/models/vocabulary_book.dart';
 import '../../shared/services/vocabulary_service.dart';
-import '../home/home_page.dart';
 
 /// Page for selecting and loading vocabulary books
 class VocabularySelectionPage extends StatefulWidget {
@@ -64,10 +64,8 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
         final appProvider = context.read<AppProvider>();
         await appProvider.loadVocabularyWords(words);
 
-        // Navigate to home page
-        Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => const HomePage()),
-        );
+        // Navigate to flashcard learning page (instead of home page)
+        context.pushReplacement('/flashcard');
 
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
