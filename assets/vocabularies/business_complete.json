@@ -12,8 +12,10 @@
     "difficulty": 2,
     "tags": [
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -28,7 +30,9 @@
     "antonyms": [],
     "difficulty": 2,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -43,7 +47,9 @@
     "antonyms": [],
     "difficulty": 2,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -58,7 +64,9 @@
     "antonyms": [],
     "difficulty": 2,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -73,7 +81,9 @@
     "antonyms": [],
     "difficulty": 2,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -88,7 +98,9 @@
     "antonyms": [],
     "difficulty": 2,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -103,7 +115,9 @@
     "antonyms": [],
     "difficulty": 2,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -119,6 +133,8 @@
     "difficulty": 2,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -134,7 +150,9 @@
     "antonyms": [],
     "difficulty": 2,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -150,6 +168,8 @@
     "difficulty": 2,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -165,7 +185,9 @@
     "antonyms": [],
     "difficulty": 2,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -181,6 +203,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -198,6 +222,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -215,7 +241,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "cet6"
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -230,7 +257,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -246,6 +275,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky"
     ]
@@ -262,7 +292,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "ielts"
     ]
@@ -279,6 +311,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -294,11 +328,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -313,8 +347,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -331,11 +366,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet6"
+      "gk"
     ]
   },
   {
@@ -350,7 +385,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -366,11 +403,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -386,6 +423,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -401,10 +440,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -436,7 +476,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -453,8 +495,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -469,11 +511,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -488,7 +530,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -538,10 +582,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "toefl",
-      "gk",
-      "ielts"
+      "gk"
     ]
   },
   {
@@ -558,8 +603,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -574,11 +619,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -593,10 +638,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -611,11 +657,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -630,8 +676,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -647,11 +695,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -667,6 +715,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -682,9 +731,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -700,7 +750,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -715,8 +767,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -732,8 +786,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -748,7 +804,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -764,7 +822,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -780,7 +840,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -795,8 +857,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -814,6 +877,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -830,9 +894,10 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "gk",
+      "cet6",
+      "ky",
       "zk",
-      "ielts"
+      "gk"
     ]
   },
   {
@@ -847,9 +912,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -865,7 +930,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -880,7 +947,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -896,9 +965,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -914,7 +983,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "ielts"
     ]
@@ -932,8 +1003,10 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -948,6 +1021,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -964,7 +1039,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -981,6 +1058,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -997,9 +1075,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -1015,7 +1094,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -1031,11 +1112,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -1050,11 +1131,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -1069,10 +1150,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -1087,9 +1169,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -1105,7 +1187,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -1121,11 +1205,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -1141,8 +1225,9 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "toefl",
-      "ky"
+      "cet6",
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -1157,11 +1242,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -1176,7 +1261,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -1191,7 +1278,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "ielts"
     ]
   },
@@ -1207,9 +1296,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -1225,8 +1315,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -1243,7 +1334,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "ielts"
     ]
   },
@@ -1259,7 +1352,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -1275,7 +1370,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "cet6"
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -1290,6 +1386,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -1305,7 +1403,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -1321,6 +1421,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky"
     ]
@@ -1354,6 +1455,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky"
     ]
@@ -1370,7 +1472,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "ielts"
     ]
   },
@@ -1387,6 +1491,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -1402,11 +1507,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -1422,6 +1527,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -1437,7 +1544,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -1453,7 +1562,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -1468,10 +1579,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -1486,7 +1598,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -1501,8 +1615,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -1519,6 +1634,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -1534,8 +1651,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -1552,7 +1670,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -1568,8 +1688,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -1586,11 +1707,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -1605,9 +1726,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -1623,7 +1745,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -1642,6 +1766,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -1658,7 +1783,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "ielts"
     ]
@@ -1675,11 +1802,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -1694,11 +1821,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -1713,8 +1840,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -1748,9 +1876,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -1766,9 +1895,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -1784,8 +1914,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -1801,8 +1932,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -1819,6 +1951,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky"
     ]
@@ -1835,10 +1968,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -1853,7 +1987,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -1868,9 +2004,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -1885,11 +2022,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -1904,11 +2041,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -1923,7 +2060,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -1938,6 +2077,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky",
       "ielts"
@@ -1955,8 +2095,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -1973,7 +2114,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -1988,9 +2131,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -2006,11 +2149,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -2025,7 +2168,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -2043,6 +2188,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "ielts"
     ]
   },
@@ -2058,11 +2204,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -2078,6 +2224,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -2093,7 +2241,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -2109,9 +2259,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -2127,9 +2278,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -2145,7 +2297,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -2179,6 +2333,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -2196,6 +2352,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -2229,7 +2386,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -2246,6 +2405,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "ielts"
     ]
   },
@@ -2261,6 +2421,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky",
       "ielts"
@@ -2278,7 +2439,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -2293,11 +2456,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -2312,11 +2475,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -2331,11 +2494,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -2350,8 +2513,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -2366,7 +2531,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -2381,11 +2548,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -2400,7 +2567,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -2416,11 +2585,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -2435,8 +2604,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -2453,11 +2623,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -2472,11 +2642,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -2491,11 +2661,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -2510,9 +2680,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -2528,11 +2699,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -2547,10 +2718,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "gk",
+      "ky",
       "zk",
-      "ielts"
+      "gk"
     ]
   },
   {
@@ -2565,7 +2737,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -2581,11 +2755,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -2600,7 +2774,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -2617,8 +2793,9 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "toefl",
+      "cet6",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -2634,11 +2811,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -2653,7 +2830,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -2668,7 +2847,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "ielts"
     ]
@@ -2685,11 +2866,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -2704,11 +2885,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -2723,8 +2904,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -2741,11 +2923,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -2760,7 +2942,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "ielts"
     ]
@@ -2777,11 +2961,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -2796,8 +2980,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -2814,10 +2999,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -2832,7 +3018,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -2847,11 +3035,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -2866,8 +3054,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -2885,7 +3074,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "cet6"
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -2900,7 +3090,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -2915,11 +3107,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -2934,6 +3126,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "gk",
       "ielts"
@@ -2952,6 +3146,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -2968,11 +3163,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -2987,7 +3182,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -3003,7 +3200,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -3018,6 +3217,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky"
     ]
@@ -3034,9 +3234,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -3052,7 +3253,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -3068,6 +3271,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -3084,11 +3288,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -3104,8 +3308,9 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "toefl",
+      "cet6",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -3121,10 +3326,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "toefl",
-      "gk",
-      "ielts"
+      "gk"
     ]
   },
   {
@@ -3139,8 +3345,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -3157,7 +3364,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -3172,8 +3381,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -3188,10 +3399,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -3206,7 +3418,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -3222,7 +3436,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -3238,7 +3454,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -3254,8 +3472,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -3272,11 +3491,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -3291,11 +3510,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -3310,11 +3529,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -3329,11 +3548,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -3348,11 +3567,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -3367,7 +3586,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "ielts"
     ]
@@ -3384,7 +3605,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "ielts"
     ]
   },
@@ -3400,11 +3623,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -3419,8 +3642,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -3437,7 +3661,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -3452,7 +3678,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -3467,11 +3695,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -3486,11 +3714,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -3505,11 +3733,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -3541,11 +3769,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -3560,11 +3788,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -3579,11 +3807,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -3598,6 +3826,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -3614,6 +3844,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "gk",
       "ielts"
@@ -3649,8 +3881,9 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "toefl",
-      "ky"
+      "cet6",
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -3665,9 +3898,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -3683,11 +3917,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -3702,8 +3936,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -3720,6 +3955,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "gk"
     ]
@@ -3736,7 +3973,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -3752,6 +3991,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -3769,6 +4010,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -3784,7 +4027,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -3799,7 +4044,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -3815,11 +4062,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -3834,9 +4081,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -3853,6 +4100,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -3868,7 +4116,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -3883,6 +4133,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "gk",
       "ielts"
@@ -3900,6 +4152,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky",
       "ielts"
@@ -3917,7 +4170,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -3952,6 +4207,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -3967,6 +4223,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky",
       "ielts"
@@ -3984,11 +4241,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -4020,11 +4277,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -4039,7 +4296,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -4054,8 +4313,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -4072,7 +4332,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -4087,11 +4349,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -4106,11 +4368,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -4125,7 +4387,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "ielts"
     ]
@@ -4142,7 +4406,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -4158,6 +4424,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky",
       "ielts"
@@ -4175,10 +4442,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "toefl",
-      "gk",
-      "ielts"
+      "gk"
     ]
   },
   {
@@ -4193,10 +4461,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -4211,11 +4480,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -4248,11 +4517,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -4267,9 +4536,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -4285,8 +4554,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -4304,6 +4574,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -4320,6 +4592,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -4335,11 +4609,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -4354,7 +4628,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -4370,11 +4646,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet6"
+      "gk"
     ]
   },
   {
@@ -4389,11 +4665,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -4408,11 +4684,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -4427,11 +4703,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -4446,10 +4722,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -4484,8 +4761,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -4500,11 +4777,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -4519,7 +4796,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -4535,7 +4814,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -4550,7 +4831,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -4565,6 +4848,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -4599,8 +4884,9 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "gk",
       "zk"
     ]
   },
@@ -4616,11 +4902,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -4635,11 +4921,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -4654,11 +4940,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -4673,11 +4959,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -4692,7 +4978,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -4707,11 +4995,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -4726,7 +5014,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -4743,11 +5033,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -4762,11 +5052,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -4781,11 +5071,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet6"
+      "gk"
     ]
   },
   {
@@ -4800,11 +5090,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -4819,9 +5109,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -4837,7 +5127,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -4852,11 +5144,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -4871,6 +5163,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -4887,11 +5181,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet6"
+      "gk"
     ]
   },
   {
@@ -4906,6 +5200,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -4922,6 +5218,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -4937,7 +5235,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -4954,7 +5254,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "cet6"
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -4969,7 +5270,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -4984,11 +5287,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -5003,9 +5306,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -5023,6 +5326,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -5039,11 +5343,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -5058,11 +5362,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -5077,9 +5381,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -5095,9 +5399,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -5114,6 +5419,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -5129,11 +5435,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -5148,7 +5454,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5163,11 +5471,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -5182,11 +5490,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -5201,9 +5509,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -5237,7 +5545,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5252,8 +5562,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -5269,6 +5580,7 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
       "ky"
     ]
@@ -5285,8 +5597,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -5303,11 +5616,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -5339,11 +5652,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet6"
+      "gk"
     ]
   },
   {
@@ -5360,8 +5673,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -5376,10 +5689,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -5394,7 +5708,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5409,11 +5725,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -5428,7 +5744,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5443,7 +5761,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5458,8 +5778,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -5474,8 +5796,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -5492,6 +5815,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "gk",
       "ielts"
@@ -5509,11 +5834,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -5545,9 +5870,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -5563,9 +5889,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk"
+      "zk",
+      "gk"
     ]
   },
   {
@@ -5580,8 +5908,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -5599,6 +5928,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -5614,11 +5944,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -5633,9 +5963,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -5651,7 +5982,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "ielts"
     ]
   },
@@ -5667,6 +6000,8 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -5683,9 +6018,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -5701,7 +6036,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5716,7 +6053,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5731,9 +6070,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -5749,11 +6089,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -5768,11 +6108,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -5787,11 +6127,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -5806,7 +6146,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
       "ielts"
     ]
@@ -5823,9 +6165,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -5841,9 +6184,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -5859,7 +6203,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5875,6 +6221,7 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -5891,9 +6238,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -5909,7 +6256,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -5925,9 +6274,10 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -5943,11 +6293,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -5962,11 +6312,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -5982,7 +6332,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
-      "cet6"
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -5997,9 +6348,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -6015,11 +6366,11 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -6036,8 +6387,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -6053,6 +6404,8 @@
     "difficulty": 3,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -6068,7 +6421,9 @@
     "antonyms": [],
     "difficulty": 3,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -6083,11 +6438,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -6102,10 +6457,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -6120,11 +6476,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6139,10 +6495,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -6157,11 +6514,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6176,11 +6533,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -6195,11 +6552,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -6214,11 +6571,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6233,11 +6590,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6252,11 +6609,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6271,9 +6628,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -6290,11 +6647,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet4"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -6309,11 +6666,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6328,11 +6685,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6347,7 +6704,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -6362,11 +6721,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6381,9 +6740,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -6400,11 +6759,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6419,11 +6778,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -6438,10 +6797,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -6456,11 +6816,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6475,11 +6835,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6494,11 +6854,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "ielts"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6513,11 +6873,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6532,11 +6892,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6551,11 +6911,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6570,11 +6930,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -6589,11 +6949,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6608,9 +6968,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -6627,11 +6987,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -6646,11 +7006,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -6665,11 +7025,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -6684,8 +7044,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -6701,8 +7063,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -6719,8 +7082,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -6735,8 +7100,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -6753,8 +7119,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -6770,8 +7137,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -6788,11 +7156,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6807,11 +7175,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6826,9 +7194,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -6845,11 +7213,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6864,11 +7232,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6883,9 +7251,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -6902,11 +7270,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6921,11 +7289,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet4"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -6940,11 +7308,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6959,11 +7327,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "gre"
+      "ky",
+      "gre",
+      "gk"
     ]
   },
   {
@@ -6978,11 +7346,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -6998,8 +7366,9 @@
     "difficulty": 4,
     "tags": [
       "cet4",
-      "toefl",
+      "cet6",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -7015,10 +7384,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -7033,9 +7403,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7052,11 +7422,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7071,11 +7441,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -7090,11 +7460,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet6"
+      "gk"
     ]
   },
   {
@@ -7109,11 +7479,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7128,9 +7498,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -7146,9 +7517,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7165,11 +7536,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7184,9 +7555,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7203,8 +7574,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -7219,9 +7592,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7238,10 +7611,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -7256,8 +7630,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -7274,9 +7650,10 @@
     "difficulty": 4,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "gre",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -7291,11 +7668,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -7310,9 +7687,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
       "gre"
     ]
@@ -7329,9 +7706,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7348,10 +7725,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "gk"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -7366,11 +7744,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7385,9 +7763,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -7402,11 +7782,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -7421,9 +7801,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7440,11 +7820,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -7459,11 +7839,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -7478,8 +7858,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -7495,11 +7876,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -7514,11 +7895,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -7533,7 +7914,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -7549,10 +7932,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -7567,9 +7951,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7586,9 +7970,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -7604,6 +7989,7 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
       "cet6",
       "ky"
     ]
@@ -7620,11 +8006,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7639,9 +8025,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7658,8 +8044,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -7676,11 +8063,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7695,9 +8082,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7714,8 +8101,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -7731,11 +8119,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "gk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "gk"
     ]
   },
   {
@@ -7750,11 +8138,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7769,8 +8157,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -7787,11 +8176,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7806,11 +8195,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -7825,10 +8214,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -7843,9 +8233,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -7860,9 +8252,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -7878,11 +8271,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7897,11 +8290,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7916,8 +8309,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -7932,11 +8327,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -7951,8 +8346,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -7968,9 +8365,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -7987,11 +8384,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -8007,9 +8404,10 @@
     "difficulty": 4,
     "tags": [
       "cet4",
-      "toefl",
+      "cet6",
+      "ky",
       "gre",
-      "gk"
+      "toefl"
     ]
   },
   {
@@ -8024,11 +8422,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8043,11 +8441,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -8062,11 +8460,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -8081,9 +8479,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
       "gre"
     ]
@@ -8100,8 +8498,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -8116,8 +8516,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -8134,8 +8535,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -8152,9 +8554,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -8169,8 +8573,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -8187,9 +8592,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -8206,10 +8611,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "gk",
-      "ielts"
+      "ky",
+      "gre",
+      "gk"
     ]
   },
   {
@@ -8224,9 +8630,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "ky"
+      "ky",
+      "gre"
     ]
   },
   {
@@ -8241,11 +8648,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8260,11 +8667,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8279,11 +8686,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -8298,11 +8705,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -8317,10 +8724,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -8335,8 +8743,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -8352,8 +8761,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -8371,9 +8781,10 @@
     "difficulty": 4,
     "tags": [
       "cet4",
-      "toefl",
+      "cet6",
+      "ky",
       "gre",
-      "gk"
+      "toefl"
     ]
   },
   {
@@ -8388,6 +8799,8 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -8403,9 +8816,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -8420,11 +8835,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -8439,11 +8854,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -8458,11 +8873,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8477,11 +8892,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8498,8 +8913,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "gre",
-      "ky"
+      "ky",
+      "gre"
     ]
   },
   {
@@ -8516,8 +8931,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "gre",
-      "ky"
+      "ky",
+      "gre"
     ]
   },
   {
@@ -8532,11 +8947,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "gk",
+      "cet4",
+      "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -8551,11 +8966,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8570,11 +8985,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -8589,11 +9004,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -8608,10 +9023,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -8626,10 +9042,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -8644,11 +9061,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8663,9 +9080,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -8680,8 +9099,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -8696,11 +9117,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8715,11 +9136,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -8734,11 +9155,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8753,9 +9174,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -8772,11 +9193,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8791,11 +9212,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8810,11 +9231,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8829,8 +9250,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -8845,9 +9268,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -8864,11 +9287,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -8883,11 +9306,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -8903,6 +9326,8 @@
     "difficulty": 4,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -8919,9 +9344,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -8938,8 +9363,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -8956,9 +9382,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -8975,10 +9401,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -8993,9 +9420,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9012,11 +9439,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9031,11 +9458,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -9050,8 +9477,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -9067,10 +9495,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -9085,10 +9514,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -9103,9 +9533,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9122,11 +9552,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9142,8 +9572,9 @@
     "difficulty": 4,
     "tags": [
       "cet4",
-      "toefl",
-      "ky"
+      "cet6",
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -9158,9 +9589,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9177,8 +9608,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -9193,9 +9626,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9212,9 +9645,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9231,11 +9664,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -9250,10 +9683,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "toefl",
-      "gk",
-      "ielts"
+      "gk"
     ]
   },
   {
@@ -9268,11 +9702,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -9287,11 +9721,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9306,11 +9740,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9325,11 +9759,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9344,11 +9778,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -9363,11 +9797,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -9382,11 +9816,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9401,11 +9835,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9420,9 +9854,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9439,11 +9873,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -9458,11 +9892,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9477,8 +9911,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -9494,10 +9930,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -9512,10 +9949,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -9530,9 +9968,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9549,11 +9987,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9569,6 +10007,7 @@
     "difficulty": 4,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -9585,8 +10024,10 @@
     "difficulty": 4,
     "tags": [
       "cet4",
-      "toefl",
-      "gre"
+      "cet6",
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -9601,11 +10042,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -9620,11 +10061,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -9639,10 +10080,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -9657,11 +10099,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9676,9 +10118,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9696,6 +10138,7 @@
     "difficulty": 4,
     "tags": [
       "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -9711,9 +10154,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -9728,11 +10173,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -9747,11 +10192,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9766,11 +10211,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9785,8 +10230,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -9801,11 +10248,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -9820,11 +10267,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -9839,9 +10286,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9858,9 +10305,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -9876,8 +10324,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -9893,8 +10342,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -9910,9 +10361,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9929,8 +10380,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -9947,11 +10399,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -9966,9 +10418,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -9985,9 +10437,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -10004,7 +10456,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -10020,9 +10474,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -10039,9 +10493,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -10058,9 +10512,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
       "gre"
     ]
@@ -10077,11 +10531,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "ielts"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10096,11 +10550,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -10115,11 +10569,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10134,8 +10588,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -10151,11 +10607,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10170,11 +10626,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10189,8 +10645,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -10205,11 +10663,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -10224,9 +10682,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -10243,11 +10701,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10262,11 +10720,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -10281,7 +10739,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "cet4"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -10296,8 +10756,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -10313,9 +10774,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -10331,8 +10793,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -10349,11 +10812,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -10368,11 +10831,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -10387,8 +10850,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -10403,11 +10868,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -10422,11 +10887,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10441,11 +10906,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -10460,9 +10925,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -10478,8 +10944,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -10496,11 +10963,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -10515,11 +10982,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -10534,11 +11001,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -10553,8 +11020,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -10570,8 +11038,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -10588,8 +11057,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -10606,8 +11076,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -10624,11 +11095,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "gk"
     ]
   },
   {
@@ -10643,11 +11114,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10662,8 +11133,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -10680,10 +11152,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -10698,11 +11171,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -10717,8 +11190,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -10735,6 +11210,7 @@
     "difficulty": 4,
     "tags": [
       "cet4",
+      "cet6",
       "ky",
       "ielts"
     ]
@@ -10751,11 +11227,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10770,10 +11246,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -10788,9 +11265,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -10807,8 +11284,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -10824,8 +11303,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -10840,11 +11321,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -10859,11 +11340,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -10878,9 +11359,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -10897,9 +11378,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -10914,11 +11397,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -10933,11 +11416,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -10952,10 +11435,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -10970,9 +11454,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -10989,11 +11473,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -11008,6 +11492,8 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky"
     ]
   },
@@ -11023,11 +11509,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11042,8 +11528,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -11058,9 +11546,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -11077,9 +11565,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -11096,9 +11584,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -11114,9 +11603,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -11133,11 +11622,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11152,11 +11641,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -11171,11 +11660,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -11190,8 +11679,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -11207,9 +11697,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
       "gre"
     ]
@@ -11226,11 +11716,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11245,8 +11735,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -11263,11 +11754,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11284,6 +11775,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "gre"
     ]
   },
@@ -11299,11 +11791,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -11318,8 +11810,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -11334,11 +11828,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -11353,11 +11847,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11372,9 +11866,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -11391,8 +11885,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -11408,11 +11904,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -11427,8 +11923,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -11445,11 +11942,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11464,10 +11961,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -11482,10 +11980,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -11502,8 +12001,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "gre",
-      "ky"
+      "ky",
+      "gre"
     ]
   },
   {
@@ -11518,9 +12017,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -11536,11 +12035,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -11555,11 +12054,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -11574,11 +12073,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11593,9 +12092,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -11611,8 +12111,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -11627,8 +12129,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -11645,11 +12148,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -11664,11 +12167,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11685,6 +12188,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "gre"
     ]
   },
@@ -11700,11 +12204,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11719,8 +12223,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -11737,9 +12242,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
       "gre"
     ]
@@ -11758,6 +12263,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "gre",
       "ielts"
     ]
@@ -11774,11 +12280,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -11793,9 +12299,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -11811,11 +12318,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11830,9 +12337,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -11851,6 +12358,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "gre"
     ]
   },
@@ -11866,11 +12374,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -11885,11 +12393,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11904,11 +12412,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11923,11 +12431,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11942,11 +12450,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -11961,10 +12469,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -11979,9 +12488,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -11998,11 +12507,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -12017,11 +12526,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -12036,9 +12545,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -12054,9 +12564,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -12073,11 +12583,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -12092,8 +12602,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -12109,8 +12620,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -12126,11 +12639,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -12145,9 +12658,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -12163,11 +12676,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -12182,10 +12695,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -12200,10 +12714,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -12218,8 +12733,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -12234,11 +12751,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -12253,10 +12770,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -12271,11 +12789,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -12290,8 +12808,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -12307,11 +12827,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12326,11 +12846,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet6"
+      "gk"
     ]
   },
   {
@@ -12347,8 +12867,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -12363,11 +12883,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -12382,9 +12902,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -12400,9 +12921,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -12419,11 +12940,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12438,9 +12959,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -12455,11 +12978,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -12474,10 +12997,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -12492,9 +13016,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -12509,11 +13035,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -12528,11 +13054,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12547,11 +13073,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -12566,11 +13092,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12585,11 +13111,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12604,11 +13130,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -12623,11 +13149,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12642,9 +13168,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -12661,11 +13187,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -12680,10 +13206,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -12698,11 +13225,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12717,11 +13244,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12736,11 +13263,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12755,11 +13282,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12774,11 +13301,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12793,8 +13320,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -12809,11 +13338,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -12828,11 +13357,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -12847,10 +13376,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -12865,11 +13395,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -12884,11 +13414,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet6"
+      "gk"
     ]
   },
   {
@@ -12903,9 +13433,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -12920,11 +13452,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -12939,11 +13471,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -12958,8 +13490,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -12975,10 +13509,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -12993,10 +13528,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -13011,11 +13547,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -13030,8 +13566,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -13047,9 +13585,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -13065,11 +13604,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13084,10 +13623,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -13102,11 +13642,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -13121,9 +13661,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -13139,11 +13679,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -13158,8 +13698,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -13175,11 +13717,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13194,11 +13736,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13213,11 +13755,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13232,11 +13774,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13251,9 +13793,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -13269,11 +13812,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -13288,9 +13831,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -13307,11 +13850,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -13326,10 +13869,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -13344,10 +13888,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
       "toefl",
-      "gk",
-      "ielts"
+      "gk"
     ]
   },
   {
@@ -13362,11 +13907,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -13381,11 +13926,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -13400,10 +13945,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gre",
       "toefl",
-      "gk"
+      "gre"
     ]
   },
   {
@@ -13418,11 +13964,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -13437,11 +13983,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -13456,8 +14002,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -13473,9 +14020,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -13492,11 +14039,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -13511,11 +14058,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13530,11 +14077,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -13549,10 +14096,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -13567,11 +14115,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13586,8 +14134,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -13602,9 +14152,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -13622,6 +14172,8 @@
     "difficulty": 4,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -13637,11 +14189,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13656,11 +14208,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -13675,11 +14227,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13694,8 +14246,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -13711,11 +14265,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13730,11 +14284,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -13749,9 +14303,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -13768,11 +14322,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13787,9 +14341,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -13804,10 +14360,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -13822,11 +14379,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13841,8 +14398,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -13858,9 +14417,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -13876,11 +14436,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gre"
     ]
   },
   {
@@ -13895,11 +14455,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -13914,11 +14474,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -13933,10 +14493,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -13951,11 +14512,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -13970,11 +14531,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -13989,6 +14550,7 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
       "cet6",
       "ky",
       "ielts"
@@ -14006,8 +14568,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -14024,9 +14587,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14043,11 +14606,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -14062,9 +14625,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14081,11 +14644,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -14100,8 +14663,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -14117,9 +14682,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14136,11 +14701,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -14155,9 +14720,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -14173,11 +14739,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -14192,8 +14758,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -14208,11 +14776,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -14227,9 +14795,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14246,11 +14814,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -14265,9 +14833,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14284,11 +14852,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -14303,11 +14871,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -14323,8 +14891,9 @@
     "difficulty": 4,
     "tags": [
       "cet4",
-      "gre",
+      "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -14340,9 +14909,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14359,9 +14928,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -14376,9 +14947,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14395,11 +14966,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -14414,11 +14985,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "gre",
+      "gk"
     ]
   },
   {
@@ -14435,8 +15006,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -14451,11 +15022,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -14472,8 +15043,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -14488,11 +15059,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -14525,9 +15096,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -14545,8 +15117,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -14561,11 +15133,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -14580,11 +15152,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -14599,9 +15171,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -14617,11 +15189,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -14636,10 +15208,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -14654,9 +15227,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -14674,6 +15247,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -14689,10 +15263,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "ielts"
+      "toefl",
+      "gre"
     ]
   },
   {
@@ -14707,9 +15282,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14726,10 +15301,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
-      "toefl",
-      "ielts"
+      "ky",
+      "gre",
+      "toefl"
     ]
   },
   {
@@ -14746,8 +15322,8 @@
     "tags": [
       "cet4",
       "cet6",
-      "toefl",
-      "ky"
+      "ky",
+      "toefl"
     ]
   },
   {
@@ -14762,9 +15338,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14781,9 +15357,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14800,8 +15376,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
+      "ky",
+      "gre",
       "toefl"
     ]
   },
@@ -14817,9 +15395,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
       "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -14835,10 +15414,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
+      "gre",
       "zk"
     ]
   },
@@ -14854,11 +15433,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -14873,9 +15452,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14892,9 +15471,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -14911,11 +15490,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -14930,11 +15509,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -14950,8 +15529,9 @@
     "difficulty": 4,
     "tags": [
       "cet4",
-      "gre",
-      "ky"
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -14966,8 +15546,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
       "ky",
+      "gre",
       "ielts"
     ]
   },
@@ -14983,11 +15565,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15002,9 +15584,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
+      "cet4",
+      "cet6",
+      "ky",
       "toefl",
-      "ky"
+      "gre"
     ]
   },
   {
@@ -15019,9 +15603,9 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -15038,8 +15622,10 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky",
+      "gre"
     ]
   },
   {
@@ -15054,11 +15640,11 @@
     "antonyms": [],
     "difficulty": 4,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15073,11 +15659,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -15092,10 +15678,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15110,11 +15697,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -15130,6 +15717,8 @@
     "difficulty": 5,
     "tags": [
       "cet4",
+      "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -15145,11 +15734,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15164,10 +15753,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15182,11 +15772,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15201,11 +15791,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -15220,11 +15810,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15239,11 +15829,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -15258,10 +15848,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15276,11 +15867,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -15295,11 +15886,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -15314,11 +15905,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -15335,6 +15926,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "toefl"
     ]
   },
@@ -15350,10 +15942,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15368,11 +15961,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15387,11 +15980,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15406,11 +15999,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -15425,8 +16018,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -15443,11 +16037,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15462,8 +16056,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -15480,11 +16075,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -15499,10 +16094,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15517,11 +16113,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -15536,11 +16132,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -15555,11 +16151,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -15574,10 +16170,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15592,8 +16189,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -15610,8 +16208,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -15628,9 +16227,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -15646,11 +16245,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -15665,8 +16264,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -15683,10 +16283,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15701,8 +16302,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -15719,9 +16321,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -15738,10 +16340,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15756,9 +16359,10 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
+      "cet4",
       "cet6",
-      "toefl",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -15774,11 +16378,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -15793,11 +16397,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -15812,10 +16416,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15830,11 +16435,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -15849,7 +16454,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "cet6"
+      "cet4",
+      "cet6",
+      "ky"
     ]
   },
   {
@@ -15864,11 +16471,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -15883,11 +16490,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -15902,10 +16509,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -15921,6 +16529,7 @@
     "difficulty": 5,
     "tags": [
       "cet4",
+      "cet6",
       "ky",
       "zk"
     ]
@@ -15937,11 +16546,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -15956,11 +16565,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -15975,8 +16584,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -15993,11 +16603,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -16012,11 +16622,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16031,11 +16641,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -16050,11 +16660,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -16069,11 +16679,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16088,8 +16698,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -16106,11 +16717,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -16125,8 +16736,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -16143,11 +16755,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -16162,11 +16774,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -16181,11 +16793,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -16200,8 +16812,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -16217,11 +16830,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -16236,11 +16849,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16255,9 +16868,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -16274,11 +16887,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -16293,11 +16906,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16312,11 +16925,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16331,11 +16944,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -16350,11 +16963,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16369,11 +16982,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -16388,8 +17001,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -16405,8 +17019,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -16423,11 +17038,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16442,11 +17057,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16461,11 +17076,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -16480,11 +17095,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16499,11 +17114,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16518,11 +17133,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16537,11 +17152,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16556,11 +17171,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16575,11 +17190,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16594,11 +17209,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16613,11 +17228,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "ielts"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16632,11 +17247,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "ielts"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -16651,8 +17266,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gre",
       "gk"
     ]
@@ -16669,11 +17285,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -16688,8 +17304,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -16706,11 +17323,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -16725,11 +17342,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -16744,10 +17361,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -16762,9 +17380,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
       "gre"
     ]
@@ -16781,11 +17399,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -16800,11 +17418,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -16819,11 +17437,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16838,11 +17456,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -16857,11 +17475,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -16876,11 +17494,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -16895,9 +17513,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -16913,11 +17531,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -16932,11 +17550,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -16951,10 +17569,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -16969,10 +17588,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -16987,10 +17607,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -17005,11 +17626,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -17024,8 +17645,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "toefl",
       "gk"
     ]
@@ -17042,8 +17664,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -17059,11 +17682,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17078,11 +17701,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -17097,11 +17720,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17116,11 +17739,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17135,11 +17758,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17154,11 +17777,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17173,11 +17796,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17210,11 +17833,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17229,11 +17852,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17248,11 +17871,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -17268,8 +17891,9 @@
     "difficulty": 5,
     "tags": [
       "cet4",
-      "toefl",
+      "cet6",
       "ky",
+      "toefl",
       "ielts"
     ]
   },
@@ -17285,8 +17909,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
+      "cet6",
+      "ky",
       "gk",
       "ielts"
     ]
@@ -17303,11 +17928,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17322,11 +17947,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17341,11 +17966,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -17360,11 +17985,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -17379,11 +18004,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17398,11 +18023,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17417,11 +18042,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -17436,11 +18061,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -17455,11 +18080,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17474,11 +18099,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "ielts"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17493,11 +18118,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -17512,11 +18137,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -17531,11 +18156,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -17550,11 +18175,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -17569,9 +18194,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -17587,11 +18212,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -17606,11 +18231,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17625,11 +18250,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
       "zk",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -17644,11 +18269,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -17663,11 +18288,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17682,9 +18307,9 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -17700,11 +18325,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "gre",
+      "gk"
     ]
   },
   {
@@ -17719,11 +18344,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17738,11 +18363,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "gk"
     ]
   },
   {
@@ -17757,11 +18382,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
       "ielts",
-      "cet4"
+      "zk"
     ]
   },
   {
@@ -17776,11 +18401,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "zk",
-      "cet6"
+      "ielts",
+      "zk"
     ]
   },
   {
@@ -17795,11 +18420,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -17814,10 +18439,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
       "cet4",
-      "gk",
-      "zk"
+      "cet6",
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -17832,11 +18458,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17851,11 +18477,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
       "gk",
-      "cet6",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -17870,11 +18496,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "ky",
-      "gk",
-      "zk",
+      "cet4",
       "cet6",
-      "cet4"
+      "ky",
+      "zk",
+      "gk"
     ]
   },
   {
@@ -17889,11 +18515,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17908,11 +18534,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -17927,11 +18553,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   },
   {
@@ -17946,11 +18572,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17965,11 +18591,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "gre",
-      "toefl",
+      "cet4",
+      "cet6",
       "ky",
-      "gk",
-      "cet6"
+      "ielts",
+      "gre"
     ]
   },
   {
@@ -17984,11 +18610,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
-      "gk",
+      "cet4",
       "cet6",
-      "ielts"
+      "ky",
+      "ielts",
+      "gk"
     ]
   },
   {
@@ -18005,6 +18631,7 @@
     "tags": [
       "cet4",
       "cet6",
+      "ky",
       "gk"
     ]
   },
@@ -18020,11 +18647,11 @@
     "antonyms": [],
     "difficulty": 5,
     "tags": [
-      "toefl",
-      "ky",
+      "cet4",
       "cet6",
+      "ky",
       "ielts",
-      "cet4"
+      "toefl"
     ]
   }
 ]
