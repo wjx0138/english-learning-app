@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:english_learning_app/main.dart';
 import 'package:provider/provider.dart';
 import 'package:english_learning_app/core/providers/app_provider.dart';
@@ -11,6 +12,11 @@ import 'package:english_learning_app/shared/widgets/common_widgets.dart';
 import 'package:english_learning_app/shared/widgets/typing_widgets.dart';
 
 void main() {
+  // Setup SharedPreferences mock for all tests
+  setUpAll(() async {
+    TestWidgetsFlutterBinding.ensureInitialized();
+    SharedPreferences.setMockInitialValues({});
+  });
   group('Widget Component Integration Tests', () {
     testWidgets('Should display ProgressRing in context', (tester) async {
       await tester.pumpWidget(
@@ -258,6 +264,9 @@ void main() {
 
   group('Gamification Integration Tests', () {
     testWidgets('Should add points correctly', (tester) async {
+      GamificationService.clearCache();
+      SharedPreferences.setMockInitialValues({});
+
       await AppProvider().initGameData();
 
       final initialData = await GamificationService.getGameData();
@@ -274,6 +283,9 @@ void main() {
     });
 
     testWidgets('Should record study activity', (tester) async {
+      GamificationService.clearCache();
+      SharedPreferences.setMockInitialValues({});
+
       await AppProvider().initGameData();
 
       final initialData = await GamificationService.getGameData();
@@ -293,6 +305,9 @@ void main() {
     });
 
     testWidgets('Should unlock achievements', (tester) async {
+      GamificationService.clearCache();
+      SharedPreferences.setMockInitialValues({});
+
       await AppProvider().initGameData();
       await GamificationService.addPoints(500);
 
@@ -303,6 +318,9 @@ void main() {
     });
 
     testWidgets('Should display correct level', (tester) async {
+      GamificationService.clearCache();
+      SharedPreferences.setMockInitialValues({});
+
       await AppProvider().initGameData();
       await GamificationService.addPoints(1000);
 
@@ -587,15 +605,21 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: Column(
-              children: [
-                for (int i = 0; i < 10; i++)
-                  ProgressRing(
-                    key: ValueKey(i),
-                    progress: i / 10,
-                    label: '${i * 10}%',
-                  ),
-              ],
+            body: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  for (int i = 0; i < 10; i++)
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: ProgressRing(
+                        key: ValueKey(i),
+                        progress: i / 10,
+                        label: '${i * 10}%',
+                      ),
+                    ),
+                ],
+              ),
             ),
           ),
         ),
