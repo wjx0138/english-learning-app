@@ -6,6 +6,7 @@ import '../../features/typing/typing_mode_selection_page.dart';
 import '../../features/quiz/enhanced_quiz_page.dart';
 import '../../features/progress/progress_page.dart';
 import '../../features/vocabulary/vocabulary_list_page.dart';
+import '../../features/vocabulary/vocabulary_selection_page.dart';
 import '../../features/settings/settings_page.dart';
 import '../../features/error_book/error_book_page.dart';
 import '../../features/course/course_selection_page.dart';
@@ -40,6 +41,11 @@ class AppRouter {
         path: '/vocabulary',
         name: 'vocabulary',
         builder: (context, state) => const VocabularyListPage(),
+      ),
+      GoRoute(
+        path: '/vocabulary-selection',
+        name: 'vocabulary-selection',
+        builder: (context, state) => const VocabularySelectionPage(),
       ),
       GoRoute(
         path: '/progress',

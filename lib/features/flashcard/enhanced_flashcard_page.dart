@@ -334,7 +334,8 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
             const SizedBox(height: 16),
             ElevatedButton.icon(
               onPressed: () {
-                context.pop();
+                // Navigate to vocabulary selection page
+                context.push('/vocabulary-selection');
               },
               icon: const Icon(Icons.add),
               label: const Text('选择词库'),
