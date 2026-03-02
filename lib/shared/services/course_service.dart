@@ -20,7 +20,7 @@ class CourseService {
         assetPath: 'assets/vocabularies/cet4_ultra.json',
         wordCount: 3849,
         estimatedTime: const Duration(hours: 20),
-        tags: ['cet4', '核心', '必考', '考试'],
+        tags: ['cet4', '核心', '必考'],
       ),
 
       // CET-6 课程
@@ -34,7 +34,7 @@ class CourseService {
         assetPath: 'assets/vocabularies/cet6_ultra.json',
         wordCount: 5407,
         estimatedTime: const Duration(hours: 25),
-        tags: ['cet6', '核心', '进阶', '考试'],
+        tags: ['cet6', '核心', '进阶'],
       ),
 
       // TOEFL 课程
@@ -48,7 +48,7 @@ class CourseService {
         assetPath: 'assets/vocabularies/toefl_ultra.json',
         wordCount: 6974,
         estimatedTime: const Duration(hours: 35),
-        tags: ['toefl', '核心', '出国', '考试'],
+        tags: ['toefl', '核心', '出国'],
       ),
 
       // IELTS 课程
@@ -62,7 +62,7 @@ class CourseService {
         assetPath: 'assets/vocabularies/ielts_ultra.json',
         wordCount: 5040,
         estimatedTime: const Duration(hours: 30),
-        tags: ['ielts', '核心', '留学', '考试'],
+        tags: ['ielts', '核心', '留学'],
       ),
 
       // GRE 课程
@@ -77,7 +77,7 @@ class CourseService {
         wordCount: 7504,
         estimatedTime: const Duration(hours: 50),
         isPremium: true,
-        tags: ['gre', '核心', '必备', '考试'],
+        tags: ['gre', '核心', '必备'],
       ),
 
       // 考研英语
@@ -91,7 +91,7 @@ class CourseService {
         assetPath: 'assets/vocabularies/kaoyan_complete.json',
         wordCount: 4777,
         estimatedTime: const Duration(hours: 40),
-        tags: ['考研', '核心', '必备', '考试'],
+        tags: ['考研', '核心', '必备'],
       ),
 
       // 日常英语
