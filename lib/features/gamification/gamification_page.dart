@@ -546,7 +546,7 @@ class _GamificationPageState extends State<GamificationPage> {
                 },
               ),
             ListTile(
-              leading: const Icon(Icons.app_promo),
+              leading: const Icon(Icons.campaign),
               title: const Text('推荐应用'),
               onTap: () {
                 Navigator.of(context).pop();

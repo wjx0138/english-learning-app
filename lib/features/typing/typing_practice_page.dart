@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:uuid/uuid.dart';
@@ -123,8 +125,8 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
             endTime: DateTime.now(),
           );
 
-          // Add gamification rewards
-          _addCompletionRewards();
+          // Add gamification rewards (fire and forget)
+          unawaited(_addCompletionRewards());
         } else {
           _wordStartTime = DateTime.now();
 
@@ -146,7 +148,7 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
     }
   }
 
-  void _addCompletionRewards() {
+  Future<void> _addCompletionRewards() async {
     final appProvider = context.read<AppProvider>();
     final duration = _session.endTime!.difference(_session.startTime);
     final practiceMinutes = (duration.inSeconds / 60).ceil();
@@ -161,7 +163,7 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
     );
 
     // Check for achievements
-    final newlyUnlocked = appProvider.checkAchievements();
+    final newlyUnlocked = await appProvider.checkAchievements();
     if (newlyUnlocked.isNotEmpty) {
       // Play achievement sound
       _audioService.playAchievementSound();
@@ -194,8 +196,8 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
           endTime: DateTime.now(),
         );
 
-        // Add gamification rewards
-        _addCompletionRewards();
+        // Add gamification rewards (fire and forget)
+        unawaited(_addCompletionRewards());
       } else {
         _wordStartTime = DateTime.now();
 

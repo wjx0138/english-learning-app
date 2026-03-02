@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:math' as math;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../data/models/word.dart';
@@ -144,11 +145,14 @@ class EnhancedVocabularyLoader {
     if (words.isEmpty) return [];
 
     // 如果指定了seed，先打乱顺序
-    final randomWords = seed != null
-        ? List<Word>.from(words)..shuffle(seed)
-        : List<Word>.from(words)..shuffle();
+    final shuffledWords = List<Word>.from(words);
+    if (seed != null) {
+      shuffledWords.shuffle(math.Random(seed));
+    } else {
+      shuffledWords.shuffle();
+    }
 
-    return randomWords.take(count).toList();
+    return shuffledWords.take(count).toList();
   }
 
   /// 按首字母获取词汇
