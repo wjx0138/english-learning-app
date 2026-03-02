@@ -480,9 +480,40 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
     );
   }
 
-  void _startLearning() {
-    // 直接导航到flashcard学习页面
-    context.push('/flashcard');
+  Future<void> _startLearning() async {
+    // 显示加载提示
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('正在加载词库...'),
+        duration: Duration(seconds: 2),
+      ),
+    );
+
+    try {
+      // 从课程服务加载词库数据
+      final courseService = CourseService();
+      final words = await courseService.loadCourseWords(widget.course.id);
+
+      if (mounted) {
+        // 更新AppProvider的词库数据
+        final appProvider = context.read<AppProvider>();
+        await appProvider.loadVocabularyWords(words);
+
+        // 导航到flashcard学习页面
+        if (mounted) {
+          context.push('/flashcard');
+        }
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('加载词库失败: $e'),
+            backgroundColor: Colors.red,
+          ),
+        );
+      }
+    }
   }
 
   Color _getDifficultyColor(CourseDifficulty difficulty) {
