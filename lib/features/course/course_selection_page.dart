@@ -199,10 +199,8 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
             label: const Text('考试'),
             selected: _selectedTag == '考试',
             onSelected: (_) {
-              setState(() {
-                _selectedTag = _selectedTag == '考试' ? null : '考试';
-                _applyFilters();
-              });
+              _selectedTag = _selectedTag == '考试' ? null : '考试';
+              _applyFilters();
             },
             avatar: const Icon(Icons.school),
             backgroundColor:
@@ -215,8 +213,8 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
               setState(() {
                 _showRecommended = !_showRecommended;
                 _showNew = false;
-                _applyFilters();
               });
+              _applyFilters();
             },
             avatar: const Icon(Icons.star),
             backgroundColor:
@@ -229,8 +227,8 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
               setState(() {
                 _showNew = !_showNew;
                 _showRecommended = false;
-                _applyFilters();
               });
+              _applyFilters();
             },
             avatar: const Icon(Icons.new_releases),
             backgroundColor:
@@ -247,8 +245,8 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
                 onSelected: (_) {
                   setState(() {
                     _selectedDifficulty = isSelected ? null : difficulty;
-                    _applyFilters();
                   });
+                  _applyFilters();
                 },
                 backgroundColor: isSelected
                     ? Theme.of(context).colorScheme.primaryContainer
@@ -479,8 +477,8 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
                           Navigator.of(context).pop();
                           setState(() {
                             this._selectedTheme = isSelected ? null : theme;
-                            _applyFilters();
                           });
+                          _applyFilters();
                         },
                         avatar: Icon(theme.icon, size: 16),
                         backgroundColor: isSelected
@@ -512,8 +510,8 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
                           setState(() {
                             this._selectedDifficulty =
                                 isSelected ? null : difficulty;
-                            _applyFilters();
                           });
+                          _applyFilters();
                         },
                         backgroundColor: isSelected
                             ? Theme.of(context).colorScheme.primaryContainer
