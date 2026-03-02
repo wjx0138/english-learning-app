@@ -63,11 +63,12 @@ void main() {
         GamificationService.clearCache();
         SharedPreferences.setMockInitialValues({});
 
-        // Add 100 points
-        final updated = await GamificationService.addPoints(100);
+        // Add 50 points (less than level threshold)
+        final updated = await GamificationService.addPoints(50);
 
-        expect(updated.totalPoints, 100);
-        expect(updated.currentLevelPoints, 100);
+        expect(updated.totalPoints, 50);
+        expect(updated.currentLevelPoints, 50);
+        expect(updated.level, 1); // Still at level 1
       });
 
       test('Should level up when reaching threshold', () async {
@@ -232,14 +233,14 @@ void main() {
         // Clear cache to ensure clean state
         GamificationService.clearCache();
 
-        // Formula: 100 * level^1.5
+        // Formula: 100 * level^1.5 (truncated, not rounded)
         final level1 = LevelConfig.getPointsForLevel(1);
         final level2 = LevelConfig.getPointsForLevel(2);
         final level3 = LevelConfig.getPointsForLevel(3);
 
-        expect(level1, 100); // 100 * 1
-        expect(level2, 283); // 100 * 2.828...
-        expect(level3, 520); // 100 * 5.196...
+        expect(level1, 100); // 100 * 1^1.5 = 100
+        expect(level2, 282); // 100 * 2^1.5 = 282.84... → 282 (truncated)
+        expect(level3, 519); // 100 * 3^1.5 = 519.61... → 519 (truncated)
       });
 
       test('Should return correct level bonus', () {

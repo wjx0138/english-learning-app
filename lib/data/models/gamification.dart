@@ -1,3 +1,4 @@
+import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
 /// 用户游戏数据
@@ -294,12 +295,7 @@ enum PointEventType {
 class LevelConfig {
   static int getPointsForLevel(int level) {
     // 经验值公式: 100 * level^1.5
-    return (100 * pow(level.toDouble(), 1.5)).toInt();
-  }
-
-  static double pow(double base, double exponent) {
-    return double.parse(base.toString()).clamp(1, 10000000).toDouble() *
-        double.parse(exponent.toString()).clamp(0, 10).toDouble();
+    return (100 * math.pow(level.toDouble(), 1.5)).toInt();
   }
 
   static int getLevelBonus(int level) {

@@ -38,6 +38,11 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
       parent: _animationController,
       curve: Curves.easeInOut,
     );
+    // Initialize flip state if widget starts with showAnswer = true
+    if (widget.showAnswer) {
+      _isFlipped = true;
+      _animationController.value = 1.0;
+    }
   }
 
   @override
