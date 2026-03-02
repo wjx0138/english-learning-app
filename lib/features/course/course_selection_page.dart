@@ -144,24 +144,11 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
   }
 
   Widget _buildFilterChips() {
-    final hasActiveFilters =
-        _selectedDifficulty != null ||
-        _selectedTheme != null;
-
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Row(
         children: [
-          if (hasActiveFilters)
-            FilterChip(
-              label: const Text('清除筛选'),
-              selected: false,
-              onSelected: (_) => _clearFilters(),
-              avatar: const Icon(Icons.clear_all),
-              backgroundColor: Colors.red.shade100,
-            ),
-          const SizedBox(width: 8),
           ...CourseDifficulty.values.map((difficulty) {
             final isSelected = _selectedDifficulty == difficulty;
             return Padding(
