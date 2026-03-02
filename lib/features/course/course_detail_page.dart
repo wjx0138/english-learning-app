@@ -481,19 +481,8 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
   }
 
   void _startLearning() {
-    // TODO: 设置当前课程并开始学习
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text('开始学习: ${widget.course.name}'),
-        action: SnackBarAction(
-          label: '开始',
-          onPressed: () {
-            // Navigate to learning page
-            GoRouter.of(context).push('/flashcard');
-          },
-        ),
-      ),
-    );
+    // 直接导航到flashcard学习页面
+    context.push('/flashcard');
   }
 
   Color _getDifficultyColor(CourseDifficulty difficulty) {
