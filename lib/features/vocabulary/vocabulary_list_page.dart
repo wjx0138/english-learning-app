@@ -192,8 +192,6 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
                 _buildFilterChip('难度1', '1', _selectedDifficulty == '1'),
                 _buildFilterChip('难度2', '2', _selectedDifficulty == '2'),
                 _buildFilterChip('难度3', '3', _selectedDifficulty == '3'),
-                _buildFilterChip('难度4', '4', _selectedDifficulty == '4'),
-                _buildFilterChip('难度5', '5', _selectedDifficulty == '5'),
                 const SizedBox(width: 8),
                 // Sort dropdown
                 PopupMenuButton<SortOption>(
