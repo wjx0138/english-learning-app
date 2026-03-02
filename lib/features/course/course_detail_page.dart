@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../data/models/course.dart';
+import '../../data/models/word.dart';
 import '../../core/providers/app_provider.dart';
 import '../../shared/services/course_service.dart';
 
@@ -20,11 +21,14 @@ class CourseDetailPage extends StatefulWidget {
 
 class _CourseDetailPageState extends State<CourseDetailPage> {
   CourseProgress? _progress;
+  List<Word> _previewWords = [];
+  bool _isLoadingPreview = true;
 
   @override
   void initState() {
     super.initState();
     _loadProgress();
+    _loadPreviewWords();
   }
 
   Future<void> _loadProgress() async {
@@ -37,6 +41,27 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
         masteredWords: 0,
       );
     });
+  }
+
+  Future<void> _loadPreviewWords() async {
+    try {
+      // 加载课程词汇用于预览（只取前5个）
+      final allWords = await CourseService.loadCourseWords(widget.course.id);
+      if (mounted) {
+        setState(() {
+          _previewWords = allWords.take(5).toList();
+          _isLoadingPreview = false;
+        });
+      }
+    } catch (e) {
+      // 如果加载失败，显示空列表
+      if (mounted) {
+        setState(() {
+          _previewWords = [];
+          _isLoadingPreview = false;
+        });
+      }
+    }
   }
 
   @override
@@ -322,9 +347,6 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
   }
 
   Widget _buildWordPreview() {
-    final words = context.read<AppProvider>().words;
-    final previewWords = words.take(5).toList();
-
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Column(
@@ -348,7 +370,31 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
             ],
           ),
           const SizedBox(height: 12),
-          if (previewWords.isEmpty)
+          if (_isLoadingPreview)
+            Container(
+              padding: const EdgeInsets.all(24),
+              decoration: BoxDecoration(
+                color: Colors.grey.shade100,
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Center(
+                child: Column(
+                  children: [
+                    SizedBox(
+                      width: 24,
+                      height: 24,
+                      child: CircularProgressIndicator(strokeWidth: 2),
+                    ),
+                    SizedBox(height: 8),
+                    Text(
+                      '加载词汇预览中...',
+                      style: TextStyle(color: Colors.grey),
+                    ),
+                  ],
+                ),
+              ),
+            )
+          else if (_previewWords.isEmpty)
             Container(
               padding: const EdgeInsets.all(24),
               decoration: BoxDecoration(
@@ -359,12 +405,12 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                 child: Column(
                   children: [
                     Icon(
-                      Icons.info_outline,
+                      Icons.error_outline,
                       color: Colors.grey[600],
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '加载词汇中...',
+                      '无法加载词汇预览',
                       style: TextStyle(color: Colors.grey[600]),
                     ),
                   ],
@@ -372,7 +418,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
               ),
             )
           else
-            ...previewWords.map((word) {
+            ..._previewWords.map((word) {
               return ListTile(
                 leading: CircleAvatar(
                   backgroundColor:
