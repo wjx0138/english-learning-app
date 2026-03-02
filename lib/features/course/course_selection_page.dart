@@ -19,9 +19,6 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
   List<Course> _filteredCourses = [];
   CourseDifficulty? _selectedDifficulty;
   CourseTheme? _selectedTheme;
-  String? _selectedTag; // 标签筛选
-  bool _showRecommended = false;
-  bool _showNew = false;
 
   @override
   void initState() {
@@ -55,17 +52,6 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
       if (_selectedTheme != null) {
         result = result.where((c) => c.theme == _selectedTheme).toList();
       }
-      if (_selectedTag != null) {
-        result = result.where((c) => c.tags.contains(_selectedTag)).toList();
-      }
-      if (_showRecommended) {
-        final recommended = CourseService.getRecommendedCourses();
-        result = result.where((c) => recommended.contains(c)).toList();
-      }
-      if (_showNew) {
-        final newCourses = CourseService.getNewCourses();
-        result = result.where((c) => newCourses.contains(c)).toList();
-      }
       _filteredCourses = result;
     });
   }
@@ -81,20 +67,6 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
       result = result.where((c) => c.theme == _selectedTheme).toList();
     }
 
-    if (_selectedTag != null) {
-      result = result.where((c) => c.tags.contains(_selectedTag)).toList();
-    }
-
-    if (_showRecommended) {
-      final recommended = CourseService.getRecommendedCourses();
-      result = result.where((c) => recommended.contains(c)).toList();
-    }
-
-    if (_showNew) {
-      final newCourses = CourseService.getNewCourses();
-      result = result.where((c) => newCourses.contains(c)).toList();
-    }
-
     setState(() {
       _filteredCourses = result;
     });
@@ -105,9 +77,6 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
       _searchController.clear();
       _selectedDifficulty = null;
       _selectedTheme = null;
-      _selectedTag = null;
-      _showRecommended = false;
-      _showNew = false;
       _filteredCourses = _allCourses;
     });
   }
@@ -177,10 +146,7 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
   Widget _buildFilterChips() {
     final hasActiveFilters =
         _selectedDifficulty != null ||
-        _selectedTheme != null ||
-        _selectedTag != null ||
-        _showRecommended ||
-        _showNew;
+        _selectedTheme != null;
 
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
@@ -195,45 +161,6 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
               avatar: const Icon(Icons.clear_all),
               backgroundColor: Colors.red.shade100,
             ),
-          FilterChip(
-            label: const Text('考试'),
-            selected: _selectedTag == '考试',
-            onSelected: (_) {
-              _selectedTag = _selectedTag == '考试' ? null : '考试';
-              _applyFilters();
-            },
-            avatar: const Icon(Icons.school),
-            backgroundColor:
-                _selectedTag == '考试' ? Colors.orange.shade100 : null,
-          ),
-          FilterChip(
-            label: const Text('推荐'),
-            selected: _showRecommended,
-            onSelected: (_) {
-              setState(() {
-                _showRecommended = !_showRecommended;
-                _showNew = false;
-              });
-              _applyFilters();
-            },
-            avatar: const Icon(Icons.star),
-            backgroundColor:
-                _showRecommended ? Colors.amber.shade100 : null,
-          ),
-          FilterChip(
-            label: const Text('最新'),
-            selected: _showNew,
-            onSelected: (_) {
-              setState(() {
-                _showNew = !_showNew;
-                _showRecommended = false;
-              });
-              _applyFilters();
-            },
-            avatar: const Icon(Icons.new_releases),
-            backgroundColor:
-                _showNew ? Colors.blue.shade100 : null,
-          ),
           const SizedBox(width: 8),
           ...CourseDifficulty.values.map((difficulty) {
             final isSelected = _selectedDifficulty == difficulty;
