@@ -71,7 +71,7 @@ class CourseService {
         name: 'GRE 核心词汇',
         description: 'GRE必背词汇，涵盖高频考点，冲刺名校必备',
         theme: CourseTheme.gre,
-        difficulty: CourseDifficulty.advanced,
+        difficulty: CourseDifficulty.expert,
         wordIds: [],
         assetPath: 'assets/vocabularies/gre_ultra.json',
         wordCount: 7504,
