@@ -11,18 +11,6 @@ class CourseService {
     return [
       // CET-4 课程
       Course(
-        id: 'cet4_basic',
-        name: 'CET-4 基础词汇',
-        description: '大学英语四级核心词汇，适合基础薄弱的同学',
-        theme: CourseTheme.cet4,
-        difficulty: CourseDifficulty.beginner,
-        wordIds: [],  // 将从词库文件加载
-        assetPath: 'assets/vocabularies/cet4_ultra.json',
-        wordCount: 3849,
-        estimatedTime: const Duration(hours: 30),
-        tags: ['cet4', '基础', '高频'],
-      ),
-      Course(
         id: 'cet4_core',
         name: 'CET-4 核心词汇',
         description: '大学英语四级核心词汇，重点突破',
@@ -256,8 +244,8 @@ class CourseService {
     // 这里可以根据用户的学习记录推荐课程
     // 目前返回热门课程
     return [
-      getCourseById('cet4_basic')!,
       getCourseById('cet4_core')!,
+      getCourseById('cet6_core')!,
       getCourseById('daily_conversation')!,
       getCourseById('travel_essential')!,
     ];
