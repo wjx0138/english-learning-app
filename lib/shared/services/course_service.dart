@@ -43,7 +43,7 @@ class CourseService {
         name: 'TOEFL 核心词汇',
         description: '托福考试必备词汇，涵盖听说读写全方位',
         theme: CourseTheme.toefl,
-        difficulty: CourseDifficulty.intermediate,
+        difficulty: CourseDifficulty.advanced,
         wordIds: [],
         assetPath: 'assets/vocabularies/toefl_ultra.json',
         wordCount: 6974,
