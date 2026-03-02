@@ -1,10 +1,9 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../../data/models/word.dart';
 import '../../../shared/services/tts_service.dart';
+import '../../../core/providers/app_provider.dart';
 import '../word_detail/word_detail_page.dart';
 
 class VocabularyListPage extends StatefulWidget {
@@ -41,13 +40,24 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
 
   Future<void> _loadVocabulary() async {
     try {
-      final jsonString = await rootBundle.loadString('assets/vocabularies/cet4_sample.json');
-      final List<dynamic> jsonList = json.decode(jsonString);
-      setState(() {
-        _vocabulary = jsonList.map((json) => Word.fromJson(json)).toList();
-        _filteredVocabulary = List.from(_vocabulary);
-        _isLoading = false;
-      });
+      // 从 AppProvider 获取已加载的词汇
+      final appProvider = context.read<AppProvider>();
+      final loadedWords = appProvider.words;
+
+      if (loadedWords.isNotEmpty) {
+        setState(() {
+          _vocabulary = loadedWords;
+          _filteredVocabulary = List.from(_vocabulary);
+          _isLoading = false;
+        });
+      } else {
+        // 如果 AppProvider 中没有词汇，显示空状态
+        setState(() {
+          _vocabulary = [];
+          _filteredVocabulary = [];
+          _isLoading = false;
+        });
+      }
     } catch (e) {
       setState(() {
         _isLoading = false;
