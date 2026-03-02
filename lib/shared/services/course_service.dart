@@ -1,4 +1,7 @@
+import 'dart:convert';
+import 'package:flutter/services.dart';
 import '../../data/models/course.dart';
+import '../../data/models/word.dart';
 
 /// 课程数据服务 - 提供预定义的课程列表
 class CourseService {
@@ -282,6 +285,36 @@ class CourseService {
         return '学术研究专业词汇';
       case CourseTheme.technology:
         return '科技前沿相关词汇';
+    }
+  }
+
+  /// Load vocabulary words for a specific course
+  static Future<List<Word>> loadCourseWords(String courseId) async {
+    try {
+      // Get the course by ID
+      final course = getCourseById(courseId);
+      if (course == null) {
+        throw Exception('Course not found: $courseId');
+      }
+
+      // Check if the course has an asset path
+      if (course.assetPath == null) {
+        throw Exception('Course does not have an asset path: $courseId');
+      }
+
+      // Load words from the course's asset file
+      final String jsonString = await rootBundle.loadString(course.assetPath!);
+      final Map<String, dynamic> jsonData = json.decode(jsonString);
+
+      // Extract words from JSON
+      final List<dynamic> wordsJson = jsonData['words'] as List<dynamic>;
+      final words = wordsJson
+          .map((wordJson) => Word.fromJson(wordJson as Map<String, dynamic>))
+          .toList();
+
+      return words;
+    } catch (e) {
+      throw Exception('Failed to load course words: $e');
     }
   }
 }

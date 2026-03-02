@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../data/models/course.dart';
-import '../../data/models/word.dart';
 import '../../core/providers/app_provider.dart';
 import '../../shared/services/course_service.dart';
 
@@ -491,8 +490,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
 
     try {
       // 从课程服务加载词库数据
-      final courseService = CourseService();
-      final words = await courseService.loadCourseWords(widget.course.id);
+      final words = await CourseService.loadCourseWords(widget.course.id);
 
       if (mounted) {
         // 更新AppProvider的词库数据
