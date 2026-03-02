@@ -20,7 +20,7 @@ class CourseService {
         assetPath: 'assets/vocabularies/cet4_ultra.json',
         wordCount: 3849,
         estimatedTime: const Duration(hours: 20),
-        tags: ['cet4', '核心', '必考'],
+        tags: ['cet4', '核心', '必考', '考试'],
       ),
 
       // CET-6 课程
@@ -29,12 +29,12 @@ class CourseService {
         name: 'CET-6 核心词汇',
         description: '大学英语六级核心词汇，提升阅读能力',
         theme: CourseTheme.cet6,
-        difficulty: CourseDifficulty.advanced,
+        difficulty: CourseDifficulty.intermediate,
         wordIds: [],
         assetPath: 'assets/vocabularies/cet6_ultra.json',
         wordCount: 5407,
         estimatedTime: const Duration(hours: 25),
-        tags: ['cet6', '核心', '进阶'],
+        tags: ['cet6', '核心', '进阶', '考试'],
       ),
 
       // TOEFL 课程
@@ -48,7 +48,7 @@ class CourseService {
         assetPath: 'assets/vocabularies/toefl_ultra.json',
         wordCount: 6974,
         estimatedTime: const Duration(hours: 35),
-        tags: ['toefl', '核心', '出国'],
+        tags: ['toefl', '核心', '出国', '考试'],
       ),
 
       // IELTS 课程
@@ -57,12 +57,12 @@ class CourseService {
         name: 'IELTS 核心词汇',
         description: '雅思考试核心词汇，适合学术类和培训类考生',
         theme: CourseTheme.ielts,
-        difficulty: CourseDifficulty.intermediate,
+        difficulty: CourseDifficulty.advanced,
         wordIds: [],
         assetPath: 'assets/vocabularies/ielts_ultra.json',
         wordCount: 5040,
         estimatedTime: const Duration(hours: 30),
-        tags: ['ielts', '核心', '留学'],
+        tags: ['ielts', '核心', '留学', '考试'],
       ),
 
       // GRE 课程
@@ -71,13 +71,13 @@ class CourseService {
         name: 'GRE 核心词汇',
         description: 'GRE必背词汇，涵盖高频考点，冲刺名校必备',
         theme: CourseTheme.gre,
-        difficulty: CourseDifficulty.expert,
+        difficulty: CourseDifficulty.advanced,
         wordIds: [],
         assetPath: 'assets/vocabularies/gre_ultra.json',
         wordCount: 7504,
         estimatedTime: const Duration(hours: 50),
         isPremium: true,
-        tags: ['gre', '核心', '必备'],
+        tags: ['gre', '核心', '必备', '考试'],
       ),
 
       // 考研英语
@@ -91,7 +91,7 @@ class CourseService {
         assetPath: 'assets/vocabularies/kaoyan_complete.json',
         wordCount: 4777,
         estimatedTime: const Duration(hours: 40),
-        tags: ['考研', '核心', '必备'],
+        tags: ['考研', '核心', '必备', '考试'],
       ),
 
       // 日常英语
