@@ -362,9 +362,7 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
                     ),
               ),
               TextButton(
-                onPressed: () {
-                  // TODO: 跳转到词汇列表
-                },
+                onPressed: () => _viewAllWords(),
                 child: const Text('查看全部'),
               ),
             ],
@@ -546,6 +544,41 @@ class _CourseDetailPageState extends State<CourseDetailPage> {
         // 导航到flashcard学习页面
         if (mounted) {
           context.push('/flashcard');
+        }
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('加载词库失败: $e'),
+            backgroundColor: Colors.red,
+          ),
+        );
+      }
+    }
+  }
+
+  Future<void> _viewAllWords() async {
+    // 显示加载提示
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('正在加载词库...'),
+        duration: Duration(seconds: 2),
+      ),
+    );
+
+    try {
+      // 从课程服务加载词库数据
+      final words = await CourseService.loadCourseWords(widget.course.id);
+
+      if (mounted) {
+        // 更新AppProvider的词库数据
+        final appProvider = context.read<AppProvider>();
+        await appProvider.loadVocabularyWords(words);
+
+        // 导航到词汇列表页面
+        if (mounted) {
+          context.push('/vocabulary');
         }
       }
     } catch (e) {
