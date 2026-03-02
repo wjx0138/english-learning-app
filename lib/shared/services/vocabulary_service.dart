@@ -5,8 +5,8 @@ import '../../data/models/word.dart';
 
 /// Service for importing and managing vocabulary books
 class VocabularyService {
-  static const String _cet4Path = 'assets/data/cet4_words.json';
-  static const String _cet6Path = 'assets/data/cet6_words.json';
+  static const String _cet4Path = 'assets/vocabularies/cet4_ultra.json';
+  static const String _cet6Path = 'assets/vocabularies/cet6_ultra.json';
 
   List<VocabularyBook> _availableBooks = [];
   List<Word> _loadedWords = [];
@@ -60,10 +60,20 @@ class VocabularyService {
   Future<List<Word>> loadVocabularyBook(VocabularyBook book) async {
     try {
       final String jsonString = await rootBundle.loadString(book.filePath!);
-      final Map<String, dynamic> jsonData = json.decode(jsonString);
+      final dynamic jsonData = json.decode(jsonString);
 
-      // Extract words from JSON
-      final List<dynamic> wordsJson = jsonData['words'] as List<dynamic>;
+      // Handle both array format and object with 'words' key format
+      List<dynamic> wordsJson;
+      if (jsonData is List) {
+        // Direct array format: [{word1}, {word2}, ...]
+        wordsJson = jsonData;
+      } else if (jsonData is Map) {
+        // Object format: {"words": [{word1}, {word2}, ...]}
+        wordsJson = jsonData['words'] as List<dynamic>;
+      } else {
+        throw Exception('Invalid JSON format: expected array or object with words key');
+      }
+
       _loadedWords = wordsJson
           .map((wordJson) => Word.fromJson(wordJson as Map<String, dynamic>))
           .toList();

@@ -16,7 +16,7 @@ class CourseService {
         theme: CourseTheme.cet4,
         difficulty: CourseDifficulty.beginner,
         wordIds: [],  // 将从词库文件加载
-        assetPath: 'assets/data/cet4_words.json',
+        assetPath: 'assets/vocabularies/cet4_ultra.json',
         wordCount: 4500,
         estimatedTime: const Duration(hours: 30),
         tags: ['cet4', '基础', '高频'],
@@ -28,7 +28,7 @@ class CourseService {
         theme: CourseTheme.cet4,
         difficulty: CourseDifficulty.intermediate,
         wordIds: [],
-        assetPath: 'assets/data/cet4_words.json',
+        assetPath: 'assets/vocabularies/cet4_ultra.json',
         wordCount: 2000,
         estimatedTime: const Duration(hours: 20),
         tags: ['cet4', '核心', '必考'],
@@ -42,7 +42,7 @@ class CourseService {
         theme: CourseTheme.cet6,
         difficulty: CourseDifficulty.advanced,
         wordIds: [],
-        assetPath: 'assets/data/cet6_words.json',
+        assetPath: 'assets/vocabularies/cet6_ultra.json',
         wordCount: 2500,
         estimatedTime: const Duration(hours: 25),
         tags: ['cet6', '核心', '进阶'],
@@ -56,7 +56,7 @@ class CourseService {
         theme: CourseTheme.toefl,
         difficulty: CourseDifficulty.intermediate,
         wordIds: [],
-        assetPath: 'assets/data/toefl_words.json',
+        assetPath: 'assets/vocabularies/toefl_ultra.json',
         wordCount: 3000,
         estimatedTime: const Duration(hours: 30),
         tags: ['toefl', '基础', '出国'],
@@ -68,7 +68,7 @@ class CourseService {
         theme: CourseTheme.toefl,
         difficulty: CourseDifficulty.advanced,
         wordIds: [],
-        assetPath: 'assets/data/toefl_words.json',
+        assetPath: 'assets/vocabularies/toefl_ultra.json',
         wordCount: 4000,
         estimatedTime: const Duration(hours: 40),
         isPremium: true,
@@ -83,7 +83,7 @@ class CourseService {
         theme: CourseTheme.ielts,
         difficulty: CourseDifficulty.advanced,
         wordIds: [],
-        assetPath: 'assets/data/ielts_words.json',
+        assetPath: 'assets/vocabularies/ielts_ultra.json',
         wordCount: 3500,
         estimatedTime: const Duration(hours: 35),
         tags: ['ielts', '学术', 'A类'],
@@ -95,7 +95,7 @@ class CourseService {
         theme: CourseTheme.ielts,
         difficulty: CourseDifficulty.intermediate,
         wordIds: [],
-        assetPath: 'assets/data/ielts_words.json',
+        assetPath: 'assets/vocabularies/ielts_ultra.json',
         wordCount: 2500,
         estimatedTime: const Duration(hours: 25),
         tags: ['ielts', '培训', 'G类'],
@@ -109,7 +109,7 @@ class CourseService {
         theme: CourseTheme.gre,
         difficulty: CourseDifficulty.expert,
         wordIds: [],
-        assetPath: 'assets/data/gre_words.json',
+        assetPath: 'assets/vocabularies/gre_ultra.json',
         wordCount: 5000,
         estimatedTime: const Duration(hours: 50),
         isPremium: true,
@@ -124,7 +124,7 @@ class CourseService {
         theme: CourseTheme.business,
         difficulty: CourseDifficulty.beginner,
         wordIds: [],
-        assetPath: 'assets/data/business_words.json',
+        assetPath: 'assets/vocabularies/business_complete.json',
         wordCount: 1500,
         estimatedTime: const Duration(hours: 15),
         tags: ['商务', '职场', '实用'],
@@ -136,7 +136,7 @@ class CourseService {
         theme: CourseTheme.business,
         difficulty: CourseDifficulty.advanced,
         wordIds: [],
-        assetPath: 'assets/data/business_words.json',
+        assetPath: 'assets/vocabularies/business_complete.json',
         wordCount: 2500,
         estimatedTime: const Duration(hours: 25),
         isPremium: true,
@@ -151,7 +151,7 @@ class CourseService {
         theme: CourseTheme.travel,
         difficulty: CourseDifficulty.beginner,
         wordIds: [],
-        assetPath: 'assets/data/travel_words.json',
+        assetPath: 'assets/vocabularies/daily_complete.json',
         wordCount: 1000,
         estimatedTime: const Duration(hours: 10),
         tags: ['旅游', '出行', '实用'],
@@ -165,7 +165,7 @@ class CourseService {
         theme: CourseTheme.daily,
         difficulty: CourseDifficulty.beginner,
         wordIds: [],
-        assetPath: 'assets/data/daily_words.json',
+        assetPath: 'assets/vocabularies/daily_complete.json',
         wordCount: 2000,
         estimatedTime: const Duration(hours: 20),
         tags: ['日常', '会话', '高频'],
@@ -177,7 +177,7 @@ class CourseService {
         theme: CourseTheme.daily,
         difficulty: CourseDifficulty.intermediate,
         wordIds: [],
-        assetPath: 'assets/data/daily_words.json',
+        assetPath: 'assets/vocabularies/daily_complete.json',
         wordCount: 2000,
         estimatedTime: const Duration(hours: 20),
         tags: ['日常', '高级', '地道'],
@@ -191,7 +191,7 @@ class CourseService {
         theme: CourseTheme.technology,
         difficulty: CourseDifficulty.intermediate,
         wordIds: [],
-        assetPath: 'assets/data/tech_words.json',
+        assetPath: 'assets/vocabularies/technology_complete.json',
         wordCount: 1800,
         estimatedTime: const Duration(hours: 18),
         tags: ['科技', 'IT', '前沿'],
@@ -304,10 +304,20 @@ class CourseService {
 
       // Load words from the course's asset file
       final String jsonString = await rootBundle.loadString(course.assetPath!);
-      final Map<String, dynamic> jsonData = json.decode(jsonString);
+      final dynamic jsonData = json.decode(jsonString);
 
-      // Extract words from JSON
-      final List<dynamic> wordsJson = jsonData['words'] as List<dynamic>;
+      // Handle both array format and object with 'words' key format
+      List<dynamic> wordsJson;
+      if (jsonData is List) {
+        // Direct array format: [{word1}, {word2}, ...]
+        wordsJson = jsonData;
+      } else if (jsonData is Map) {
+        // Object format: {"words": [{word1}, {word2}, ...]}
+        wordsJson = jsonData['words'] as List<dynamic>;
+      } else {
+        throw Exception('Invalid JSON format: expected array or object with words key');
+      }
+
       final words = wordsJson
           .map((wordJson) => Word.fromJson(wordJson as Map<String, dynamic>))
           .toList();
