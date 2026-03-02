@@ -39,62 +39,37 @@ class CourseService {
 
       // TOEFL 课程
       Course(
-        id: 'toefl_basic',
-        name: 'TOEFL 基础词汇',
-        description: '托福基础词汇，打下扎实基础',
+        id: 'toefl_core',
+        name: 'TOEFL 核心词汇',
+        description: '托福考试必备词汇，涵盖听说读写全方位',
         theme: CourseTheme.toefl,
         difficulty: CourseDifficulty.intermediate,
         wordIds: [],
         assetPath: 'assets/vocabularies/toefl_ultra.json',
         wordCount: 6974,
-        estimatedTime: const Duration(hours: 30),
-        tags: ['toefl', '基础', '出国'],
-      ),
-      Course(
-        id: 'toefl_advanced',
-        name: 'TOEFL 高级词汇',
-        description: '托福高级词汇，冲刺高分',
-        theme: CourseTheme.toefl,
-        difficulty: CourseDifficulty.advanced,
-        wordIds: [],
-        assetPath: 'assets/vocabularies/toefl_ultra.json',
-        wordCount: 6974,
-        estimatedTime: const Duration(hours: 40),
-        isPremium: true,
-        tags: ['toefl', '高级', '冲刺'],
+        estimatedTime: const Duration(hours: 35),
+        tags: ['toefl', '核心', '出国'],
       ),
 
       // IELTS 课程
       Course(
-        id: 'ielts_academic',
-        name: 'IELTS 学术词汇',
-        description: '雅思学术类词汇，适合学术类考生',
-        theme: CourseTheme.ielts,
-        difficulty: CourseDifficulty.advanced,
-        wordIds: [],
-        assetPath: 'assets/vocabularies/ielts_ultra.json',
-        wordCount: 5040,
-        estimatedTime: const Duration(hours: 35),
-        tags: ['ielts', '学术', 'A类'],
-      ),
-      Course(
-        id: 'ielts_general',
-        name: 'IELTS 培训类词汇',
-        description: '雅思培训类词汇，适合移民类考生',
+        id: 'ielts_core',
+        name: 'IELTS 核心词汇',
+        description: '雅思考试核心词汇，适合学术类和培训类考生',
         theme: CourseTheme.ielts,
         difficulty: CourseDifficulty.intermediate,
         wordIds: [],
         assetPath: 'assets/vocabularies/ielts_ultra.json',
         wordCount: 5040,
-        estimatedTime: const Duration(hours: 25),
-        tags: ['ielts', '培训', 'G类'],
+        estimatedTime: const Duration(hours: 30),
+        tags: ['ielts', '核心', '留学'],
       ),
 
       // GRE 课程
       Course(
         id: 'gre_essential',
         name: 'GRE 核心词汇',
-        description: 'GRE必背词汇，涵盖高频考点',
+        description: 'GRE必背词汇，涵盖高频考点，冲刺名校必备',
         theme: CourseTheme.gre,
         difficulty: CourseDifficulty.expert,
         wordIds: [],
@@ -105,45 +80,18 @@ class CourseService {
         tags: ['gre', '核心', '必备'],
       ),
 
-      // 商务英语
+      // 考研英语
       Course(
-        id: 'business_beginner',
-        name: '商务英语入门',
-        description: '商务场景基础词汇，适合职场新人',
-        theme: CourseTheme.business,
-        difficulty: CourseDifficulty.beginner,
-        wordIds: [],
-        assetPath: 'assets/vocabularies/business_complete.json',
-        wordCount: 1000,
-        estimatedTime: const Duration(hours: 15),
-        tags: ['商务', '职场', '实用'],
-      ),
-      Course(
-        id: 'business_advanced',
-        name: '高级商务英语',
-        description: '高级商务词汇，适合商务人士',
-        theme: CourseTheme.business,
+        id: 'kaoyan_core',
+        name: '考研英语核心词汇',
+        description: '考研英语必备词汇，涵盖历年高频考点',
+        theme: CourseTheme.cet6,
         difficulty: CourseDifficulty.advanced,
         wordIds: [],
-        assetPath: 'assets/vocabularies/business_complete.json',
-        wordCount: 1000,
-        estimatedTime: const Duration(hours: 25),
-        isPremium: true,
-        tags: ['商务', '高级', '专业'],
-      ),
-
-      // 旅游英语
-      Course(
-        id: 'travel_essential',
-        name: '旅游英语必备',
-        description: '旅游场景常用词汇，轻松出行',
-        theme: CourseTheme.travel,
-        difficulty: CourseDifficulty.beginner,
-        wordIds: [],
-        assetPath: 'assets/vocabularies/daily_complete.json',
-        wordCount: 1000,
-        estimatedTime: const Duration(hours: 10),
-        tags: ['旅游', '出行', '实用'],
+        assetPath: 'assets/vocabularies/kaoyan_complete.json',
+        wordCount: 4801,
+        estimatedTime: const Duration(hours: 40),
+        tags: ['考研', '核心', '必备'],
       ),
 
       // 日常英语
@@ -158,46 +106,6 @@ class CourseService {
         wordCount: 1000,
         estimatedTime: const Duration(hours: 20),
         tags: ['日常', '会话', '高频'],
-      ),
-      Course(
-        id: 'daily_advanced',
-        name: '高级日常词汇',
-        description: '日常交流高级词汇，表达更地道',
-        theme: CourseTheme.daily,
-        difficulty: CourseDifficulty.intermediate,
-        wordIds: [],
-        assetPath: 'assets/vocabularies/daily_complete.json',
-        wordCount: 1000,
-        estimatedTime: const Duration(hours: 20),
-        tags: ['日常', '高级', '地道'],
-      ),
-
-      // 科技英语
-      Course(
-        id: 'tech_basic',
-        name: '科技英语基础',
-        description: '科技领域基础词汇，了解前沿资讯',
-        theme: CourseTheme.technology,
-        difficulty: CourseDifficulty.intermediate,
-        wordIds: [],
-        assetPath: 'assets/vocabularies/technology_complete.json',
-        wordCount: 1000,
-        estimatedTime: const Duration(hours: 18),
-        tags: ['科技', 'IT', '前沿'],
-      ),
-
-      // 考研英语
-      Course(
-        id: 'kaoyan_core',
-        name: '考研英语核心词汇',
-        description: '考研英语必备词汇，涵盖历年高频考点',
-        theme: CourseTheme.cet6,  // 使用类似CET-6的主题
-        difficulty: CourseDifficulty.advanced,
-        wordIds: [],
-        assetPath: 'assets/vocabularies/kaoyan_complete.json',
-        wordCount: 4801,
-        estimatedTime: const Duration(hours: 40),
-        tags: ['考研', '核心', '必备'],
       ),
     ];
   }
@@ -246,8 +154,8 @@ class CourseService {
     return [
       getCourseById('cet4_core')!,
       getCourseById('cet6_core')!,
+      getCourseById('toefl_core')!,
       getCourseById('daily_conversation')!,
-      getCourseById('travel_essential')!,
     ];
   }
 
@@ -371,32 +279,6 @@ class CourseService {
         tags: ['考研', 'exam', 'graduate'],
         isDownloaded: true,
         filePath: 'assets/vocabularies/kaoyan_complete.json',
-      ),
-      VocabularyBook(
-        id: 'business_001',
-        name: '商务英语词汇',
-        description: '商务职场专业词汇，适合商务人士',
-        language: 'en-US',
-        targetLanguage: 'zh-CN',
-        wordCount: 1000,
-        level: 2,
-        category: 'business',
-        tags: ['商务', 'business', 'workplace'],
-        isDownloaded: true,
-        filePath: 'assets/vocabularies/business_complete.json',
-      ),
-      VocabularyBook(
-        id: 'tech_001',
-        name: '科技英语词汇',
-        description: '科技前沿相关词汇，IT技术必备',
-        language: 'en-US',
-        targetLanguage: 'zh-CN',
-        wordCount: 1000,
-        level: 2,
-        category: 'technology',
-        tags: ['科技', 'technology', 'IT'],
-        isDownloaded: true,
-        filePath: 'assets/vocabularies/technology_complete.json',
       ),
       VocabularyBook(
         id: 'daily_001',
