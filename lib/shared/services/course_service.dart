@@ -85,7 +85,7 @@ class CourseService {
         id: 'kaoyan_core',
         name: '考研英语核心词汇',
         description: '考研英语必备词汇，涵盖历年高频考点',
-        theme: CourseTheme.cet6,
+        theme: CourseTheme.kaoyan,
         difficulty: CourseDifficulty.advanced,
         wordIds: [],
         assetPath: 'assets/vocabularies/kaoyan_complete.json',
@@ -186,6 +186,8 @@ class CourseService {
         return '雅思考试核心词汇';
       case CourseTheme.gre:
         return 'GRE考试高分词汇';
+      case CourseTheme.kaoyan:
+        return '考研英语必备词汇';
       case CourseTheme.business:
         return '商务职场专业词汇';
       case CourseTheme.travel:

@@ -24,8 +24,9 @@ enum CourseTheme {
   toefl('TOEFL', '托福', Icons.public),
   ielts('IELTS', '雅思', Icons.language),
   gre('GRE', 'GRE', Icons.menu_book),
+  kaoyan('考研', '考研英语', Icons.menu_book),
   business('商务', '商务英语', Icons.business_center),
-  travel('旅游', '旅游英语', Icons.flight_takeoff),
+  travel('旅游', '旅游��语', Icons.flight_takeoff),
   daily('日常', '日常英语', Icons.chat),
   academic('学术', '学术英语', Icons.science),
   technology('科技', '科技英语', Icons.computer);
