@@ -33,21 +33,21 @@ class StudyResultPage extends StatelessWidget {
         automaticallyImplyLeading: false,
       ),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.all(24),
+        padding: const EdgeInsets.all(12),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             // Congratulations card
             _buildCompletionCard(context, isExcellent, isGood),
-            const SizedBox(height: 24),
+            const SizedBox(height: 12),
 
             // Statistics cards
             _buildStatisticsGrid(context),
-            const SizedBox(height: 24),
+            const SizedBox(height: 12),
 
             // Wrong words section
             if (wrongCards > 0) _buildWrongWordsSection(context),
-            const SizedBox(height: 24),
+            const SizedBox(height: 12),
 
             // Action buttons
             _buildActionButtons(context),
@@ -63,7 +63,7 @@ class StudyResultPage extends StatelessWidget {
     bool isGood,
   ) {
     return Container(
-      padding: const EdgeInsets.all(40),
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: isExcellent
@@ -74,7 +74,7 @@ class StudyResultPage extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        borderRadius: BorderRadius.circular(24),
+        borderRadius: BorderRadius.circular(12),
         boxShadow: [
           BoxShadow(
             color: (isExcellent
@@ -97,10 +97,10 @@ class StudyResultPage extends StatelessWidget {
                 : isGood
                     ? Icons.thumb_up
                     : Icons.school,
-            size: 80,
+            size: 36,
             color: Colors.white,
           ),
-          const SizedBox(height: 24),
+          const SizedBox(height: 12),
           Text(
             isExcellent
                 ? '太棒了！'
@@ -108,16 +108,7 @@ class StudyResultPage extends StatelessWidget {
                     ? '干得不错！'
                     : '继续努力！',
             style: const TextStyle(
-              fontSize: 36,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-            ),
-          ),
-          const SizedBox(height: 16),
-          Text(
-            '正确率: ${accuracy.toStringAsFixed(1)}%',
-            style: const TextStyle(
-              fontSize: 28,
+              fontSize: 20,
               fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
@@ -132,9 +123,9 @@ class StudyResultPage extends StatelessWidget {
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
       crossAxisCount: 2,
-      mainAxisSpacing: 16,
-      crossAxisSpacing: 16,
-      childAspectRatio: 1.5,
+      mainAxisSpacing: 12,
+      crossAxisSpacing: 12,
+      childAspectRatio: 2.5,
       children: [
         _buildStatCard(
           context,
@@ -142,20 +133,6 @@ class StudyResultPage extends StatelessWidget {
           value: '$totalCards',
           icon: Icons.style,
           color: Colors.blue,
-        ),
-        _buildStatCard(
-          context,
-          label: '正确',
-          value: '$correctCards',
-          icon: Icons.check_circle,
-          color: Colors.green,
-        ),
-        _buildStatCard(
-          context,
-          label: '错误',
-          value: '$wrongCards',
-          icon: Icons.cancel,
-          color: Colors.red,
         ),
         _buildStatCard(
           context,
@@ -176,39 +153,41 @@ class StudyResultPage extends StatelessWidget {
     required Color color,
   }) {
     return Card(
-      elevation: 2,
+      elevation: 1,
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(8),
           gradient: LinearGradient(
             colors: [
-              color.withOpacity(0.1),
-              color.withOpacity(0.05),
+              color.withOpacity(0.08),
+              color.withOpacity(0.04),
             ],
           ),
         ),
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.all(12),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
               icon,
               color: color,
-              size: 32,
+              size: 20,
             ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 6),
             Text(
               value,
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.bold,
                     color: color,
+                    fontSize: 18,
                   ),
             ),
-            const SizedBox(height: 4),
+            const SizedBox(height: 2),
             Text(
               label,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: Colors.grey[600],
+                    fontSize: 11,
                   ),
             ),
           ],

@@ -35,17 +35,10 @@ class CardRatingButtons extends StatelessWidget {
         children: [
           _buildRatingButton(
             context,
-            label: '再来',
-            icon: Icons.refresh,
-            color: Colors.red,
-            rating: FSRSAlgorithm.ratingAgain,
-          ),
-          _buildRatingButton(
-            context,
-            label: '困难',
-            icon: Icons.trending_up,
-            color: Colors.orange,
-            rating: FSRSAlgorithm.ratingHard,
+            label: '简单',
+            icon: Icons.star,
+            color: Colors.blue,
+            rating: FSRSAlgorithm.ratingEasy,
           ),
           _buildRatingButton(
             context,
@@ -56,10 +49,10 @@ class CardRatingButtons extends StatelessWidget {
           ),
           _buildRatingButton(
             context,
-            label: '简单',
-            icon: Icons.star,
-            color: Colors.blue,
-            rating: FSRSAlgorithm.ratingEasy,
+            label: '困难',
+            icon: Icons.trending_up,
+            color: Colors.orange,
+            rating: FSRSAlgorithm.ratingHard,
           ),
         ],
       ),
@@ -74,10 +67,10 @@ class CardRatingButtons extends StatelessWidget {
         children: [
           _buildVerticalRatingButton(
             context,
-            label: '简单',
-            icon: Icons.star,
-            color: Colors.blue,
-            rating: FSRSAlgorithm.ratingEasy,
+            label: '困难',
+            icon: Icons.trending_up,
+            color: Colors.orange,
+            rating: FSRSAlgorithm.ratingHard,
           ),
           const SizedBox(height: 12),
           _buildVerticalRatingButton(
@@ -90,18 +83,10 @@ class CardRatingButtons extends StatelessWidget {
           const SizedBox(height: 12),
           _buildVerticalRatingButton(
             context,
-            label: '困难',
-            icon: Icons.trending_up,
-            color: Colors.orange,
-            rating: FSRSAlgorithm.ratingHard,
-          ),
-          const SizedBox(height: 12),
-          _buildVerticalRatingButton(
-            context,
-            label: '再来',
-            icon: Icons.refresh,
-            color: Colors.red,
-            rating: FSRSAlgorithm.ratingAgain,
+            label: '简单',
+            icon: Icons.star,
+            color: Colors.blue,
+            rating: FSRSAlgorithm.ratingEasy,
           ),
         ],
       ),
@@ -231,37 +216,34 @@ class CompactRatingButtons extends StatelessWidget {
 
     return Container(
       padding: const EdgeInsets.all(16),
-      child: GridView.count(
-        shrinkWrap: true,
-        physics: const NeverScrollableScrollPhysics(),
-        crossAxisCount: 2,
-        mainAxisSpacing: 12,
-        crossAxisSpacing: 12,
-        childAspectRatio: 2.5,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          _buildCompactButton(
-            context,
-            label: '再来',
-            color: Colors.red,
-            rating: FSRSAlgorithm.ratingAgain,
+          Expanded(
+            child: _buildCompactButton(
+              context,
+              label: '简单',
+              color: Colors.blue,
+              rating: FSRSAlgorithm.ratingEasy,
+            ),
           ),
-          _buildCompactButton(
-            context,
-            label: '困难',
-            color: Colors.orange,
-            rating: FSRSAlgorithm.ratingHard,
+          const SizedBox(width: 12),
+          Expanded(
+            child: _buildCompactButton(
+              context,
+              label: '良好',
+              color: Colors.green,
+              rating: FSRSAlgorithm.ratingGood,
+            ),
           ),
-          _buildCompactButton(
-            context,
-            label: '良好',
-            color: Colors.green,
-            rating: FSRSAlgorithm.ratingGood,
-          ),
-          _buildCompactButton(
-            context,
-            label: '简单',
-            color: Colors.blue,
-            rating: FSRSAlgorithm.ratingEasy,
+          const SizedBox(width: 12),
+          Expanded(
+            child: _buildCompactButton(
+              context,
+              label: '困难',
+              color: Colors.orange,
+              rating: FSRSAlgorithm.ratingHard,
+            ),
           ),
         ],
       ),

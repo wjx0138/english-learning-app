@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../data/models/word.dart';
 import '../../../shared/services/tts_service.dart';
 
-/// Flashcard widget with flip animation
+/// Flashcard widget - 简单版本，无翻转动画
 class FlashcardWidget extends StatefulWidget {
   final Word word;
   final bool showAnswer;
@@ -19,96 +19,36 @@ class FlashcardWidget extends StatefulWidget {
   State<FlashcardWidget> createState() => _FlashcardWidgetState();
 }
 
-class _FlashcardWidgetState extends State<FlashcardWidget>
-    with SingleTickerProviderStateMixin {
+class _FlashcardWidgetState extends State<FlashcardWidget> {
   final TTSService _ttsService = TTSService();
   bool _isPlaying = false;
-  late AnimationController _animationController;
-  late Animation<double> _animation;
-  bool _isFlipped = false;
 
-  @override
-  void initState() {
-    super.initState();
-    _animationController = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 600),
-    );
-    _animation = CurvedAnimation(
-      parent: _animationController,
-      curve: Curves.easeInOut,
-    );
-    // Initialize flip state if widget starts with showAnswer = true
-    if (widget.showAnswer) {
-      _isFlipped = true;
-      _animationController.value = 1.0;
-    }
-  }
+  Future<void> _playPronunciation() async {
+    if (_isPlaying) return;
 
-  @override
-  void didUpdateWidget(FlashcardWidget oldWidget) {
-    super.didUpdateWidget(oldWidget);
+    setState(() {
+      _isPlaying = true;
+    });
 
-    // When showAnswer changes for the same word, flip the card
-    if (widget.showAnswer != oldWidget.showAnswer) {
-      // Always execute flip, no condition check
-      _flipCard();
-    }
-    // When word changes, reset animation to front (正面)
-    else if (widget.word.id != oldWidget.word.id) {
-      // Always reset to front when loading a new card
-      _isFlipped = false;
-      if (_animationController.value != 0.0) {
-        _animationController.reverse(from: _animationController.value);
+    try {
+      await _ttsService.speakWord(widget.word.word);
+    } finally {
+      if (mounted) {
+        setState(() {
+          _isPlaying = false;
+        });
       }
     }
   }
 
-  void _flipCard() {
-    _isFlipped = widget.showAnswer;
-    if (widget.showAnswer) {
-      _animationController.forward();
-    } else {
-      _animationController.reverse();
-    }
-  }
-
-  Future<void> _playPronunciation() async {
-    setState(() {
-      _isPlaying = true;
-    });
-    await _ttsService.speakWord(widget.word.word);
-    setState(() {
-      _isPlaying = false;
-    });
-  }
-
-  @override
-  void dispose() {
-    _animationController.dispose();
-    super.dispose();
-  }
-
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        widget.onFlip?.call();
-      },
-      child: AnimatedBuilder(
-        animation: _animation,
-        builder: (context, child) {
-          final isShowingBack = _animation.value > 0.5;
-          return Transform(
-            alignment: Alignment.center,
-            transform: Matrix4.rotationY(_animation.value * 3.14159),
-            child: isShowingBack
-                ? _buildBack(context)
-                : _buildFront(context),
-          );
-        },
-      ),
-    );
+    // 根据 showAnswer 决定显示哪一面
+    if (!widget.showAnswer) {
+      return _buildFront(context);
+    } else {
+      return _buildBack(context);
+    }
   }
 
   Widget _buildFront(BuildContext context) {
@@ -167,12 +107,12 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
               ),
             ),
           ),
-          // Speaker button
+          // 发音按钮
           Positioned(
             top: 16,
             right: 16,
             child: IconButton(
-              onPressed: _playPronunciation,
+              onPressed: _isPlaying ? null : _playPronunciation,
               icon: Icon(
                 _isPlaying ? Icons.volume_up : Icons.volume_up_outlined,
                 color: Theme.of(context).colorScheme.primary,
@@ -190,78 +130,74 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
   }
 
   Widget _buildBack(BuildContext context) {
-    return Transform(
-      alignment: Alignment.center,
-      transform: Matrix4.rotationY(3.14159),
-      child: Container(
-        width: double.infinity,
-        height: 400,
-        decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.primaryContainer,
-          borderRadius: BorderRadius.circular(16),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.1),
-              blurRadius: 10,
-              offset: const Offset(0, 4),
-            ),
-          ],
-        ),
-        child: Center(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.all(24),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  Icons.lightbulb_outline,
-                  size: 48,
-                  color: Theme.of(context).colorScheme.primary,
+    return Container(
+      width: double.infinity,
+      height: 400,
+      decoration: BoxDecoration(
+        color: Theme.of(context).colorScheme.primaryContainer,
+        borderRadius: BorderRadius.circular(16),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.1),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Center(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.lightbulb_outline,
+                size: 48,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              const SizedBox(height: 16),
+              Text(
+                widget.word.word,
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.bold,
                 ),
+              ),
+              const SizedBox(height: 16),
+              Text(
+                widget.word.definition,
+                style: Theme.of(context).textTheme.bodyLarge,
+                textAlign: TextAlign.center,
+              ),
+              if (widget.word.examples.isNotEmpty) ...[
                 const SizedBox(height: 16),
                 Text(
-                  widget.word.word,
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.bold,
+                  '例句',
+                  style: Theme.of(context).textTheme.titleSmall,
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  widget.word.examples.first,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    fontStyle: FontStyle.italic,
                   ),
-                ),
-                const SizedBox(height: 16),
-                Text(
-                  widget.word.definition,
-                  style: Theme.of(context).textTheme.bodyLarge,
                   textAlign: TextAlign.center,
                 ),
-                if (widget.word.examples.isNotEmpty) ...[
-                  const SizedBox(height: 16),
-                  Text(
-                    '例句',
-                    style: Theme.of(context).textTheme.titleSmall,
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    widget.word.examples.first,
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      fontStyle: FontStyle.italic,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                ],
-                if (widget.word.difficulty > 0) ...[
-                  const SizedBox(height: 16),
-                  Wrap(
-                    spacing: 8,
-                    children: List.generate(
-                      widget.word.difficulty,
-                      (index) => Icon(
-                        Icons.star,
-                        size: 16,
-                        color: Colors.amber,
-                      ),
-                    ),
-                  ),
-                ],
               ],
-            ),
+              if (widget.word.difficulty > 0) ...[
+                const SizedBox(height: 16),
+                Wrap(
+                  spacing: 8,
+                  children: List.generate(
+                    widget.word.difficulty,
+                    (index) => Icon(
+                      Icons.star,
+                      size: 16,
+                      color: Colors.amber,
+                    ),
+                  ),
+                ),
+              ],
+            ],
           ),
         ),
       ),

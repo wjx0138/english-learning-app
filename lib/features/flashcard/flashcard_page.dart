@@ -85,10 +85,6 @@ class _FlashcardPageState extends State<FlashcardPage> {
     cardProvider.submitAnswer(rating);
 
     // Add points based on rating
-    // Rating 1 (Again): 1 point
-    // Rating 2 (Hard): 3 points
-    // Rating 3 (Good): 5 points
-    // Rating 4 (Easy): 7 points
     final points = [1, 3, 5, 7][rating - 1];
     appProvider.addPoints(points, type: PointEventType.reviewCard);
 
@@ -97,54 +93,39 @@ class _FlashcardPageState extends State<FlashcardPage> {
       _correctWordIds.add(_vocabulary[_currentWordIndex].id);
     }
 
-    // Flip back to front immediately (显示单词)
+    // 立即进入下一个单词
     setState(() {
       _showAnswer = false;
+      _hasAnswered = false;
+      _currentWordIndex++;
     });
 
-    // Wait for flip animation to complete, then move to next card
-    Future.delayed(const Duration(milliseconds: 700), () {
-      if (mounted) {
-        // Reset answered state
-        setState(() {
-          _hasAnswered = false;
-        });
+    // 检查是否所有卡片都已完成
+    if (_currentWordIndex >= _vocabulary.length) {
+      // 记录学习进度
+      if (!_hasRecordedProgress) {
+        _hasRecordedProgress = true;
+        final progressProvider = context.read<ProgressProvider>();
+        progressProvider.recordStudySession(
+          cardsStudied: cardProvider.cardsStudied,
+          correctAnswers: cardProvider.correctAnswers,
+          wrongAnswers: cardProvider.wrongAnswers,
+          correctWordIds: _correctWordIds,
+        );
 
-        // Increment index
-        setState(() {
-          _currentWordIndex++;
-        });
+        // 添加游戏化奖励
+        appProvider.recordStudy(
+          wordsLearned: _correctWordIds.length,
+          practiceMinutes: (_vocabulary.length / 6).ceil(),
+        );
 
-        // Check if all cards are completed
-        if (_currentWordIndex >= _vocabulary.length) {
-          // Record progress when all cards are studied
-          if (!_hasRecordedProgress) {
-            _hasRecordedProgress = true;
-            final cardProvider = context.read<CardProvider>();
-            final progressProvider = context.read<ProgressProvider>();
-            progressProvider.recordStudySession(
-              cardsStudied: cardProvider.cardsStudied,
-              correctAnswers: cardProvider.correctAnswers,
-              wrongAnswers: cardProvider.wrongAnswers,
-              correctWordIds: _correctWordIds,
-            );
-
-            // Add gamification rewards
-            final wordsLearned = _correctWordIds.length;
-            appProvider.recordStudy(
-              wordsLearned: wordsLearned,
-              practiceMinutes: (_vocabulary.length / 6).ceil(), // Estimate: ~6 cards per minute
-            );
-
-            // Check for achievements
-            appProvider.checkAchievements();
-          }
-        } else {
-          // Load next card
-          _loadNextCard();
-        }
+        // 检查成就
+        appProvider.checkAchievements();
       }
-    });
+    } else {
+      // 加载下一张卡片
+      _loadNextCard();
+    }
   }
 
   @override

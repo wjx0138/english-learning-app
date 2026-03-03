@@ -53,7 +53,7 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
 
       // Fallback to loading from assets
       final jsonString =
-          await rootBundle.loadString('assets/data/cet4_words.json');
+          await rootBundle.loadString('assets/vocabularies/cet4_sample.json');
       final List<dynamic> jsonList = json.decode(jsonString);
       setState(() {
         _vocabulary = jsonList.map((json) => Word.fromJson(json)).toList();
@@ -93,36 +93,28 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
   void _submitAnswer(int rating) {
     if (_hasAnswered) return;
 
-    setState(() {
-      _hasAnswered = true;
-    });
-
     final cardProvider = context.read<CardProvider>();
     cardProvider.submitAnswer(rating);
 
+    // 记录正确的单词
     if (rating != FSRSAlgorithm.ratingAgain &&
         _currentWordIndex < _vocabulary.length) {
       _correctWordIds.add(_vocabulary[_currentWordIndex].id);
     }
 
-    // Move to next card after animation delay
-    Future.delayed(const Duration(milliseconds: 300), () {
-      if (mounted) {
-        setState(() {
-          _currentWordIndex++;
-        });
-
-        if (_currentWordIndex >= _vocabulary.length) {
-          _handleSessionComplete(cardProvider);
-        } else {
-          _loadNextCard();
-          setState(() {
-            _showAnswer = false;
-            _hasAnswered = false;
-          });
-        }
-      }
+    // 立即进入下一个单词
+    setState(() {
+      _hasAnswered = false;
+      _showAnswer = false;
+      _currentWordIndex++;
     });
+
+    // 检查是否完成所有单词
+    if (_currentWordIndex >= _vocabulary.length) {
+      _handleSessionComplete(cardProvider);
+    } else {
+      _loadNextCard();
+    }
   }
 
   void _handleSessionComplete(CardProvider cardProvider) {
@@ -238,23 +230,11 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    // Animated Flashcard
+                    // Flashcard
                     AnimatedFlashcard(
-                      front: WordFlashcardContent(
-                        word: currentWord.word,
-                        phonetic: currentWord.phonetic,
-                        definition: currentWord.definition,
-                        isFront: true,
-                      ),
-                      back: WordFlashcardContent(
-                        word: currentWord.word,
-                        phonetic: currentWord.phonetic,
-                        definition: currentWord.definition,
-                        examples: currentWord.examples,
-                        isFront: false,
-                      ),
+                      word: currentWord,
                       showAnswer: _showAnswer,
-                      onTap: _showAnswerCard,
+                      onFlip: _showAnswerCard,
                     ),
                     const SizedBox(height: 48),
 

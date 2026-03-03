@@ -1,272 +1,183 @@
-import 'dart:math' as math;
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
+import '../../../data/models/word.dart';
+import '../../../shared/services/tts_service.dart';
 
-/// Animated Flashcard with Flip Animation
+/// Simple Flashcard - 无动画版本
 class AnimatedFlashcard extends StatefulWidget {
-  final Widget front;
-  final Widget back;
+  final Word word;
   final bool showAnswer;
-  final VoidCallback? onTap;
-  final Duration animationDuration;
+  final VoidCallback? onFlip;
 
   const AnimatedFlashcard({
     super.key,
-    required this.front,
-    required this.back,
-    this.showAnswer = false,
-    this.onTap,
-    this.animationDuration = const Duration(milliseconds: 600),
+    required this.word,
+    required this.showAnswer,
+    this.onFlip,
   });
 
   @override
   State<AnimatedFlashcard> createState() => _AnimatedFlashcardState();
 }
 
-class _AnimatedFlashcardState extends State<AnimatedFlashcard>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _animation;
-  bool _isFront = true;
+class _AnimatedFlashcardState extends State<AnimatedFlashcard> {
+  final TTSService _ttsService = TTSService();
+  bool _isPlaying = false;
 
-  @override
-  void initState() {
-    super.initState();
-    _controller = AnimationController(
-      duration: widget.animationDuration,
-      vsync: this,
-    );
-    _animation = CurvedAnimation(
-      parent: _controller,
-      curve: Curves.easeInOut,
-    );
+  Future<void> _playPronunciation() async {
+    if (_isPlaying) return;
 
-    // Initial state
-    _isFront = !widget.showAnswer;
-  }
+    setState(() {
+      _isPlaying = true;
+    });
 
-  @override
-  void didUpdateWidget(AnimatedFlashcard oldWidget) {
-    super.didUpdateWidget(oldWidget);
-    if (oldWidget.showAnswer != widget.showAnswer) {
-      if (widget.showAnswer && _isFront) {
-        // Flip to back
-        _controller.forward().then((_) {
-          setState(() {
-            _isFront = false;
-          });
-          _controller.forward(from: 0);
-        });
-      } else if (!widget.showAnswer && !_isFront) {
-        // Flip to front
-        _controller.forward().then((_) {
-          setState(() {
-            _isFront = true;
-          });
-          _controller.forward(from: 0);
+    try {
+      await _ttsService.speakWord(widget.word.word);
+    } finally {
+      if (mounted) {
+        setState(() {
+          _isPlaying = false;
         });
       }
     }
   }
 
   @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
-  }
-
-  void _handleTap() {
-    if (widget.onTap != null) {
-      widget.onTap!();
-    }
-  }
-
-  @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: _handleTap,
-      child: AnimatedBuilder(
-        animation: _animation,
-        builder: (context, child) {
-          final isUnder = _animation.value < 0.5;
-          final angle = _animation.value * math.pi;
-
-          return Transform(
-            alignment: Alignment.center,
-            transform: Matrix4.identity()
-              ..setEntry(3, 2, 0.001)
-              ..rotateY(_isFront ? angle : -angle),
-            child: isUnder
-                ? _isFront
-                    ? widget.front
-                    : widget.back
-                : _isFront
-                    ? widget.back
-                    : widget.front,
-          );
-        },
-      ),
-    );
-  }
-}
-
-/// Flashcard content for word learning
-class WordFlashcardContent extends StatelessWidget {
-  final String word;
-  final String? phonetic;
-  final String definition;
-  final List<String> examples;
-  final bool isFront;
-  final bool showPhonetic;
-
-  const WordFlashcardContent({
-    super.key,
-    required this.word,
-    this.phonetic,
-    required this.definition,
-    this.examples = const [],
-    this.isFront = true,
-    this.showPhonetic = true,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      height: 400,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: isFront
-              ? [
-                  Theme.of(context).colorScheme.primary,
-                  Theme.of(context).colorScheme.primaryContainer,
-                ]
-              : [
-                  Theme.of(context).colorScheme.secondary,
-                  Theme.of(context).colorScheme.secondaryContainer,
-                ],
-        ),
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.2),
-            blurRadius: 20,
-            offset: const Offset(0, 10),
-          ),
-        ],
-      ),
-      child: Padding(
-        padding: const EdgeInsets.all(32),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            if (isFront) ...[
-              _buildFrontContent(context),
-            ] else ...[
-              _buildBackContent(context),
-            ],
+      onTap: () {
+        widget.onFlip?.call();
+      },
+      child: Container(
+        width: double.infinity,
+        height: 400,
+        decoration: BoxDecoration(
+          color: widget.showAnswer
+              ? Theme.of(context).colorScheme.primaryContainer
+              : Theme.of(context).colorScheme.surface,
+          borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.1),
+              blurRadius: 10,
+              offset: const Offset(0, 4),
+            ),
           ],
         ),
-      ),
-    );
-  }
-
-  Widget _buildFrontContent(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Text(
-          word,
-          style: Theme.of(context).textTheme.displayLarge?.copyWith(
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
-          textAlign: TextAlign.center,
-        ),
-        if (phonetic != null && showPhonetic) ...[
-          const SizedBox(height: 16),
-          Text(
-            phonetic!,
-            style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  color: Colors.white70,
-                  fontFamily: 'Courier',
-                ),
-            textAlign: TextAlign.center,
-          ),
-        ],
-        const SizedBox(height: 48),
-        Icon(
-          Icons.touch_app,
-          size: 48,
-          color: Colors.white54,
-        ),
-        const SizedBox(height: 16),
-        Text(
-          '点击查看答案',
-          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                color: Colors.white70,
-              ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildBackContent(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Text(
-            word,
-            style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: 24),
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: Colors.white24,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Text(
-              definition,
-              style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    color: Colors.white,
-                  ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-          if (examples.isNotEmpty) ...[
-            const SizedBox(height: 24),
-            ...examples.take(2).map((example) {
-              return Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+        child: Stack(
+          children: [
+            Center(
+              child: SingleChildScrollView(
+                padding: const EdgeInsets.all(24),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Text(
-                      '• ',
-                      style: TextStyle(color: Colors.white70, fontSize: 18),
-                    ),
-                    Expanded(
-                      child: Text(
-                        example,
+                    if (!widget.showAnswer) ...[
+                      // 正面内容
+                      Icon(
+                        Icons.help_outline,
+                        size: 48,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      const SizedBox(height: 24),
+                      Text(
+                        widget.word.word,
+                        style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                              fontWeight: FontWeight.bold,
+                            ),
+                        textAlign: TextAlign.center,
+                      ),
+                      if (widget.word.phonetic != null) ...[
+                        const SizedBox(height: 8),
+                        Text(
+                          widget.word.phonetic!,
+                          style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                color: Colors.grey[600],
+                              ),
+                        ),
+                      ],
+                      const SizedBox(height: 32),
+                      Text(
+                        '点击查看释义',
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                              color: Colors.white.withOpacity(0.9),
+                              color: Colors.grey,
                             ),
                       ),
-                    ),
+                    ],
+                    if (widget.showAnswer) ...[
+                      // 背面内容
+                      Icon(
+                        Icons.lightbulb_outline,
+                        size: 48,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        widget.word.word,
+                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        widget.word.definition,
+                        style: Theme.of(context).textTheme.bodyLarge,
+                        textAlign: TextAlign.center,
+                      ),
+                      if (widget.word.examples.isNotEmpty) ...[
+                        const SizedBox(height: 16),
+                        Text(
+                          '例句',
+                          style: Theme.of(context).textTheme.titleSmall,
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          widget.word.examples.first,
+                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            fontStyle: FontStyle.italic,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                      if (widget.word.difficulty > 0) ...[
+                        const SizedBox(height: 16),
+                        Wrap(
+                          spacing: 8,
+                          children: List.generate(
+                            widget.word.difficulty,
+                            (index) => Icon(
+                              Icons.star,
+                              size: 16,
+                              color: Colors.amber,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ],
                   ],
                 ),
-              );
-            }),
+              ),
+            ),
+            // 发音按钮（只在正面显示）
+            if (!widget.showAnswer)
+              Positioned(
+                top: 16,
+                right: 16,
+                child: IconButton(
+                  onPressed: _isPlaying ? null : _playPronunciation,
+                  icon: Icon(
+                    _isPlaying ? Icons.volume_up : Icons.volume_up_outlined,
+                    color: Theme.of(context).colorScheme.primary,
+                    size: 32,
+                  ),
+                  style: IconButton.styleFrom(
+                    backgroundColor:
+                        Theme.of(context).colorScheme.primaryContainer,
+                    padding: const EdgeInsets.all(12),
+                  ),
+                ),
+              ),
           ],
-        ],
+        ),
       ),
     );
   }
