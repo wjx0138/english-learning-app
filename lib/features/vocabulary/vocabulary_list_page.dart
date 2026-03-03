@@ -258,7 +258,7 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
 
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 4),
-      child: InkWell(
+      child: GestureDetector(
         onTap: () {
           Navigator.of(context).push(
             MaterialPageRoute(
@@ -269,7 +269,7 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
             ),
           );
         },
-        borderRadius: BorderRadius.circular(12),
+        behavior: HitTestBehavior.opaque,
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Column(
