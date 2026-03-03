@@ -97,12 +97,16 @@ class _FlashcardPageState extends State<FlashcardPage> {
       _correctWordIds.add(_vocabulary[_currentWordIndex].id);
     }
 
-    // Move to next card after delay
-    Future.delayed(const Duration(milliseconds: 500), () {
+    // Flip back to front immediately (显示单词)
+    setState(() {
+      _showAnswer = false;
+    });
+
+    // Wait for flip animation to complete, then move to next card
+    Future.delayed(const Duration(milliseconds: 600), () {
       if (mounted) {
-        // Reset UI state first before loading next card
+        // Reset answered state
         setState(() {
-          _showAnswer = false;
           _hasAnswered = false;
         });
 
@@ -136,7 +140,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
             appProvider.checkAchievements();
           }
         } else {
-          // Load next card (after _showAnswer has been reset)
+          // Load next card
           _loadNextCard();
         }
       }
