@@ -261,11 +261,13 @@ class _VocabularyListPageState extends State<VocabularyListPage> {
       child: GestureDetector(
         onTap: () {
           Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) => WordDetailPage(
+            PageRouteBuilder(
+              pageBuilder: (context, animation, secondaryAnimation) => WordDetailPage(
                 wordId: word.id,
                 showBack: false,
               ),
+              transitionDuration: Duration.zero,
+              reverseTransitionDuration: Duration.zero,
             ),
           );
         },
