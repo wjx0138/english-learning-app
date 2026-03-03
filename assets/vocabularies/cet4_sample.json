@@ -1,0 +1,57 @@
+[
+  {
+    "id": "word_001",
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "definition": "v. 遗弃；放弃",
+    "examples": [],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "verb"]
+  },
+  {
+    "id": "word_002",
+    "word": "ability",
+    "phonetic": "/əˈbɪləti/",
+    "definition": "n. 能力；才能",
+    "examples": [],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"]
+  },
+  {
+    "id": "word_003",
+    "word": "abnormal",
+    "phonetic": "/æbˈnɔːml/",
+    "definition": "adj. 反常的；不正常的",
+    "examples": [],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "adj"]
+  },
+  {
+    "id": "word_004",
+    "word": "aboard",
+    "phonetic": "/əˈbɔːd/",
+    "definition": "adv. 在船(车)上；prep. 在...上",
+    "examples": [],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "adv", "prep"]
+  },
+  {
+    "id": "word_005",
+    "word": "absence",
+    "phonetic": "/ˈæbsəns/",
+    "definition": "n. 缺席；不在场",
+    "examples": [],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "tags": ["cet4", "noun"]
+  }
+]
