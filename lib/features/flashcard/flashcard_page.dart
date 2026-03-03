@@ -100,7 +100,13 @@ class _FlashcardPageState extends State<FlashcardPage> {
     // Move to next card after delay
     Future.delayed(const Duration(milliseconds: 500), () {
       if (mounted) {
-        // Increment index first
+        // Reset UI state first before loading next card
+        setState(() {
+          _showAnswer = false;
+          _hasAnswered = false;
+        });
+
+        // Increment index
         setState(() {
           _currentWordIndex++;
         });
@@ -130,13 +136,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
             appProvider.checkAchievements();
           }
         } else {
-          // Load next card
+          // Load next card (after _showAnswer has been reset)
           _loadNextCard();
-          // Reset UI state for next card
-          setState(() {
-            _showAnswer = false;
-            _hasAnswered = false;
-          });
         }
       }
     });
