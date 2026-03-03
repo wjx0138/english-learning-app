@@ -103,7 +103,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
     });
 
     // Wait for flip animation to complete, then move to next card
-    Future.delayed(const Duration(milliseconds: 600), () {
+    Future.delayed(const Duration(milliseconds: 700), () {
       if (mounted) {
         // Reset answered state
         setState(() {
