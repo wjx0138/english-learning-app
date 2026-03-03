@@ -48,7 +48,19 @@ class _FlashcardWidgetState extends State<FlashcardWidget>
   @override
   void didUpdateWidget(FlashcardWidget oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (widget.showAnswer != oldWidget.showAnswer) {
+
+    // When word changes, reset animation to front (正面)
+    if (widget.word.id != oldWidget.word.id) {
+      _isFlipped = false;
+      _animationController.reset();
+      // If the new card should show answer immediately, flip to back
+      if (widget.showAnswer) {
+        _isFlipped = true;
+        _animationController.forward();
+      }
+    }
+    // When showAnswer changes for the same word, flip the card
+    else if (widget.showAnswer != oldWidget.showAnswer) {
       _flipCard();
     }
   }
