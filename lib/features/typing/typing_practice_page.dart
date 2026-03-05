@@ -29,7 +29,7 @@ class TypingPracticePage extends StatefulWidget {
 }
 
 class _TypingPracticePageState extends State<TypingPracticePage> {
-  late final TypingSession _session;
+  late TypingSession _session;
   late final List<Word> _practiceWords;
   late final TTSService _ttsService;
   late final AudioService _audioService;
@@ -228,7 +228,13 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
 
   @override
   Widget build(BuildContext context) {
+    // 如果已完成，显示结果页面
     if (_isCompleted) {
+      return _buildResultsPage();
+    }
+
+    // 检查是否还有单词需要练习
+    if (_currentIndex >= _practiceWords.length) {
       return _buildResultsPage();
     }
 
@@ -274,7 +280,7 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
               ),
               const SizedBox(height: 48),
 
-              // Typing input
+              // Typing input - 只在未完成且有单词时显示
               TypingInputWidget(
                 targetWord: _practiceWords[_currentIndex].word,
                 isDictationMode: widget.initialMode == TypingMode.dictation,
@@ -361,14 +367,6 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
               color: Colors.white,
             ),
           ),
-          const SizedBox(height: 8),
-          Text(
-            '正确率: ${_session.accuracy.toStringAsFixed(1)}%',
-            style: const TextStyle(
-              fontSize: 24,
-              color: Colors.white,
-            ),
-          ),
         ],
       ),
     );
@@ -395,8 +393,6 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
                 color: Colors.green),
             _buildStatRow(context, '错误', '${_session.wrongWords} 个',
                 color: Colors.red),
-            _buildStatRow(context, '正确率', '${_session.accuracy.toStringAsFixed(1)}%'),
-            _buildStatRow(context, '平均速度', '${_session.averageCPM.toStringAsFixed(0)} CPM'),
             _buildStatRow(context, '总耗时', _formatDuration(duration)),
           ],
         ),
@@ -493,7 +489,7 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
           ),
         ),
         const SizedBox(height: 12),
-        OutlinedButton.icon(
+        ElevatedButton.icon(
           onPressed: () {
             // Restart with same words
             Navigator.of(context).pushReplacement(
@@ -507,8 +503,9 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
           },
           icon: const Icon(Icons.replay),
           label: const Text('再练一次'),
-          style: OutlinedButton.styleFrom(
+          style: ElevatedButton.styleFrom(
             padding: const EdgeInsets.symmetric(vertical: 16),
+            textStyle: const TextStyle(fontSize: 18),
           ),
         ),
       ],

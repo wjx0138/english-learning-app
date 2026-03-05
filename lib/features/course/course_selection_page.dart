@@ -465,8 +465,6 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
         return Colors.orange;
       case 4:
         return Colors.red;
-      case 5:
-        return Colors.purple;
       default:
         return Colors.grey;
     }

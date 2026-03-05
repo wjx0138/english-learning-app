@@ -103,22 +103,33 @@ class QuizResultPage extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          const SizedBox(height: 16),
-          Text(
-            '正确率: ${accuracy.toStringAsFixed(1)}%',
-            style: const TextStyle(
-              fontSize: 28,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-            ),
-          ),
-          const SizedBox(height: 8),
-          Text(
-            '答对 ${session.correctCount}/${session.totalQuestions} 题',
-            style: const TextStyle(
-              fontSize: 18,
-              color: Colors.white70,
-            ),
+          const SizedBox(height: 20),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                '答对 ${session.correctCount}/${session.totalQuestions}',
+                style: const TextStyle(
+                  fontSize: 24,
+                  color: Colors.white70,
+                ),
+              ),
+              const SizedBox(width: 12),
+              Container(
+                width: 1,
+                height: 24,
+                color: Colors.white30,
+              ),
+              const SizedBox(width: 12),
+              Text(
+                '${accuracy.toInt()}%',
+                style: const TextStyle(
+                  fontSize: 32,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
+            ],
           ),
         ],
       ),
@@ -366,23 +377,6 @@ class QuizResultPage extends StatelessWidget {
             textStyle: const TextStyle(fontSize: 18),
           ),
         ),
-        const SizedBox(height: 12),
-        if (session.wrongCount > 0)
-          OutlinedButton.icon(
-            onPressed: () {
-              Navigator.of(context).popUntil((route) => route.isFirst);
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(
-                  content: Text('错题本功能即将推出'),
-                ),
-              );
-            },
-            icon: const Icon(Icons.refresh),
-            label: const Text('复习错题'),
-            style: OutlinedButton.styleFrom(
-              padding: const EdgeInsets.symmetric(vertical: 16),
-            ),
-          ),
       ],
     );
   }

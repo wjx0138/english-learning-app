@@ -7,8 +7,7 @@ enum CourseDifficulty {
   beginner(1, '初级', '适合英语初学者'),
   intermediate(2, '中级', '有一定英语基础'),
   advanced(3, '高级', '英语水平较好'),
-  expert(4, '专业', '专业英语学习'),
-  exam(5, '考试', '备考专用');
+  expert(4, '专业', '专业英语学习');
 
   final int level;
   final String label;
@@ -156,8 +155,6 @@ class Course {
         return Colors.orange.shade700.toString();
       case 4:
         return Colors.red.shade700.toString();
-      case 5:
-        return Colors.purple.shade700.toString();
       default:
         return Colors.grey.shade700.toString();
     }

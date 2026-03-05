@@ -163,7 +163,7 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
           TextButton(
             onPressed: () {
               Navigator.of(context).pop();
-              context.pop();
+              context.go('/');
             },
             style: TextButton.styleFrom(
               foregroundColor: Colors.red,

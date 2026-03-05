@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:go_router/go_router.dart';
 import '../../data/models/word.dart';
 import '../../data/models/quiz.dart';
 import '../../data/models/gamification.dart';
@@ -22,7 +23,9 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
   late QuizSession _session;
   int? _selectedOptionIndex;
   bool _isRevealed = false;
+  bool _isQuestionVisible = true; // 控制题目显示
   DateTime? _questionStartTime;
+  QuizQuestion? _displayedQuestion; // 缓存当前显示的题目
 
   @override
   void initState() {
@@ -43,6 +46,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
       questionCount: 20,
     );
 
+    _displayedQuestion = _session.currentQuestion; // 缓存初始题目
     _questionStartTime = DateTime.now();
   }
 
@@ -85,20 +89,33 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
     // Auto-advance after delay
     Future.delayed(const Duration(milliseconds: 2000), () {
       if (mounted) {
-        if (_session.isCompleted) {
-          _showResults();
-        } else {
-          _nextQuestion();
-        }
-      }
-    });
-  }
+        // 先淡出当前题目和选项
+        setState(() {
+          _isQuestionVisible = false;
+        });
 
-  void _nextQuestion() {
-    setState(() {
-      _selectedOptionIndex = null;
-      _isRevealed = false;
-      _questionStartTime = DateTime.now();
+        // 等待淡出动画完成，然后切换到下一题
+        Future.delayed(const Duration(milliseconds: 300), () {
+          if (mounted) {
+            if (_session.isCompleted) {
+              _showResults();
+            } else {
+              // 更新到下一题（此时用户看不到）
+              setState(() {
+                _displayedQuestion = _session.currentQuestion; // 缓存下一题
+              });
+
+              // 同时淡入下一题的题目和选项
+              setState(() {
+                _selectedOptionIndex = null;
+                _isRevealed = false;
+                _isQuestionVisible = true;
+                _questionStartTime = DateTime.now();
+              });
+            }
+          }
+        });
+      }
     });
   }
 
@@ -182,9 +199,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
       return const SizedBox.shrink(); // Will be replaced by result page
     }
 
-    final currentQuestion = _session.currentQuestion;
-
-    if (currentQuestion == null) {
+    if (_displayedQuestion == null) {
       return _buildLoadingState();
     }
 
@@ -224,27 +239,41 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
               padding: const EdgeInsets.all(16),
               child: Column(
                 children: [
-                  // Question card
-                  QuizQuestionCard(
-                    question: currentQuestion,
-                    currentIndex: _session.currentQuestionIndex,
-                    totalQuestions: _session.totalQuestions,
-                    isRevealed: _isRevealed,
+                  // Question card - 同步显示/隐藏
+                  AnimatedOpacity(
+                    opacity: _isQuestionVisible ? 1.0 : 0.0,
+                    duration: const Duration(milliseconds: 250),
+                    curve: Curves.easeInOut,
+                    child: _isQuestionVisible
+                        ? QuizQuestionCard(
+                            question: _displayedQuestion!,
+                            currentIndex: _session.currentQuestionIndex,
+                            totalQuestions: _session.totalQuestions,
+                            isRevealed: _isRevealed,
+                          )
+                        : const SizedBox(
+                            height: 200, // 占位高度，避免跳动
+                          ),
                   ),
                   const SizedBox(height: 24),
 
-                  // Options
-                  ...currentQuestion.options.asMap().entries.map((entry) {
+                  // Options - 与题目同步显示/隐藏
+                  ..._displayedQuestion!.options.asMap().entries.map((entry) {
                     final index = entry.key;
                     final option = entry.value;
 
-                    return QuizOptionCard(
-                      option: option,
-                      index: index,
-                      isSelected: _selectedOptionIndex == index,
-                      isRevealed: _isRevealed,
-                      showExplanation: true,
-                      onTap: () => _handleOptionSelect(index),
+                    return AnimatedOpacity(
+                      opacity: _isQuestionVisible ? 1.0 : 0.0,
+                      duration: const Duration(milliseconds: 250),
+                      curve: Curves.easeInOut,
+                      child: QuizOptionCard(
+                        option: option,
+                        index: index,
+                        isSelected: _selectedOptionIndex == index,
+                        isRevealed: _isRevealed,
+                        showExplanation: true,
+                        onTap: () => _handleOptionSelect(index),
+                      ),
                     );
                   }),
                 ],
@@ -280,7 +309,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
             const SizedBox(height: 16),
             ElevatedButton.icon(
               onPressed: () {
-                Navigator.of(context).pop();
+                context.go('/vocabulary-selection');
               },
               icon: const Icon(Icons.add),
               label: const Text('选择词库'),

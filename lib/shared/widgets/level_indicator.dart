@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:go_router/go_router.dart';
 import '../../data/models/gamification.dart';
 import '../../core/providers/app_provider.dart';
 
@@ -26,7 +27,7 @@ class LevelIndicator extends StatelessWidget {
         return InkWell(
           onTap: () {
             // 导航到游戏化页面
-            Navigator.of(context).pushNamed('/gamification');
+            context.push('/gamification');
           },
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),

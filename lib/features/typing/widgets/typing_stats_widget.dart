@@ -79,28 +79,10 @@ class TypingStatsWidget extends StatelessWidget {
             const SizedBox(height: 24),
 
             // Detailed stats row
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                _buildDetailStat(
-                  context,
-                  '正确率',
-                  '${accuracy.toStringAsFixed(1)}%',
-                  Icons.percent,
-                  accuracy >= 80
-                      ? Colors.green
-                      : accuracy >= 60
-                          ? Colors.orange
-                          : Colors.red,
-                ),
-                _buildDetailStat(
-                  context,
-                  '打字速度',
-                  '${cpm.toStringAsFixed(0)} CPM',
-                  Icons.speed,
-                  Colors.purple,
-                ),
-                if (totalDurationSeconds > 0)
+            if (totalDurationSeconds > 0)
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
                   _buildDetailStat(
                     context,
                     '耗时',
@@ -108,8 +90,8 @@ class TypingStatsWidget extends StatelessWidget {
                     Icons.timer,
                     Colors.teal,
                   ),
-              ],
-            ),
+                ],
+              ),
           ],
         ),
       ),

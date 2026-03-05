@@ -1,12 +1,22 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../../data/models/vocabulary_book.dart';
 import '../../data/models/word.dart';
 
 /// Service for importing and managing vocabulary books
 class VocabularyService {
+  // Vocabulary file paths
   static const String _cet4Path = 'assets/vocabularies/cet4_ultra.json';
   static const String _cet6Path = 'assets/vocabularies/cet6_ultra.json';
+  static const String _toeflPath = 'assets/vocabularies/toefl_ultra.json';
+  static const String _ieltsPath = 'assets/vocabularies/ielts_ultra.json';
+  static const String _grePath = 'assets/vocabularies/gre_ultra.json';
+  static const String _kaoyanPath = 'assets/vocabularies/kaoyan_complete.json';
+  static const String _businessPath = 'assets/vocabularies/business_complete.json';
+  static const String _dailyPath = 'assets/vocabularies/daily_complete.json';
+  static const String _techPath = 'assets/vocabularies/technology_complete.json';
+  static const String _cet4SamplePath = 'assets/vocabularies/cet4_sample.json';
 
   List<VocabularyBook> _availableBooks = [];
   List<Word> _loadedWords = [];
@@ -27,6 +37,7 @@ class VocabularyService {
   /// Initialize and load available books list
   Future<void> initialize() async {
     _availableBooks = [
+      // 考试类词库
       VocabularyBook(
         id: 'cet4_001',
         name: 'CET-4 核心词汇',
@@ -53,14 +64,125 @@ class VocabularyService {
         isDownloaded: true,
         filePath: _cet6Path,
       ),
+      VocabularyBook(
+        id: 'toefl_001',
+        name: 'TOEFL 核心词汇',
+        description: '托福考试核心词汇，包含学术和日常用语',
+        language: 'en-US',
+        targetLanguage: 'zh-CN',
+        wordCount: 6974,
+        level: 4,
+        category: 'exam',
+        tags: ['TOEFL', 'exam', 'study abroad'],
+        isDownloaded: true,
+        filePath: _toeflPath,
+      ),
+      VocabularyBook(
+        id: 'ielts_001',
+        name: 'IELTS 核心词汇',
+        description: '雅思考试核心词汇，覆盖听说读写',
+        language: 'en-US',
+        targetLanguage: 'zh-CN',
+        wordCount: 5040,
+        level: 4,
+        category: 'exam',
+        tags: ['IELTS', 'exam', 'study abroad'],
+        isDownloaded: true,
+        filePath: _ieltsPath,
+      ),
+      VocabularyBook(
+        id: 'gre_001',
+        name: 'GRE 核心词汇',
+        description: 'GRE考试核心词汇，涵盖高级学术词汇',
+        language: 'en-US',
+        targetLanguage: 'zh-CN',
+        wordCount: 7504,
+        level: 5,
+        category: 'exam',
+        tags: ['GRE', 'exam', 'graduate', 'advanced'],
+        isDownloaded: true,
+        filePath: _grePath,
+      ),
+      VocabularyBook(
+        id: 'kaoyan_001',
+        name: '考研英语词汇',
+        description: '研究生入学考试英语词汇',
+        language: 'en-US',
+        targetLanguage: 'zh-CN',
+        wordCount: 4801,
+        level: 3,
+        category: 'exam',
+        tags: ['考研', 'exam', 'graduate'],
+        isDownloaded: true,
+        filePath: _kaoyanPath,
+      ),
+      // 主题类词库
+      VocabularyBook(
+        id: 'business_001',
+        name: '商务英语词汇',
+        description: '商务职场常用词汇，适合商务人士',
+        language: 'en-US',
+        targetLanguage: 'zh-CN',
+        wordCount: 500,
+        level: 3,
+        category: 'business',
+        tags: ['business', 'workplace', 'career'],
+        isDownloaded: true,
+        filePath: _businessPath,
+      ),
+      VocabularyBook(
+        id: 'daily_001',
+        name: '日常英语词汇',
+        description: '日常生活常用词汇，适合初学者',
+        language: 'en-US',
+        targetLanguage: 'zh-CN',
+        wordCount: 300,
+        level: 1,
+        category: 'daily',
+        tags: ['daily', 'life', 'beginner'],
+        isDownloaded: true,
+        filePath: _dailyPath,
+      ),
+      VocabularyBook(
+        id: 'tech_001',
+        name: '科技英语词汇',
+        description: '科学技术领域专业词汇',
+        language: 'en-US',
+        targetLanguage: 'zh-CN',
+        wordCount: 400,
+        level: 4,
+        category: 'technology',
+        tags: ['technology', 'science', 'IT'],
+        isDownloaded: true,
+        filePath: _techPath,
+      ),
+      // 测试词库
+      VocabularyBook(
+        id: 'cet4_sample',
+        name: 'CET-4 测试词库',
+        description: 'CET-4 小测试词库（10词），用于快速体验',
+        language: 'en-US',
+        targetLanguage: 'zh-CN',
+        wordCount: 10,
+        level: 2,
+        category: 'exam',
+        tags: ['CET4', 'sample', 'test'],
+        isDownloaded: true,
+        filePath: _cet4SamplePath,
+      ),
     ];
   }
 
   /// Load vocabulary book from assets
   Future<List<Word>> loadVocabularyBook(VocabularyBook book) async {
     try {
+      debugPrint('📂 Loading asset: ${book.filePath}');
+
       final String jsonString = await rootBundle.loadString(book.filePath!);
+      debugPrint('📄 Asset loaded, size: ${jsonString.length} characters');
+
       final dynamic jsonData = json.decode(jsonString);
+      debugPrint('📋 JSON decoded successfully');
 
       // Handle both array format and object with 'words' key format
       List<dynamic> wordsJson;
@@ -74,16 +196,19 @@ class VocabularyService {
         throw Exception('Invalid JSON format: expected array or object with words key');
       }
 
+      debugPrint('🔄 Parsing ${wordsJson.length} words...');
+
       _loadedWords = wordsJson
           .map((wordJson) => Word.fromJson(wordJson as Map<String, dynamic>))
           .toList();
 
       _currentBook = book;
 
-      // print('✅ Loaded ${_loadedWords.length} words from ${book.name}');
+      debugPrint('✅ Successfully loaded ${_loadedWords.length} words from ${book.name}');
       return _loadedWords;
-    } catch (e) {
-      // print('❌ Error loading vocabulary book: $e');
+    } catch (e, stackTrace) {
+      debugPrint('❌ Error loading vocabulary book: $e');
+      debugPrint('Stack trace: $stackTrace');
       rethrow;
     }
   }

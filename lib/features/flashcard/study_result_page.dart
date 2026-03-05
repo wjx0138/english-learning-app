@@ -102,14 +102,23 @@ class StudyResultPage extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Text(
+            '${accuracy.toInt()}%',
+            style: const TextStyle(
+              fontSize: 48,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
             isExcellent
                 ? '太棒了！'
                 : isGood
                     ? '干得不错！'
                     : '继续努力！',
             style: const TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
+              fontSize: 16,
+              fontWeight: FontWeight.w500,
               color: Colors.white,
             ),
           ),
@@ -285,7 +294,7 @@ class StudyResultPage extends StatelessWidget {
         ),
         const SizedBox(height: 12),
         if (wrongCards > 0)
-          OutlinedButton.icon(
+          ElevatedButton.icon(
             onPressed: () {
               // Navigate to error book review
               Navigator.of(context).popUntil((route) => route.isFirst);
@@ -298,8 +307,9 @@ class StudyResultPage extends StatelessWidget {
             },
             icon: const Icon(Icons.refresh),
             label: const Text('复习错题'),
-            style: OutlinedButton.styleFrom(
+            style: ElevatedButton.styleFrom(
               padding: const EdgeInsets.symmetric(vertical: 16),
+              textStyle: const TextStyle(fontSize: 18),
             ),
           ),
       ],
