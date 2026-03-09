@@ -28,10 +28,12 @@ class _FlashcardPageState extends State<FlashcardPage> {
   int _currentWordIndex = 0;
   bool _hasRecordedProgress = false;
   final List<String> _correctWordIds = []; // Track words answered correctly
+  DateTime? _sessionStartTime; // Track session start time for study minutes calculation
 
   @override
   void initState() {
     super.initState();
+    _sessionStartTime = DateTime.now(); // Record session start time
     _loadVocabulary();
   }
 
@@ -105,12 +107,21 @@ class _FlashcardPageState extends State<FlashcardPage> {
       // 记录学习进度
       if (!_hasRecordedProgress) {
         _hasRecordedProgress = true;
+
+        // Calculate study time in minutes
+        final studyDuration = _sessionStartTime != null
+            ? DateTime.now().difference(_sessionStartTime!)
+            : Duration.zero;
+        final studyMinutes = (studyDuration.inSeconds / 60).ceil();
+
         final progressProvider = context.read<ProgressProvider>();
-        progressProvider.recordStudySession(
+        await progressProvider.recordStudySession(
           cardsStudied: cardProvider.cardsStudied,
           correctAnswers: cardProvider.correctAnswers,
           wrongAnswers: cardProvider.wrongAnswers,
           correctWordIds: _correctWordIds,
+          studyMinutes: studyMinutes > 0 ? studyMinutes : null,
+          studyMode: 'flashcard',
         );
 
         // 添加游戏化奖励

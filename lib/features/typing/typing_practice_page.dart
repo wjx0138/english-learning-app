@@ -6,10 +6,12 @@ import 'package:uuid/uuid.dart';
 import '../../data/models/word.dart';
 import '../../data/models/typing_practice.dart';
 import '../../data/models/gamification.dart';
+import '../../data/models/quiz.dart';
 import '../../core/providers/app_provider.dart';
+import '../../core/providers/progress_provider.dart';
 import '../../shared/services/tts_service.dart';
-import '../../shared/services/gamification_service.dart';
 import '../../shared/services/audio_service.dart';
+import '../../shared/services/error_book_service.dart';
 import 'widgets/typing_input_widget.dart';
 import 'widgets/typing_stats_widget.dart';
 
@@ -69,7 +71,7 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
   @override
   void dispose() {
     _ttsService.stop();
-    _audioService.dispose();
+    // Note: AudioService is a singleton, don't dispose it here
     super.dispose();
   }
 
@@ -130,8 +132,12 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
         } else {
           _wordStartTime = DateTime.now();
 
-          // Play audio for next word if in dictation mode
-          if (widget.initialMode == TypingMode.dictation) {
+          // Stop any pending audio playback before moving to next word
+          _ttsService.stop();
+
+          // Only auto-play audio in dictation mode when answer is correct
+          // Don't auto-play after wrong answers
+          if (isCorrect && widget.initialMode == TypingMode.dictation) {
             _playWordAudio();
           }
         }
@@ -142,9 +148,48 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
       }
     });
 
-    // Save wrong words to error book
+    // Save wrong answers to error book
     if (!isCorrect) {
       _saveToErrorBook(word);
+    }
+  }
+
+  /// Save word to error book for dictation/typing practice
+  Future<void> _saveToErrorBook(Word word) async {
+    try {
+      // Create a QuizQuestion from Word for error book compatibility
+      final question = QuizQuestion(
+        id: 'dictation_${word.id}',
+        wordId: word.id,
+        word: word.word,
+        question: widget.initialMode == TypingMode.dictation
+            ? '听写练习：请拼写这个单词'
+            : '跟打练习：请拼写这个单词',
+        type: QuizQuestionType.spelling,
+        options: [
+          QuizOption(id: '1', text: word.word, isCorrect: true),
+          QuizOption(id: '2', text: '', isCorrect: false),
+        ],
+        correctOptionIndex: 0,
+        explanation: word.definition,
+        createdAt: DateTime.now(),
+      );
+
+      // Create a wrong answer (option index 1 means wrong)
+      final answer = QuizAnswer(
+        questionIndex: _currentIndex,
+        selectedOptionIndex: 1, // Mark as wrong
+        isCorrect: false,
+        timestamp: DateTime.now(),
+        timeTaken: const Duration(seconds: 0),
+      );
+
+      await ErrorBookService.addError(answer, question);
+    } catch (e) {
+      // Silently fail if error book save fails
+      if (mounted) {
+        debugPrint('Failed to save to error book: $e');
+      }
     }
   }
 
@@ -160,6 +205,22 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
     appProvider.recordStudy(
       wordsLearned: _session.correctWords,
       practiceMinutes: practiceMinutes,
+    );
+
+    // Record study session to ProgressProvider
+    final progressProvider = context.read<ProgressProvider>();
+    final correctWordIds = _session.results
+        .where((r) => r.isCorrect)
+        .map((r) => r.wordId)
+        .toList();
+
+    await progressProvider.recordStudySession(
+      cardsStudied: _session.totalWords,
+      correctAnswers: _session.correctWords,
+      wrongAnswers: _session.wrongWords,
+      correctWordIds: correctWordIds,
+      studyMinutes: practiceMinutes > 0 ? practiceMinutes : null,
+      studyMode: widget.initialMode == TypingMode.dictation ? 'dictation' : 'typing',
     );
 
     // Check for achievements
@@ -201,21 +262,18 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
       } else {
         _wordStartTime = DateTime.now();
 
-        // Play audio for next word if in dictation mode
+        // Stop any pending audio playback before playing next word
+        _ttsService.stop();
+
+        // Auto-play audio for next word in dictation mode after skipping
         if (widget.initialMode == TypingMode.dictation) {
           _playWordAudio();
         }
       }
     });
 
+    // Save skipped words to error book
     _saveToErrorBook(word);
-  }
-
-  void _saveToErrorBook(Word word) {
-    // Get the AppProvider and save to error book
-    // This will be implemented when we add error book functionality
-    // For now, just print to console
-    // print('Added to error book: ${word.word}');
   }
 
   void _handleReplay() {

@@ -251,9 +251,10 @@ class _ProgressPageState extends State<ProgressPage> {
     BuildContext context,
     ProgressProvider provider,
   ) {
+    final appProvider = Provider.of<AppProvider>(context);
     final learnedCount = provider.learnedVocabularyCount;
-    final totalCount = provider.totalVocabularySize;
-    final progress = provider.vocabularyProgress;
+    final totalCount = appProvider.words.length;
+    final progress = totalCount > 0 ? learnedCount / totalCount : 0.0;
     final percentage = (progress * 100).toInt();
 
     return Card(
@@ -279,7 +280,7 @@ class _ProgressPageState extends State<ProgressPage> {
             ),
             const SizedBox(height: 8),
             Text(
-              '需连续答对3次才算掌握',
+              '选择题或听写练习答对2次即可掌握',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: Colors.grey[600],
                   ),
@@ -349,8 +350,8 @@ class _ProgressPageState extends State<ProgressPage> {
                 ),
                 _buildStatCard(
                   context,
-                  '学习卡片',
-                  '${provider.totalCardsStudied}',
+                  '今日学习',
+                  '${provider.todayStudied}',
                   Icons.style,
                   Colors.green,
                 ),
@@ -442,15 +443,13 @@ class _ProgressPageState extends State<ProgressPage> {
     // 使用真实数据而不是Mock数据
     final totalWords = appProvider.words.length;
     final wordsLearned = progressProvider.learnedVocabularyCount;
-    final studyStreak = progressProvider.currentStreak;
-
-    // 计算学习时长（暂时使用0，需要在Priority 4中添加时长追踪）
+    final todayStudyMinutes = progressProvider.todayStudyMinutes;
     final totalStudyTime = Duration(minutes: progressProvider.totalStudyMinutes ?? 0);
 
     return LearningStatsGrid(
       totalWords: totalWords,
       wordsLearned: wordsLearned,
-      studyStreak: studyStreak,
+      todayStudyMinutes: todayStudyMinutes,
       totalStudyTime: totalStudyTime,
     );
   }

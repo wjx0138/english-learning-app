@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../../../core/providers/card_provider.dart';
 import '../../../core/providers/progress_provider.dart';
 import '../../../core/providers/app_provider.dart';
@@ -30,21 +31,92 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
   int _currentWordIndex = 0;
   bool _hasRecordedProgress = false;
   final List<String> _correctWordIds = [];
+  int? _lastSeenDailyGoal; // Track daily goal changes
 
   @override
   void initState() {
     super.initState();
     _sessionStartTime = DateTime.now();
-    _loadVocabulary();
+    // Use Future.microtask to avoid setState during build
+    Future.microtask(() => _loadVocabulary());
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    // Check if daily goal has changed
+    final progressProvider = context.read<ProgressProvider>();
+    if (_lastSeenDailyGoal == null) {
+      _lastSeenDailyGoal = progressProvider.dailyGoal;
+    } else if (_lastSeenDailyGoal != progressProvider.dailyGoal) {
+      final oldGoal = _lastSeenDailyGoal!;
+      _lastSeenDailyGoal = progressProvider.dailyGoal;
+      // Reload vocabulary when daily goal changes (only if not in active session)
+      if (_currentWordIndex == 0 || _currentWordIndex >= _vocabulary.length) {
+        _reloadWithNewGoal(progressProvider.dailyGoal);
+      }
+    }
+  }
+
+  Future<void> _reloadWithNewGoal(int newGoal) async {
+    try {
+      final appProvider = context.read<AppProvider>();
+      if (appProvider.words.isNotEmpty && mounted) {
+        // Only reload if not in the middle of an active session
+        if (_currentWordIndex == 0 || _currentWordIndex >= _vocabulary.length) {
+          setState(() {
+            _vocabulary = appProvider.words.take(newGoal).toList();
+            _currentWordIndex = 0;
+            _showAnswer = false;
+            _hasAnswered = false;
+            _hasRecordedProgress = false;
+            _correctWordIds.clear();
+          });
+          _loadNextCard();
+        }
+      }
+    } catch (e) {
+      // ignore: avoid_print
+      print('Error reloading vocabulary: $e');
+    }
   }
 
   Future<void> _loadVocabulary() async {
     try {
-      // Try to use loaded words from AppProvider first
       final appProvider = context.read<AppProvider>();
+      final progressProvider = context.read<ProgressProvider>();
+
+      // Initialize last seen daily goal
+      _lastSeenDailyGoal = progressProvider.dailyGoal;
+
+      // Check if there's an incomplete session
+      if (progressProvider.incompleteSession != null) {
+        final session = progressProvider.incompleteSession!;
+        final List<String> wordIds = List<String>.from(session['word_ids']);
+        final int currentIndex = session['current_index'];
+
+        // Find the words from the available vocabulary
+        final allWords = appProvider.words;
+        final sessionWords = allWords.where((word) => wordIds.contains(word.id)).toList();
+
+        // Sort words according to the original order
+        sessionWords.sort((a, b) => wordIds.indexOf(a.id).compareTo(wordIds.indexOf(b.id)));
+
+        if (sessionWords.isNotEmpty) {
+          setState(() {
+            _vocabulary = sessionWords;
+            _currentWordIndex = currentIndex;
+            _isLoading = false;
+          });
+          _loadNextCard();
+          return;
+        }
+      }
+
+      // No incomplete session, start fresh
       if (appProvider.words.isNotEmpty) {
         setState(() {
-          _vocabulary = appProvider.words.take(20).toList(); // Limit to 20 for session
+          _vocabulary = appProvider.words.take(progressProvider.dailyGoal).toList();
           _isLoading = false;
         });
         _loadNextCard();
@@ -117,16 +189,28 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
     }
   }
 
-  void _handleSessionComplete(CardProvider cardProvider) {
+  void _handleSessionComplete(CardProvider cardProvider) async {
     if (!_hasRecordedProgress) {
       _hasRecordedProgress = true;
+
+      // Calculate study time in minutes
+      final studyDuration = _sessionStartTime != null
+          ? DateTime.now().difference(_sessionStartTime!)
+          : Duration.zero;
+      final studyMinutes = (studyDuration.inSeconds / 60).ceil();
+
       final progressProvider = context.read<ProgressProvider>();
-      progressProvider.recordStudySession(
+      await progressProvider.recordStudySession(
         cardsStudied: cardProvider.cardsStudied,
         correctAnswers: cardProvider.correctAnswers,
         wrongAnswers: cardProvider.wrongAnswers,
         correctWordIds: _correctWordIds,
+        studyMinutes: studyMinutes > 0 ? studyMinutes : null,
+        studyMode: 'flashcard',
       );
+
+      // Clear incomplete session when completed
+      await progressProvider.clearIncompleteSession();
     }
 
     // Navigate to result page
@@ -153,7 +237,7 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
       builder: (context) => AlertDialog(
         title: const Text('退出学习？'),
         content: Text(
-          '当前进度: $_currentWordIndex/${_vocabulary.length} 张卡片',
+          '当前进度: $_currentWordIndex/${_vocabulary.length} 张卡片\n已学习的进度将被保存，下次可继续学习',
         ),
         actions: [
           TextButton(
@@ -161,14 +245,27 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
             child: const Text('继续学习'),
           ),
           TextButton(
-            onPressed: () {
-              Navigator.of(context).pop();
-              context.go('/');
+            onPressed: () async {
+              // Save progress before exiting
+              final progressProvider = context.read<ProgressProvider>();
+              final wordIds = _vocabulary.map((w) => w.id).toList();
+
+              await progressProvider.saveIncompleteSession(
+                wordIds: wordIds,
+                currentIndex: _currentWordIndex,
+                totalCards: _vocabulary.length,
+                vocabularyId: 'current',
+              );
+
+              if (mounted) {
+                Navigator.of(context).pop();
+                context.go('/');
+              }
             },
             style: TextButton.styleFrom(
               foregroundColor: Colors.red,
             ),
-            child: const Text('退出'),
+            child: const Text('保存并退出'),
           ),
         ],
       ),
@@ -194,7 +291,18 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('卡片学习'),
+        title: Consumer<ProgressProvider>(
+          builder: (context, progressProvider, _) {
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Text('卡片学习', style: TextStyle(fontSize: 18)),
+                const SizedBox(height: 0), // 隐藏"今日已学习"文字但保留Consumer监听
+              ],
+            );
+          },
+        ),
         leading: IconButton(
           icon: const Icon(Icons.close),
           onPressed: _showExitDialog,

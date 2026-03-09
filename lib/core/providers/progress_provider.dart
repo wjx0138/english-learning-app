@@ -17,16 +17,21 @@ class ProgressProvider extends ChangeNotifier {
   final Map<int, int> _weeklyStudyData = {};
   DateTime? _weekStartDate; // Track current week start date
 
-  // Vocabulary tracking - now tracks correct count for each word
+  // Vocabulary tracking - tracks quiz and dictation correct counts separately
   static const int _totalVocabularySize = 100; // Total words in current deck
-  static const int _masteryThreshold = 3; // Need 3 correct answers to master a word
-  final Map<String, int> _wordCorrectCounts = {}; // word ID -> correct count
+  static const int _masteryThreshold = 2; // Need 2 correct answers to master a word
+  final Map<String, int> _quizCorrectCounts = {}; // word ID -> quiz correct count
+  final Map<String, int> _dictationCorrectCounts = {}; // word ID -> dictation correct count
 
   // Daily goal setting
   int _dailyGoal = 20; // Default: 20 cards per day
 
   // Today's learning progress
   int _todayStudied = 0; // Cards studied today
+  int _todayStudyMinutes = 0; // Study minutes today
+
+  // Total study time tracking (in minutes)
+  int _totalStudyMinutes = 0;
 
   // Incomplete session tracking (for resume functionality)
   Map<String, dynamic>? _incompleteSession;
@@ -124,6 +129,7 @@ class ProgressProvider extends ChangeNotifier {
   int get currentStreak => _currentStreak;
   int get longestStreak => _longestStreak;
   DateTime? get lastStudyDate => _lastStudyDate;
+  int? get totalStudyMinutes => _totalStudyMinutes;
   Map<int, int> get weeklyStudyData => Map.unmodifiable(_weeklyStudyData);
   List<Achievement> get achievements => List.unmodifiable(_achievements);
 
@@ -135,11 +141,24 @@ class ProgressProvider extends ChangeNotifier {
 
   int get dailyGoal => _dailyGoal;
   int get todayStudied => _todayStudied;
+  int get todayStudyMinutes => _todayStudyMinutes;
   Map<String, dynamic>? get incompleteSession => _incompleteSession;
 
-  // Count words that have reached mastery threshold
-  int get learnedVocabularyCount =>
-      _wordCorrectCounts.values.where((count) => count >= _masteryThreshold).length;
+  // Count words that have reached mastery threshold in either quiz or dictation
+  int get learnedVocabularyCount {
+    // Get all unique word IDs from both quiz and dictation
+    final allWordIds = {
+      ..._quizCorrectCounts.keys,
+      ..._dictationCorrectCounts.keys,
+    };
+
+    // Count words that have >=2 correct in quiz OR dictation
+    return allWordIds.where((wordId) {
+      final quizCount = _quizCorrectCounts[wordId] ?? 0;
+      final dictationCount = _dictationCorrectCounts[wordId] ?? 0;
+      return quizCount >= _masteryThreshold || dictationCount >= _masteryThreshold;
+    }).length;
+  }
 
   int get totalVocabularySize => _totalVocabularySize;
   double get vocabularyProgress =>
@@ -156,6 +175,7 @@ class ProgressProvider extends ChangeNotifier {
     _currentStreak = prefs.getInt('current_streak') ?? 0;
     _longestStreak = prefs.getInt('longest_streak') ?? 0;
     _dailyGoal = prefs.getInt('daily_goal') ?? 20;
+    _totalStudyMinutes = prefs.getInt('total_study_minutes') ?? 0;
 
     final lastStudyDateStr = prefs.getString('last_study_date');
     if (lastStudyDateStr != null) {
@@ -168,8 +188,10 @@ class ProgressProvider extends ChangeNotifier {
     final lastStudyDateToday = lastStudyDateStr?.split('T')[0];
     if (lastStudyDateToday == todayStr) {
       _todayStudied = prefs.getInt('today_studied') ?? 0;
+      _todayStudyMinutes = prefs.getInt('today_study_minutes') ?? 0;
     } else {
       _todayStudied = 0;
+      _todayStudyMinutes = 0;
     }
 
     // Load incomplete session if exists
@@ -213,13 +235,22 @@ class ProgressProvider extends ChangeNotifier {
       achievement.current = prefs.getInt(key) ?? 0;
     }
 
-    // Load word correct counts
-    final wordCountsStr = prefs.getString('word_correct_counts');
-    if (wordCountsStr != null) {
-      final Map<String, dynamic> decoded = json.decode(wordCountsStr);
-      _wordCorrectCounts.clear();
+    // Load quiz and dictation correct counts
+    final quizCountsStr = prefs.getString('quiz_correct_counts');
+    if (quizCountsStr != null) {
+      final Map<String, dynamic> decoded = json.decode(quizCountsStr);
+      _quizCorrectCounts.clear();
       decoded.forEach((key, value) {
-        _wordCorrectCounts[key] = value as int;
+        _quizCorrectCounts[key] = value as int;
+      });
+    }
+
+    final dictationCountsStr = prefs.getString('dictation_correct_counts');
+    if (dictationCountsStr != null) {
+      final Map<String, dynamic> decoded = json.decode(dictationCountsStr);
+      _dictationCorrectCounts.clear();
+      decoded.forEach((key, value) {
+        _dictationCorrectCounts[key] = value as int;
       });
     }
 
@@ -232,6 +263,8 @@ class ProgressProvider extends ChangeNotifier {
     required int correctAnswers,
     required int wrongAnswers,
     List<String>? correctWordIds,
+    int? studyMinutes,
+    String studyMode = 'flashcard', // 'quiz', 'dictation', or 'flashcard'
   }) async {
     final prefs = await SharedPreferences.getInstance();
 
@@ -240,13 +273,26 @@ class ProgressProvider extends ChangeNotifier {
     _totalWrongAnswers += wrongAnswers;
     _todayStudied += cardsStudied;
 
-    // Track learned vocabulary with correct counts
+    // Track learned vocabulary with correct counts based on study mode
     if (correctWordIds != null) {
       for (var wordId in correctWordIds) {
-        _wordCorrectCounts[wordId] = (_wordCorrectCounts[wordId] ?? 0) + 1;
+        if (studyMode == 'quiz') {
+          _quizCorrectCounts[wordId] = (_quizCorrectCounts[wordId] ?? 0) + 1;
+        } else if (studyMode == 'dictation') {
+          _dictationCorrectCounts[wordId] = (_dictationCorrectCounts[wordId] ?? 0) + 1;
+        }
       }
       // Save word counts as JSON
-      await prefs.setString('word_correct_counts', json.encode(_wordCorrectCounts));
+      await prefs.setString('quiz_correct_counts', json.encode(_quizCorrectCounts));
+      await prefs.setString('dictation_correct_counts', json.encode(_dictationCorrectCounts));
+    }
+
+    // Update study time if provided
+    if (studyMinutes != null && studyMinutes > 0) {
+      _totalStudyMinutes += studyMinutes;
+      _todayStudyMinutes += studyMinutes;
+      await prefs.setInt('total_study_minutes', _totalStudyMinutes);
+      await prefs.setInt('today_study_minutes', _todayStudyMinutes);
     }
 
     // Update study day
@@ -282,6 +328,12 @@ class ProgressProvider extends ChangeNotifier {
         // Already studied today, don't increment streak
         return;
       }
+
+      // New day - reset today's stats
+      _todayStudied = 0;
+      _todayStudyMinutes = 0;
+      await prefs.setInt('today_studied', _todayStudied);
+      await prefs.setInt('today_study_minutes', _todayStudyMinutes);
 
       final difference = todayDate.difference(lastDate).inDays;
       if (difference == 1) {
@@ -323,8 +375,8 @@ class ProgressProvider extends ChangeNotifier {
 
     final difference = todayDate.difference(lastDate).inDays;
     if (difference > 1) {
-      // Streak broken
-      _currentStreak = 0;
+      // Streak broken - reset to 1 (not 0) for consistency with _updateStudyDate
+      _currentStreak = 1;
     }
   }
 
@@ -394,7 +446,7 @@ class ProgressProvider extends ChangeNotifier {
   }
 
   /// Check if week needs reset and reset weekly data
-  void _checkAndResetWeeklyData() {
+  Future<void> _checkAndResetWeeklyData() async {
     if (_weekStartDate == null) return;
 
     final now = DateTime.now();
@@ -403,8 +455,12 @@ class ProgressProvider extends ChangeNotifier {
 
     // Reset weekly data if a new week started (7+ days)
     if (daysSinceWeekStart >= 7) {
+      final prefs = await SharedPreferences.getInstance();
+
       for (int i = 0; i < 7; i++) {
         _weeklyStudyData[i] = 0;
+        // Save to SharedPreferences immediately
+        await prefs.setInt('weekly_day_$i', 0);
       }
       _setWeekStartDate();
     }

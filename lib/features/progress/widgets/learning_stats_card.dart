@@ -93,14 +93,14 @@ class LearningStatsCard extends StatelessWidget {
 class LearningStatsGrid extends StatelessWidget {
   final int totalWords;
   final int wordsLearned;
-  final int studyStreak;
+  final int todayStudyMinutes;
   final Duration totalStudyTime;
 
   const LearningStatsGrid({
     super.key,
     required this.totalWords,
     required this.wordsLearned,
-    required this.studyStreak,
+    required this.todayStudyMinutes,
     required this.totalStudyTime,
   });
 
@@ -142,17 +142,17 @@ class LearningStatsGrid extends StatelessWidget {
                   iconColor: Colors.green,
                 ),
                 LearningStatsCard(
-                  title: '连续打卡',
-                  value: '$studyStreak',
+                  title: '今日时长',
+                  value: _formatDuration(Duration(minutes: todayStudyMinutes)),
                   subtitle: '',
-                  icon: Icons.local_fire_department,
+                  icon: Icons.access_time,
                   iconColor: Colors.orange,
                 ),
                 LearningStatsCard(
-                  title: '学习时长',
+                  title: '总学习时长',
                   value: _formatDuration(totalStudyTime),
                   subtitle: '',
-                  icon: Icons.access_time,
+                  icon: Icons.schedule,
                   iconColor: Colors.purple,
                 ),
               ],

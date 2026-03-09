@@ -39,12 +39,14 @@ class _TypingPageState extends State<TypingPage> {
 
   // Speed tracking
   DateTime? _wordStartTime;
+  DateTime? _sessionStartTime; // Track session start time for study minutes calculation
   final List<int> _wordTimings = [];
   int _totalCharactersTyped = 0;
 
   @override
   void initState() {
     super.initState();
+    _sessionStartTime = DateTime.now(); // Record session start time
     _loadVocabulary();
     _textController.addListener(_onInputChanged);
   }
@@ -122,14 +124,14 @@ class _TypingPageState extends State<TypingPage> {
     });
 
     // Move to next word after a brief delay
-    Future.delayed(Duration(milliseconds: wasCorrect ? 300 : 1000), () {
+    Future.delayed(Duration(milliseconds: wasCorrect ? 300 : 1000), () async {
       if (mounted) {
-        _nextWord();
+        await _nextWord();
       }
     });
   }
 
-  void _nextWord() {
+  Future<void> _nextWord() async {
     setState(() {
       _currentWordIndex++;
       _textController.clear();
@@ -143,18 +145,27 @@ class _TypingPageState extends State<TypingPage> {
       // Record progress when all words are completed
       if (!_hasRecordedProgress) {
         _hasRecordedProgress = true;
-        context.read<ProgressProvider>().recordStudySession(
+
+        // Calculate study time in minutes
+        final studyDuration = _sessionStartTime != null
+            ? DateTime.now().difference(_sessionStartTime!)
+            : Duration.zero;
+        final studyMinutes = (studyDuration.inSeconds / 60).ceil();
+
+        await context.read<ProgressProvider>().recordStudySession(
           cardsStudied: _totalWords,
           correctAnswers: _correctWords,
           wrongAnswers: _wrongWords,
           correctWordIds: _correctWordIds,
+          studyMinutes: studyMinutes > 0 ? studyMinutes : null,
+          studyMode: 'typing',
         );
       }
       _showCompletionDialog();
     }
   }
 
-  void _skipWord() {
+  Future<void> _skipWord() async {
     final currentWord = _vocabulary[_currentWordIndex];
     setState(() {
       _wrongWords++;
@@ -163,7 +174,7 @@ class _TypingPageState extends State<TypingPage> {
           ? (_correctWords / (_correctWords + _wrongWords)) * 100
           : 0.0;
     });
-    _nextWord();
+    await _nextWord();
   }
 
   void _resetSession() {
@@ -387,7 +398,9 @@ class _TypingPageState extends State<TypingPage> {
                     // Skip button
                     if (!_isCorrect && _hasAttempted)
                       OutlinedButton.icon(
-                        onPressed: _skipWord,
+                        onPressed: () async {
+                          await _skipWord();
+                        },
                         icon: const Icon(Icons.skip_next),
                         label: const Text('跳过'),
                         style: OutlinedButton.styleFrom(

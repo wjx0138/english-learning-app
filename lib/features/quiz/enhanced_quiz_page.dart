@@ -5,6 +5,7 @@ import '../../data/models/word.dart';
 import '../../data/models/quiz.dart';
 import '../../data/models/gamification.dart';
 import '../../core/providers/app_provider.dart';
+import '../../core/providers/progress_provider.dart';
 import '../../shared/services/quiz_generator_service.dart';
 import '../../shared/services/error_book_service.dart';
 import '../../shared/services/gamification_service.dart';
@@ -26,6 +27,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
   bool _isQuestionVisible = true; // 控制题目显示
   DateTime? _questionStartTime;
   QuizQuestion? _displayedQuestion; // 缓存当前显示的题目
+  int _displayedQuestionIndex = 0; // 显示的题目索引（用于进度显示）
 
   @override
   void initState() {
@@ -35,6 +37,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
 
   void _initializeQuiz() {
     final words = context.read<AppProvider>().words;
+    final progressProvider = context.read<ProgressProvider>();
 
     if (words.isEmpty) {
       return;
@@ -43,10 +46,11 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
     _session = QuizGeneratorService.generateQuizSession(
       words: words,
       mode: QuizMode.practice,
-      questionCount: 20,
+      questionCount: progressProvider.dailyGoal,
     );
 
     _displayedQuestion = _session.currentQuestion; // 缓存初始题目
+    _displayedQuestionIndex = 0; // 初始化显示的题目索引
     _questionStartTime = DateTime.now();
   }
 
@@ -103,6 +107,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
               // 更新到下一题（此时用户看不到）
               setState(() {
                 _displayedQuestion = _session.currentQuestion; // 缓存下一题
+                _displayedQuestionIndex = _session.currentQuestionIndex; // 更新显示的题目索引
               });
 
               // 同时淡入下一题的题目和选项
@@ -119,7 +124,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
     });
   }
 
-  void _showResults() {
+  Future<void> _showResults() async {
     final completedSession = _session.copyWith(
       endTime: DateTime.now(),
     );
@@ -138,6 +143,27 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
     appProvider.recordStudy(
       correctAnswers: correctCount,
       quizScore: score,
+    );
+
+    // Record study session to ProgressProvider
+    final progressProvider = context.read<ProgressProvider>();
+    final correctWordIds = completedSession.answers
+        .where((a) => a.isCorrect)
+        .map((a) => completedSession.questions[a.questionIndex].wordId)
+        .toList();
+
+    // Calculate study time in minutes
+    final studyMinutes = completedSession.endTime != null
+        ? completedSession.endTime!.difference(completedSession.startTime).inMinutes
+        : 0;
+
+    await progressProvider.recordStudySession(
+      cardsStudied: completedSession.totalQuestions,
+      correctAnswers: completedSession.correctCount,
+      wrongAnswers: completedSession.wrongCount,
+      correctWordIds: correctWordIds,
+      studyMinutes: studyMinutes > 0 ? studyMinutes : null,
+      studyMode: 'quiz',
     );
 
     // Check for perfect quiz achievement
@@ -216,7 +242,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
               padding: const EdgeInsets.only(right: 16),
               child: Chip(
                 label: Text(
-                  '${_session.currentQuestionIndex + 1}/${_session.totalQuestions}',
+                  '${_displayedQuestionIndex + 1}/${_session.totalQuestions}',
                 ),
                 backgroundColor: Theme.of(context).colorScheme.primaryContainer,
               ),
@@ -228,7 +254,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
         children: [
           // Progress bar
           LinearProgressIndicator(
-            value: (_session.currentQuestionIndex + 1) / _session.totalQuestions,
+            value: (_displayedQuestionIndex + 1) / _session.totalQuestions,
             backgroundColor: Theme.of(context).colorScheme.surfaceVariant,
             minHeight: 8,
           ),
@@ -247,7 +273,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
                     child: _isQuestionVisible
                         ? QuizQuestionCard(
                             question: _displayedQuestion!,
-                            currentIndex: _session.currentQuestionIndex,
+                            currentIndex: _displayedQuestionIndex,
                             totalQuestions: _session.totalQuestions,
                             isRevealed: _isRevealed,
                           )
