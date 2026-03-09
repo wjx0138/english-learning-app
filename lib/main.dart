@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -32,14 +34,32 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<void> _checkFirstTime() async {
-    final prefs = await SharedPreferences.getInstance();
-    final isFirstTime = prefs.getBool('first_time_setup_complete') ?? true;
+    try {
+      final prefs = await SharedPreferences.getInstance().timeout(
+        const Duration(seconds: 1),
+        onTimeout: () {
+          debugPrint('⚠️ SharedPreferences timeout - throwing exception');
+          throw TimeoutException('SharedPreferences timeout');
+        },
+      );
 
-    if (mounted) {
-      setState(() {
-        _isFirstTime = isFirstTime;
-        _isLoading = false;
-      });
+      final isFirstTime = prefs.getBool('first_time_setup_complete') ?? true;
+
+      if (mounted) {
+        setState(() {
+          _isFirstTime = isFirstTime;
+          _isLoading = false;
+        });
+      }
+    } catch (e) {
+      debugPrint('⚠️ Error checking first time: $e');
+      // On error, assume not first time to avoid getting stuck
+      if (mounted) {
+        setState(() {
+          _isFirstTime = false;
+          _isLoading = false;
+        });
+      }
     }
   }
 
@@ -119,6 +139,16 @@ class _AppWrapperState extends State<AppWrapper> {
   void initState() {
     super.initState();
     _initializeData();
+
+    // Fallback: Force show app after 3 seconds even if initialization isn't complete
+    Future.delayed(const Duration(seconds: 3), () {
+      if (mounted && !_isInitialized) {
+        debugPrint('⚠️ Initialization timeout - forcing app to show');
+        setState(() {
+          _isInitialized = true;
+        });
+      }
+    });
   }
 
   Future<void> _initializeData() async {
@@ -127,10 +157,20 @@ class _AppWrapperState extends State<AppWrapper> {
       final progressProvider = context.read<ProgressProvider>();
 
       // Initialize game data (includes points, level, achievements)
-      await appProvider.initGameData();
+      await appProvider.initGameData().timeout(
+        const Duration(seconds: 2),
+        onTimeout: () {
+          debugPrint('⚠️ AppProvider initialization timeout');
+        },
+      );
 
       // Initialize progress data (includes study statistics, achievements)
-      await progressProvider.initialize();
+      await progressProvider.initialize().timeout(
+        const Duration(seconds: 2),
+        onTimeout: () {
+          debugPrint('⚠️ ProgressProvider initialization timeout');
+        },
+      );
 
       // Load previously selected vocabulary book (non-blocking)
       _loadLastVocabulary(appProvider);

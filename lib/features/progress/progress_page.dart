@@ -64,24 +64,8 @@ class _ProgressPageState extends State<ProgressPage> {
                 _buildStatisticsSection(context, progressProvider),
                 const SizedBox(height: 24),
 
-                // Weekly study chart
-                _buildWeeklyChart(context, progressProvider),
-                const SizedBox(height: 24),
-
                 // Learning statistics cards
                 _buildLearningStatsCards(context),
-                const SizedBox(height: 24),
-
-                // Learning curve chart
-                LearningCurveChart(data: _learningData),
-                const SizedBox(height: 24),
-
-                // Vocabulary growth chart
-                VocabularyGrowthChart(data: _vocabularyGrowthData),
-                const SizedBox(height: 24),
-
-                // Achievements section
-                _buildAchievementsSection(context, progressProvider),
                 const SizedBox(height: 24),
 
                 // Reset button (for testing)
@@ -99,9 +83,9 @@ class _ProgressPageState extends State<ProgressPage> {
     ProgressProvider provider,
   ) {
     final dailyGoal = provider.dailyGoal;
-    final todayCards = provider.weeklyStudyData[DateTime.now().weekday - 1] ?? 0;
-    final progress = (todayCards / dailyGoal).clamp(0.0, 1.0);
-    final percentage = (progress * 100).toInt();
+    final todayCards = provider.todayStudied; // 使用 todayStudied 而不是 weeklyStudyData
+    final progress = dailyGoal > 0 ? (todayCards / dailyGoal).clamp(0.0, 1.0) : 0.0;
+    final percentage = dailyGoal > 0 ? (progress * 100).toInt() : 0;
 
     return Card(
       child: Padding(
@@ -356,56 +340,56 @@ class _ProgressPageState extends State<ProgressPage> {
               ),
         ),
         const SizedBox(height: 16),
-        GridView.count(
-          crossAxisCount: 2,
-          shrinkWrap: true,
-          physics: const NeverScrollableScrollPhysics(),
-          mainAxisSpacing: 12,
-          crossAxisSpacing: 12,
-          children: [
-            _buildStatCard(
-              context,
-              '总学习天数',
-              '${provider.totalStudyDays}',
-              Icons.calendar_today,
-              Colors.blue,
-            ),
-            _buildStatCard(
-              context,
-              '学习卡片',
-              '${provider.totalCardsStudied}',
-              Icons.style,
-              Colors.green,
-            ),
-            _buildStatCard(
-              context,
-              '正确率',
-              '${(provider.overallAccuracy * 100).toStringAsFixed(1)}%',
-              Icons.check_circle,
-              Colors.orange,
-            ),
-            _buildStatCard(
-              context,
-              '当前连续',
-              '${provider.currentStreak} 天',
-              Icons.local_fire_department,
-              Colors.red,
-            ),
-            _buildStatCard(
-              context,
-              '最长连续',
-              '${provider.longestStreak} 天',
-              Icons.emoji_events,
-              Colors.purple,
-            ),
-            _buildStatCard(
-              context,
-              '正确/错误',
-              '${provider.totalCorrectAnswers}/${provider.totalWrongAnswers}',
-              Icons.compare_arrows,
-              Colors.teal,
-            ),
-          ],
+        LayoutBuilder(
+          builder: (context, constraints) {
+            // 根据屏幕宽度动态调整列数
+            int crossAxisCount;
+            if (constraints.maxWidth > 900) {
+              crossAxisCount = 4; // 大屏幕
+            } else if (constraints.maxWidth > 600) {
+              crossAxisCount = 3; // 中等屏幕
+            } else {
+              crossAxisCount = 2; // 小屏幕（手机）
+            }
+
+            return GridView.count(
+              crossAxisCount: crossAxisCount,
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              mainAxisSpacing: 12,
+              crossAxisSpacing: 12,
+              children: [
+                _buildStatCard(
+                  context,
+                  '总学习天数',
+                  '${provider.totalStudyDays}',
+                  Icons.calendar_today,
+                  Colors.blue,
+                ),
+                _buildStatCard(
+                  context,
+                  '学习卡片',
+                  '${provider.totalCardsStudied}',
+                  Icons.style,
+                  Colors.green,
+                ),
+                _buildStatCard(
+                  context,
+                  '当前连续',
+                  '${provider.currentStreak} 天',
+                  Icons.local_fire_department,
+                  Colors.red,
+                ),
+                _buildStatCard(
+                  context,
+                  '最长连续',
+                  '${provider.longestStreak} 天',
+                  Icons.emoji_events,
+                  Colors.purple,
+                ),
+              ],
+            );
+          },
         ),
       ],
     );
@@ -418,98 +402,55 @@ class _ProgressPageState extends State<ProgressPage> {
     IconData icon,
     Color color,
   ) {
-    return Card(
-      elevation: 2,
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Icon(icon, color: color, size: 28),
-            const SizedBox(height: 8),
-            Text(
-              value,
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
-                    color: color,
-                  ),
-            ),
-            const SizedBox(height: 4),
-            Text(
-              label,
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Colors.grey[600],
-                  ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        // 根据卡片宽度调整布局
+        final isSmall = constraints.maxWidth < 120;
+        final padding = isSmall ? 6.0 : 16.0;
+        final iconSize = isSmall ? 18.0 : 28.0;
+        final valueFontSize = isSmall ? 13.0 : 24.0;
+        final labelFontSize = isSmall ? 9.0 : 12.0;
+        final spacing = isSmall ? 3.0 : 8.0;
+        final smallSpacing = isSmall ? 1.0 : 4.0;
 
-  Widget _buildWeeklyChart(
-    BuildContext context,
-    ProgressProvider provider,
-  ) {
-    final weeklyData = provider.weeklyStudyData;
-    final maxValue = weeklyData.values.isEmpty
-        ? 1
-        : weeklyData.values.reduce((a, b) => a > b ? a : b);
-
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              '本周学习趋势',
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.bold,
-                  ),
+        return Card(
+          elevation: 2,
+          child: Padding(
+            padding: EdgeInsets.all(padding),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(icon, color: color, size: iconSize),
+                SizedBox(height: spacing),
+                Text(
+                  value,
+                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color: color,
+                        fontSize: valueFontSize,
+                        height: 1.0,
+                      ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                SizedBox(height: smallSpacing),
+                Text(
+                  label,
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Colors.grey[600],
+                        fontSize: labelFontSize,
+                        height: 1.0,
+                      ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ],
             ),
-            const SizedBox(height: 16),
-            SizedBox(
-              height: 150,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                crossAxisAlignment: CrossAxisAlignment.end,
-                children: List.generate(7, (index) {
-                  final value = weeklyData[index] ?? 0;
-                  final height = maxValue > 0 ? (value / maxValue) * 120 : 0;
-                  final days = ['周一', '周二', '周三', '周四', '周五', '周六', '周日'];
-
-                  return Column(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      Container(
-                        width: 32,
-                        height: height.toDouble(),
-                        decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.primary,
-                          borderRadius: BorderRadius.circular(4),
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        value.toString(),
-                        style: Theme.of(context).textTheme.bodySmall,
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        days[index],
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              color: Colors.grey[600],
-                            ),
-                      ),
-                    ],
-                  );
-                }),
-              ),
-            ),
-          ],
-        ),
-      ),
+          ),
+        );
+      },
     );
   }
 
@@ -527,117 +468,6 @@ class _ProgressPageState extends State<ProgressPage> {
       wordsLearned: weeklySummary['totalWords'] as int,
       studyStreak: Provider.of<ProgressProvider>(context).currentStreak,
       totalStudyTime: totalStudyTime,
-    );
-  }
-
-  Widget _buildAchievementsSection(
-    BuildContext context,
-    ProgressProvider provider,
-  ) {
-    final achievements = provider.achievements;
-    final unlockedCount =
-        achievements.where((a) => a.isUnlocked).length;
-
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text(
-              '成就徽章',
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.bold,
-                  ),
-            ),
-            Chip(
-              label: Text('$unlockedCount/${achievements.length}'),
-              backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-            ),
-          ],
-        ),
-        const SizedBox(height: 16),
-        GridView.builder(
-          shrinkWrap: true,
-          physics: const NeverScrollableScrollPhysics(),
-          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
-            mainAxisSpacing: 12,
-            crossAxisSpacing: 12,
-            childAspectRatio: 1.2,
-          ),
-          itemCount: achievements.length,
-          itemBuilder: (context, index) {
-            final achievement = achievements[index];
-            return _buildAchievementCard(context, achievement);
-          },
-        ),
-      ],
-    );
-  }
-
-  Widget _buildAchievementCard(
-    BuildContext context,
-    Achievement achievement,
-  ) {
-    final isUnlocked = achievement.isUnlocked;
-
-    return Card(
-      elevation: isUnlocked ? 2 : 0.5,
-      color: isUnlocked ? null : Colors.grey[100],
-      child: Padding(
-        padding: const EdgeInsets.all(12),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                Icon(
-                  achievement.icon,
-                  color: isUnlocked
-                      ? Colors.amber
-                      : Colors.grey,
-                  size: 24,
-                ),
-                const Spacer(),
-                if (isUnlocked)
-                  const Icon(
-                    Icons.check_circle,
-                    color: Colors.green,
-                    size: 20,
-                  ),
-              ],
-            ),
-            const SizedBox(height: 8),
-            Text(
-              achievement.title,
-              style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
-                    color: isUnlocked ? null : Colors.grey[600],
-                  ),
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-            ),
-            const SizedBox(height: 4),
-            Text(
-              achievement.description,
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Colors.grey[600],
-                  ),
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-            ),
-            const SizedBox(height: 8),
-            LinearProgressIndicator(
-              value: achievement.progress,
-              backgroundColor: Colors.grey[300],
-              valueColor: AlwaysStoppedAnimation<Color>(
-                isUnlocked ? Colors.green : Colors.grey,
-              ),
-            ),
-          ],
-        ),
-      ),
     );
   }
 

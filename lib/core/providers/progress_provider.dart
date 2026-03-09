@@ -25,6 +25,12 @@ class ProgressProvider extends ChangeNotifier {
   // Daily goal setting
   int _dailyGoal = 20; // Default: 20 cards per day
 
+  // Today's learning progress
+  int _todayStudied = 0; // Cards studied today
+
+  // Incomplete session tracking (for resume functionality)
+  Map<String, dynamic>? _incompleteSession;
+
   // Achievement badges
   final List<Achievement> _achievements = [
     Achievement(
@@ -128,6 +134,8 @@ class ProgressProvider extends ChangeNotifier {
   }
 
   int get dailyGoal => _dailyGoal;
+  int get todayStudied => _todayStudied;
+  Map<String, dynamic>? get incompleteSession => _incompleteSession;
 
   // Count words that have reached mastery threshold
   int get learnedVocabularyCount =>
@@ -153,6 +161,34 @@ class ProgressProvider extends ChangeNotifier {
     if (lastStudyDateStr != null) {
       _lastStudyDate = DateTime.parse(lastStudyDateStr);
       _checkAndUpdateStreak();
+    }
+
+    // Load today's study progress
+    final todayStr = DateTime.now().toIso8601String().split('T')[0];
+    final lastStudyDateToday = lastStudyDateStr?.split('T')[0];
+    if (lastStudyDateToday == todayStr) {
+      _todayStudied = prefs.getInt('today_studied') ?? 0;
+    } else {
+      _todayStudied = 0;
+    }
+
+    // Load incomplete session if exists
+    final incompleteSessionStr = prefs.getString('incomplete_session');
+    if (incompleteSessionStr != null) {
+      final incompleteSessionDate = prefs.getString('incomplete_session_date');
+      final incompleteDateToday = incompleteSessionDate?.split('T')[0];
+      // Only restore session if it's from today
+      if (incompleteDateToday == todayStr) {
+        try {
+          _incompleteSession = json.decode(incompleteSessionStr);
+        } catch (e) {
+          _incompleteSession = null;
+        }
+      } else {
+        // Clear old incomplete session
+        await prefs.remove('incomplete_session');
+        await prefs.remove('incomplete_session_date');
+      }
     }
 
     // Load week start date and check if week needs reset
@@ -202,6 +238,7 @@ class ProgressProvider extends ChangeNotifier {
     _totalCardsStudied += cardsStudied;
     _totalCorrectAnswers += correctAnswers;
     _totalWrongAnswers += wrongAnswers;
+    _todayStudied += cardsStudied;
 
     // Track learned vocabulary with correct counts
     if (correctWordIds != null) {
@@ -221,6 +258,7 @@ class ProgressProvider extends ChangeNotifier {
     await prefs.setInt('total_correct_answers', _totalCorrectAnswers);
     await prefs.setInt('total_wrong_answers', _totalWrongAnswers);
     await prefs.setInt('weekly_day_$weekday', _weeklyStudyData[weekday]!);
+    await prefs.setInt('today_studied', _todayStudied);
 
     await _updateStudyDate(prefs);
     await _checkAndUnlockAchievements();
@@ -378,6 +416,43 @@ class ProgressProvider extends ChangeNotifier {
     _dailyGoal = goal.clamp(5, 100); // Limit between 5-100
     await prefs.setInt('daily_goal', _dailyGoal);
     notifyListeners();
+  }
+
+  /// Save incomplete session for resume
+  Future<void> saveIncompleteSession({
+    required List<String> wordIds,
+    required int currentIndex,
+    required int totalCards,
+    required String vocabularyId,
+  }) async {
+    final prefs = await SharedPreferences.getInstance();
+    _incompleteSession = {
+      'word_ids': wordIds,
+      'current_index': currentIndex,
+      'total_cards': totalCards,
+      'vocabulary_id': vocabularyId,
+    };
+    await prefs.setString('incomplete_session', json.encode(_incompleteSession));
+    await prefs.setString('incomplete_session_date', DateTime.now().toIso8601String());
+  }
+
+  /// Clear incomplete session
+  Future<void> clearIncompleteSession() async {
+    final prefs = await SharedPreferences.getInstance();
+    _incompleteSession = null;
+    await prefs.remove('incomplete_session');
+    await prefs.remove('incomplete_session_date');
+  }
+
+  /// Check if user has reached daily goal
+  bool hasReachedDailyGoal() {
+    return _todayStudied >= _dailyGoal;
+  }
+
+  /// Get remaining cards for today
+  int getRemainingForToday() {
+    final remaining = _dailyGoal - _todayStudied;
+    return remaining > 0 ? remaining : 0;
   }
 }
 

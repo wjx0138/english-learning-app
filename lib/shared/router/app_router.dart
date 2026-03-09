@@ -10,7 +10,6 @@ import '../../features/vocabulary/vocabulary_selection_page.dart';
 import '../../features/settings/settings_page.dart';
 import '../../features/error_book/error_book_page.dart';
 import '../../features/course/course_selection_page.dart';
-import '../../features/gamification/gamification_page.dart';
 
 /// Application router configuration using go_router
 class AppRouter {
@@ -66,11 +65,6 @@ class AppRouter {
         path: '/courses',
         name: 'courses',
         builder: (context, state) => const CourseSelectionPage(),
-      ),
-      GoRoute(
-        path: '/gamification',
-        name: 'gamification',
-        builder: (context, state) => const GamificationPage(),
       ),
     ],
   );

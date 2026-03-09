@@ -21,70 +21,70 @@ class LearningStatsCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      elevation: 2,
-      child: Container(
-        decoration: BoxDecoration(
-          color: backgroundColor,
-          borderRadius: BorderRadius.circular(12),
-        ),
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        // 根据卡片宽度调整布局（与学习概况卡片一致）
+        final isSmall = constraints.maxWidth < 120;
+        final padding = isSmall ? 6.0 : 16.0;
+        final iconSize = isSmall ? 18.0 : 28.0;
+        final valueFontSize = isSmall ? 13.0 : 24.0;
+        final labelFontSize = isSmall ? 9.0 : 12.0;
+        final spacing = isSmall ? 3.0 : 8.0;
+        final smallSpacing = isSmall ? 1.0 : 4.0;
+
+        return Card(
+          elevation: 2,
+          child: Padding(
+            padding: EdgeInsets.all(padding),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
               children: [
-                Container(
-                  width: 48,
-                  height: 48,
-                  decoration: BoxDecoration(
-                    color: (iconColor ?? Theme.of(context).colorScheme.primary)
-                        .withOpacity(0.1),
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Icon(
-                    icon,
-                    size: 24,
-                    color: iconColor ?? Theme.of(context).colorScheme.primary,
-                  ),
+                Icon(
+                  icon,
+                  color: iconColor ?? Theme.of(context).colorScheme.primary,
+                  size: iconSize,
                 ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        title,
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Colors.grey[600],
-                        ),
+                SizedBox(height: spacing),
+                Text(
+                  value,
+                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color: iconColor ?? Theme.of(context).colorScheme.primary,
+                        fontSize: valueFontSize,
+                        height: 1.0,
                       ),
-                      const SizedBox(height: 4),
-                      Text(
-                        value,
-                        style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                          fontWeight: FontWeight.bold,
-                          color: backgroundColor != null
-                              ? Colors.white
-                              : null,
-                        ),
-                      ),
-                      Text(
-                        subtitle,
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: backgroundColor != null
-                              ? Colors.white70
-                              : Colors.grey[500],
-                        ),
-                      ),
-                    ],
-                  ),
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
                 ),
+                SizedBox(height: smallSpacing),
+                Text(
+                  title,
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Colors.grey[600],
+                        fontSize: labelFontSize,
+                        height: 1.0,
+                      ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                if (subtitle.isNotEmpty)
+                  Text(
+                    subtitle,
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: Colors.grey[500],
+                          fontSize: labelFontSize,
+                          height: 1.0,
+                        ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
               ],
             ),
-          ],
-        ),
-      ),
+          ),
+        );
+      },
     );
   }
 }
@@ -116,42 +116,56 @@ class LearningStatsGrid extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 16),
-        GridView.count(
-          shrinkWrap: true,
-          physics: const NeverScrollableScrollPhysics(),
-          crossAxisCount: 2,
-          mainAxisSpacing: 16,
-          crossAxisSpacing: 16,
-          children: [
+        LayoutBuilder(
+          builder: (context, constraints) {
+            // 根据屏幕宽度动态调整列数
+            int crossAxisCount;
+            if (constraints.maxWidth > 900) {
+              crossAxisCount = 4; // 大屏幕
+            } else if (constraints.maxWidth > 600) {
+              crossAxisCount = 3; // 中等屏幕
+            } else {
+              crossAxisCount = 2; // 小屏幕（手机）
+            }
+
+            return GridView.count(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              crossAxisCount: crossAxisCount,
+              mainAxisSpacing: 16,
+              crossAxisSpacing: 16,
+              children: [
             LearningStatsCard(
               title: '总词汇量',
               value: '$totalWords',
-              subtitle: '已加载',
+              subtitle: '',
               icon: Icons.library_books,
               iconColor: Colors.blue,
             ),
             LearningStatsCard(
               title: '已学习',
               value: '$wordsLearned',
-              subtitle: '个单词',
+              subtitle: '',
               icon: Icons.check_circle,
               iconColor: Colors.green,
             ),
             LearningStatsCard(
               title: '连续打卡',
               value: '$studyStreak',
-              subtitle: '天',
+              subtitle: '',
               icon: Icons.local_fire_department,
               iconColor: Colors.orange,
             ),
             LearningStatsCard(
               title: '学习时长',
               value: _formatDuration(totalStudyTime),
-              subtitle: '总计',
+              subtitle: '',
               icon: Icons.access_time,
               iconColor: Colors.purple,
             ),
           ],
+            );
+          },
         ),
       ],
     );
@@ -162,7 +176,7 @@ class LearningStatsGrid extends StatelessWidget {
     final minutes = duration.inMinutes % 60;
 
     if (hours > 0) {
-      return '${hours}h ${minutes}m';
+      return '${hours}h${minutes}m';
     } else if (minutes > 0) {
       return '${minutes}m';
     } else {
