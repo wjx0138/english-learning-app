@@ -118,52 +118,44 @@ class LearningStatsGrid extends StatelessWidget {
         const SizedBox(height: 16),
         LayoutBuilder(
           builder: (context, constraints) {
-            // 根据屏幕宽度动态调整列数
-            int crossAxisCount;
-            if (constraints.maxWidth > 900) {
-              crossAxisCount = 4; // 大屏幕
-            } else if (constraints.maxWidth > 600) {
-              crossAxisCount = 3; // 中等屏幕
-            } else {
-              crossAxisCount = 2; // 小屏幕（手机）
-            }
-
+            // 移动端2×2，PC端和平板端1×4
+            final crossAxisCount = constraints.maxWidth < 600 ? 2 : 4;
             return GridView.count(
+              crossAxisCount: crossAxisCount,
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
-              crossAxisCount: crossAxisCount,
               mainAxisSpacing: 16,
               crossAxisSpacing: 16,
               children: [
-            LearningStatsCard(
-              title: '总词汇量',
-              value: '$totalWords',
-              subtitle: '',
-              icon: Icons.library_books,
-              iconColor: Colors.blue,
-            ),
-            LearningStatsCard(
-              title: '已学习',
-              value: '$wordsLearned',
-              subtitle: '',
-              icon: Icons.check_circle,
-              iconColor: Colors.green,
-            ),
-            LearningStatsCard(
-              title: '连续打卡',
-              value: '$studyStreak',
-              subtitle: '',
-              icon: Icons.local_fire_department,
-              iconColor: Colors.orange,
-            ),
-            LearningStatsCard(
-              title: '学习时长',
-              value: _formatDuration(totalStudyTime),
-              subtitle: '',
-              icon: Icons.access_time,
-              iconColor: Colors.purple,
-            ),
-          ],
+                LearningStatsCard(
+                  title: '总词汇量',
+                  value: '$totalWords',
+                  subtitle: '',
+                  icon: Icons.library_books,
+                  iconColor: Colors.blue,
+                ),
+                LearningStatsCard(
+                  title: '已学习',
+                  value: '$wordsLearned',
+                  subtitle: '',
+                  icon: Icons.check_circle,
+                  iconColor: Colors.green,
+                ),
+                LearningStatsCard(
+                  title: '连续打卡',
+                  value: '$studyStreak',
+                  subtitle: '',
+                  icon: Icons.local_fire_department,
+                  iconColor: Colors.orange,
+                ),
+                LearningStatsCard(
+                  title: '学习时长',
+                  value: _formatDuration(totalStudyTime),
+                  subtitle: '',
+                  icon: Icons.access_time,
+                  iconColor: Colors.purple,
+                ),
+              ],
             );
           },
         ),

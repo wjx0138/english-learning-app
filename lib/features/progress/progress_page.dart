@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/providers/progress_provider.dart';
-import '../../data/models/learning_data.dart';
-import '../../shared/services/chart_data_service.dart';
-import 'widgets/learning_curve_chart.dart';
-import 'widgets/vocabulary_growth_chart.dart';
+import '../../core/providers/app_provider.dart';
 import 'widgets/learning_stats_card.dart';
 
 class ProgressPage extends StatefulWidget {
@@ -16,10 +13,6 @@ class ProgressPage extends StatefulWidget {
 }
 
 class _ProgressPageState extends State<ProgressPage> {
-  // Mock data for charts (will be replaced with real data later)
-  late List<LearningData> _learningData;
-  late List<VocabularyGrowthData> _vocabularyGrowthData;
-
   @override
   void initState() {
     super.initState();
@@ -27,10 +20,6 @@ class _ProgressPageState extends State<ProgressPage> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       context.read<ProgressProvider>().initialize();
     });
-
-    // Generate mock data for charts
-    _learningData = ChartDataService.generateMockLearningData();
-    _vocabularyGrowthData = ChartDataService.generateMockVocabularyGrowthData();
   }
 
   @override
@@ -342,16 +331,8 @@ class _ProgressPageState extends State<ProgressPage> {
         const SizedBox(height: 16),
         LayoutBuilder(
           builder: (context, constraints) {
-            // 根据屏幕宽度动态调整列数
-            int crossAxisCount;
-            if (constraints.maxWidth > 900) {
-              crossAxisCount = 4; // 大屏幕
-            } else if (constraints.maxWidth > 600) {
-              crossAxisCount = 3; // 中等屏幕
-            } else {
-              crossAxisCount = 2; // 小屏幕（手机）
-            }
-
+            // 移动端2×2，PC端和平板端1×4
+            final crossAxisCount = constraints.maxWidth < 600 ? 2 : 4;
             return GridView.count(
               crossAxisCount: crossAxisCount,
               shrinkWrap: true,
@@ -455,18 +436,21 @@ class _ProgressPageState extends State<ProgressPage> {
   }
 
   Widget _buildLearningStatsCards(BuildContext context) {
-    // Calculate statistics from mock data
-    final totalStudyTime = ChartDataService.calculateTotalStudyTime(_learningData);
-    final weeklySummary = ChartDataService.getWeeklySummary(_learningData);
-    final todayStats = ChartDataService.getTodayStats(_learningData);
-    final totalWords = _vocabularyGrowthData.isNotEmpty
-        ? _vocabularyGrowthData.last.totalWords
-        : 0;
+    final progressProvider = Provider.of<ProgressProvider>(context);
+    final appProvider = Provider.of<AppProvider>(context);
+
+    // 使用真实数据而不是Mock数据
+    final totalWords = appProvider.words.length;
+    final wordsLearned = progressProvider.learnedVocabularyCount;
+    final studyStreak = progressProvider.currentStreak;
+
+    // 计算学习时长（暂时使用0，需要在Priority 4中添加时长追踪）
+    final totalStudyTime = Duration(minutes: progressProvider.totalStudyMinutes ?? 0);
 
     return LearningStatsGrid(
       totalWords: totalWords,
-      wordsLearned: weeklySummary['totalWords'] as int,
-      studyStreak: Provider.of<ProgressProvider>(context).currentStreak,
+      wordsLearned: wordsLearned,
+      studyStreak: studyStreak,
       totalStudyTime: totalStudyTime,
     );
   }
