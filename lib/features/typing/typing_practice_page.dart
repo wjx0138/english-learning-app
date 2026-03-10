@@ -92,9 +92,9 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
 
       // Calculate study time in minutes
       final duration = _session.endTime!.difference(_session.startTime);
-      final practiceMinutes = (duration.inSeconds / 60).ceil();
+      final practiceMinutes = (duration.inSeconds / 60).ceil().clamp(1, 999);
 
-      if (practiceMinutes <= 0) return;
+      // Don't check practiceMinutes <= 0 anymore - always record sessions
 
       // Get correct word IDs
       final correctWordIds = _session.results
@@ -311,7 +311,16 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
   }
 
   void _goBack() {
-    Navigator.of(context).pop(_session);
+    // Record progress before exiting (only if not already completed)
+    if (!_isCompleted && _session.results.isNotEmpty) {
+      _recordStudySessionOnExit().then((_) {
+        if (mounted) {
+          Navigator.of(context).pop(_session);
+        }
+      });
+    } else {
+      Navigator.of(context).pop(_session);
+    }
   }
 
   @override

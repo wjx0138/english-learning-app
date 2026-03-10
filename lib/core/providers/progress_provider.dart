@@ -27,7 +27,7 @@ class ProgressProvider extends ChangeNotifier {
   int _dailyGoal = 20; // Default: 20 cards per day
 
   // Today's learning progress
-  int _todayStudied = 0; // Cards studied today
+  int _todayStudied = 0; // Cards studied today (flashcard only)
   int _todayStudyMinutes = 0; // Study minutes today
 
   // Total study time tracking (in minutes)
@@ -153,11 +153,22 @@ class ProgressProvider extends ChangeNotifier {
     };
 
     // Count words that have >=2 correct in quiz AND dictation combined
-    return allWordIds.where((wordId) {
+    final masteredWords = allWordIds.where((wordId) {
       final quizCount = _quizCorrectCounts[wordId] ?? 0;
       final dictationCount = _dictationCorrectCounts[wordId] ?? 0;
-      return (quizCount + dictationCount) >= _masteryThreshold;
+      final totalCount = quizCount + dictationCount;
+      final isMastered = totalCount >= _masteryThreshold;
+      if (totalCount > 0) {
+        // ignore: avoid_print
+        print('📊 [VOCAB COUNT] $wordId: Quiz=$quizCount, Dictation=$dictationCount, Total=$totalCount, Mastered=$isMastered');
+      }
+      return isMastered;
     }).length;
+
+    // ignore: avoid_print
+    print('📊 [VOCAB COUNT] Total mastered words: $masteredWords / ${allWordIds.length} (threshold: $_masteryThreshold)');
+
+    return masteredWords;
   }
 
   int get totalVocabularySize => _totalVocabularySize;
@@ -271,20 +282,44 @@ class ProgressProvider extends ChangeNotifier {
     _totalCardsStudied += cardsStudied;
     _totalCorrectAnswers += correctAnswers;
     _totalWrongAnswers += wrongAnswers;
-    _todayStudied += cardsStudied;
+
+    // Only count flashcard study towards daily goal (todayStudied)
+    // Quiz and dictation don't count as "cards" for the daily goal
+    if (studyMode == 'flashcard') {
+      _todayStudied += cardsStudied;
+    }
 
     // Track learned vocabulary with correct counts based on study mode
-    if (correctWordIds != null) {
+    if (correctWordIds != null && correctWordIds.isNotEmpty) {
+      // ignore: avoid_print
+      print('🔍 [VOCAB TRACKING] Recording ${correctWordIds.length} correct words for mode: $studyMode');
+      // ignore: avoid_print
+      print('🔍 [VOCAB TRACKING] Word IDs: $correctWordIds');
+
       for (var wordId in correctWordIds) {
         if (studyMode == 'quiz') {
           _quizCorrectCounts[wordId] = (_quizCorrectCounts[wordId] ?? 0) + 1;
+          // ignore: avoid_print
+          print('✅ [QUIZ] Word $wordId now has count: ${_quizCorrectCounts[wordId]}');
         } else if (studyMode == 'dictation') {
           _dictationCorrectCounts[wordId] = (_dictationCorrectCounts[wordId] ?? 0) + 1;
+          // ignore: avoid_print
+          print('✅ [DICTATION] Word $wordId now has count: ${_dictationCorrectCounts[wordId]}');
+        } else if (studyMode == 'typing') {
+          // Also track typing practice as dictation (same skill)
+          _dictationCorrectCounts[wordId] = (_dictationCorrectCounts[wordId] ?? 0) + 1;
+          // ignore: avoid_print
+          print('✅ [TYPING] Word $wordId now has dictation count: ${_dictationCorrectCounts[wordId]}');
         }
       }
       // Save word counts as JSON
       await prefs.setString('quiz_correct_counts', json.encode(_quizCorrectCounts));
       await prefs.setString('dictation_correct_counts', json.encode(_dictationCorrectCounts));
+      // ignore: avoid_print
+      print('💾 [VOCAB TRACKING] Saved counts. Quiz: ${_quizCorrectCounts.length}, Dictation: ${_dictationCorrectCounts.length}');
+    } else {
+      // ignore: avoid_print
+      print('⚠️ [VOCAB TRACKING] No correctWordIds provided or empty list. Mode: $studyMode');
     }
 
     // Update study time if provided
@@ -522,6 +557,7 @@ class ProgressProvider extends ChangeNotifier {
     final remaining = _dailyGoal - _todayStudied;
     return remaining > 0 ? remaining : 0;
   }
+
 }
 
 /// Achievement model

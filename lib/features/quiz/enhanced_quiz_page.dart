@@ -72,25 +72,45 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
 
   /// Record study session when user exits the page (enters page -> leaves page)
   Future<void> _recordStudySessionOnExit() async {
+    // ignore: avoid_print
+    print('📍 [QUIZ DEBUG] _recordStudySessionOnExit() called, _hasRecordedProgress: $_hasRecordedProgress');
+
     // Prevent duplicate recording
-    if (_hasRecordedProgress) return;
+    if (_hasRecordedProgress) {
+      // ignore: avoid_print
+      print('📍 [QUIZ DEBUG] Already recorded, returning');
+      return;
+    }
     _hasRecordedProgress = true;
 
     // Don't record if already completed or no questions answered
-    if (_session.endTime != null) return;
-    if (_session.answers.isEmpty) return;
+    if (_session.endTime != null) {
+      // ignore: avoid_print
+      print('📍 [QUIZ DEBUG] endTime already set, returning');
+      return;
+    }
+    if (_session.answers.isEmpty) {
+      // ignore: avoid_print
+      print('📍 [QUIZ DEBUG] No answers, returning');
+      return;
+    }
+
+    // ignore: avoid_print
+    print('📍 [QUIZ DEBUG] Checks passed, answers: ${_session.answers.length}');
 
     try {
       // Set end time
       _session = _session.copyWith(endTime: DateTime.now());
 
-      // Calculate study time in minutes
+      // Calculate study time in minutes (minimum 1 minute)
       final studyDuration = _session.endTime!.difference(_session.startTime);
       final studyMinutes = studyDuration.inSeconds > 0
           ? (studyDuration.inSeconds / 60).ceil()
-          : 0;
+          : 1; // Default to 1 minute if very short
 
-      if (studyMinutes <= 0) return;
+      // Don't check studyMinutes <= 0 anymore - always record sessions
+      // ignore: avoid_print
+      print('📍 [QUIZ DEBUG] studyMinutes: $studyMinutes, answeredCount: ${_session.answeredCount}, correctCount: ${_session.correctCount}');
 
       // Get correct word IDs
       final correctWordIds = _session.answers
@@ -185,6 +205,8 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
   }
 
   Future<void> _showResults() async {
+    // ignore: avoid_print
+    print('📍 [QUIZ DEBUG] _showResults() called');
     // Set end time and record study session
     await _recordStudySessionOnExit();
 
@@ -243,9 +265,13 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
             child: const Text('继续答题'),
           ),
           TextButton(
-            onPressed: () {
+            onPressed: () async {
               Navigator.of(context).pop();
-              Navigator.of(context).pop();
+              // Record progress before exiting
+              await _recordStudySessionOnExit();
+              if (mounted) {
+                Navigator.of(context).pop();
+              }
             },
             style: TextButton.styleFrom(
               foregroundColor: Colors.red,
