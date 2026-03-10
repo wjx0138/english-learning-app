@@ -130,10 +130,49 @@ class _ProgressPageState extends State<ProgressPage> {
                               fontWeight: FontWeight.bold,
                             ),
                       ),
-                      IconButton(
-                        icon: const Icon(Icons.edit, size: 20),
-                        onPressed: () => _showGoalSettingsDialog(context, provider),
-                        tooltip: '修改目标',
+                      Row(
+                        children: [
+                          if (todayCards > 0)
+                            IconButton(
+                              icon: const Icon(Icons.refresh, size: 20),
+                              onPressed: () async {
+                                final confirmed = await showDialog<bool>(
+                                  context: context,
+                                  builder: (context) => AlertDialog(
+                                    title: const Text('清除今日进度？'),
+                                    content: const Text('这将清除今日的学习记录，无法恢复。'),
+                                    actions: [
+                                      TextButton(
+                                        onPressed: () => Navigator.of(context).pop(false),
+                                        child: const Text('取消'),
+                                      ),
+                                      TextButton(
+                                        onPressed: () => Navigator.of(context).pop(true),
+                                        style: TextButton.styleFrom(
+                                          foregroundColor: Colors.red,
+                                        ),
+                                        child: const Text('清除'),
+                                      ),
+                                    ],
+                                  ),
+                                );
+                                if (confirmed == true && mounted) {
+                                  await provider.clearTodayProgress();
+                                  if (mounted) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      const SnackBar(content: Text('今日进度已清除')),
+                                    );
+                                  }
+                                }
+                              },
+                              tooltip: '清除今日进度',
+                            ),
+                          IconButton(
+                            icon: const Icon(Icons.edit, size: 20),
+                            onPressed: () => _showGoalSettingsDialog(context, provider),
+                            tooltip: '修改目标',
+                          ),
+                        ],
                       ),
                     ],
                   ),

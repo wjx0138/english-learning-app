@@ -95,7 +95,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
 
       final progressProvider = _progressProvider;
       await progressProvider.recordStudySession(
-        cardsStudied: _session.totalQuestions,
+        cardsStudied: _session.answeredCount,  // Use actual answered count, not total questions
         correctAnswers: _session.correctCount,
         wrongAnswers: _session.wrongCount,
         correctWordIds: correctWordIds,

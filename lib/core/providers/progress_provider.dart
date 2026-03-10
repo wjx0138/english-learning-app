@@ -476,6 +476,16 @@ class ProgressProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Clear today's study progress (for testing purposes)
+  Future<void> clearTodayProgress() async {
+    final prefs = await SharedPreferences.getInstance();
+    _todayStudied = 0;
+    _todayStudyMinutes = 0;
+    await prefs.setInt('today_studied', _todayStudied);
+    await prefs.setInt('today_study_minutes', _todayStudyMinutes);
+    notifyListeners();
+  }
+
   /// Save incomplete session for resume
   Future<void> saveIncompleteSession({
     required List<String> wordIds,
