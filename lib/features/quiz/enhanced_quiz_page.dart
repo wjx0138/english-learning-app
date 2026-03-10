@@ -29,6 +29,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
   QuizQuestion? _displayedQuestion; // 缓存当前显示的题目
   int _displayedQuestionIndex = 0; // 显示的题目索引（用于进度显示）
   late ProgressProvider _progressProvider; // Save reference for safe use in dispose
+  bool _hasRecordedProgress = false; // Prevent duplicate progress recording
 
   @override
   void initState() {
@@ -71,6 +72,10 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
 
   /// Record study session when user exits the page (enters page -> leaves page)
   Future<void> _recordStudySessionOnExit() async {
+    // Prevent duplicate recording
+    if (_hasRecordedProgress) return;
+    _hasRecordedProgress = true;
+
     // Don't record if already completed or no questions answered
     if (_session.endTime != null) return;
     if (_session.answers.isEmpty) return;
