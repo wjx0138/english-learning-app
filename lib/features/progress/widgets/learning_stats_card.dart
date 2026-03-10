@@ -135,7 +135,7 @@ class LearningStatsGrid extends StatelessWidget {
                   iconColor: Colors.blue,
                 ),
                 LearningStatsCard(
-                  title: '已学习',
+                  title: '已掌握',
                   value: '$wordsLearned',
                   subtitle: '',
                   icon: Icons.check_circle,
