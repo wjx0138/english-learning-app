@@ -32,8 +32,6 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
   bool _hasRecordedProgress = false;
   final List<String> _correctWordIds = [];
   int? _lastSeenDailyGoal; // Track daily goal changes
-  late ProgressProvider _progressProvider; // Save reference for safe use in dispose
-  late CardProvider _cardProvider; // Save reference for safe use in dispose
 
   @override
   void initState() {
@@ -46,16 +44,14 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
+    // Check if daily goal has changed
     final progressProvider = context.read<ProgressProvider>();
-    final cardProvider = context.read<CardProvider>();
-
     if (_lastSeenDailyGoal == null) {
-      _progressProvider = progressProvider;
-      _cardProvider = cardProvider;
       _lastSeenDailyGoal = progressProvider.dailyGoal;
     } else if (_lastSeenDailyGoal != progressProvider.dailyGoal) {
       final oldGoal = _lastSeenDailyGoal!;
       _lastSeenDailyGoal = progressProvider.dailyGoal;
+      // Reload vocabulary when daily goal changes (only if not in active session)
       if (_currentWordIndex == 0 || _currentWordIndex >= _vocabulary.length) {
         _reloadWithNewGoal(progressProvider.dailyGoal);
       }
@@ -88,8 +84,7 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
   Future<void> _loadVocabulary() async {
     try {
       final appProvider = context.read<AppProvider>();
-      // Use saved _progressProvider reference
-      final progressProvider = _progressProvider;
+      final progressProvider = context.read<ProgressProvider>();
 
       // Initialize last seen daily goal
       _lastSeenDailyGoal = progressProvider.dailyGoal;
@@ -157,7 +152,7 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
         nextReview: DateTime.now(),
       );
 
-      _cardProvider.loadCard(word, card);
+      context.read<CardProvider>().loadCard(word, card);
     }
   }
 
@@ -170,8 +165,7 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
   void _submitAnswer(int rating) {
     if (_hasAnswered) return;
 
-    // Use saved _cardProvider reference
-    final cardProvider = _cardProvider;
+    final cardProvider = context.read<CardProvider>();
     cardProvider.submitAnswer(rating);
 
     // 记录正确的单词
@@ -189,7 +183,7 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
 
     // 检查是否完成所有单词
     if (_currentWordIndex >= _vocabulary.length) {
-      _handleSessionComplete();
+      _handleSessionComplete(cardProvider);
     } else {
       _loadNextCard();
     }
@@ -197,8 +191,8 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
 
   @override
   void dispose() {
-    // Don't record in dispose - Provider may already be destroyed
-    // Progress is recorded when user explicitly exits or completes session
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
     super.dispose();
   }
 
@@ -218,9 +212,8 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
     if (studyMinutes <= 0) return;
 
     try {
-      // Use saved _cardProvider and _progressProvider references instead of context.read()
-      final cardProvider = _cardProvider;
-      final progressProvider = _progressProvider;
+      final cardProvider = context.read<CardProvider>();
+      final progressProvider = context.read<ProgressProvider>();
 
       await progressProvider.recordStudySession(
         cardsStudied: cardProvider.cardsStudied,
@@ -237,14 +230,13 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
     }
   }
 
-  void _handleSessionComplete() async {
+  void _handleSessionComplete(CardProvider cardProvider) async {
     // Record study session when completing all cards
     await _recordStudySessionOnExit();
 
     // Clear incomplete session when completed
     try {
-      // Use saved _progressProvider reference instead of context.read()
-      final progressProvider = _progressProvider;
+      final progressProvider = context.read<ProgressProvider>();
       await progressProvider.clearIncompleteSession();
     } catch (e) {
       // ignore
@@ -260,10 +252,10 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
         MaterialPageRoute(
           builder: (context) => StudyResultPage(
             totalCards: _vocabulary.length,
-            correctCards: _cardProvider.correctAnswers,
-            wrongCards: _cardProvider.wrongAnswers,
+            correctCards: cardProvider.correctAnswers,
+            wrongCards: cardProvider.wrongAnswers,
             studyDuration: studyDuration,
-            wrongWordIds: _cardProvider.wrongWordIds,
+            wrongWordIds: cardProvider.wrongWordIds,
           ),
         ),
       );
@@ -288,8 +280,8 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
               // Record study session before exiting
               await _recordStudySessionOnExit();
 
-              // Save progress before exiting using saved reference
-              final progressProvider = _progressProvider;
+              // Save progress before exiting
+              final progressProvider = context.read<ProgressProvider>();
               final wordIds = _vocabulary.map((w) => w.id).toList();
 
               await progressProvider.saveIncompleteSession(

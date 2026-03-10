@@ -41,12 +41,9 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
   DateTime? _wordStartTime;
   int _currentAttempt = 1;
   final int _maxAttempts = 3;
-  late ProgressProvider _progressProvider; // Save reference for safe use in dispose
 
   @override
   void initState() {
-    // Save Provider reference for safe use in dispose
-    _progressProvider = context.read<ProgressProvider>();
     super.initState();
     _practiceWords = List.from(widget.words);
     _ttsService = TTSService();
@@ -73,8 +70,8 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
 
   @override
   void dispose() {
-    // Don't record in dispose - Provider may already be destroyed
-    // Progress is recorded when user explicitly exits or completes session
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
     _ttsService.stop();
     // Note: AudioService is a singleton, don't dispose it here
     super.dispose();
@@ -102,7 +99,7 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
           .map((r) => r.wordId)
           .toList();
 
-      final progressProvider = _progressProvider;
+      final progressProvider = context.read<ProgressProvider>();
       await progressProvider.recordStudySession(
         cardsStudied: _session.totalWords,
         correctAnswers: _session.correctWords,

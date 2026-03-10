@@ -30,14 +30,9 @@ class _FlashcardPageState extends State<FlashcardPage> {
   final List<String> _correctWordIds = []; // Track words answered correctly
   DateTime? _sessionStartTime; // Track session start time for study minutes calculation
 
-  late ProgressProvider _progressProvider; // Save reference for safe use in dispose
-  late CardProvider _cardProvider; // Save reference for safe use in dispose
-
   @override
   void initState() {
     super.initState();
-    _progressProvider = context.read<ProgressProvider>();
-    _cardProvider = context.read<CardProvider>();
     _sessionStartTime = DateTime.now(); // Record session start time
     _loadVocabulary();
   }
@@ -69,7 +64,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
         nextReview: DateTime.now(),
       );
 
-      _cardProvider.loadCard(word, card);
+      context.read<CardProvider>().loadCard(word, card);
     }
   }
 
@@ -87,8 +82,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
       _hasAnswered = true;
     });
 
-    // Use saved _cardProvider reference
-    final cardProvider = _cardProvider;
+    final cardProvider = context.read<CardProvider>();
     final appProvider = context.read<AppProvider>();
     cardProvider.submitAnswer(rating);
 
@@ -129,8 +123,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
 
   @override
   void dispose() {
-    // Don't record in dispose - Provider may already be destroyed
-    // Progress is recorded when user explicitly exits or completes session
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
     super.dispose();
   }
 
@@ -150,9 +144,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
     if (studyMinutes <= 0) return;
 
     try {
-      // Use saved _cardProvider and _progressProvider references instead of context.read()
-      final cardProvider = _cardProvider;
-      final progressProvider = _progressProvider;
+      final cardProvider = context.read<CardProvider>();
+      final progressProvider = context.read<ProgressProvider>();
 
       await progressProvider.recordStudySession(
         cardsStudied: cardProvider.cardsStudied,

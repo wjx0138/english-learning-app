@@ -276,7 +276,7 @@ class _ProgressPageState extends State<ProgressPage> {
             ),
             const SizedBox(height: 8),
             Text(
-              '选择题或听写练习答对2次即可掌握',
+              '选择题和听写练习答对累计2次即可掌握',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: Colors.grey[600],
                   ),

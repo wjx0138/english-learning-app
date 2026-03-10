@@ -26,7 +26,6 @@ class _TypingPageState extends State<TypingPage> {
   final FocusNode _focusNode = FocusNode();
   String _userInput = '';
   bool _isCorrect = false;
-  late ProgressProvider _progressProvider; // Save reference for safe use in dispose
   bool _hasAttempted = false;
 
   // Statistics
@@ -47,7 +46,6 @@ class _TypingPageState extends State<TypingPage> {
   @override
   void initState() {
     super.initState();
-    _progressProvider = context.read<ProgressProvider>();
     _sessionStartTime = DateTime.now(); // Record session start time
     _loadVocabulary();
     _textController.addListener(_onInputChanged);
@@ -147,8 +145,8 @@ class _TypingPageState extends State<TypingPage> {
 
   @override
   void dispose() {
-    // Don't record in dispose - Provider may already be destroyed
-    // Progress is recorded when user explicitly exits or completes session
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
     _textController.dispose();
     _focusNode.dispose();
     super.dispose();
@@ -170,9 +168,7 @@ class _TypingPageState extends State<TypingPage> {
     if (studyMinutes <= 0) return;
 
     try {
-      // Use saved _progressProvider reference instead of context.read()
-      final progressProvider = _progressProvider;
-      await progressProvider.recordStudySession(
+      await context.read<ProgressProvider>().recordStudySession(
         cardsStudied: _totalWords,
         correctAnswers: _correctWords,
         wrongAnswers: _wrongWords,

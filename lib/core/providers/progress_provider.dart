@@ -144,7 +144,7 @@ class ProgressProvider extends ChangeNotifier {
   int get todayStudyMinutes => _todayStudyMinutes;
   Map<String, dynamic>? get incompleteSession => _incompleteSession;
 
-  // Count words that have reached mastery threshold in either quiz or dictation
+  // Count words that have reached mastery threshold (combined quiz + dictation)
   int get learnedVocabularyCount {
     // Get all unique word IDs from both quiz and dictation
     final allWordIds = {
@@ -152,11 +152,11 @@ class ProgressProvider extends ChangeNotifier {
       ..._dictationCorrectCounts.keys,
     };
 
-    // Count words that have >=2 correct in quiz OR dictation
+    // Count words that have >=2 correct in quiz AND dictation combined
     return allWordIds.where((wordId) {
       final quizCount = _quizCorrectCounts[wordId] ?? 0;
       final dictationCount = _dictationCorrectCounts[wordId] ?? 0;
-      return quizCount >= _masteryThreshold || dictationCount >= _masteryThreshold;
+      return (quizCount + dictationCount) >= _masteryThreshold;
     }).length;
   }
 

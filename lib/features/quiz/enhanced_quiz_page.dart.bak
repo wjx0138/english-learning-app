@@ -28,20 +28,16 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
   DateTime? _questionStartTime;
   QuizQuestion? _displayedQuestion; // 缓存当前显示的题目
   int _displayedQuestionIndex = 0; // 显示的题目索引（用于进度显示）
-  late ProgressProvider _progressProvider; // Save reference for safe use in dispose
 
   @override
   void initState() {
-    // Save Provider reference for safe use in dispose
-    _progressProvider = context.read<ProgressProvider>();
     super.initState();
     _initializeQuiz();
   }
 
   void _initializeQuiz() {
     final appProvider = context.read<AppProvider>();
-    // Use saved _progressProvider reference
-    final progressProvider = _progressProvider;
+    final progressProvider = context.read<ProgressProvider>();
     final allWords = appProvider.words;
 
     if (allWords.isEmpty) {
@@ -64,8 +60,8 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
 
   @override
   void dispose() {
-    // Don't record in dispose - Provider may already be destroyed
-    // Progress is recorded when user explicitly exits or completes session
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
     super.dispose();
   }
 
@@ -93,7 +89,7 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
           .map((a) => _session.questions[a.questionIndex].wordId)
           .toList();
 
-      final progressProvider = _progressProvider;
+      final progressProvider = context.read<ProgressProvider>();
       await progressProvider.recordStudySession(
         cardsStudied: _session.totalQuestions,
         correctAnswers: _session.correctCount,

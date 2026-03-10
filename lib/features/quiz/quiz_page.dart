@@ -21,17 +21,30 @@ class _QuizPageState extends State<QuizPage> {
   int? _selectedOptionIndex;
   bool _isCorrect = false;
 
+  late QuizProvider _quizProvider; // Save reference for safe use
+  late ProgressProvider _progressProvider; // Save reference for safe use
+
   @override
   void initState() {
     super.initState();
+    // Note: Can't use context.read() here for providers that are needed later
+    // Will initialize in didChangeDependencies
     _loadQuiz();
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    // Initialize providers in didChangeDependencies to ensure context is available
+    _quizProvider = context.read<QuizProvider>();
+    _progressProvider = context.read<ProgressProvider>();
   }
 
   Future<void> _loadQuiz() async {
     try {
       final jsonString = await rootBundle.loadString('assets/vocabularies/cet4_sample.json');
       final List<dynamic> jsonList = json.decode(jsonString);
-      context.read<QuizProvider>().generateQuestions(jsonList);
+      _quizProvider.generateQuestions(jsonList);
       setState(() {
         _isLoading = false;
       });
@@ -45,7 +58,7 @@ class _QuizPageState extends State<QuizPage> {
   void _selectOption(int index) {
     if (_hasAnswered) return;
 
-    final provider = context.read<QuizProvider>();
+    final provider = _quizProvider;
     final question = provider.currentQuestion!;
     final isCorrect = index == question.correctAnswerIndex;
 
@@ -74,7 +87,7 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   void _restartQuiz() {
-    context.read<QuizProvider>().resetQuiz();
+    _quizProvider.resetQuiz();
     setState(() {
       _isLoading = true;
       _hasAnswered = false;
@@ -424,8 +437,8 @@ class _QuizPageState extends State<QuizPage> {
                 const SizedBox(width: 16),
                 OutlinedButton.icon(
                   onPressed: () {
-                    // Record progress
-                    final progressProvider = context.read<ProgressProvider>();
+                    // Record progress using saved provider reference
+                    final progressProvider = _progressProvider;
                     progressProvider.recordStudySession(
                       cardsStudied: provider.totalQuestions,
                       correctAnswers: provider.correctAnswers,
