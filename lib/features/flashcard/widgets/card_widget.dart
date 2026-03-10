@@ -52,79 +52,82 @@ class _FlashcardWidgetState extends State<FlashcardWidget> {
   }
 
   Widget _buildFront(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      height: 400,
-      decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surface,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.1),
-            blurRadius: 10,
-            offset: const Offset(0, 4),
-          ),
-        ],
-      ),
-      child: Stack(
-        children: [
-          Center(
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.all(24),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(
-                    Icons.help_outline,
-                    size: 48,
-                    color: Theme.of(context).colorScheme.primary,
-                  ),
-                  const SizedBox(height: 24),
-                  Text(
-                    widget.word.word,
-                    style: Theme.of(context).textTheme.headlineLarge?.copyWith(
-                          fontWeight: FontWeight.bold,
-                        ),
-                    textAlign: TextAlign.center,
-                  ),
-                  if (widget.word.phonetic != null) ...[
-                    const SizedBox(height: 8),
+    return GestureDetector(
+      onTap: widget.onFlip,
+      child: Container(
+        width: double.infinity,
+        height: 400,
+        decoration: BoxDecoration(
+          color: Theme.of(context).colorScheme.surface,
+          borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.1),
+              blurRadius: 10,
+              offset: const Offset(0, 4),
+            ),
+          ],
+        ),
+        child: Stack(
+          children: [
+            Center(
+              child: SingleChildScrollView(
+                padding: const EdgeInsets.all(24),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(
+                      Icons.help_outline,
+                      size: 48,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(height: 24),
                     Text(
-                      widget.word.phonetic!,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                            color: Colors.grey[600],
+                      widget.word.word,
+                      style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                            fontWeight: FontWeight.bold,
+                          ),
+                      textAlign: TextAlign.center,
+                    ),
+                    if (widget.word.phonetic != null) ...[
+                      const SizedBox(height: 8),
+                      Text(
+                        widget.word.phonetic!,
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                              color: Colors.grey[600],
+                            ),
+                      ),
+                    ],
+                    const SizedBox(height: 32),
+                    Text(
+                      '点击查看释义',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                            color: Colors.grey,
                           ),
                     ),
                   ],
-                  const SizedBox(height: 32),
-                  Text(
-                    '点击查看释义',
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Colors.grey,
-                        ),
-                  ),
-                ],
+                ),
               ),
             ),
-          ),
-          // 发音按钮
-          Positioned(
-            top: 16,
-            right: 16,
-            child: IconButton(
-              onPressed: _isPlaying ? null : _playPronunciation,
-              icon: Icon(
-                _isPlaying ? Icons.volume_up : Icons.volume_up_outlined,
-                color: Theme.of(context).colorScheme.primary,
-                size: 32,
-              ),
-              style: IconButton.styleFrom(
-                backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-                padding: const EdgeInsets.all(12),
+            // 发音按钮
+            Positioned(
+              top: 16,
+              right: 16,
+              child: IconButton(
+                onPressed: _isPlaying ? null : _playPronunciation,
+                icon: Icon(
+                  _isPlaying ? Icons.volume_up : Icons.volume_up_outlined,
+                  color: Theme.of(context).colorScheme.primary,
+                  size: 32,
+                ),
+                style: IconButton.styleFrom(
+                  backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+                  padding: const EdgeInsets.all(12),
+                ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

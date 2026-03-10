@@ -36,15 +36,19 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
   }
 
   void _initializeQuiz() {
-    final words = context.read<AppProvider>().words;
+    final appProvider = context.read<AppProvider>();
     final progressProvider = context.read<ProgressProvider>();
+    final allWords = appProvider.words;
 
-    if (words.isEmpty) {
+    if (allWords.isEmpty) {
       return;
     }
 
+    // 使用与闪卡学习相同的词汇范围：前 N 个词汇
+    final quizWords = allWords.take(progressProvider.dailyGoal).toList();
+
     _session = QuizGeneratorService.generateQuizSession(
-      words: words,
+      words: quizWords,
       mode: QuizMode.practice,
       questionCount: progressProvider.dailyGoal,
     );
@@ -52,6 +56,53 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
     _displayedQuestion = _session.currentQuestion; // 缓存初始题目
     _displayedQuestionIndex = 0; // 初始化显示的题目索引
     _questionStartTime = DateTime.now();
+  }
+
+  @override
+  void dispose() {
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
+    super.dispose();
+  }
+
+  /// Record study session when user exits the page (enters page -> leaves page)
+  Future<void> _recordStudySessionOnExit() async {
+    // Don't record if already completed or no questions answered
+    if (_session.endTime != null) return;
+    if (_session.answers.isEmpty) return;
+
+    try {
+      // Set end time
+      _session = _session.copyWith(endTime: DateTime.now());
+
+      // Calculate study time in minutes
+      final studyDuration = _session.endTime!.difference(_session.startTime);
+      final studyMinutes = studyDuration.inSeconds > 0
+          ? (studyDuration.inSeconds / 60).ceil()
+          : 0;
+
+      if (studyMinutes <= 0) return;
+
+      // Get correct word IDs
+      final correctWordIds = _session.answers
+          .where((a) => a.isCorrect)
+          .map((a) => _session.questions[a.questionIndex].wordId)
+          .toList();
+
+      final progressProvider = context.read<ProgressProvider>();
+      await progressProvider.recordStudySession(
+        cardsStudied: _session.totalQuestions,
+        correctAnswers: _session.correctCount,
+        wrongAnswers: _session.wrongCount,
+        correctWordIds: correctWordIds,
+        studyMinutes: studyMinutes,
+        studyMode: 'quiz',
+      );
+    } catch (e) {
+      // Provider might not be available during dispose
+      // ignore: avoid_print
+      print('Error recording study session: $e');
+    }
   }
 
   void _handleOptionSelect(int index) {
@@ -125,6 +176,9 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
   }
 
   Future<void> _showResults() async {
+    // Set end time and record study session
+    await _recordStudySessionOnExit();
+
     final completedSession = _session.copyWith(
       endTime: DateTime.now(),
     );
@@ -145,27 +199,6 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
       quizScore: score,
     );
 
-    // Record study session to ProgressProvider
-    final progressProvider = context.read<ProgressProvider>();
-    final correctWordIds = completedSession.answers
-        .where((a) => a.isCorrect)
-        .map((a) => completedSession.questions[a.questionIndex].wordId)
-        .toList();
-
-    // Calculate study time in minutes
-    final studyMinutes = completedSession.endTime != null
-        ? completedSession.endTime!.difference(completedSession.startTime).inMinutes
-        : 0;
-
-    await progressProvider.recordStudySession(
-      cardsStudied: completedSession.totalQuestions,
-      correctAnswers: completedSession.correctCount,
-      wrongAnswers: completedSession.wrongCount,
-      correctWordIds: correctWordIds,
-      studyMinutes: studyMinutes > 0 ? studyMinutes : null,
-      studyMode: 'quiz',
-    );
-
     // Check for perfect quiz achievement
     if (score == 100) {
       // Points for perfect quiz are already added by recordStudyActivity
@@ -176,13 +209,15 @@ class _EnhancedQuizPageState extends State<EnhancedQuizPage> {
     // Check for other achievements
     appProvider.checkAchievements();
 
-    Navigator.of(context).pushReplacement(
-      MaterialPageRoute(
-        builder: (context) => QuizResultPage(
-          session: completedSession,
+    if (mounted) {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(
+          builder: (context) => QuizResultPage(
+            session: completedSession,
+          ),
         ),
-      ),
-    );
+      );
+    }
   }
 
   void _showExitDialog() {

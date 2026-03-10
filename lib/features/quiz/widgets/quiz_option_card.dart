@@ -251,6 +251,8 @@ class QuizQuestionCard extends StatelessWidget {
         return '反义词';
       case QuizQuestionType.fillBlank:
         return '填空题';
+      case QuizQuestionType.spelling:
+        return '拼写题';
     }
   }
 }

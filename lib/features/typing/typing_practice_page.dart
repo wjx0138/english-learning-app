@@ -70,9 +70,49 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
 
   @override
   void dispose() {
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
     _ttsService.stop();
     // Note: AudioService is a singleton, don't dispose it here
     super.dispose();
+  }
+
+  /// Record study session when user exits the page (enters page -> leaves page)
+  Future<void> _recordStudySessionOnExit() async {
+    // Don't record if already completed or no words practiced
+    if (_session.endTime != null) return;
+    if (_session.results.isEmpty) return;
+
+    try {
+      // Set end time
+      _session = _session.copyWith(endTime: DateTime.now());
+
+      // Calculate study time in minutes
+      final duration = _session.endTime!.difference(_session.startTime);
+      final practiceMinutes = (duration.inSeconds / 60).ceil();
+
+      if (practiceMinutes <= 0) return;
+
+      // Get correct word IDs
+      final correctWordIds = _session.results
+          .where((r) => r.isCorrect)
+          .map((r) => r.wordId)
+          .toList();
+
+      final progressProvider = context.read<ProgressProvider>();
+      await progressProvider.recordStudySession(
+        cardsStudied: _session.totalWords,
+        correctAnswers: _session.correctWords,
+        wrongAnswers: _session.wrongWords,
+        correctWordIds: correctWordIds,
+        studyMinutes: practiceMinutes,
+        studyMode: widget.initialMode == TypingMode.dictation ? 'dictation' : 'typing',
+      );
+    } catch (e) {
+      // Provider might not be available during dispose
+      // ignore: avoid_print
+      print('Error recording study session: $e');
+    }
   }
 
   Future<void> _playWordAudio() async {
@@ -194,6 +234,9 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
   }
 
   Future<void> _addCompletionRewards() async {
+    // Record study session when completing
+    await _recordStudySessionOnExit();
+
     final appProvider = context.read<AppProvider>();
     final duration = _session.endTime!.difference(_session.startTime);
     final practiceMinutes = (duration.inSeconds / 60).ceil();
@@ -205,22 +248,6 @@ class _TypingPracticePageState extends State<TypingPracticePage> {
     appProvider.recordStudy(
       wordsLearned: _session.correctWords,
       practiceMinutes: practiceMinutes,
-    );
-
-    // Record study session to ProgressProvider
-    final progressProvider = context.read<ProgressProvider>();
-    final correctWordIds = _session.results
-        .where((r) => r.isCorrect)
-        .map((r) => r.wordId)
-        .toList();
-
-    await progressProvider.recordStudySession(
-      cardsStudied: _session.totalWords,
-      correctAnswers: _session.correctWords,
-      wrongAnswers: _session.wrongWords,
-      correctWordIds: correctWordIds,
-      studyMinutes: practiceMinutes > 0 ? practiceMinutes : null,
-      studyMode: widget.initialMode == TypingMode.dictation ? 'dictation' : 'typing',
     );
 
     // Check for achievements

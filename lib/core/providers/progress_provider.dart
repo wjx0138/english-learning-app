@@ -463,6 +463,8 @@ class ProgressProvider extends ChangeNotifier {
         await prefs.setInt('weekly_day_$i', 0);
       }
       _setWeekStartDate();
+      // Save new week start date to SharedPreferences
+      await prefs.setString('week_start_date', _weekStartDate!.toIso8601String());
     }
   }
 

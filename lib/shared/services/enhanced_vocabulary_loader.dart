@@ -44,9 +44,6 @@ class EnhancedVocabularyLoader {
     'nature': 'assets/vocabularies/nature.json',
 
     // === 主题词库（完整规模）⭐ 推荐专业学习 ===
-    'business_complete': 'assets/vocabularies/business_complete.json',
-    'technology_complete': 'assets/vocabularies/technology_complete.json',
-    'academic_complete': 'assets/vocabularies/academic_complete.json',
     'daily_complete': 'assets/vocabularies/daily_complete.json',
   };
 

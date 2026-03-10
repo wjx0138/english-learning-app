@@ -125,6 +125,15 @@ class QuizGeneratorService {
           index: index,
         );
         break;
+      case QuizQuestionType.spelling:
+        // Spelling is used for dictation/typing practice, not quiz
+        // Fallback to definition question
+        question = _generateDefinitionQuestion(
+          word: word,
+          distractors: selectedDistractors,
+          index: index,
+        );
+        break;
     }
 
     return question;
@@ -328,8 +337,11 @@ class QuizGeneratorService {
         ? word.examples.first
         : 'This is an example with ${word.word} in it.';
 
-    // Replace the word with blank
-    final blankedSentence = example.replaceAll(RegExp(r'\b${word.word}\b', caseSensitive: false), '_____');
+    // Replace the word with blank (fixed regex construction)
+    final blankedSentence = example.replaceAll(
+      RegExp('\\b${word.word}\\b', caseSensitive: false),
+      '_____',
+    );
 
     final options = <QuizOption>[
       QuizOption(

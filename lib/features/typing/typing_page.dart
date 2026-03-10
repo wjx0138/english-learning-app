@@ -52,11 +52,6 @@ class _TypingPageState extends State<TypingPage> {
   }
 
   @override
-  void dispose() {
-    _textController.dispose();
-    _focusNode.dispose();
-    super.dispose();
-  }
 
   Future<void> _loadVocabulary() async {
     try {
@@ -142,26 +137,49 @@ class _TypingPageState extends State<TypingPage> {
     });
 
     if (_currentWordIndex >= _vocabulary.length) {
-      // Record progress when all words are completed
-      if (!_hasRecordedProgress) {
-        _hasRecordedProgress = true;
-
-        // Calculate study time in minutes
-        final studyDuration = _sessionStartTime != null
-            ? DateTime.now().difference(_sessionStartTime!)
-            : Duration.zero;
-        final studyMinutes = (studyDuration.inSeconds / 60).ceil();
-
-        await context.read<ProgressProvider>().recordStudySession(
-          cardsStudied: _totalWords,
-          correctAnswers: _correctWords,
-          wrongAnswers: _wrongWords,
-          correctWordIds: _correctWordIds,
-          studyMinutes: studyMinutes > 0 ? studyMinutes : null,
-          studyMode: 'typing',
-        );
-      }
+      // Record study session when completing
+      await _recordStudySessionOnExit();
       _showCompletionDialog();
+    }
+  }
+
+  @override
+  void dispose() {
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
+    _textController.dispose();
+    _focusNode.dispose();
+    super.dispose();
+  }
+
+  /// Record study session when user exits the page (enters page -> leaves page)
+  Future<void> _recordStudySessionOnExit() async {
+    if (_hasRecordedProgress) return; // Already recorded
+
+    _hasRecordedProgress = true;
+
+    // Calculate study time in minutes
+    final studyDuration = _sessionStartTime != null
+        ? DateTime.now().difference(_sessionStartTime!)
+        : Duration.zero;
+    final studyMinutes = (studyDuration.inSeconds / 60).ceil();
+
+    // Only record if there was actual study activity
+    if (studyMinutes <= 0) return;
+
+    try {
+      await context.read<ProgressProvider>().recordStudySession(
+        cardsStudied: _totalWords,
+        correctAnswers: _correctWords,
+        wrongAnswers: _wrongWords,
+        correctWordIds: _correctWordIds,
+        studyMinutes: studyMinutes,
+        studyMode: 'typing',
+      );
+    } catch (e) {
+      // Provider might not be available during dispose
+      // ignore: avoid_print
+      print('Error recording study session: $e');
     }
   }
 

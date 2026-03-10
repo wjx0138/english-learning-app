@@ -146,38 +146,61 @@ class TypingStatsWidget extends StatelessWidget {
     Color color,
     String suffix,
   ) {
-    return Container(
-      decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: color.withOpacity(0.3)),
-      ),
-      padding: const EdgeInsets.all(12),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(
-            icon,
-            color: color,
-            size: 32,
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        // 根据容器大小调整内容
+        final isTiny = constraints.maxWidth < 50;
+        final isSmall = constraints.maxWidth < 60;
+        final padding = isTiny ? 1.0 : (isSmall ? 3.0 : 12.0);
+        final iconSize = isTiny ? 10.0 : (isSmall ? 14.0 : 32.0);
+        final fontSize = isTiny ? 8.0 : (isSmall ? 11.0 : 24.0);
+        final suffixFontSize = isTiny ? 6.0 : (isSmall ? 7.0 : 12.0);
+        final spacing = isTiny ? 0.5 : (isSmall ? 1.5 : 8.0);
+        final smallSpacing = isTiny ? 0.0 : (isSmall ? 0.5 : 2.0);
+
+        return Container(
+          decoration: BoxDecoration(
+            color: color.withOpacity(0.1),
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: color.withOpacity(0.3)),
           ),
-          const SizedBox(height: 8),
-          Text(
-            value,
-            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                  fontWeight: FontWeight.bold,
-                  color: color,
-                ),
+          padding: EdgeInsets.all(padding),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(
+                icon,
+                color: color,
+                size: iconSize,
+              ),
+              SizedBox(height: spacing),
+              Text(
+                value,
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      color: color,
+                      fontSize: fontSize,
+                      height: 1.0,
+                    ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+              SizedBox(height: smallSpacing),
+              Text(
+                suffix,
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: color.withOpacity(0.7),
+                      fontSize: suffixFontSize,
+                      height: 1.0,
+                    ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
           ),
-          const SizedBox(height: 2),
-          Text(
-            suffix,
-            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: color.withOpacity(0.7),
-                ),
-          ),
-        ],
-      ),
+        );
+      },
     );
   }
 

@@ -74,7 +74,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
     });
   }
 
-  void _submitAnswer(int rating) {
+  Future<void> _submitAnswer(int rating) async {
     // Prevent multiple submissions
     if (_hasAnswered) return;
 
@@ -104,38 +104,61 @@ class _FlashcardPageState extends State<FlashcardPage> {
 
     // 检查是否所有卡片都已完成
     if (_currentWordIndex >= _vocabulary.length) {
-      // 记录学习进度
-      if (!_hasRecordedProgress) {
-        _hasRecordedProgress = true;
+      // Record study session when completing
+      await _recordStudySessionOnExit();
 
-        // Calculate study time in minutes
-        final studyDuration = _sessionStartTime != null
-            ? DateTime.now().difference(_sessionStartTime!)
-            : Duration.zero;
-        final studyMinutes = (studyDuration.inSeconds / 60).ceil();
+      // 添加游戏化奖励
+      appProvider.recordStudy(
+        wordsLearned: _correctWordIds.length,
+        practiceMinutes: (_vocabulary.length / 6).ceil(),
+      );
 
-        final progressProvider = context.read<ProgressProvider>();
-        await progressProvider.recordStudySession(
-          cardsStudied: cardProvider.cardsStudied,
-          correctAnswers: cardProvider.correctAnswers,
-          wrongAnswers: cardProvider.wrongAnswers,
-          correctWordIds: _correctWordIds,
-          studyMinutes: studyMinutes > 0 ? studyMinutes : null,
-          studyMode: 'flashcard',
-        );
-
-        // 添加游戏化奖励
-        appProvider.recordStudy(
-          wordsLearned: _correctWordIds.length,
-          practiceMinutes: (_vocabulary.length / 6).ceil(),
-        );
-
-        // 检查成就
-        appProvider.checkAchievements();
-      }
+      // 检查成就
+      appProvider.checkAchievements();
     } else {
       // 加载下一张卡片
       _loadNextCard();
+    }
+  }
+
+  @override
+  void dispose() {
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
+    super.dispose();
+  }
+
+  /// Record study session when user exits the page (enters page -> leaves page)
+  Future<void> _recordStudySessionOnExit() async {
+    if (_hasRecordedProgress) return; // Already recorded
+
+    _hasRecordedProgress = true;
+
+    // Calculate study time in minutes
+    final studyDuration = _sessionStartTime != null
+        ? DateTime.now().difference(_sessionStartTime!)
+        : Duration.zero;
+    final studyMinutes = (studyDuration.inSeconds / 60).ceil();
+
+    // Only record if there was actual study activity
+    if (studyMinutes <= 0) return;
+
+    try {
+      final cardProvider = context.read<CardProvider>();
+      final progressProvider = context.read<ProgressProvider>();
+
+      await progressProvider.recordStudySession(
+        cardsStudied: cardProvider.cardsStudied,
+        correctAnswers: cardProvider.correctAnswers,
+        wrongAnswers: cardProvider.wrongAnswers,
+        correctWordIds: _correctWordIds,
+        studyMinutes: studyMinutes,
+        studyMode: 'flashcard',
+      );
+    } catch (e) {
+      // Provider might not be available during dispose
+      // ignore: avoid_print
+      print('Error recording study session: $e');
     }
   }
 

@@ -189,28 +189,57 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
     }
   }
 
-  void _handleSessionComplete(CardProvider cardProvider) async {
-    if (!_hasRecordedProgress) {
-      _hasRecordedProgress = true;
+  @override
+  void dispose() {
+    // Record study time when leaving the page
+    _recordStudySessionOnExit();
+    super.dispose();
+  }
 
-      // Calculate study time in minutes
-      final studyDuration = _sessionStartTime != null
-          ? DateTime.now().difference(_sessionStartTime!)
-          : Duration.zero;
-      final studyMinutes = (studyDuration.inSeconds / 60).ceil();
+  /// Record study session when user exits the page (enters page -> leaves page)
+  Future<void> _recordStudySessionOnExit() async {
+    if (_hasRecordedProgress) return; // Already recorded
 
+    _hasRecordedProgress = true;
+
+    // Calculate study time in minutes
+    final studyDuration = _sessionStartTime != null
+        ? DateTime.now().difference(_sessionStartTime!)
+        : Duration.zero;
+    final studyMinutes = (studyDuration.inSeconds / 60).ceil();
+
+    // Only record if there was actual study activity
+    if (studyMinutes <= 0) return;
+
+    try {
+      final cardProvider = context.read<CardProvider>();
       final progressProvider = context.read<ProgressProvider>();
+
       await progressProvider.recordStudySession(
         cardsStudied: cardProvider.cardsStudied,
         correctAnswers: cardProvider.correctAnswers,
         wrongAnswers: cardProvider.wrongAnswers,
         correctWordIds: _correctWordIds,
-        studyMinutes: studyMinutes > 0 ? studyMinutes : null,
+        studyMinutes: studyMinutes,
         studyMode: 'flashcard',
       );
+    } catch (e) {
+      // Provider might not be available during dispose
+      // ignore: avoid_print
+      print('Error recording study session: $e');
+    }
+  }
 
-      // Clear incomplete session when completed
+  void _handleSessionComplete(CardProvider cardProvider) async {
+    // Record study session when completing all cards
+    await _recordStudySessionOnExit();
+
+    // Clear incomplete session when completed
+    try {
+      final progressProvider = context.read<ProgressProvider>();
       await progressProvider.clearIncompleteSession();
+    } catch (e) {
+      // ignore
     }
 
     // Navigate to result page
@@ -218,17 +247,19 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
         ? DateTime.now().difference(_sessionStartTime!)
         : Duration.zero;
 
-    Navigator.of(context).pushReplacement(
-      MaterialPageRoute(
-        builder: (context) => StudyResultPage(
-          totalCards: _vocabulary.length,
-          correctCards: cardProvider.correctAnswers,
-          wrongCards: cardProvider.wrongAnswers,
-          studyDuration: studyDuration,
-          wrongWordIds: cardProvider.wrongWordIds,
+    if (mounted) {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(
+          builder: (context) => StudyResultPage(
+            totalCards: _vocabulary.length,
+            correctCards: cardProvider.correctAnswers,
+            wrongCards: cardProvider.wrongAnswers,
+            studyDuration: studyDuration,
+            wrongWordIds: cardProvider.wrongWordIds,
+          ),
         ),
-      ),
-    );
+      );
+    }
   }
 
   void _showExitDialog() {
@@ -246,6 +277,9 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
           ),
           TextButton(
             onPressed: () async {
+              // Record study session before exiting
+              await _recordStudySessionOnExit();
+
               // Save progress before exiting
               final progressProvider = context.read<ProgressProvider>();
               final wordIds = _vocabulary.map((w) => w.id).toList();

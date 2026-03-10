@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:go_router/go_router.dart';
 import '../../data/models/error_book.dart';
 import '../../data/models/quiz.dart';
 import '../../shared/services/error_book_service.dart';
@@ -53,6 +54,11 @@ class _ErrorBookPageState extends State<ErrorBookPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => context.go('/'),
+          tooltip: '返回首页',
+        ),
         title: const Text('错题本'),
         actions: [
           if (_errorBook != null && _errorBook!.masteredErrors.isNotEmpty)
@@ -355,25 +361,7 @@ class _ErrorBookPageState extends State<ErrorBookPage> {
                     ),
               ),
               const SizedBox(height: 8),
-              // Wrong answer info
-              Row(
-                children: [
-                  Icon(
-                    Icons.close,
-                    color: Colors.red,
-                    size: 20,
-                  ),
-                  const SizedBox(width: 4),
-                  Text(
-                    '你选了: ${error.question.options[error.wrongOptionIndex ?? 0].text}',
-                    style: TextStyle(
-                      color: Colors.red.shade700,
-                      fontSize: 14,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 4),
+              // Correct answer info
               Row(
                 children: [
                   Icon(
@@ -467,67 +455,64 @@ class _ErrorBookPageState extends State<ErrorBookPage> {
               ),
               const SizedBox(height: 16),
 
-              // Options
-              const Text(
-                '选项:',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
-              ),
-              const SizedBox(height: 8),
-              ...error.question.options.asMap().entries.map((entry) {
-                final index = entry.key;
-                final option = entry.value;
-                final isCorrect = index == error.question.correctOptionIndex;
-                final isWrongSelected = index == error.wrongOptionIndex && !isCorrect;
-
-                Color? bgColor;
-                Color? textColor;
-
-                if (isCorrect) {
-                  bgColor = Colors.green.shade100;
-                  textColor = Colors.green.shade800;
-                } else if (isWrongSelected) {
-                  bgColor = Colors.red.shade100;
-                  textColor = Colors.red.shade800;
-                }
-
-                return Container(
-                  margin: const EdgeInsets.only(bottom: 8),
-                  padding: const EdgeInsets.all(12),
-                  decoration: BoxDecoration(
-                    color: bgColor,
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(color: Colors.grey.shade300),
+              // Options - only show for non-spelling question types
+              if (error.type != QuizQuestionType.spelling) ...[
+                const Text(
+                  '选项:',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 16,
                   ),
-                  child: Row(
-                    children: [
-                      Text(
-                        '${String.fromCharCode(65 + index)}. ',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: textColor ?? Colors.black,
-                        ),
-                      ),
-                      Expanded(
-                        child: Text(
-                          option.text,
+                ),
+                const SizedBox(height: 8),
+                ...error.question.options.asMap().entries.map((entry) {
+                  final index = entry.key;
+                  final option = entry.value;
+                  final isCorrect = index == error.question.correctOptionIndex;
+
+                  Color? bgColor;
+                  Color? textColor;
+
+                  // Only highlight correct answer, don't highlight wrong answer
+                  if (isCorrect) {
+                    bgColor = Colors.green.shade100;
+                    textColor = Colors.green.shade800;
+                  }
+
+                  return Container(
+                    margin: const EdgeInsets.only(bottom: 8),
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: bgColor,
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(color: Colors.grey.shade300),
+                    ),
+                    child: Row(
+                      children: [
+                        Text(
+                          '${String.fromCharCode(65 + index)}. ',
                           style: TextStyle(
+                            fontWeight: FontWeight.bold,
                             color: textColor ?? Colors.black,
                           ),
                         ),
-                      ),
-                      if (isCorrect)
-                        const Icon(Icons.check, color: Colors.green),
-                      if (isWrongSelected)
-                        const Icon(Icons.close, color: Colors.red),
-                    ],
-                  ),
-                );
-              }),
+                        Expanded(
+                          child: Text(
+                            option.text,
+                            style: TextStyle(
+                              color: textColor ?? Colors.black,
+                            ),
+                          ),
+                        ),
+                        if (isCorrect)
+                          const Icon(Icons.check, color: Colors.green),
+                      ],
+                    ),
+                  );
+                }),
 
-              const SizedBox(height: 16),
+                const SizedBox(height: 16),
+              ],
 
               // Explanation
               if (error.question.explanation != null)
@@ -590,19 +575,31 @@ class _ErrorBookPageState extends State<ErrorBookPage> {
           ),
         ),
         actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('关闭'),
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: const Text('关闭'),
+              ),
+              if (!error.isMastered) ...[
+                const SizedBox(width: 8),
+                Flexible(
+                  child: ElevatedButton.icon(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      _markAsMastered(error);
+                    },
+                    icon: const Icon(Icons.check_circle, size: 18),
+                    label: const Text('标记已掌握', style: TextStyle(fontSize: 14)),
+                    style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                    ),
+                  ),
+                ),
+              ],
+            ],
           ),
-          if (!error.isMastered)
-            ElevatedButton.icon(
-              onPressed: () {
-                Navigator.of(context).pop();
-                _markAsMastered(error);
-              },
-              icon: const Icon(Icons.check_circle),
-              label: const Text('标记为已掌握'),
-            ),
         ],
       ),
     );
@@ -691,6 +688,8 @@ extension QuizQuestionTypeExtension on QuizQuestionType {
         return '反义词';
       case QuizQuestionType.fillBlank:
         return '填空';
+      case QuizQuestionType.spelling:
+        return '拼写';
     }
   }
 }

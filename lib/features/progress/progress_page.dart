@@ -55,10 +55,6 @@ class _ProgressPageState extends State<ProgressPage> {
 
                 // Learning statistics cards
                 _buildLearningStatsCards(context),
-                const SizedBox(height: 24),
-
-                // Reset button (for testing)
-                _buildResetButton(context, progressProvider),
               ],
             ),
           );
@@ -451,49 +447,6 @@ class _ProgressPageState extends State<ProgressPage> {
       wordsLearned: wordsLearned,
       todayStudyMinutes: todayStudyMinutes,
       totalStudyTime: totalStudyTime,
-    );
-  }
-
-  Widget _buildResetButton(
-    BuildContext context,
-    ProgressProvider provider,
-  ) {
-    return Center(
-      child: OutlinedButton.icon(
-        onPressed: () {
-          showDialog(
-            context: context,
-            builder: (context) => AlertDialog(
-              title: const Text('重置进度'),
-              content: const Text('确定要重置所有学习进度吗？此操作不可恢复。'),
-              actions: [
-                TextButton(
-                  onPressed: () => Navigator.of(context).pop(),
-                  child: const Text('取消'),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Navigator.of(context).pop();
-                    provider.resetProgress();
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('进度已重置')),
-                    );
-                  },
-                  style: TextButton.styleFrom(
-                    foregroundColor: Colors.red,
-                  ),
-                  child: const Text('确定'),
-                ),
-              ],
-            ),
-          );
-        },
-        icon: const Icon(Icons.refresh),
-        label: const Text('重置进度（测试用）'),
-        style: OutlinedButton.styleFrom(
-          foregroundColor: Colors.grey[600],
-        ),
-      ),
     );
   }
 }

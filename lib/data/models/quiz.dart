@@ -147,6 +147,9 @@ enum QuizQuestionType {
 
   /// Fill in the blank
   fillBlank,
+
+  /// Spelling/dictation practice
+  spelling,
 }
 
 /// Quiz session model

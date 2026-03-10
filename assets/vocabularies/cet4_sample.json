@@ -4,9 +4,12 @@
     "word": "abandon",
     "phonetic": "/əˈbændən/",
     "definition": "v. 遗弃；放弃",
-    "examples": [],
-    "synonyms": [],
-    "antonyms": [],
+    "examples": [
+      "The baby had been abandoned by its mother.",
+      "We had to abandon the car and walk the rest of the way."
+    ],
+    "synonyms": ["desert", "leave", "give up"],
+    "antonyms": ["keep", "maintain", "continue"],
     "difficulty": 2,
     "tags": ["cet4", "verb"]
   },
@@ -15,9 +18,12 @@
     "word": "ability",
     "phonetic": "/əˈbɪləti/",
     "definition": "n. 能力；才能",
-    "examples": [],
-    "synonyms": [],
-    "antonyms": [],
+    "examples": [
+      "He has the ability to solve complex problems.",
+      "She showed great musical ability from an early age."
+    ],
+    "synonyms": ["capability", "talent", "skill"],
+    "antonyms": ["inability", "incapacity"],
     "difficulty": 2,
     "tags": ["cet4", "noun"]
   },
@@ -26,9 +32,12 @@
     "word": "abnormal",
     "phonetic": "/æbˈnɔːml/",
     "definition": "adj. 反常的；不正常的",
-    "examples": [],
-    "synonyms": [],
-    "antonyms": [],
+    "examples": [
+      "The abnormal weather patterns have caused concern.",
+      "His behavior was abnormal for someone in his position."
+    ],
+    "synonyms": ["unusual", "irregular", "atypical"],
+    "antonyms": ["normal", "regular", "typical"],
     "difficulty": 2,
     "tags": ["cet4", "adj"]
   },
@@ -37,9 +46,12 @@
     "word": "aboard",
     "phonetic": "/əˈbɔːd/",
     "definition": "adv. 在船(车)上；prep. 在...上",
-    "examples": [],
-    "synonyms": [],
-    "antonyms": [],
+    "examples": [
+      "Welcome aboard the flight to London.",
+      "All passengers aboard the train were safe."
+    ],
+    "synonyms": ["onboard", "on board"],
+    "antonyms": ["ashore", "offboard"],
     "difficulty": 2,
     "tags": ["cet4", "adv", "prep"]
   },
@@ -48,9 +60,12 @@
     "word": "absence",
     "phonetic": "/ˈæbsəns/",
     "definition": "n. 缺席；不在场",
-    "examples": [],
-    "synonyms": [],
-    "antonyms": [],
+    "examples": [
+      "His absence from the meeting was noticed.",
+      "The teacher marked his absence in the register."
+    ],
+    "synonyms": ["nonattendance", "lack", "want"],
+    "antonyms": ["presence", "attendance"],
     "difficulty": 2,
     "tags": ["cet4", "noun"]
   }

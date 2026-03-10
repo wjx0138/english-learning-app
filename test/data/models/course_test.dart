@@ -8,7 +8,6 @@ void main() {
       expect(CourseDifficulty.intermediate.level, 2);
       expect(CourseDifficulty.advanced.level, 3);
       expect(CourseDifficulty.expert.level, 4);
-      expect(CourseDifficulty.exam.level, 5);
     });
 
     test('Should have correct labels', () {
@@ -16,12 +15,13 @@ void main() {
       expect(CourseDifficulty.intermediate.label, '中级');
       expect(CourseDifficulty.advanced.label, '高级');
       expect(CourseDifficulty.expert.label, '专业');
-      expect(CourseDifficulty.exam.label, '考试');
     });
 
     test('Should have descriptions', () {
       expect(CourseDifficulty.beginner.description, '适合英语初学者');
-      expect(CourseDifficulty.exam.description, '备考专用');
+      expect(CourseDifficulty.intermediate.description, '有一定英语基础');
+      expect(CourseDifficulty.advanced.description, '英语水平较好');
+      expect(CourseDifficulty.expert.description, '专业英语学习');
     });
   });
 

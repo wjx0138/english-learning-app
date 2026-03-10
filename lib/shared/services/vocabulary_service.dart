@@ -13,9 +13,7 @@ class VocabularyService {
   static const String _ieltsPath = 'assets/vocabularies/ielts_ultra.json';
   static const String _grePath = 'assets/vocabularies/gre_ultra.json';
   static const String _kaoyanPath = 'assets/vocabularies/kaoyan_complete.json';
-  static const String _businessPath = 'assets/vocabularies/business_complete.json';
   static const String _dailyPath = 'assets/vocabularies/daily_complete.json';
-  static const String _techPath = 'assets/vocabularies/technology_complete.json';
   static const String _cet4SamplePath = 'assets/vocabularies/cet4_sample.json';
 
   List<VocabularyBook> _availableBooks = [];
@@ -118,43 +116,17 @@ class VocabularyService {
       ),
       // 主题类词库
       VocabularyBook(
-        id: 'business_001',
-        name: '商务英语词汇',
-        description: '商务职场常用词汇，适合商务人士',
-        language: 'en-US',
-        targetLanguage: 'zh-CN',
-        wordCount: 500,
-        level: 3,
-        category: 'business',
-        tags: ['business', 'workplace', 'career'],
-        isDownloaded: true,
-        filePath: _businessPath,
-      ),
-      VocabularyBook(
         id: 'daily_001',
         name: '日常英语词汇',
         description: '日常生活常用词汇，适合初学者',
         language: 'en-US',
         targetLanguage: 'zh-CN',
-        wordCount: 300,
+        wordCount: 1000,
         level: 1,
         category: 'daily',
         tags: ['daily', 'life', 'beginner'],
         isDownloaded: true,
         filePath: _dailyPath,
-      ),
-      VocabularyBook(
-        id: 'tech_001',
-        name: '科技英语词汇',
-        description: '科学技术领域专业词汇',
-        language: 'en-US',
-        targetLanguage: 'zh-CN',
-        wordCount: 400,
-        level: 4,
-        category: 'technology',
-        tags: ['technology', 'science', 'IT'],
-        isDownloaded: true,
-        filePath: _techPath,
       ),
       // 测试词库
       VocabularyBook(

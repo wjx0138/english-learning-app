@@ -32,7 +32,11 @@ class TTSService {
       await _flutterTts!.setSpeechRate(_speechRate);
       await _flutterTts!.setPitch(_pitch);
       await _flutterTts!.setVolume(1.0);
-      await _flutterTts!.setSharedInstance(true);
+
+      // setSharedInstance is not supported on Web platform
+      if (!kIsWeb) {
+        await _flutterTts!.setSharedInstance(true);
+      }
 
       _isInitialized = true;
     } catch (e) {

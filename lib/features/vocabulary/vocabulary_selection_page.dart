@@ -159,7 +159,7 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
         onTap: _isLoading ? null : () => _loadVocabularyBook(book.id),
         borderRadius: BorderRadius.circular(12),
         child: Padding(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -167,19 +167,19 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
                 children: [
                   // Book icon
                   Container(
-                    width: 60,
-                    height: 60,
+                    width: 50,
+                    height: 50,
                     decoration: BoxDecoration(
                       color: Theme.of(context).colorScheme.primaryContainer,
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Icon(
                       _getBookIcon(book.category),
-                      size: 32,
+                      size: 28,
                       color: Theme.of(context).colorScheme.primary,
                     ),
                   ),
-                  const SizedBox(width: 16),
+                  const SizedBox(width: 12),
                   // Book info
                   Expanded(
                     child: Column(
@@ -188,15 +188,15 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
                         Text(
                           book.name,
                           style: const TextStyle(
-                            fontSize: 18,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        const SizedBox(height: 4),
+                        const SizedBox(height: 3),
                         Text(
                           book.description,
                           style: TextStyle(
-                            fontSize: 14,
+                            fontSize: 12,
                             color: Colors.grey[600],
                           ),
                           maxLines: 2,
@@ -208,8 +208,8 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
                   // Loading indicator
                   if (isSelected && _isLoading)
                     const SizedBox(
-                      width: 24,
-                      height: 24,
+                      width: 20,
+                      height: 20,
                       child: CircularProgressIndicator(strokeWidth: 2),
                     )
                   else
@@ -251,7 +251,7 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
 
   Widget _buildDetailChip(IconData icon, String label, {Color? color}) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 3),
       decoration: BoxDecoration(
         color: (color ?? Colors.grey[200])?.withOpacity(0.3),
         borderRadius: BorderRadius.circular(12),
@@ -259,12 +259,12 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, size: 14, color: color ?? Colors.grey[700]),
-          const SizedBox(width: 4),
+          Icon(icon, size: 12, color: color ?? Colors.grey[700]),
+          const SizedBox(width: 3),
           Text(
             label,
             style: TextStyle(
-              fontSize: 12,
+              fontSize: 10,
               color: color ?? Colors.grey[700],
             ),
           ),
@@ -275,7 +275,7 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
 
   Widget _buildTagChip(String tag) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 3),
       decoration: BoxDecoration(
         border: Border.all(color: Colors.grey[300]!),
         borderRadius: BorderRadius.circular(12),
@@ -283,7 +283,7 @@ class _VocabularySelectionPageState extends State<VocabularySelectionPage> {
       child: Text(
         tag,
         style: TextStyle(
-          fontSize: 12,
+          fontSize: 10,
           color: Colors.grey[700],
         ),
       ),

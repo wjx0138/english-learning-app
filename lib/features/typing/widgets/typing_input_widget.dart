@@ -137,9 +137,6 @@ class _TypingInputWidgetState extends State<TypingInputWidget> {
 
         const SizedBox(height: 16),
 
-        // Attempt counter
-        _buildAttemptCounter(),
-
         // Progress indicator
         _buildProgressIndicator(),
       ],
@@ -248,15 +245,6 @@ class _TypingInputWidgetState extends State<TypingInputWidget> {
           ),
         ),
       ],
-    );
-  }
-
-  Widget _buildAttemptCounter() {
-    return Text(
-      '尝试 ${widget.currentAttempt}/${widget.maxAttempts}',
-      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-            color: Colors.grey[600],
-          ),
     );
   }
 

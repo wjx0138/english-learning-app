@@ -110,7 +110,16 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
           Expanded(
             child: _filteredCourses.isEmpty
                 ? _buildEmptyState()
-                : _buildCourseList(),
+                : LayoutBuilder(
+                    builder: (context, constraints) {
+                      // 大屏幕使用网格布局，小屏幕使用列表布局
+                      if (constraints.maxWidth > 600) {
+                        return _buildCourseGrid(constraints.maxWidth);
+                      } else {
+                        return _buildCourseList();
+                      }
+                    },
+                  ),
           ),
         ],
       ),
@@ -205,6 +214,32 @@ class _CourseSelectionPageState extends State<CourseSelectionPage> {
   Widget _buildCourseList() {
     return ListView.builder(
       padding: const EdgeInsets.all(16),
+      itemCount: _filteredCourses.length,
+      itemBuilder: (context, index) {
+        return _buildCourseCard(_filteredCourses[index]);
+      },
+    );
+  }
+
+  Widget _buildCourseGrid(double screenWidth) {
+    // 根据屏幕宽度确定列数
+    int crossAxisCount;
+    if (screenWidth > 1200) {
+      crossAxisCount = 3;
+    } else if (screenWidth > 800) {
+      crossAxisCount = 2;
+    } else {
+      crossAxisCount = 2;
+    }
+
+    return GridView.builder(
+      padding: const EdgeInsets.all(16),
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: crossAxisCount,
+        childAspectRatio: 1.6,
+        crossAxisSpacing: 16,
+        mainAxisSpacing: 16,
+      ),
       itemCount: _filteredCourses.length,
       itemBuilder: (context, index) {
         return _buildCourseCard(_filteredCourses[index]);
