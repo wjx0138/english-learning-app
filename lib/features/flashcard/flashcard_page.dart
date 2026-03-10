@@ -44,7 +44,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
 
   Future<void> _loadVocabulary() async {
     try {
-      final jsonString = await rootBundle.loadString('assets/vocabularies/cet4_sample.json');
+      final jsonString = await rootBundle.loadString('assets/vocabularies/cet4_ultra.json');
       final List<dynamic> jsonList = json.decode(jsonString);
       setState(() {
         _vocabulary = jsonList.map((json) => Word.fromJson(json)).toList();

@@ -14,7 +14,6 @@ class VocabularyService {
   static const String _grePath = 'assets/vocabularies/gre_ultra.json';
   static const String _kaoyanPath = 'assets/vocabularies/kaoyan_complete.json';
   static const String _dailyPath = 'assets/vocabularies/daily_complete.json';
-  static const String _cet4SamplePath = 'assets/vocabularies/cet4_sample.json';
 
   List<VocabularyBook> _availableBooks = [];
   List<Word> _loadedWords = [];
@@ -127,20 +126,6 @@ class VocabularyService {
         tags: ['daily', 'life', 'beginner'],
         isDownloaded: true,
         filePath: _dailyPath,
-      ),
-      // 测试词库
-      VocabularyBook(
-        id: 'cet4_sample',
-        name: 'CET-4 测试词库',
-        description: 'CET-4 小测试词库（10词），用于快速体验',
-        language: 'en-US',
-        targetLanguage: 'zh-CN',
-        wordCount: 10,
-        level: 2,
-        category: 'exam',
-        tags: ['CET4', 'sample', 'test'],
-        isDownloaded: true,
-        filePath: _cet4SamplePath,
       ),
     ];
   }

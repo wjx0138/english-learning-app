@@ -130,7 +130,7 @@ class _EnhancedFlashcardPageState extends State<EnhancedFlashcardPage> {
 
       // Fallback to loading from assets
       final jsonString =
-          await rootBundle.loadString('assets/vocabularies/cet4_sample.json');
+          await rootBundle.loadString('assets/vocabularies/cet4_ultra.json');
       final List<dynamic> jsonList = json.decode(jsonString);
       setState(() {
         _vocabulary = jsonList.map((json) => Word.fromJson(json)).toList();

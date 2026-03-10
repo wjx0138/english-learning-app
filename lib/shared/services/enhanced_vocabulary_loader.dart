@@ -13,7 +13,6 @@ class EnhancedVocabularyLoader {
   static const Map<String, String> VOCABULARY_FILES = {
     // === 考试词库（小规模） ===
     'cet4': 'assets/vocabularies/cet4.json',
-    'cet4_sample': 'assets/vocabularies/cet4_sample.json',
     'cet4_complete': 'assets/vocabularies/cet4_complete.json',
     'cet4_extended': 'assets/vocabularies/cet4_extended.json',
     'cet6': 'assets/vocabularies/cet6.json',

@@ -58,7 +58,7 @@ class _TypingPageState extends State<TypingPage> {
   Future<void> _loadVocabulary() async {
     try {
       final jsonString =
-          await rootBundle.loadString('assets/vocabularies/cet4_sample.json');
+          await rootBundle.loadString('assets/vocabularies/cet4_ultra.json');
       final List<dynamic> jsonList = json.decode(jsonString);
       setState(() {
         _vocabulary = jsonList.map((json) => Word.fromJson(json)).toList();

@@ -42,7 +42,7 @@ class _QuizPageState extends State<QuizPage> {
 
   Future<void> _loadQuiz() async {
     try {
-      final jsonString = await rootBundle.loadString('assets/vocabularies/cet4_sample.json');
+      final jsonString = await rootBundle.loadString('assets/vocabularies/cet4_ultra.json');
       final List<dynamic> jsonList = json.decode(jsonString);
       _quizProvider.generateQuestions(jsonList);
       setState(() {
